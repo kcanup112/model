@@ -13,6 +13,12 @@ COPY . .
 RUN npx prisma generate
 RUN npm run build
 
+# --- seeder stage: full deps, runs all seed scripts (used by starter.sh) ---
+# This stage is never pushed to a registry; it is only used via:
+#   docker compose run --rm seeder
+FROM build AS seeder
+COPY starter-inner.sh /app/starter-inner.sh
+
 # --- prod-deps stage: production-only node_modules ---
 FROM node:20-alpine AS prod-deps
 WORKDIR /app

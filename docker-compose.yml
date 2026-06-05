@@ -71,6 +71,29 @@ services:
     ports:
       - "80:80"
 
+  # ── Seeder (run on demand, never kept running) ───────────────────────────
+  # Usage:  docker compose run --rm seeder
+  # Only starts when explicitly called — ignored by regular `docker compose up`.
+  seeder:
+    profiles: ["seed"]
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+      target: build          # reuse the build stage which has ALL deps (incl. ts-node-dev)
+    depends_on:
+      postgres:
+        condition: service_healthy
+    env_file:
+      - ./server/.env
+    environment:
+      NODE_ENV: development
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/ioe_mock_exam
+    volumes:
+      - ./scan:/scan:ro        # seed scripts read scan/ from the repo root
+      - ./questions.json:/app/questions.json:ro
+    working_dir: /app
+    entrypoint: ["/bin/sh", "/app/starter-inner.sh"]
+
 volumes:
   pgdata:
   redisdata:
