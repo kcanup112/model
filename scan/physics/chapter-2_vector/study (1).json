@@ -1,0 +1,108 @@
+{
+  "title": "Vectors - Study Notes",
+  "sections": [
+    {
+      "heading": "Basic Definitions",
+      "content": "Those physical quantities having both magnitude and direction and is operated by certain rules. Eg: Force, velocity, torque, displacement etc. A vector must be changed either by change of magnitude, direction or both.",
+      "definitions": {
+        "Axial vectors": "Those vectors related with rotation or responsible for rotation. e.g: torque, Angular momentum, angular velocity etc.",
+        "Polar vectors": "Those vectors related with translation or responsible for translation. Eg. Force, displacement, linear momentum, velocity etc.",
+        "Unit vector": "A vector having unit magnitude. It shows only direction. It is represented by cap over alphabet (eg. \u00e2). \u00e2 = a\u20d7 / |a\u20d7| = a\u20d7 / a",
+        "Orthogonal unit vectors": "Orthogonal means perpendicular to each other. \u00ee, \u0135, k\u0302 are orthogonal unit vectors. \u00ee \u21d2 unit vector along X-axis, \u0135 \u21d2 unit vector along Y-axis, k\u0302 \u21d2 unit vector along Z-axis"
+      }
+    },
+    {
+      "heading": "Component of Vector",
+      "content": "Resolution of vector along axes is known as component. A vector has two rectangular components in plane and has three rectangular components in space. A vector can have infinite no. of components.",
+      "formulas": [
+        "If a\u20d7 makes an angle \u03b8 with X-axis then, its X-Component, a_x = a cos \u03b8, Y-Component a_y = a sin \u03b8",
+        "Vector a\u20d7 is written as: a\u20d7 = a_x \u00ee + a_y \u0135",
+        "If r\u20d7 = x \u00ee + y \u0135 then, Magnitude of r\u20d7: |r\u20d7| = r = \u221a(x\u00b2 + y\u00b2)",
+        "Angle made by r\u20d7 with X-axis: \u03b8_x = tan\u207b\u00b9(y/x)",
+        "Angle made by r\u20d7 with Y-axis: \u03b8_y = tan\u207b\u00b9(x/y)",
+        "cos \u03b8_x = x/r and cos \u03b8_y = y/r.  cos\u00b2\u03b8_x + cos\u00b2\u03b8_y = 1",
+        "If r\u20d7 = x \u00ee + y \u0135 + z k\u0302 then, Magnitude of r\u20d7: r = \u221a(x\u00b2 + y\u00b2 + z\u00b2)",
+        "Angle made by r\u20d7 with axes: cos \u03b8_x = x/r, cos \u03b8_y = y/r, cos \u03b8_z = z/r.  cos\u00b2\u03b8_x + cos\u00b2\u03b8_y + cos\u00b2\u03b8_z = 1"
+      ],
+      "specialCases": [
+        "If a vector is equally inclined with two rectangular axes in plane then, angle made by vector with each axis is 45\u00b0.",
+        "If a vector is equally inclined with all three co-ordinate axes then angle of inclination with axis is given by \u03b8_x = \u03b8_y = \u03b8_z = cos\u207b\u00b9(1/\u221a3) = 54.74\u00b0"
+      ]
+    },
+    {
+      "heading": "Addition of two vectors",
+      "content": "Resultant of two vectors lies along major diagonal of parallelogram when angle between both vector is acute (<90\u00b0). Resultant lies along minor diagonal when angle between both vector is obtuse (>90\u00b0).",
+      "formulas": [
+        "Magnitude of Resultant (R) is given by: R = |R\u20d7| = |a\u20d7 + b\u20d7| = \u221a(a\u00b2 + b\u00b2 + 2ab cos \u03b8)",
+        "If Resultant (R) makes an angle \u03b1 with a\u20d7, then tan \u03b1 = (b sin \u03b8) / (a + b cos \u03b8)",
+        "If R makes an angle \u03b2 with b\u20d7 then, tan \u03b2 = (a sin \u03b8) / (b + a cos \u03b8)"
+      ],
+      "specialCases": [
+        "If \u03b8=0\u00b0, R_max = (a+b)",
+        "If \u03b8=90\u00b0, R = \u221a(a\u00b2 + b\u00b2)",
+        "If \u03b8=180\u00b0, R_min = |a-b|",
+        "If a=b, R = 2a cos(\u03b8/2) and \u03b1 = \u03b2 = \u03b8/2",
+        "Range of Resultant: |a-b| \u2264 R \u2264 (a+b)",
+        "Condition for zero resultant from three vectors: If a\u20d7 + b\u20d7 + c\u20d7 = 0 then c\u20d7 = -(a\u20d7 + b\u20d7) \u21d2 c\u20d7 = -R\u20d7 where R\u20d7 = a\u20d7 + b\u20d7. |c\u20d7| = |a\u20d7 + b\u20d7|. |a-b| \u2264 c \u2264 (a+b)"
+      ]
+    },
+    {
+      "heading": "Subtraction of two vectors",
+      "content": "The vector which is to be subtracted is reversed.",
+      "formulas": [
+        "Magnitude of (a\u20d7 - b\u20d7) is given by: |a\u20d7 - b\u20d7| = \u221a(a\u00b2 + b\u00b2 - 2ab cos \u03b8)",
+        "If a\u20d7 - b\u20d7 makes an angle \u03b1 with a\u20d7 then: tan \u03b1 = (b sin \u03b8) / (a - b cos \u03b8)",
+        "If a\u20d7 - b\u20d7 makes an angle \u03b2 with (-b\u20d7) then: tan \u03b2 = (a sin \u03b8) / (b - a cos \u03b8)"
+      ],
+      "specialCases": [
+        "If \u03b8=0\u00b0, |a\u20d7 - b\u20d7|_min = |a-b|",
+        "If \u03b8=90\u00b0, |a\u20d7 - b\u20d7| = \u221a(a\u00b2 + b\u00b2)",
+        "If \u03b8=180\u00b0, |a\u20d7 - b\u20d7|_max = (a+b)",
+        "If a=b, |a\u20d7 - b\u20d7| = 2a sin(\u03b8/2) and \u03b1 = \u03b2 = 90\u00b0 - \u03b8/2",
+        "The angle between a\u20d7 + b\u20d7 and a\u20d7 - b\u20d7 is between 0\u00b0 to 180\u00b0."
+      ]
+    },
+    {
+      "heading": "Dot product or scalar product",
+      "formulas": [
+        "a\u20d7 . b\u20d7 = ab cos \u03b8",
+        "cos \u03b8 = (a\u20d7 . b\u20d7) / (ab) = \u00e2 . b\u0302",
+        "\u00ee.\u00ee = \u0135.\u0135 = k\u0302.k\u0302 = 1",
+        "\u00ee.\u0135 = \u0135.k\u0302 = k\u0302.\u00ee = 0",
+        "If a\u20d7 = a_x \u00ee + a_y \u0135 + a_z k\u0302 and b\u20d7 = b_x \u00ee + b_y \u0135 + b_z k\u0302 then, a\u20d7 . b\u20d7 = a_x b_x + a_y b_y + a_z b_z",
+        "Projection of b\u20d7 on a\u20d7 = (a\u20d7 . b\u20d7) / a",
+        "Projection of a\u20d7 on b\u20d7 = (a\u20d7 . b\u20d7) / b"
+      ],
+      "specialCases": [
+        "If \u03b8 < 90\u00b0, a\u20d7 . b\u20d7 = +ve",
+        "If \u03b8 = 90\u00b0, a\u20d7 . b\u20d7 = 0",
+        "If \u03b8 > 90\u00b0, a\u20d7 . b\u20d7 = -ve",
+        "a\u20d7 . a\u20d7 = a\u00b2",
+        "(a\u20d7 + b\u20d7) . (a\u20d7 - b\u20d7) = a\u00b2 - b\u00b2",
+        "Work done (W) = F\u20d7 . d\u20d7"
+      ]
+    },
+    {
+      "heading": "Cross product or vector product",
+      "formulas": [
+        "a\u20d7 \u00d7 b\u20d7 = ab sin \u03b8 n\u0302",
+        "n\u0302 = (a\u20d7 \u00d7 b\u20d7) / |a\u20d7 \u00d7 b\u20d7|",
+        "\u00ee \u00d7 \u00ee = \u0135 \u00d7 \u0135 = k\u0302 \u00d7 k\u0302 = 0",
+        "a\u20d7 \u00d7 a\u20d7 = 0",
+        "(a\u20d7 \u00d7 b\u20d7) = -(b\u20d7 \u00d7 a\u20d7)",
+        "If a\u20d7 = a_x \u00ee + a_y \u0135 + a_z k\u0302 and b\u20d7 = b_x \u00ee + b_y \u0135 + b_z k\u0302 then, a\u20d7 \u00d7 b\u20d7 = determinant of matrix [[\u00ee, \u0135, k\u0302], [a_x, a_y, a_z], [b_x, b_y, b_z]]",
+        "Torque \u03c4\u20d7 = r\u20d7 \u00d7 F\u20d7",
+        "Angular momentum L\u20d7 = r\u20d7 \u00d7 p\u20d7 = m(r\u20d7 \u00d7 v\u20d7)",
+        "Velocity v\u20d7 = \u03c9\u20d7 \u00d7 r\u20d7"
+      ],
+      "specialCases": [
+        "The angle between a\u20d7 and (a\u20d7 \u00d7 b\u20d7) is 90\u00b0 and a\u20d7 . (a\u20d7 \u00d7 b\u20d7) = 0",
+        "The angle between (a\u20d7 + b\u20d7) and (a\u20d7 \u00d7 b\u20d7) is 90\u00b0 and (a\u20d7 + b\u20d7) . (a\u20d7 \u00d7 b\u20d7) = 0",
+        "The angle between (a\u20d7 - b\u20d7) and (a\u20d7 \u00d7 b\u20d7) is 90\u00b0 and (a\u20d7 - b\u20d7) . (a\u20d7 \u00d7 b\u20d7) = 0",
+        "Area of triangle = 1/2 |a\u20d7 \u00d7 b\u20d7|",
+        "Area of parallelogram = |a\u20d7 \u00d7 b\u20d7|",
+        "If d\u2081 and d\u2082 are two diagonals of parallelogram then, Area of parallelogram = 1/2 |d\u2081 \u00d7 d\u2082|"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "title": "Elasticity",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": "Chapter 13",
+  "sections": [
+    {
+      "heading": "Basic Concepts of Elasticity",
+      "content": "Elasticity is the property of material by virtue of which materials regains its original state (i.e., shape & size) when deforming force is removed. On increasing temperature elasticity decreases. On rolling and hammering elasticity increases. On annealing elasticity decreases. Due to impurity elasticity of material changes. If impurity is more elastic than material then elasticity increases and vice-versa. Quartz is considered to be perfectly elastic material. Putty is considered to be perfectly plastic material.",
+      "formulas": [],
+      "specialCases": [
+        "Quartz: perfectly elastic",
+        "Putty: perfectly plastic",
+        "Rolling/hammering increases elasticity",
+        "Annealing decreases elasticity",
+        "Temperature increase decreases elasticity"
+      ]
+    },
+    {
+      "heading": "Hooke's Law, Stress and Strain",
+      "content": "Within elastic limit, Stress ∝ Strain, i.e., Stress = E × Strain, where E = modulus of elasticity. Stress = Force/Area = F/A (unit: N/m², dimension: [ML⁻¹T⁻²]). Types of strain: (i) Longitudinal strain = ΔL/L, (ii) Volumetric strain = ΔV/V, (iii) Shear strain = θ, (iv) Thermal strain = αΔT where α = linear expansion coefficient and ΔT = change in temperature.",
+      "formulas": [
+        "Stress = F/A",
+        "Longitudinal strain = ΔL/L",
+        "Volumetric strain = ΔV/V",
+        "Thermal strain = αΔT",
+        "Thermal stress = YαΔT"
+      ],
+      "specialCases": [
+        "Thermal stress develops when ends of rod are rigidly fixed and temperature is changed"
+      ]
+    },
+    {
+      "heading": "Young's Modulus of Elasticity (Y)",
+      "content": "Young's modulus Y = Longitudinal stress / Longitudinal strain = (F/A) / (ΔL/L) = FL/(AΔL). For loaded wire: ΔL = FL/(πr²Y). For rigid body: ΔL = 0, so Y = ∞ (elasticity of rigid body is infinite). If same stretching force is applied to different wires of same material: ΔL ∝ L/A (since F and Y are constant). Elongation of wire of length L having material of density ρ due to its own weight: ΔL = L²ρg/(2Y). Maximum length of elastic wire of density ρ which can support its own weight if breaking strength is f: L_max = f/(ρg).",
+      "formulas": [
+        "Y = (F/A) / (ΔL/L) = FL/(AΔL)",
+        "ΔL = FL/(πr²Y)",
+        "ΔL (own weight) = L²ρg/(2Y)",
+        "L_max = f/(ρg)"
+      ],
+      "specialCases": [
+        "For rigid body: Y = ∞",
+        "Same force, same material: ΔL ∝ L/A"
+      ]
+    },
+    {
+      "heading": "Bulk Modulus and Compressibility",
+      "content": "Bulk modulus K = Normal stress / Volumetric strain = -ΔP/(ΔV/V). K = (100 × change in pressure) / (% decrease in volume). If a material is taken to depth h in a liquid so that its volume decreases by x%, then h = Kx/(100ρg). Compressibility = 1/K. Isothermal elasticity K = P. Adiabatic elasticity K = γP, where γ is the adiabatic exponent.",
+      "formulas": [
+        "K = -ΔP/(ΔV/V)",
+        "h = Kx/(100ρg)",
+        "Compressibility = 1/K",
+        "Isothermal: K = P",
+        "Adiabatic: K = γP"
+      ],
+      "specialCases": [
+        "For water: h = Kx × 10⁻⁵ m"
+      ]
+    },
+    {
+      "heading": "Rigidity Modulus and Poisson's Ratio",
+      "content": "Rigidity modulus η = Tangential stress / Shear strain = (F/A)/θ. For liquid and gas, modulus of rigidity is zero. Poisson's Ratio σ = Lateral strain / Longitudinal strain. Theoretical value of σ lies between -1 and 0.5. Practical value of σ lies between 0 and 0.5. Relation between volumetric strain and longitudinal strain: ΔV/V = (1 - 2σ)(ΔL/L). If σ = 0.5, ΔV = 0 (no change in volume). Relations: Y = 3K(1 - 2σ), Y = 2η(1 + σ), 9/Y = 3/η + 1/K.",
+      "formulas": [
+        "η = (F/A)/θ",
+        "σ = Lateral strain / Longitudinal strain",
+        "ΔV/V = (1 - 2σ)(ΔL/L)",
+        "Y = 3K(1 - 2σ)",
+        "Y = 2η(1 + σ)",
+        "9/Y = 3/η + 1/K"
+      ],
+      "specialCases": [
+        "For liquids and gases: η = 0",
+        "If σ = 0.5: no change in volume"
+      ]
+    },
+    {
+      "heading": "Breaking Stress, Energy and Force Constant",
+      "content": "Breaking stress is constant for a material and does not depend on length of material. Breaking force ∝ A ∝ r². Work done in elongation: W = (1/2) × Force × Elongation. Energy density = (1/2) × stress × strain = stress²/(2Y) = (1/2) × Y × strain². Work done in elongation of spring from l₁ to l₂: W = (1/2)k(l₂² - l₁²). Force constant k = Y × r₀ where r₀ = equilibrium inter-molecular distance. F = -du/dr. At intermolecular separation r = r₀, PE is minimum, F = 0. If r > r₀, force is attractive, PE is negative. If r < r₀, force is repulsive, PE is positive.",
+      "formulas": [
+        "Breaking force ∝ A ∝ r²",
+        "W = (1/2) × F × ΔL",
+        "Energy density = (1/2) × stress × strain",
+        "Energy density = stress²/(2Y)",
+        "Energy density = (1/2) × Y × strain²",
+        "W = (1/2)k(l₂² - l₁²)",
+        "k = Y × r₀",
+        "F = -du/dr"
+      ],
+      "specialCases": [
+        "At r = r₀: PE is minimum, F = 0",
+        "r > r₀: attractive force, PE is negative",
+        "r < r₀: repulsive force, PE is positive"
+      ]
+    }
+  ]
+}

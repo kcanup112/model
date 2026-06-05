@@ -1,0 +1,107 @@
+{
+  "title": "Chapter 7: Work, Energy and Power - Study Notes",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": 7,
+  "sections": [
+    {
+      "heading": "Work (W)",
+      "content": "Work is the dot product of force and displacement. W = F dot d. It is a scalar quantity. Unit: joule (J). Dimensional formula: [ML²T⁻²]. Signs: (i) If angle θ < 90°, w = +ve. (ii) If θ = 90°, w = 0. (iii) If θ > 90°, w = -ve.",
+      "formulas": [
+        "W = F⃗ · d⃗ = Fdcosθ (constant force)",
+        "W = ∫F_x dx (one-dimensional variable force)",
+        "W = ∫F_x dx + ∫F_y dy (two-dimensional variable force)",
+        "W = ∫F_x dx + ∫F_y dy + ∫F_z dz (three-dimensional variable force)",
+        "W = -½Kx² (spring force: compression or elongation from natural position)",
+        "W = +½Kx² (spring force: when released from compressed/elongated position)"
+      ],
+      "specialCases": [
+        "Conservative force: total work done in round trip = 0; work is path-independent (point function). Examples: spring force, gravity, central forces.",
+        "Non-conservative force: total work done in round trip ≠ 0; work is path-dependent (path function)."
+      ]
+    },
+    {
+      "heading": "Kinetic Energy and Momentum Relations",
+      "content": "Kinetic energy K = ½mv² = P²/2m, where P = mv is linear momentum. K is always positive. K ∝ P², so K₁/K₂ = (P₁/P₂)². For small percentage changes (<10%): %ΔKE = 2 × %ΔP.",
+      "formulas": [
+        "K = ½mv² = P²/2m",
+        "K₁/K₂ = (P₁/P₂)²",
+        "%KE = 2 × %P (for small changes < 10%)",
+        "%K = (n² - 1) × 100, where n = 1 + x/100 (if P increased by x%)",
+        "%K = (1 - n²) × 100, where n = 1 - x/100 (if P decreased by x%)",
+        "%P = (√n - 1) × 100"
+      ],
+      "specialCases": [
+        "If two bodies are released with equal KE: P ∝ √m, so P₁/P₂ = √(m₁/m₂).",
+        "If two bodies have equal linear momentum: K ∝ 1/m, so K₁/K₂ = m₂/m₁.",
+        "If bullet is fired from gun (momentum conserved): K_gun/K_bullet = m_bullet/m_gun < 1, so K_gun < K_bullet.",
+        "Example: If momentum increased by 50%, n = 1.5, %ΔKE = (1.5² - 1) × 100 = 125%."
+      ]
+    },
+    {
+      "heading": "Potential Energy (U)",
+      "content": "Energy due to position or configuration of a body. Gravitational potential energy of a body of mass m at height h above earth's surface: ΔU = mgh(R/(R+h)).",
+      "formulas": [
+        "ΔU = mgh(R/(R + h)) (general formula)",
+        "ΔU = mgR × n/(1 + n) (if h = nR)",
+        "ΔU = mgh (if h << R)",
+        "ΔU = mg(ℓ/2)sinθ (uniform rod of length ℓ rotated by angle θ with horizontal)",
+        "U = ½Kx² (potential energy stored in spring)",
+        "U = F²/2K (spring stretched by same force F)",
+        "U₁/U₂ = K₂/K₁ (same force applied to two springs)",
+        "U₁/U₂ = K₁/K₂ (same elongation in two springs)"
+      ],
+      "specialCases": [
+        "Energy units: 1 J = 10⁷ erg; 1 calorie = 4.2 J; 1 eV = 1.6 × 10⁻¹⁹ J.",
+        "KE is always positive; PE can be positive, negative, or zero."
+      ]
+    },
+    {
+      "heading": "Work-Energy Theorem",
+      "content": "Work done by all forces (external and internal) changes the kinetic energy of the body. ΣW = ΔK = K_f - K_i. Work done by external force changes total energy. For conservative force system: ΔK + ΔU = 0, i.e., ΔK = -ΔU. Loss in KE = Gain in PE and vice versa.",
+      "formulas": [
+        "ΣW = ΔK = ½mv_f² - ½mv_i²",
+        "ΔK + ΔU = 0 (conservative system)",
+        "ΔK = -ΔU"
+      ],
+      "specialCases": [
+        "If KE of body increases, w = +ve.",
+        "If KE of body decreases, w = -ve.",
+        "If KE of body is constant, w = 0.",
+        "Work done by external force only changes the total energy of the body."
+      ]
+    },
+    {
+      "heading": "Power (P)",
+      "content": "Power is the rate of doing work. P = work done / time. It is a scalar. Unit: watt (W) = J/s. Instantaneous power: P = F⃗ · v⃗ = Fvcosθ.",
+      "formulas": [
+        "P = W/t = F⃗ · d⃗/t",
+        "P_instantaneous = dW/dt = F⃗ · v⃗ = Fvcosθ",
+        "P_average = ΔW/Δt = ∫P dt / ∫dt"
+      ],
+      "specialCases": [
+        "If a machine delivers constant power: v ∝ t^(1/2), s ∝ t^(3/2), a ∝ t^(-1/2), v ∝ s^(1/3).",
+        "If constant force acts on body: P ∝ t (since v = at, so P = Fv = Fat ∝ t).",
+        "Stopping distance under brakes: S = V²/2a, i.e., S ∝ V² (for same deceleration)."
+      ]
+    },
+    {
+      "heading": "Special Applications",
+      "content": "Important derived results for common mechanics problems involving bullets, chains, and pendulums.",
+      "formulas": [
+        "N = n²/(2n-1) (number of planks needed to stop bullet that loses 1/n of velocity in one plank)",
+        "T = (n²/(2n-1)) × t (total thickness of penetration)",
+        "W = mgℓ/(2n²) = mgℓ₀²/(2ℓ) (work to put hanging chain back on table; 1/n fraction hanging)",
+        "V = √(g/ℓ)(ℓ² - ℓ₀²) = √(gℓ(1 - 1/n²)) (velocity when chain completely slips off table)",
+        "cosθ = 1 - m²v²/[2gℓ(M+m)] (bullet embeds in block; max angle of string)",
+        "Height raised by block h = m²v²/[2g(M+m)²]",
+        "Tension in string T = (M + m)g cosθ",
+        "cosθ = 1 - m²(v - v_b)²/[2gℓ(M+m)] (bullet passes through block with velocity v_b)"
+      ],
+      "specialCases": [
+        "Example: Bullet loses 1/20 of velocity in plank of 2 cm → N = 20²/(2×20-1) = 400/39 ≈ 10.256, so N = 11 planks; total penetration T = 10.256 × 2 = 20.51 cm.",
+        "For chain on table with 1/n hanging: work to pull up = mgℓ/(2n²).",
+        "Maximum KE of pendulum bob at mean position = mgl(1 - cosθ) where θ is max angular displacement."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "title": "Relative Motion - Study Notes",
+  "sections": [
+    {
+      "heading": "Relative Velocity",
+      "content": "It is the vector difference between actual velocity of two bodies.",
+      "formulas": [
+        "V_AB = V_A - V_B",
+        "V_BA = V_B - V_A",
+        "|V_AB| = √(V_A² + V_B² - 2 V_A V_B cos θ)",
+        "tan α = (V_B sin θ) / (V_A - V_B cos θ) [If V_AB makes an angle 'α' with V_A]",
+        "tan β = (V_A sin θ) / (V_B - V_A cos θ) [from -V_B]"
+      ],
+      "specialCases": [
+        "When two bodies are moving in same direction: |V_AB| = |V_A - V_B| (θ = 0°)",
+        "When two bodies moves perpendicularly: |V_AB| = √(V_A² + V_B²) (θ = 90°)",
+        "When two bodies are moving in opposite direction: |V_AB| = (V_A + V_B) (θ = 180°)"
+      ]
+    },
+    {
+      "heading": "Approaching / Receding with Initial Separation 'd'",
+      "content": {
+        "sameDirection": {
+          "rateOfApproaching": "(V_A - V_B)",
+          "relativeSeparationAfterTimeT": "X_t = d - (V_A - V_B) t",
+          "timeTakenToOvertake": "t = d / (V_A - V_B)"
+        },
+        "oppositeDirection": {
+          "rateOfApproaching": "(V_A + V_B)",
+          "relativeSeparationAfterTimeT": "X_t = d - (V_A + V_B) t",
+          "timeTakenToCross": "t = d / (V_A + V_B)"
+        }
+      }
+    },
+    {
+      "heading": "Motion Across a River",
+      "definitions": {
+        "V_mw": "Velocity of man in still water (capacity) = V",
+        "V_w": "Velocity of water flow in the river = u",
+        "α": "Direction of head of man with the direction of flow (angle with downstream)",
+        "D": "Width of river",
+        "S": "Down stream drift (distance along the direction of flow by which swimmer shifts from original point)"
+      },
+      "formulas": {
+        "shortestTime": {
+          "condition": "α = 90° (swimmer should start swimming perpendicular to the direction of flow)",
+          "time": "t_shortest = D / V",
+          "drift": "S = (u D) / V"
+        },
+        "shortestPath": {
+          "condition": "sin θ = u / V (required condition for swimmer to reach direct opposite point on the another bank of river)",
+          "time": "t = D / √(V² - u²)"
+        },
+        "upstreamDownstream": {
+          "upstreamTime": "t = l / (V - u)",
+          "downstreamTime": "t = l / (V + u)",
+          "roundTrip": "t = 1/(V-u) + 1/(V+u) = (2 l V) / (V² - u²)"
+        },
+        "relationWithStillWater": "If t₁ and t₂ are the time taken by swimmer to travel same distance in upstream and down stream respectively then time taken by him to travel same distance in still water is given by: t = (2 t₁ t₂) / (t₁ + t₂)"
+      }
+    },
+    {
+      "heading": "Motion of Rain Drops and Motion of Winds",
+      "definitions": {
+        "V_r": "Actual velocity of Raindrops (observed by man when stationary)",
+        "V_m": "Velocity of man relative to ground",
+        "V_rm": "Velocity of raindrops observed by man when he is moving",
+        "V_w": "Actual velocity of wind",
+        "V_wm": "Velocity of wind observed by man when he is moving"
+      },
+      "formulas": [
+        "V_rm = V_r - V_m",
+        "|V_rm| = √(V_r² + V_m² - 2 V_r V_m cos θ)",
+        "V_wm = V_w - V_m",
+        "|V_wm| = √(V_w² + V_m² - 2 V_w V_m cos θ)",
+        "V_r = V_rm + V_m",
+        "|V_r| = √(V_rm² + V_m² + 2 V_r V_m cos θ)"
+      ],
+      "specialCases": {
+        "stationaryManRainVertical": "When a man is stationary rain strikes him vertically. Now he starts moving then |V_rm| = √(V_r² + V_m²) and tan α = (V_m / V_r) from vertical.",
+        "movingManRainAppearsVertical": "When a man is moving, rain appears to strike him vertically. Then actual velocity of rain drops is |V_r| = √(V_rm² + V_m²) and tan α = (V_m / V_rm) from vertical.",
+        "changeInManSpeed": "When his velocity becomes V_m¹ (V_m¹ = nV_m) then rain appears to strike him at angle 'θ' with vertical. cot α = (n-1) cot θ and |V_r| = V_m / sin α."
+      }
+    },
+    {
+      "heading": "Motion of plane",
+      "definitions": {
+        "V_pw": "Velocity of plane relative to wind",
+        "V_w": "Velocity of wind",
+        "V_p": "Actual velocity of plane relative to ground"
+      },
+      "formulas": [
+        "V_pw = V_p - V_w",
+        "V_p = V_pw + V_w"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "description": "Vector diagram for relative velocity V_AB = V_A - V_B showing parallelograms and vector subtractions.",
+      "reference": "Page 1"
+    },
+    {
+      "description": "River crossing diagram for shortest path (upstream angle).",
+      "reference": "Page 2"
+    },
+    {
+      "description": "River crossing diagram for shortest time (perpendicular heading).",
+      "reference": "Page 2"
+    },
+    {
+      "description": "Vector diagram showing man moving relative to ground and vector subtraction for rain relative to man.",
+      "reference": "Page 2"
+    },
+    {
+      "description": "Relative velocity of two cars (X and Y) with 45-degree angle offsets moving NE and SE.",
+      "reference": "Page 6"
+    },
+    {
+      "description": "Rigid rod AB sliding along perpendicular rails with angle α.",
+      "reference": "Page 7"
+    },
+    {
+      "description": "Pulley arrangement with unstretchable string moving downwards over pulleys A and B, lifting mass M.",
+      "reference": "Page 8"
+    },
+    {
+      "description": "Plane velocity vector diagram for calculating speed over the ground with wind correction.",
+      "reference": "Page 8"
+    },
+    {
+      "description": "Three particles placed at corners of an equilateral triangle moving towards each other.",
+      "reference": "Page 8"
+    }
+  ]
+}

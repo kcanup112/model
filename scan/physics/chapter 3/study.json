@@ -1,0 +1,82 @@
+{
+  "title": "Motion In One Dimension - Study Notes",
+  "sections": [
+    {
+      "heading": "Distance, Speed, Displacement, and Velocity",
+      "content": "Basic kinematic definitions and average value formulas.",
+      "formulas": [
+        "Avg. speed = Total distance / Total time",
+        "Avg. velocity = Total displacement / Total time",
+        "If a body moves a certain distance with speed V_1 and returns to the same point with speed V_2, then Average speed <V> = (2 V_1 V_2) / (V_1 + V_2)",
+        "For equal distances with speeds V_1, V_2, ... V_n, the average speed is the Harmonic Mean: n / <V> = 1/V_1 + 1/V_2 + ... + 1/V_n",
+        "For equal time intervals with different speeds, the average speed is the Arithmetic Mean: <V> = (V_1 + V_2 + ... + V_n) / n"
+      ],
+      "specialCases": [
+        "Speed is always a positive quantity, however it may increase or decrease with time.",
+        "For uniform motion: Distance covered = magnitude of displacement; motion is along a straight line; direction does not change."
+      ]
+    },
+    {
+      "heading": "Kinematics and Acceleration",
+      "content": "Equations of kinematics are applicable for constant acceleration. The velocity and acceleration of a body need not be in the same direction or zero simultaneously.",
+      "formulas": [
+        "If a body travels with uniform acceleration a_1 for t_1 and a_2 for t_2, Average acceleration = (a_1 t_1 + a_2 t_2) / (t_1 + t_2)",
+        "For uniform acceleration, Average velocity = (u + v) / 2"
+      ],
+      "specialCases": [
+        "Distance travelled in successive seconds is in the ratio 1:3:5:7...",
+        "When starting from rest, distances travelled in the first 1s, 2s, 3s... are in the ratio 1:4:9:16...",
+        "If distance s \u221d t, acceleration is zero.",
+        "If s \u221d t\u00b2, acceleration is constant.",
+        "If s \u221d t\u00b3, acceleration varies as time (a \u221d t)."
+      ]
+    },
+    {
+      "heading": "Graphical Analysis",
+      "content": "Analysis of x-t (position-time) and v-t (velocity-time) graphs.",
+      "properties": [
+        "x-t graph parallel to time axis: body is at rest.",
+        "x-t graph straight line inclined to time axis: constant velocity.",
+        "x-t graph angle > 90\u00b0: negative velocity.",
+        "x-t graph slope decreasing: velocity decreasing (retarded motion).",
+        "x-t graph slope increasing: velocity increasing (accelerated motion).",
+        "v-t graph parallel to time axis: acceleration is zero.",
+        "v-t graph straight line inclined with positive slope: constant acceleration.",
+        "v-t graph straight line inclined with negative slope: constant retardation.",
+        "Area between v-t graph and time axis gives displacement / change in position.",
+        "Area between a-t graph and time axis gives change in velocity."
+      ]
+    },
+    {
+      "heading": "Motion Under Gravity",
+      "content": "Kinematics applied to free fall and vertical projection.",
+      "formulas": [
+        "Maximum height attained (thrown upwards): h = u\u00b2 / (2g)",
+        "Time of rise (if air resistance is negligible) = Time of fall = u / g",
+        "Packet dropped from ascending balloon (velocity u, height h): Time to reach ground t = u/g + \u221a((u/g)\u00b2 + 2h/g)",
+        "If 'n' balls are thrown per second such that the next is thrown when the previous is at max height, maximum height h = g / (2n\u00b2)"
+      ],
+      "specialCases": [
+        "At highest point, effective g = g.",
+        "If air resistance is not neglected, time of descent > time of ascent.",
+        "Body returns to the starting point with the same velocity with which it was thrown.",
+        "A freely dropped body and a horizontally projected body from the same height reach the ground at the same time."
+      ]
+    },
+    {
+      "heading": "Relative Velocity and Applications",
+      "formulas": [
+        "V_AB = V_A - V_B",
+        "V_BA = V_B - V_A",
+        "Same direction: |V_AB| = V_A - V_B",
+        "Opposite direction: |V_AB| = V_A + V_B",
+        "Perpendicular: |V_AB| = \u221a(V_A\u00b2 + V_B\u00b2)"
+      ],
+      "applications": [
+        "Rain-man problem: Rain falling at v, man moving at u. Umbrella angle with vertical: tan \u03b8 = u / v",
+        "River-boat (shortest time): Boat moves at right angle to current. Time t = D / v",
+        "River-boat (shortest path): Boat moves at angle sin\u207b\u00b9(u/v) with vertical. Time t = D / \u221a(v\u00b2 - u\u00b2)"
+      ]
+    }
+  ]
+}

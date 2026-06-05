@@ -1,0 +1,91 @@
+{
+  "title": "Chapter 11: Gravitation - Study Notes",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": 11,
+  "sections": [
+    {
+      "heading": "Newton's Law of Gravitation",
+      "content": "Gravitational force is attractive, central, and conservative. It acts along the line joining two masses.",
+      "formulas": [
+        "F = G m1 m2 / r^2",
+        "G = 6.67e-11 N m^2/kg^2",
+        "g = GM / R^2",
+        "g inside earth (uniform density): g proportional to r"
+      ],
+      "specialCases": [
+        "If earth mass is constant, g is proportional to 1/R^2.",
+        "For identical spheres in contact: F proportional to 1/r^2 with r = radius."
+      ]
+    },
+    {
+      "heading": "Variation of g (Height, Depth, Rotation)",
+      "content": "Acceleration due to gravity changes with altitude, depth, and earth rotation.",
+      "formulas": [
+        "g_h = g (R/(R+h))^2",
+        "For h << R: g_h approx g(1 - 2h/R)",
+        "g_d = g (1 - d/R) (uniform density)",
+        "Apparent g due to rotation: g' = g - omega^2 R cos^2(phi)"
+      ],
+      "specialCases": [
+        "At earth center: g = 0.",
+        "At equator, g is reduced by omega^2 R.",
+        "At pole, rotational reduction is zero."
+      ]
+    },
+    {
+      "heading": "Gravitational Field and Potential",
+      "content": "Field is force per unit mass; potential is work per unit mass.",
+      "formulas": [
+        "Field: E = F/m = GM/r^2",
+        "Potential: V = -GM/r",
+        "Inside hollow sphere: E = 0, V = constant = -GM/R",
+        "At center of uniform sphere: V = -3GM/(2R)"
+      ],
+      "specialCases": [
+        "Potential is continuous across spherical shells.",
+        "Field at center of shell is zero."
+      ]
+    },
+    {
+      "heading": "Satellites and Orbits",
+      "content": "Orbital motion is governed by gravitation providing centripetal force.",
+      "formulas": [
+        "Orbital speed: v0 = sqrt(GM/r)",
+        "Time period: T = 2*pi*sqrt(r^3/GM)",
+        "Total energy of satellite: E = -GMm/(2r)",
+        "Potential energy: U = -GMm/r",
+        "Kinetic energy: K = GMm/(2r)"
+      ],
+      "specialCases": [
+        "Geostationary orbit: T = 24 hr, r approx 4.24e7 m, h approx 3.6e7 m.",
+        "If speed increases beyond circular value, orbit becomes elliptical; at escape, parabolic."
+      ]
+    },
+    {
+      "heading": "Escape Velocity and Binding Energy",
+      "content": "Escape velocity is the minimum speed required to reach infinity with zero final speed.",
+      "formulas": [
+        "v_escape = sqrt(2GM/R)",
+        "Binding energy = GMm/(2r)",
+        "If v = n v0, speed at infinity: v_inf = v0*sqrt(n^2 - 1)"
+      ],
+      "specialCases": [
+        "At escape velocity, total energy is zero.",
+        "Escape speed from moon is lower than from earth."
+      ]
+    },
+    {
+      "heading": "Kepler's Laws",
+      "content": "Kepler's laws describe planetary motion in elliptical orbits.",
+      "formulas": [
+        "Law of orbits: planets move in ellipses with sun at a focus",
+        "Law of areas: areal velocity is constant",
+        "Law of periods: T^2 proportional to a^3 (a = semi-major axis)"
+      ],
+      "specialCases": [
+        "For circular orbit, a equals orbital radius.",
+        "For ellipse with r1, r2: a = (r1 + r2)/2."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "title": "Chapter 9: Centre of Mass and Collision - Study Notes",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": 9,
+  "sections": [
+    {
+      "heading": "Centre of Mass Basics",
+      "content": "Centre of mass depends on mass distribution of the system. If a body is symmetric about a point, line, or axis, then its centre of mass lies on that symmetry element.",
+      "formulas": [
+        "For n particles: r_cm = (m1*r1 + m2*r2 + ... + mn*rn)/(m1 + m2 + ... + mn)",
+        "For continuous body: r_cm = (integral r dm)/(integral dm)",
+        "x_cm = (sum m_i x_i)/(sum m_i), y_cm = (sum m_i y_i)/(sum m_i), z_cm = (sum m_i z_i)/(sum m_i)"
+      ],
+      "specialCases": [
+        "Centre of mass of a system is independent of internal forces.",
+        "External force decides motion of centre of mass."
+      ]
+    },
+    {
+      "heading": "Velocity and Acceleration of COM",
+      "content": "Velocity and acceleration of the centre of mass are weighted averages of individual velocities and accelerations.",
+      "formulas": [
+        "v_cm = (m1*v1 + m2*v2 + ... + mn*vn)/(m1 + m2 + ... + mn)",
+        "a_cm = (m1*a1 + m2*a2 + ... + mn*an)/(m1 + m2 + ... + mn)",
+        "F_ext = M*a_cm"
+      ],
+      "specialCases": [
+        "If net external force is zero, linear momentum of system is constant.",
+        "Then velocity of centre of mass remains constant."
+      ]
+    },
+    {
+      "heading": "Collision Fundamentals",
+      "content": "During collision, linear momentum is always conserved for an isolated system. Coefficient of restitution decides elasticity.",
+      "formulas": [
+        "m1*u1 + m2*u2 = m1*v1 + m2*v2",
+        "e = (relative speed of separation)/(relative speed of approach) = (v2 - v1)/(u1 - u2)",
+        "Perfectly elastic collision: e = 1",
+        "Inelastic collision: 0 < e < 1",
+        "Perfectly inelastic collision: e = 0"
+      ],
+      "specialCases": [
+        "Elastic collision conserves both momentum and kinetic energy.",
+        "Inelastic collision conserves momentum but not kinetic energy."
+      ]
+    },
+    {
+      "heading": "Head-On Elastic Collision Results",
+      "content": "For one-dimensional (head-on) elastic collision, two equations are used: momentum conservation and restitution condition with e = 1.",
+      "formulas": [
+        "m1*u1 + m2*u2 = m1*v1 + m2*v2",
+        "v2 - v1 = u1 - u2",
+        "If m1 = m2: velocities are interchanged",
+        "If m1 = m2 and u2 = 0: v1 = 0 and v2 = u1",
+        "If lighter mass hits heavier mass at rest: lighter may rebound",
+        "If heavier mass hits lighter mass at rest: lighter speed can be nearly twice heavier speed"
+      ],
+      "specialCases": [
+        "Relative speed relation is often fastest way to solve objective questions.",
+        "Kinetic energy loss is zero for elastic case."
+      ]
+    },
+    {
+      "heading": "Head-On Inelastic Collision and Common Forms",
+      "content": "For inelastic collision, momentum is conserved but relative speed relation includes e < 1.",
+      "formulas": [
+        "m1*u1 + m2*u2 = m1*v1 + m2*v2",
+        "v2 - v1 = e*(u1 - u2)",
+        "For identical masses, one moving and one at rest: v1:v2 = (1-e):(1+e)",
+        "For identical masses, moving mass ratio after/before = (1-e)/2"
+      ],
+      "specialCases": [
+        "For perfectly inelastic collision, common final velocity v = (m1*u1 + m2*u2)/(m1 + m2).",
+        "Maximum kinetic energy loss occurs in perfectly inelastic collision for given initial state."
+      ]
+    },
+    {
+      "heading": "Rebound and Explosion Applications",
+      "content": "For repeated bounces and explosions, momentum/energy methods give compact results used in exams.",
+      "formulas": [
+        "Ball dropped from height h with restitution e: rebound height after n-th bounce h_n = e^(2n)*h",
+        "Time after n-th bounce: t_n = e^n * t (if initial descent time is t)",
+        "Total ascent height = (h*e^2)/(1-e^2)",
+        "Total descent distance = h*(1+e^2)/(1-e^2)",
+        "Explosion at rest: vector sum of fragment momenta = 0"
+      ],
+      "specialCases": [
+        "Rocket propulsion is based on conservation of momentum/Newton third law.",
+        "For internal explosion, centre of mass continues original motion if no external force acts."
+      ]
+    }
+  ]
+}

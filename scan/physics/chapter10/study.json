@@ -1,0 +1,99 @@
+{
+  "title": "Chapter 10: Rotational Motion - Study Notes",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": 10,
+  "sections": [
+    {
+      "heading": "Moment of Inertia (MI)",
+      "content": "Moment of inertia is rotational inertia: resistance against change in rotational motion. It depends on mass and mass distribution about axis.",
+      "formulas": [
+        "For point mass: I = m r^2",
+        "For system: I = sum(m_i r_i^2)",
+        "For continuous body: I = integral r^2 dm",
+        "Radius of gyration: I = M k^2"
+      ],
+      "specialCases": [
+        "Unit: kg m^2, dimension: M L^2.",
+        "MI is larger when mass is farther from axis.",
+        "Raw egg has greater effective MI than boiled egg in spin tests."
+      ]
+    },
+    {
+      "heading": "Standard MI Results and Theorems",
+      "content": "Common body MI formulas and axis theorems are heavily used in objective problems.",
+      "formulas": [
+        "Rod about centre perpendicular to length: I = M L^2/12",
+        "Rod about end perpendicular to length: I = M L^2/3",
+        "Ring about centre perpendicular to plane: I = M R^2",
+        "Disc about centre perpendicular to plane: I = M R^2/2",
+        "Solid sphere about diameter: I = 2 M R^2/5",
+        "Hollow sphere about diameter: I = 2 M R^2/3",
+        "Parallel axis theorem: I = I_cm + M h^2",
+        "Perpendicular axis theorem (lamina): I_z = I_x + I_y"
+      ],
+      "specialCases": [
+        "For planar lamina, perpendicular-axis theorem is valid.",
+        "For any rigid body, parallel-axis theorem always valid."
+      ]
+    },
+    {
+      "heading": "Rolling Motion and Energy Split",
+      "content": "For rolling, kinetic energy has translational and rotational parts. No slipping condition links linear and angular motion.",
+      "formulas": [
+        "Pure rolling: v = omega R, a = alpha R",
+        "Total KE in rolling: K = (1/2) M v^2 + (1/2) I omega^2",
+        "With I = M k^2 and v = omega R: K_rot/K_trans = k^2/R^2",
+        "If K_rot is x% of K_trans: x/100 = k^2/R^2"
+      ],
+      "specialCases": [
+        "For ring, rotational share is highest among common bodies.",
+        "For rolling without slipping on incline: acceleration depends on I."
+      ]
+    },
+    {
+      "heading": "Rolling on Inclined Plane",
+      "content": "Bodies on rough incline may roll without slipping. Larger MI gives smaller acceleration and longer time.",
+      "formulas": [
+        "a = g sin(theta) / (1 + I/(M R^2))",
+        "For solid sphere: a = (5/7) g sin(theta)",
+        "For disc/cylinder: a = (2/3) g sin(theta)",
+        "For ring: a = (1/2) g sin(theta)",
+        "Maximum height on incline for rolling body with speed v: h = (v^2/2g) * (1 + I/(M R^2))"
+      ],
+      "specialCases": [
+        "On smooth incline (no friction), rolling without slip cannot be sustained from rest.",
+        "Among sphere/disc/ring from same height: solid sphere reaches first."
+      ]
+    },
+    {
+      "heading": "Torque, Angular Momentum, and Power",
+      "content": "Torque is rotational analogue of force. Angular momentum and rotational KE govern rotational dynamics.",
+      "formulas": [
+        "Torque: tau = r x F = I alpha",
+        "Angular momentum: L = r x p = I omega",
+        "Work by torque: W = integral tau dtheta",
+        "Power in rotation: P = tau omega",
+        "Rotational KE: K = (1/2) I omega^2"
+      ],
+      "specialCases": [
+        "If external torque is zero, angular momentum is conserved.",
+        "Skater effect: reducing I increases omega (L conserved)."
+      ]
+    },
+    {
+      "heading": "Angular Kinematics and Conservation Applications",
+      "content": "Rotational motion follows kinematics analogous to linear motion; conservation laws solve many MCQs quickly.",
+      "formulas": [
+        "omega = omega0 + alpha t",
+        "omega^2 = omega0^2 + 2 alpha theta",
+        "theta = omega0 t + (1/2) alpha t^2",
+        "theta = ((omega0 + omega)/2) t",
+        "Number of revolutions n = theta / (2 pi)"
+      ],
+      "specialCases": [
+        "Retardation problems are solved by taking alpha negative.",
+        "For uniformly changing omega, average angular speed is arithmetic mean."
+      ]
+    }
+  ]
+}

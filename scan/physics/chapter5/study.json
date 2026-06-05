@@ -1,0 +1,101 @@
+{
+  "title": "Chapter 5: Projectile Motion - Study Notes",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": 5,
+  "sections": [
+    {
+      "heading": "Basic Properties of Projectile Motion",
+      "content": "In projectile motion, acceleration is due to gravity only. The path (trajectory) of the projectile is parabolic. The horizontal component of velocity remains constant throughout the motion. Velocity is minimum at the highest point.",
+      "formulas": [
+        "Range, R = u² sin2θ / g",
+        "Max Height, H = u² sin²θ / 2g",
+        "Time of flight, T_f = 2u sinθ / g",
+        "Time of ascent = Time of descent = t_a = t_d = (1/2)T_f = u sinθ / g",
+        "H/R = tanθ / 4",
+        "For maximum range, θ = 45°, R_max = u²/g, H = R_max/4",
+        "Equation of trajectory: y = x tanθ - gx² / (2u² cos²θ)",
+        "y = ax - bx² where R = a/b, H = a²/4b",
+        "In terms of range and max height: y = tanθ · x - (tanθ/R) x²  or  y = tanθ · x - (tan²θ / 4H) x²"
+      ],
+      "specialCases": [
+        "If θ = 90°: H_max = u²/2g = (1/2) R_max",
+        "At highest point: angle between velocity and acceleration is 90°.",
+        "KE is minimum at highest point.",
+        "A person who can throw max horizontal distance R₀ can throw max height R₀/2.",
+        "Average velocity during time of ascent: V_avg = (u/2)√(1 + 3cos²θ)",
+        "Average velocity when projectile strikes ground: V_avg = u cosθ"
+      ]
+    },
+    {
+      "heading": "Kinetic and Potential Energy in Projectile Motion",
+      "content": "If a projectile is projected with kinetic energy K at angle θ, the KE and PE change along the trajectory.",
+      "formulas": [
+        "KE at highest point (Min KE): K_H = K cos²θ",
+        "PE at highest point (Max PE): U_H = K sin²θ",
+        "If θ = 30°: K_H = (3/4)K = 75% of KE; U_H = (1/4)K = 25% of KE",
+        "Min KE = K cos²θ = P² cos²θ / (2m) where P = initial momentum"
+      ],
+      "specialCases": [
+        "If projected with momentum P: change in momentum at any time Δp = mgt.",
+        "At highest point (t = u sinθ/g): Δp = p sinθ.",
+        "At striking point (t = 2u sinθ/g): Δp = 2p sinθ.",
+        "If θ = 30°: Δp at striking point = p (100% of p)."
+      ]
+    },
+    {
+      "heading": "Speed and Velocity Relations",
+      "content": "Speed and velocity of the projectile at different points and times.",
+      "formulas": [
+        "If projectile makes angle α after time t: speed v = u cosθ / cosα = u cosθ · secα",
+        "Velocity components at time t: v_x = u cosθ, v_y = u sinθ - gt",
+        "Speed at time t: v = √(v_x² + v_y²) = √(u² - 2u sinθ · gt + g²t²)",
+        "Angle with horizontal at time t: tanα = (u sinθ - gt) / (u cosθ) = v_y / v_x",
+        "If velocity is perpendicular to initial velocity at time t: v = u cotθ, t = (u/g) cosecθ",
+        "Change in speed at highest point: Δ|v| = u(1 - cosθ) = 2u sin²(θ/2)"
+      ],
+      "specialCases": []
+    },
+    {
+      "heading": "Same Range — Two Angles of Projection",
+      "content": "For a given speed, the same range is obtained for two complementary angles θ and (90°-θ).",
+      "formulas": [
+        "θ + α = 90° for same range",
+        "Ratio of max heights: H_θ/H_α = tan²θ = cot²α",
+        "Ratio of times of flight: (t_f)_θ / (t_f)_α = tanθ or cotα",
+        "R = (1/2)g(t_f)_θ(t_f)_α  ⟹  (t_f)_θ(t_f)_α ∝ R",
+        "R = 4√(H_θ × H_α)  ⟹  H₁H₂ ∝ R²",
+        "H₁ + H₂ = u²/2g"
+      ],
+      "specialCases": [
+        "For same range R at angles θ and (90°-θ): t₁t₂ = 2R/g ∝ R.",
+        "Maximum range R_max = u²/g is achieved at θ = 45°."
+      ]
+    },
+    {
+      "heading": "Horizontal Projection from a Height",
+      "content": "A body projected horizontally from height H with velocity u.",
+      "formulas": [
+        "Time of flight: t_f = √(2H/g)",
+        "Speed after time t: v = √(u² + g²t²)",
+        "Angle with horizontal after time t: tanα = gt/u",
+        "Horizontal range: R = u × √(2H/g)",
+        "nth step hit by ball rolled off staircase (width b, height h): n = 2hu²/(gb²)"
+      ],
+      "specialCases": [
+        "If two bodies are projected horizontally from height with velocities u₁ and u₂ in opposite directions, their velocities are perpendicular at t = √(u₁u₂)/g.",
+        "v₁ = √(u₁² + u₁u₂), v₂ = √(u₂² + u₁u₂) when velocities are perpendicular.",
+        "Their position vectors are perpendicular at t = 2√(u₁u₂)/g.",
+        "A man must aim higher than target to hit it.",
+        "If a man fires directly at a monkey that starts falling simultaneously, the bullet hits the monkey regardless of angle."
+      ]
+    },
+    {
+      "heading": "Ball Dropped on Inclined Plane",
+      "content": "If a ball is dropped from height h from the top of an inclined plane of inclination α, it elastically collides and strikes the inclined plane again at:",
+      "formulas": [
+        "Distance along incline: S = 8h sinα"
+      ],
+      "specialCases": []
+    }
+  ]
+}

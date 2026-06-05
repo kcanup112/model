@@ -1,0 +1,2062 @@
+
+===== PAGE 1 =====
+Chapter-tZ
+SIilIPLE I{ARMONIG MOTIOIII
+Condition for SHM
+The restoring force is directly proportional displacement o
+from mean position and is always directed towards mean
+position
+Foc-x
+i.e., a a -x
+a = -kx;
+K = proportionality constant
+d
+aF* kx=0 is required
+differential equation representing SHM
+Analysis of Linear SHM
+F4+
+x=-A
+(Extreme
+position)
+According to condition
+The restoring torque is directly proportional to
+the angular displacement from mean position.
+rcc-0
+i,e., o. cc - 0 ; or = angular acceleration
+a. = -c0,
+c = constant
+d2o
+;F+c0=0 is required
+x=o
+(Mean
+posidon)
+Fp x=A
+[Extemeposition)
+Fa-x
+a(-x
+x=AsinIort+6)
+a Where, A + amplitude (i.e., maximum displacement from mean position in either direction)
+o co =Angular freq uun y=!=2o1
+a 6 = Phase constant or ch or initial ase
+x=asinfot+6]
+The argument, (6lt + 6) is known as phase
+0=ott*6= zfi
+T +6=2nft+6
+0=ot+6
+Att=0;0=6
+Phase angle at initial time (t = 0) is known as phase constant
+or epoch
+Att=0;
+x = Asin8
+v = Ao cos6
+a = -or2A sin6
+x = Asin0
+dxv=ai=Aocoso
+dv d2x
+a = ;; = ;F = -o.A sino
+a. If{=Q;1= g;Y=A0);a=0
+A Quick Review ofE-PCM For Engineering Enranc€ - Physics ll P 83 ll
+Mechonics
+.g
+(A
+(')
+v',
+Llnear SllM
+differential equation representing SHM
+Here (-) ve sign indicates that force and displacement are in opposites direction.
+Displacement ofparticle executing in SHM is given by
+T I i
+
+===== PAGE 2 =====
+b. If{ =}:x=A; v= 0; a=-ozA
+It gives complete state of motion of a particle executing in
+SHM. 6 =,t"-1(i)
+1. If particle starts its motion from (i.e., at initial time particle is at)
+equation becomes
+b. From right extreme (i.e., At t = 0; x = +A) then,
+equation becomes
+from left extreme (i.e., at t = 0; x = -A) then, -3ro=T
+T,- lz
+d. From half of maximum displacement [.e., at t = 0, x = ] ) to*aras * = *a tnen, -7td=:o
+Equation becomes, x = Asin(.,. t\
+a)
+2. A particle execting in SHM has time period T then time taken by particle,
+a. From mean position to halfof maximum displacement (.e. x = 0 to * )is
+b. From extreme position to half of maximu displacement [.e. x = A to ) is Tt=e
+Tt=a
+c
+c.
+Equation becomes:
+From mean position to extreme position,
+"=erin(rt*fu)=-Acosot
+d. From extreme position to extreme position i.e. one extreme to another extreme,
+Tr=1
+3. The ratio oftime oftime taken by particle from x = 0 to A/2;( x=AtoA/2ist
+a In case ofSHM (linear or angular) time period is independent ofAmplitude.
+Veloclty and Acceleradon ln SHM
+-1o=,
+7
+n-
+V = ff = Ao cos(<ot + 6) = 6{42 - *z
+v=*= -.'a.in(ot + 6) = -o2x7
+i. At x = 0; v = Vmax = A<o = V0(say)
+ii. Atx=A;V=Vmin=0
+r r/5iii. Atx=rA; v=;-vo
+2. Velocity in therms of maximum velocity
+(-)ve sigh indicates that acceleration is opposite to
+displacent
+i. Atx=A;a=amin=0
+ll P 84 ll A Quick Review ofE-PCM For Engine€ring Entrance - Physics
+Simple Hormonic AAotion
+T'rit'ks
+tt(J
+t
+L
+r;;6
+It gives complete state of motion ofa particle at initial time
+a. from position (A! t = 0, x = 0) tow2165 v = +tr then @]
+l;= Aj!4.t
+I -:4 sslis!
+
+===== PAGE 3 =====
+a The nature of graph between velocity and displacement
+(i.e., 'v' v/s 'x') is Elliptical
+A2 (vrzx22 - vz2xtz)
+vt2 - vz2
+ii. Atx = A ; a=amax=o:2A=a0(say)
+1 1^ r
+iii. At x = rA; a = r r.4=1a0
+o The nature of graph between acceleration a
+displacement is straight line
+Example:
+I d,2x \
+a = -5x [i.e., ;F + 5x = o, then r = ?
+Solution: comparing with (a = -ozx)
+a' =5,T =4vs
+Ylz _(A2 -x721
+v22 - A2 - x22
+a If Vo and a0 are the maximum velocity and mardmum acceleration (i.e., velocity amplitude and acceleration
+amplitude) ofa particle executing in SHM respectively then,
+i. Amplitude is given by Vo'
+ao
+ii. Angular frequency is given by, 1 =ZnYoao
+2. lf Vr and V2 are the velocities of a particle executing in SHM at a displacement xl and xz from mean position
+respectivley then.
+a. Amplitude is given by;
+b. Angular frequency is given by; (D2 = X2 X1
+a0
+V0
+(D
+a. Atx=0;Umin=0
+KE 1K1 = +mvt = i mor2A2cos2[ort + 61 = ] mr,r'z1e' - x')
+K cc [A2 - x2)
+b. Atx=A; Umax= |mora, = Uo (say)
+a. Atx=0; 11pxy = jmo.A,
+b. Atx = A; Kmin = 0
+k = K0 cos2fot + 6)
+U = |mro'?x'? = U0sin2lort + 61
+Total enerry [TE) = 115 * pg = ] rn.'42 = constant
+Note: constant function has no period
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 85
+a
+trG
+Mechonics
+,tr
+t
+r')U)
+tj'l-riL'ks
+r]
+2
+ne in SHM
+PEpl=|mor'?f
+=] mro'A'sin21rot + 61
+.. tu"7l
+t
+o The nature of graph between PE (U) and a The frequency ofKE is double the frequency ofSHM.
+displacement (x) is parabolic. 
+I fKE =TSHEo The frequency of PE is the double the frequency
+orssu lrpE=7rsHttl
+
+===== PAGE 4 =====
+i. At mean position,
+Umin+Kmax=TE
+Kmax = TE
+ii. At extreem position
+Umax+Kmin=TE
+Umax = TE
+a The ratio ofPE to KE is given by
+u
+K =Ir-=tan'z(ot+6)= 1sn'z6
+Kmax=TE-Umin
+ii. At extreme position
+Umax+Kmin=TE
+Umax = TE
+A
+i. IfU = K: thenx = rG
+ii. rfK=2U:then,f =],*=t
+A
+{3
+|ll. 11x =|rr,r,"n,f = :, " 
+= r $
+mass
+x=0
+( Mean posidon)
+Mean position: x=0
+a. lf K is constant then, ^t-I c(\rm
+b. Ifm = constant, then,
+'*.lu!
+A
+( Kd
+- - Equlllbrlum
+Posidon or meen
+Posldon
+Mean position: x=d=
+rna
+k
+Springforce,F=-kx=ma
+comparing witlr: a=-o2x
+1. Time period for spring mass system is given by
+T2 I^2
+\,,rT1 -
+T2 lkz
+\aT1 -
+m
+-(*),.a
+tk
+v;
+/;
+\xT =2n
+ll P 86 ll A Quick Rcview ofE-PCM For Engineering Entrrnce - Physics
+a
+Simple Hormonic Motion
+aa
+U
+c
+If Umin * 0
+i. At mean position,
+Umin+Kmax=TE
+Yertlcal rrra
+Mg
+(l)=
+
+===== PAGE 5 =====
+Mechonics
+2. If mass of spring is considered then, time period for spring mass system is given by T=2n
+/ ms\
+[r*,
+k whe
+ms = mass ofspring,
+when two blocks ofmasses m1 and mz are attached to spring having spring constant ,k,then peirod is given by:
+T=2n E
+k wherep=Reducedmass m1m2
+P =mf* mz
+4. Combination of springs
+In case ofcombination ofsprings time period is given by T =2n
+m
+In this combination effective spring constant is given by In this combination effective spring constant is given by
+l.
+1_1 1 l.
+Keff- kl 'k2 'k3' \
+l(n
+Keff< Ksmallest
+l.
+ll.
+Keff = k1 + k2 + k3 + ................. kn
+ll.
+iii. In this combination time period increases.
+iv. If 'n' springs each of spring constant .k, 
+=
+T =Zn
+mxn
+k
+o In parallel combination displacement in each spring
+are same (both magnitude and direction)
+5. When a spring of spring constant 'k' is cut
+a. When a spring ofspring constant'k, is cut into ,n,
+equal parts then spring constant for each part is
+b. When a spring ofspring constant'K' is cut into l1:
+12 : 12 : ...........-.ln then the spring constant of ith
+ratio is given by Ki =
+iii. In this combination time period decreases.
+,d iv. If 'n' springs each of spring constant ,k, are in parallel!
+n
+then, Keff = nk
+an amount
+T=2n m
+nk
+then,
+&
+2. In case ofspring mass system if:
+I .1."
+zmv' + rlo<' xc = constant
+n
+K., I li
+.. i=1Io=--T-
+1. If two blocks or many blocks are suspended from a
+spring of spring constant 'k' when a block is removed
+from equilibrium position t}Ien
+a. time period ofoscillation is given by:
+present mass
+K
+weight of removed mass
+k
+time period is given by;
+Example: The time period of oscillation when
+block is displaced and released
+Solution:- When block is displaced by an
+amount 'x' then spring will elongated by
+/x\
+lz)
+fr), =.on.on,
+,=rr{-*
+li
+k1"
+lmv'
+7",^u'
+1tz
+1
+'2 ro', Gu)=.onr1,,1
+c = |: Time period d, T = 2, \E
+m
+3. When a block of mass M having density pb is
+suspended from an spring of spring constant 'K, is
+immersed in ligid having density pl then time period
+ramains unchanged but mean position decreases
+a. time period
+Trit ks
+t;VrT=2n
+b. Amplitude ofoscillation is given by
+A Quick Review ofE-PCM For Engineering Ertrsnce - physics ll p 87 ll
+given by lI;Iif,l
+Korq, x sum ofratio
+f=2n\
+
+===== PAGE 6 =====
+Simple Hormonic Motion
+p!,=?G-b. mean position
+Some special cases of SHM and tricks
+1. If a tunnel is bored along the diameter of earth and a
+body is released from the surface then body exccutes
+in SHM
+a. Time period is given bY:
+Where,m=massofbody
+pl = density ofliquid
+A = Cross-section area ofbodY
+b. tf a partially submerged floating body is
+connecied to a vertical spring and then depressed
+motion is in SHM and time period is given by;
+m
+T--2n (k + aplg)
+7
+k - 4ne 0
+lx bob
+e+
+r=rdcME =r,"EVe
+Time taken by body from one circumference to
+other circumference (i.e., one end to other end) is
+given by
+,=l= n .rmin ':42 min
+Time taken by body from circumference to centre
+is given by:
+5. If the U-tube is filled with liquid to height 'h' and liquid
+in one arm (limbl is displaced and released then
+motion executes in SHM and time period is given by;
+T=2n
+/-n
+\c
+6. \{hen charge particle of charge 'q' having mass 'm' is
+released at a distance 'x' from centre on axis of a
+uniformly charged ring having charge Q and radius R
+[R >>> x) then
+a. tf both charges are of same nature then charged
+particle moves away ftom the centre along axis of
+the ring
+If both charges are of opposite nature then
+charged particles executes in SHM.
+\s,,
+o Time period is given bY:
+Simple pendulum
+a The length of pendulum is taken from point of
+suspension to centre of mass (i.e., centre of Sravity).
+o
+nm684.
+b
+c
+d
+t I
+4 = 21.15 min - 21 minute
+Velocity of the body at the centre of earth is Siven
+by
+2. If a mass 'm' is suspended from a wire of length 'L'
+cross-section A snd youn(s Y and is pulled along the
+length of wire then motion is in SHM. time period is
+V=Vmax=A(D=Rx fi={gn=am7'".
+given by,
+tf the body is released from a height 'h', the body will
+l2I and other side willreached the earth in time t = \ g
+go out of earth through same distance before coming
+back towards earth. Motion becomes oscillatory the
+time period is given by
+I
+T=4
+2h R
+- sin-l rR\;
+\n + ztrl
+/-rrrl
+r = ztr\ ve
+ba
+t
+/-ruvo
+r = zr\Eez
+T =2n \ APlc
+SHM. time period is given bY:
+where, B = Bullnnodulus of elasticity.
+4. When a partially submerged floating body is slightly
+depressed and released then body executes in sHM
+and time period is given by
+!Ss".
+R3"
+4ne0mR3
+T = Ztr
+Rm
+2 1t
+T=2r
+R
+/R\
+U. o.Jc
+ll P 88 ll A Quick R€view of E-PCM For Engineering Entrance - Ph1'sics
+ttt)
+u)
+&
+fig:- SimPb Penduhrm
+1. If length of pendulum (0) is sufficient i.e., comparable
+to the radius of earth "R" then time period is given by:
+I
+3. If a gas is enclosed in a cylinder of volume V0 fitted
+with a piston of cross-section A and mass M and piston
+is slightly depressed and released then motion is in
+
+===== PAGE 7 =====
+ll.
+lIl.
+for Infinite lengths of pendulem:
+G
+f--+co,T=2r!r=ga6m1,
+Iflength ofpendulum is equal to radius ofearth, i
+t-R
+= n: r = zn\fi = 5e.8 min
+If length of pendulum [0J <<< (Radius of earth]
+then
+In case ofincreased
+s changed by xYo
+In case ofdecreased
+1. Iflength ofpendulum i
+x
+n=1*too
+x
+n=1-roo
+o7o1=ffi-tJx100 yor=[r-rFJxloo
+eg: eg:
+i. If length of pendulum is i. lf length of pendulum
+increased 44016 then n = shorter by 360lo then, n
+t*ffi=raa r -ffi= o.o+
+o76r= fiiz+-rJ x r00 0,51= (r-{6-^o+)' 100
+T = 20% (increases) T = 20Vo fdecreases)
+Note: For small change [< 6%)
+o/o change in T = 1
+2
+, (70 change in length)
+. In this case pendulur gains time
+. Gain of time in one day is given by
+a lf length of pendulum increases then time period
+increases i.e., motion becomes slow and time will Ioos,
+o If length decreases then time period decreases i.e.,
+motion becomes fast and time will gain.
+o Time period of simple pendulum is independent of
+mass ofbob.
+Important tricks
+2, Loss or gain oftime by pendulum
+o If a pendulum is oscillating vyith a time period T1 , due to change of some factors, the time period of oscillation
+becomes T2
+3. If a simple pendulum is taken from mean sea level to
+height i.e.,'h'then the loss of time in one day given by:
+Loss in time = 13.5 , h in km sec
+4. Ifa simple pendulum is taken from mean sea level to
+depth d (d <<< R) then the loss of time in one day is
+given by:
+Ioss in time = 6.75 x d nkm sec
+5. Due to change in temperature:
+In this case pendulum losses time
+Loss of time in one day is given by
+where, m= mass ofbob
+stationary;
+b. Tension in the string at this position
+T= fmgJ'z + (qE]'z
+8. tf rr'o' is the velocity of bob of a simple pendulum
+having length 'l' at mean position then velocity of the
+bob when string makes an angle'0'with vertical is
+given by oz-2 1-
+/T2 \
+Loss in time = ITT - 1J , 86400 sec cain in time = (1 - rr!) 
+,. u.noo ,".
+Angle with vertical at which bob remainsa
+loss or gain in time = ] , o ,, a0
+where; cr = linear expansion coefficient A0 = change in
+temperature
+6. If a pendulum of length 'l' is oscillating with an
+amptitude 'A' tien maximum tension in the string or
+tension in the string at mean position is given by
+/oE\
+tano = (*mJ
+mv2
+T = mg coso + -l-
+Tmax = mg (1+ I 2
+7. A bob of pendulum having charge 'q' remains
+st2tionary in horizontal electric field of intensity 'E'
+then,
+given by
+b. If e0 is the angular amplitude (i.e., maximum
+angle through which bob rotates) then tension in
+t]le string at extreme position is given by:
+T = mg cos00
+10.Two pendulum of length '11' and '12' (12 > 11) are
+oscillating from same position (i.e., either mean
+{rT=2
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 89 ll
+9. ln case of simple pendum, tension in the string is
+maximum at mean position and minimum at extreme
+position.
+a. Tension in the strin8 at angle '0'with vertical is
+If T2 >TI If T2,< TI
+E;TI
+lYlechonics
+(
+(:)t
+
+===== PAGE 8 =====
+Simple Hormonic Motion
+position or extreme position etc) then both pendulum
+again comes into same phase.
+a. No of oscillation after smaller pendulum will be
+in same phase with bigger
+n1=ns=
+b. No. of osicllation after bigger pendulum will be in
+sime phase
+11.A body executes SHM under the action of force 'f1'
+with frequenry f1. If the force is changed to f2 it
+executes SHM with frequency f2 when both forces
+simultaneously acts in same direction then,
+i. frequenry of oscillation F =f12 + f22
+ii, Time period of oscillation 7L
+Tz=ilt +
+L
+Tz,
+12.1f displacement of a particle executing in SHM is
+x=a+bsinfot+6) then.
+1. When endulum is inside elevator
+i. Mean position x = a
+ii. Amplitude (A) = b
+Simple pendulum in different cases
+At Normal case;
+In other cases where 'l' is constant time period is given
+by
+where IF = mseff T'
+T ^ fiet
+V geff
+o If geff > g then, T' < T i.e., time period decreases.
+o If geff < g; then T'> T; i.e., time period increases.
+?o=o
+If = mgeff
+"' $eff= g
+Time period remains unchanged
+o When cable wire breaks then geff = 0; T' = oo
+a. IP = mgeff
+= mg + maO = mgeff
+.'. geff = (g + a0) > I
+a. If = mgeff
+= mg - maO = mgeff
+Beff= (g - a0) . g
+i.e., pendulum donot osicllates.
+T'= T = rr\,E
+2. When simple
+a. geff=rffioz ,g
+b.
+inside car
+a. geff= g'*
+b. T'=2n
+a. geff= g cosO < gr
+I
+@
+T'
+Tc.
+ob
+c. T'c.T
+2+o2b r
+l1n2=nb=
+L S
+T'=2r
+T'=2n
++
+ll P 90 ll ,l quick Review of E-PCM For Engineering Entrance - physics
+\E
+@l
+v)U-v)
+*
+t
+Note: Pendulum oscillatian due to tangential component of
+weight of bob [i.e., restoring farce]. In the prexnce of
+additional force if tongential components affects then
+time period changes other wise time period remains
+unchanoed
+Upward direction with acceleration Downward direction with
+'a0' acceleration'aO'
+b.T'=rrf[#
+..+=\m
+b. T'=rr\ffi
+.. f=\ffi
+When When car is moving with cortstant lfhen car is sliding donw from
+acceleration
+T'
+T =^-&\ {g'z+ ao2
+b. T'=rr\m
+
+===== PAGE 9 =====
+I
+PI\
+Pb)
+T' = Ztr
+(,_
+3. \tVhen simple pendulum is immersed in liquid then,
+Where, pb = density of material ofbob
+pl = density ofliquid
+4. A charge 'q' is given to bob of pendulum and is placed between charged capacitor then
+a.
+o@ooo
+c"ff=(#)c.c
+8eff=
+".(*),
+T'
+T
+1,
+(, ',J
+r:\
+oo
+o
+t
+o
+(9
+@
+(,
+o
+1l
+a
+mg E
+ooooooo
+When charge on bob is (-J ve then
+ceff=c-(9
+I
+T'=2x
+u,.(9, b. When charge on bob is (+) ve then:
+e"r=gr(9
+I
+T'=2n
+". fsE)
+",t^[s'-zr \ a
+5. When charge 'q' is given to bob of pendulum and
+another charge 'Q' is fixed at the point of supension
+then
+a. Time period ofpendulum remains unchanged i.e.,
+Tension = mg cosO
+mv' \ss
+12
++-l-+
+Tension in the string decreases when charges are
+ofopposite nature
+mv2 kooTension = mgcoso + I - -P-
+6. A sphere of radius 'r' is kept on concave mirror of
+radius of curnature 'R'. The arrangement is kept on a
+horizontal table. If the sphere is displaced from its
+equilibrium position and released. Then it executes
+SHM. The time period of oscillation is given by
+T =2x [R-rl
+7. A block rest on a horizontal table which is executing
+SHM in the horizontal plane with an amplitude A' if
+the coefficient of friction is 'p' then the block, just start
+to slip when the frequency of oscillation is
+8. A load of mass 'm' falls height 'h' onto the scale pan
+hung from a spring of spring constant 'k' and mass of
+scale pan is zero and mass 'm' doesnot bounce relative
+to pan, then the amplitude ofvibration is given by
+A
+rn8
+k
+2hk1+-mg
+9. Flat horizontal board moves up and down in SHM of
+amplitude 'A'. The minimum time period of vibration
+such that an object placed on the board donot lose
+contact with board is given by
+T=2r^ltVe
+c
+a.
+r,=2tr1 ffi
+V b \m,/
+b. Tension in the string increases when both
+charges are ofsame nature.
+Second pendulum
+i. Its time period is'2' sec
+ii. Its length on earth is 100cm (99.29cm)
+Alechonics
+tt,
+o(tt
+E;;;+
+A Quick Review ofE-PCM For Engineering Etrtrance - Physics ll P 9l ll
+
+===== PAGE 10 =====
+(t)=
+2k
+m4m
+I- + mll +ml +l
+o
+I
+{ C
+Simple Hormonic Motion
+loss or in time = 432 x x
+Example: If length of second pendulum is increased
+by 2o/o then
+Ioss in time per day = 432 x 2 = 864 sec.
+Conical pendulum
+o It is an arrangement of string and bob & bob is rotated
+in horizontal circle of radius less than the length of
+string
+iii. Its length on the surface of moon i, ff cm
+iv. If length of second pendulum is changed by xo/o (< 60/o)
+then loss or gain in time per day is given by:
+i. Time period of compound pendulum is given by
+Where,
+I = distance from centre of suspension to centre of
+gravity (CG)
+I = moment of Inertia of rigid body about horizontal
+axis passing through 'o' i.e., centre of suspension.
+K = Radius ofgyration ofbody about CG.
+I +l
+T =2n
+o The length (f . , is known as equivalent length of
+sample pendulum.
+. A point in the rigid body along the line joining the
+centre gravity at a distance 
+"f (9 from CG away from
+the centre of suspension [o) is known as centre of
+oscillation (c)
+a The time period of compound pendulum about centre
+of suspension [o) and centre of oscillation are same.
+o The centre of suspension and centre of oscillation are
+interchangable.
+Free Vibration
+o When a body vibrates with its own natural frequency.
+Damped oscillation
+o The amplitude of oscillation descreases continuously
+most of oscillation occurs in viscous media like air,
+water etc. So, part of energy is dissipated in
+overcoming resistive force.
+ii. Angular frequency is given by;
+where
+K = spring constanL
+Forces vibration
+o When a body is maintained in a state of vibration by a
+strong force of frequency other then t}te ntural
+frequency of body. If applied force, F = F0 sinPt
+displacement,
+where
+FO
+d=
+(ro0' - p1*#
+string (l)
+bob
+a. f=
+b. (mg)t * (mro2r)2 = (mg)'*
+iii. Velocity of bob: V = 1ffi
+i, For semi vertical angle
+ii. Tension in the string
+mg
+cos0
+sino = i
+_ mgl
+-\tr=
+r
+iv. Time period is given by,
+v. The ratio time period of conical pendulum to simple
+pendulum for same arrangement of string and bob;
+,a=rr\F
+ft:.E-,r=(, - 'o)i.,
+Physical pendulum or conpound pendulum
+a It is an arrangement in which a rigid body is mounted
+to oscillates about a horizontal axis passing through
+any point in the rigid body.
+a'
+CG
++
+T =2n
+llP 92ll A Quict Review of E-pCM For Engineering Entrance - physics
+o Damping fo.." [TIiiliEl .'. Fdamp = -6y
+i. Amplitude of damped harmonic oscillator is given by
+lAo = A"-bt ^*l
+I
+I
+
+===== PAGE 11 =====
+Mechonics
+"I tPulmt I
+'Lro'- p'-.1$0 = tan-
+Time peirod of torsional pendulum is given by
+r=2*+
+VVhere, I = Moment of inertia of body
+:+ Natural frequency
+Torsional pendulum
+MULTIPLE CHOICE QUESTIONS
+1. Irtlhich of the following is a necessary and sufficient
+condition for simple harmonic motion?
+a, Constantperiod
+b. Constantacceleration
+c. proportionality between acceleration and
+restoring force
+d. Proportionality between restoring force and
+displacement
+2. When a mass undergoes SHM there is always
+constant ratio between its displacement and
+a. period b. Acceleration
+c. mass d. VelocitY
+3. l4rhich of the followingdoesnot representSHM
+a. x = Asinrot
+b. x=Asinort
+c. x=Asinrot+Bcosrot
+d. x=Asin2rotcosz2rot
+4. The rado of maximum acceleration to maximum
+velocity of a particle performing in SHM equals to
+a. Amplitude
+b. Angular velocity
+c. Square of amplitude
+d SquareofangularvelocitY
+5. The total enerEy of a particle executing SHM is
+proportional to.
+a. Displacement from equilibrium position
+b. Frequencyofoscillation
+c. Velocity in equilibrium position
+d. Square of amplitude of motion'
+6 For a particle executing in SHM along x ' axis, force
+is given by.
+a. - Alo( b. Acoskx
+c. Ae-kx d. Akx
+7. A particle executes SHM with a frequency'f. The
+frequenrywith which its KE oscillates is
+a. t/2 b. 4f
+c.zfd.f
+8. A body executing SHM passes through its
+equilibrium position . At this instant it has:
+a. Maximum P.E. b. Maximum KE'
+c. Minimum K.E. d. Maximum acceleration
+9. The phase difference between the
+velocity and acceleration of a particle executing in
+SHM is
+a. 0 b. nlz
+c. T d. tEl4
+10.The displacement of a particle varies with time
+according to the relation x = asinort + bcosrot
+a. The motion is oscillatory but not SHM
+b. The motion is SHM with amplitude (a + b)
+c. The motion is SHM with amplitude (a2 + bz)
+d. The motion is SHM with amplitud" rp-W
+11.A girl is swinging on a swing in sitting position
+when she stands up then time period witl be
+a. Increases
+b. decreases
+c. remainsunchanged
+d. depends upon mass of girl
+12.A girl is swinging on a swing in sitting position. If
+another girl comes and sits, the period of its swing
+willbe?
+a. decreases
+b. Increases
+c. unchanged
+d. first increases then decreases
+13.A hotlow metal sphere is filled with water through
+hole in it It is hanging by a long thread and is
+made to oscillate. Water slowly flows out of the
+hole at bottom. How will the period of oscillation
+be a affected.
+a. the period will go on increasing till the sphere is
+empty.
+b. The period will go on decreasing till the sphere is
+empty
+c. The period will not be affected at all
+d. The period will first increases then decreases till
+the sphere is emPtY.
+14.A simple pendulum is made of bob which is a
+hollow sphere full of mercury suspended by means
+crl0 =
+k
+m
+A Quick Review of E-PCM F'or Engineering Entrance - Physics ll P 93 ll
+ria
+r.ir)a(
+r(
+v7x
+ntl7
+
+===== PAGE 12 =====
+Simple Hormonic Motion
+of a wire. if little the mercury is drained off, the
+period of the pendulum will:
+a. Increase b. decrease
+c, remains same d. become erratic
+15.The period of oscillation of simple pendulum of
+constant length at a place inside a mine is
+a. more than it is on the surface of the earth
+b. less than it is on the surface ofthe earth
+c. the same as it is on the surface of earth
+d. the same as it is on the surface of moon
+16.A particle executing SHM has kinetic energy
+K0Cos2rot. The maximum value of potential enerry
+and the total enerry are respectively.
+a. Ko and IG b. 0 and 2Ko
+c. f and Xo d. Ko and 2Ko
+17.if there is a planet on which the value of the
+acceleration due to gravity is one - ninth ofthat at
+the earth, trte frequency of oscillation of a simple
+pendulum on the planet will be.
+a. One - ninth
+b. nine - times
+c. one - third
+d. the frequency of the same pendulum on the earth
+18.How will the period of oscillation of pendulum
+hanging in an ascending lift change if the lift
+moves with uniform acceleration.
+a. The period will increase
+b. The period will decrease
+c. the period will not change
+d. The period will first increase and then decrease
+19.A pendulum suspended from the ceiling of a train
+has period 'T'when the train is at rest. When the
+train is acceleration with a uniform acceleration
+'a', the period of oscillation will:
+a. Increase
+b. decrease
+c. remains unaffected
+d become infinite
+20.A simple pendulum of length 'l' has been set up
+inside a railway wagon sliding dovrn a friction less
+inclined plane having an angle of '0' with the
+horizontal. What will be its period of oscillation as
+recorded by an abserver inside the wagon.
+'lcos0
+ob
+I
+gcosO
+21. The time period of a simple pendulum is 'T'. The
+pendulum is charged positively and is made to
+oscillate while a negatively charged plate is placed
+below it The period of the pendulum is now.
+a. ,"{i b. zn
+c. ,, Vr,* d. zx
+a. >t b. <T
+c.=fd.@
+22.The potential energy of simple pendulum is
+maximum when it is:
+a. At the turning point
+b. At the equilibrium
+c. In between the above two cases
+d. it is same at all positions.
+23.1f a simple pendulum of length 'l' has maximum
+angular displacement '0', then the maximum
+Kinetic energ/ of its bob of mass 'm'
+1
+a. I.$ b. mglcosO
+c. mgl(1 - cos0) d. mgl(1 - sinO)
+24.For a simple pendulum executing SHM, the ratio of
+its KE when it passes through the equilibrium
+position and its potential enerry when it has
+maximum amplitude is:
+a. less than unity
+b. greaterthan unity
+c. equal to unity
+d. equal to the ratio of its length and the
+acceleration due to gravity
+25.The workdone by the string of a simple penduring
+one complete oscillation is equal to
+a. Total energ5l ofpendulum
+b. KE ofpendulum
+c. PE ofpendulum
+d. zero
+26.a simple pendulum consisting of a ball of mass 'm'
+tied to a string of length 'l' is made to swing on
+circular arc of angle '0' in vertical plane. At the end
+of there arc, another ball of mass 'm' is placed at
+rest. the momentum transferred to this ball at rest
+by the swinging the ball is
+a. zero b.
+m0L
+mL
+d. 2g
+27.Weight of the bob of a simple pendulum is 'w' .
+Length of pendulum is'l'and it is vibratingwith an
+amplitude 'A'. maximum tension in the string
+during oscillation will be:
+a. w(L + A2/12) b. w(l + A/l)z
+c. w d. w(1 - A/l)
+2S.Angular amplitude of a simple pendulum is '0o' .
+Maximum tension in the string for small 0o will be:
+a. mg(1- Coso) b. mg(1+ 0o)
+c. mg(1- 02) d. mg(1+ 002)
+29.A bob of simple pendulum of mass'm' is oscillating
+with an angular amplitude of 4Oo. lflhen string
+I
+ob
+rnd
+c,
+ll P 94 ll A Quick Review of E-PCM For Engineering Entrance - physics
+
+===== PAGE 13 =====
+makes an angle 20'with vertical then tension in
+the string will be.
+a. mgCos20o b. >mgCos20o
+c. <mgCos20o d. mgCos40o
+30.A second's pendulum is mounted in a rocket. Its
+period of oscillation will decreases when the
+rocket is
+a. moving up with uniform velocity
+b. Moving up with uniform acceleration
+c. Moving down with uniform acceleration
+d. Moving in a geostationary orbit.
+31.A clock 's' is based on oscillation of spring and a
+clock'P'is based on pendulum motion. Both clocks
+run at the same rate on earth. An a planet having
+the same density as earth but twice the radius.
+a. s will run faster than p
+b. p will run faster than s
+c. both run at the same rate as on the earth
+d. both run at equal rates but not the same as on the
+earth.
+32.A weight suspended from a spring oscillates up
+and down. The acceleration of the weight is zero
+at.
+a. highest point b. lowest point
+c. middle point d. none of these
+33.A particle of mass 'm' is hanging vertically by an
+ideal spring of force constant 'k'. If the mass is
+made to oscillates vertically, its total enerry is.
+a. Maximum at the extreme position
+b. maximum at the mean position. c. minimum at the mean position
+d. same at all the position
+34.If a spring has time period 'T' is cut into 'n' equal
+parts, then the time period of each part will be:
+a.rGb.+ vn
+c.nTd.T
+35.Two bodies M and N of equal masses are
+suspended from two mass less springs of spring
+constants Kr and K2 respectively. If the two bodes
+oscillate vertically such that their maximum
+velocities are equal, the ratio of the amplitude of
+vibratiort of M to N is
+Kr ft;a. K, b. \ ra,
+- Kz ^[-ruc. K, o. -V 
+K,
+36.A mass of 1 kg attached to the bottom of a spring
+has certain frequency of vibration. The following
+mass has to be added to it in order to reduce the
+frequenrybyhalf.
+a. 1kg b. 2Kg
+c. 3 Kg d. 4ke
+37.The vertical extension in a light spring by a
+of 1 kg suspended from the lower end is
+The period of oscillation of the spring is:
+a. 2onsec b. (fl,)'".
+Zn
+c. ffisec d. 200nsec
+38.A mass M is suspended from a spring of
+mass. The spring is pulled a little and
+released so that the mass executes SHM of
+period 'T'. if the mass is increased by 'm', the time
+period become $, ,fr"n the ratio orffi is,
+3ls
+L6 s/3
+a. 9b. L4
+c. 2d. 3
+40.On a smooth inclined <$ F
+plane, a body of mass 'm'
+9
+39.A frictionless inclined surface having inclination
+30o has a 2.5 kg mass held by a spring which is
+fixed at the upper end. If the mass is taken 2.5 cm
+up along the surface, tension in the spring reduces
+to zero on releasing the mass now, its angular
+frequency of oscillation will be:
+a.
+c.
+b.
+d.
+25
+I
+is attached between two (
+mass less spring The
+other ends of the springs
+are fixed to firm supports.
+41.A spring elongated by length '0'when a mass M is
+suspended to it now a small mass 'm' is attached
+and then released, its time period of oscillation is:
+[M + m]0
+Mg
+,"{*
+b.
+d.
+a,
+c,
+ffio
+'rV rt
+MO
+2n (M + mJg
+4Z.Time period of a spring mass system is 'T'. If this
+spring is cut into two parts whose lengths are in
+the ratio 1:3 and the same mass is attached to the
+longer part, the new time period will be:
+tia. tii r b. r/#
+@c. d. rFr2
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 95 ll
+if each spring has force constant 'K', the period of
+oscillation of the body is.
+a. ,,G b. r\F
+c. r,,\F d. r'\F
+Mechonics
+
+===== PAGE 14 =====
+II
+Simple Hormonic Motion
+I
+m
+2K
+43.four massless springs whose force constant are 2K,
+2K, K and 2K are respectively attached to a mass M
+kept on a friction less plane as shown in figure. If
+the mass M is displaced in horizontal direction,
+then the frequency of the system.
+K
+2K
+47,One end of spring of force constant 'K' is fixed to a
+vertical wall and other to a body of mass 'M'
+resting on a smooth horizontal surface. There is
+another wall at a distance x0 from the body. The
+spring is then compressed by 3x0 and released.
+the time taken to strike the wall from the instant
+ofrelease is [given sin-1(1/3) = f; |
+1 L
+a. 2n
+1
+2n
+L 7K
+2n m
+44.A block of mass 'M' is performing SHM of
+amplitude'A'between two springs. if a mass'm'is
+placed on M at its equilibrium position, then new
+amplitude will be:
+2K
+a.
+lln m
+K
+48.The displacement of a particle executing in SHM is
+given by x = 0.01 cos [100rt + n/6lcm x is in 'm'
+and t is in second then time period of oscillation
+will be
+a. 0.01 sec b. 0.02 sec
+c. 0.1 sec d. 0.2 sec
+49.In above question phase constant of the motion
+will be.
+IC
+6
+2n
+3
+50.The displacement of a particle executing is SHM is
+given by. x = - 5 ,irrff t cm and t in second, the
+phase constant of the motion will be.
+a. 0 b. n/2
+c. rud. 2n
+51.How long after the beginning of motion is the
+displacement of harmonically oscillating point
+equal to one half of its amplitude, if the period is
+24 sec and initial phase is zero?
+a. 12 sec b. ?sec
+c. 4 sec d. 6sec
+52.A particles moves such that its acceleration 'a' is
+given by: a = - bx. the period of oscillation is:
+a. 2n{b b. +{b
+b.
+d, 2r
+K
+7mc,
+/m+M\a' [-n,r / A
+( m \c' [* - IdA
+l+^
+\K
+2n fm
+T\*
+lzn
+\t
+m
+\4*
+c,
+tr
+\K6
+\K
+E.
+6
+E
+4
+b.
+d. 18
+b.
+d.
+45.Two blocks each of mass 'm' are connected with
+springs each of force constant K as shown in fig.
+Initially the springs are released. The mass 'A' is
+displaced to Ieft and B to the right by the same
+amount and released. Then the time period of
+oscillation is:
+mm
+b.
+d.
+a,
+c.
+!.
+3
+T-3
+a. 2n 5 .1
+166 sec, ancl 6 m
+11 L
+36dsec, Em
+2n
+b d.
+53,The displacement of a particle executing SHM is
+given byx = 0.25 sin 2OOt cm. The maxirnum speed
+of the particle is
+a. 200cm/sec b. 100cm/sec
+c. 50cm/sec d. ZScm/sec
+c.
+b.
+c.
+d.
+tn 1
+z"\ aoo sec' Em
+f:re1zn 
+\ soo sec, Em
+ll P 96 ll I quict Review of E-PCM For Engineering Entrance - Physies
+m
+rFJ^
+ftt-* -
+\ MA
+f-ffia. ,ry * b, ,rym
+l^Ec. ryK d. ryrK
+46.Three blocks of masses 5k& 6kg and 7 kg are
+suspended to a spring of spring constant 300N/m.
+When block of mass 6 kg is removed from
+equilibrium position then time period and
+amplitude of oscillation will be.
+
+===== PAGE 15 =====
+Mechanics
+54.A particle executing in SHM has amplitude 'A' then
+the ratio of tlme taken by pardcle from x = 0 to
+A/2; to x = A to A /2; willbe
+a. 1:1 b. 2:1
+c. l:2 d. 1:4
+55.The maximum speed ofa particle executing in SHM
+is 1m/sec and maximum acceleration is 1,5 m/sz
+its time period is:
+a. 4 sec b. 1.57sec
+I
+c. 2sec d. 1frsec
+56.A partlcle undergoes SHM havlng dme period 'T'.
+The time taken in completlng $ fro- -"rn
+position is
+62..A particle executing in SHM has amplitude 'A' 9cm.
+At what displacement from mean position kineti
+energr is double the potential energy?
+a. 6cm b. 4.5cm
+c. 3V3 d. 4.518 cm
+63.Starting from the origin a body oscillates simpl
+harmonically with a period of 2 sec. After wha
+time will its kinetic energy be 75olo of the tota
+eners/
+L
+IZ sec
+I
+r sec
+64.4 body executes SHM with an amplitude 'A'. At
+what displacement from mean position is tfie
+potential enerry of the body one-fourth of its total
+enerry?
+AAa.ib.2
+d. Some other fraction ofA
+L
+3
+1
+6
+a
+C
+sec
+sec
+b
+d
+TbT8
+5
+I
+5T7c.fid.ir
+57.A particle execudng in SHM has amplitude 10 cm
+and its maximum velocity 12 m/sec. veloclty ofthe
+pafticle at a distance 4 cm from extreme position
+wlll b€.
+a. 9,6 m/sec b. 6m/sec
+c. 6r[ m/sec d. Z.4{fi.m/sec
+58,A pardcle executinB ln SHM with amplltude 'A' has
+madmum veloclty Vo. lts epeed at dlsplacement
+A/2 wlllbe .
+b
+65,A linear harmonic oscillator of force constant 2 x
+106 N/m and amplitude 0.01m has a total
+mechanical enerry of 160f its;
+a. Maximum potential energy is 160 J
+b. Maximum potential enerry is 100J
+c. Minimum potential energy is zero
+d. Maximum kinetic energy is 1601
+66.A body executes SHM whose period is 16 sec. Two
+second after it passes the equilibrium posltlon its
+velocity is 1m/sec. The amplltude of sHM.
+a. 6.3m b. 1.8m
+c. 3.6m d. 2.4m
+67,An oblect of mass 0.2 I(g executes SHM along X -
+axis with a frequeney (25/*) Hz. At the position x =
+0.04, the obrect has l(E of o.SJ and PE of 0.4J. The
+amplitude of osclllatlon is
+a. 0.06m b. 0.03m
+c. 0.04m d. 0.02m
+68.The potentlal ener$/ of a particle of mass 2kg
+executing in SHM varying $,ith position is given by
+lJ = [20 + (x - 2),] in foule and x is in meter. The
+total mechanical energr is 36 Joule. the mean
+position of the motlon will be:
+a. x=0 b. x=1m
+c. x=2m d. x=4m
+59.In above question maximum velocity of the
+particle wlll be
+a. 2mf sec b. 4m/sec
+c. lm/sec d. 6m/sec
+70.A body executes SHM under the action ofa force F1
+with a time period 4/5 sec. lf the force is changed
+3
+c +
+a J-e.
+,E
+y!
+.,
+. Y-e , fr,
+59,Tte number of harmonlc componcnts in the
+osclllatlon pepf6ented by x = 4cos22t sin4t and
+thelr correspondlng angular frequencies are
+a. three,2 rad/seg 4 rad/sec,8 rad/sec
+b. two,2 rad/sec,4 rad/sec
+c. two,4 rad/sec,8 rad/sec
+d. two, 2 rad/sec,8 rad/sec
+60.A small body of mass lkg executing SHM with
+amplihde 0,1 n and pcriod 0.4 sec; The maximum
+force acting on the body ls:
+a. 12.25N b. 24.65N
+c. 34.75N d. 44.75N
+61.A horlzontal platform ls made to execute SHM of
+amplltude 'A' in the verucal directon. An obiect
+placed on the platform will lose contact wlth lt,
+when the frequency of oscillation exceeds:
+" ,,nf,f ' *{f.,+ nr{t
+A Quick Revicw of E-PCM For Eryin€ering Entrancc * Physics ll P 97 ll
+a,
+
+===== PAGE 16 =====
+Simple Hormonic Motion
+to fz, it executes. SHM with a time period I sec. tf
+both forces Fr and Fz, ilGt simultaneous in the same
+direction on the body, the time period in second is:
+L2 24a'ED'zs
+25 25c'Td'n
+71.if length of simple pendulum is increased by 44o/o
+then its time period will be increases by
+a. 220/o b. 20o/o
+c. L00/o d. 30o/o
+72.Two pendulums of time periods 3sec and 7 sec
+respectively starts oscillating simultaneously from
+two extreme position. after how much time they
+will be in same phase:
+2t 2t
+f-sec
+2L
+T-sec
+a. sec4
+TT.Twosimple pendula have time-period T rrra f 
+.
+They start SHM at the same time from the means
+position. What will be the phase difference
+between them after the bigger pendulum has
+completed one oscillation.
+a. 45 b. 90o
+c. 60o d. 30o
+78,A pendulum gives correct time where acceleration
+due to gravity is 10m/sec2. find acceleration due
+to gravity at the place where pendulum loses 400
+sec per day
+a. 9-91m/s2 b. 9.95m/s2
+c. 10.09m/s2 d. ll.2m/sZ
+79.Two pendulums of lengths 100cm and 144cm are
+oscillating from same position. After how many
+oscillation of smaller pendulum they wiII again in
+same phase
+a. 10 b. L2
+c. 5d. 6
+80.Two particles are executing in SHM of same
+amplitude and same frequency along the same
+line. They passes each other when going in
+opposite directions every time their displacement
+is half their amplitude. Phase difference between
+them is.
+a. n/3 b. Tc/4
+c. nl6 d, 2x/3
+81.Figure shows an obiect of mass 50 gm placed on
+rough horizontal surface. the surface together the
+block B on it is performing SHM along the
+horizontal with a time period of 0.5 sec. coefficient
+of friction between the block and surface is 2/5.
+Maximum amplitude of oscillation such that the
+obiect does not slip along the surface is (g = 19
+m/sec2)
+Ha. 6 cm b. 8.5cm
+c. 2.5 cm d. 1.2cm
+82.a bob of pendulum having length 'l'is given charge
+'q' and another charge Q is fixed at the point of
+suspension then the time period of bob of
+pendulum will be.
+a. Less than 2n
+t1
+\a
+b.
+d.b.
+2L
+10 sec
+73.A pendulum clock, keeping correct time at sea
+level is taken to place 1 km above sea level, the
+clock approximately:
+a. Gains 13.5 per day
+b. Loses 13.5 sec per day
+c. loses 7.5sec per day
+d. gains 7.5 sec per day
+74.A bob of pendulum having length 0.5m is
+oscillating the bob has velocity 3m/sec at its mean
+position, then velocity of the bob when string
+makes an angle of 60'with vertical will be
+a. 1.5 m/sec b. Zmf sec
+c. 1m/sec d. 0.75m/sec
+75.A simple pendulum with a brass bob has a time
+period T. the bob is now immersed in a non -
+viscous liquid and oscillates in it If the density of
+liquid is 1/10 th that of brass, the time period of
+same pendulum in liquid will be:
+a. rb. f;t
+C,
+r[+' d G'
+76.4 person measures the time period of a simple
+pendulum inside a stationary lift and finds to be
+'T'. If the lift starts accelerating upwards with an
+acceleration f , tn" dme period of the pendulum
+will become.
+G
+b.
+c.
+greater than zr {
+equal to ,"{*
+b.
+d.
+a.
+c.
+T.F
+T
+G
+T d. depends upon the value of 'q' and 'Q'2
+r/3
+l.d 2.b i:.a i+.u
+ll P 98 ll A Quicf Review of E-PCM For Engineering Entrance - Physics
+E
+H
+
+===== PAGE 17 =====
+17 .c l8.b l9.b 20.d
+22.a 23.c 24.c 2s.d
+32.c 33.d 34.b 3s.d
+37.b 38.c 39.b 40.a
+42.c 43.b 44.b 45.c
+I l.b it2.c
+6.a 8.b 9.b iro.a
+13.d ir4.a i l5.a
+l6.a
+2t.b
+26.a 27.a 28.d 29.b 30.b
+3l.b
+36.c
+41.a
+46.c 47.d i48.b i49.c 50.c
+51 .b
+56.c
+61.b
+increases that is why time period first increases. When
+level of water is below the centre, then centre of mass
+shifts upward direction and finally it is at centre whe
+all the water is drained out hence time peri
+decreases.
+16. K = Kocos2rot
+Kmax = Ko
+TE=Kmax=Ko
+17. Frequency of oscillation of simple pendulum is give
+by
+tlZr=,,.: !i
+f**
+1,
+cP=tce
+&
+fe
+i66.
+t'---
+itjl .ac
+b
+68.c i69.b 70.a
+=rfg
+fP=1
+1
+=5
+/3 te
+71. 72.d 73.b 74.b 75.c 20.
+76.b 77.b 78.a 79.d 80.d
+82.c81 .c
+9. Displacement of a particle executing in SHM is given
+by.
+x = Asin(rot + 6J
+dxv =Ii
+= A<o cos(rr:t + 6J = Aosin(ot + 6 + n/2)
+dva =Ii
+= - ro2Asin(ot + 6) = (oZA sin ((Dt + 6 + n)
+Phase difference between instantaneous velocity
+and acceleration:
+a{=Sv-{a
+=-nZLl = n/2 : (-) ve sign indicates that velocity the
+particle is logging behind the acccleration
+I0.x={a2+b2
+a
+az+bz
+11.x=Asinot+bcosot
+When railway wagon is sliding on smootl inclined
+plane. its acceleration is given by a0 = gsino
+m ae = pseudo force.
+-+ In this case pendulum oscillate due to'mg cos0'
+Ef = m geff
+-+ mg cosO = m geff.
+.. geff= g cosO
+:\$ s
+2l .fc: coulombs force of attraction
+rimeperiod,r=2rf[# =
+/Fc\
+Ceff= s + 
+[-]
+g cos0
+Fc*
++q
+mg
+oeeoeoee
+I
+t
+I
+I
+*=(P51n.r*\a2 + b2 {i.b,
+b a2+b2
+x =-r/az * uz- sin [ort + cos-l-;!, 1
+' laZ + b2'
+.'. x'.lilfr, sin-1 (c* + fl;
+d=.o"-t4' \la'z + b2
+A=\Gz+b,
+l3.When water flows out from hole. The centre of mass
+shifts down ward from centre hence first length
+23.
+h
+52.b 53.c 54.c 55.a
+57.a 58.c 59.c 60.b
+62.c 63.c 64.b 65.a
+HINTS AND SOLUTIONS
+geff>g
+T' <T
+h=l-lcos0
+= l(1 - cos0)
+a
+I
+a
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 99 ll
+
+===== PAGE 18 =====
+PE of bob of pendulum of when it is at extreme
+position ie, maximum PE ofbob = mgh = mgl(1 - coso)
+loss in pE = gain K E
+.'. Maximum KE = mgl(1 - cos0J
+2T.Tension in the string is given by Time period = 2n
+t1
+\E
+mv2
+T = mg Coso + -T-
+For maximum tension, 0 = 0'
+y=y6s1=46e=tr$/t
+m42(T)max = mg+T x A'z x 8/l = mg+ mgl;
+(T)max = mg (1 + A'?ll'z)
+28. For small angle, SinO -0
+x0= I
+.. 00 = A/l
+Maximum tension, Tmax = mg (1 + A'z/12)
+Tm = mg (1 + 002)
+29.Tension in the string at an angle 20"
+mv2
+T = mg cos20. + -l-
+.'.v>0
+T > mgcos20'
+32.4t mean position.:
+Kx=mg
+EF=ma
+-+Kx-69=63
+-+a=0
+33.TE enerry in SHM is constant
+34.\ryhen spring is cut into 'n' equal parts then spring
+constant for each part is given by
+K'=nk
+7
+T cc --=
+{K
+TI
+!n
+35. For spring mass system
+. = VK/.
+v. maximum velocity Vmax = A<rr = A r,/Rfr
+(Vmax)M = (Vmax)N
+m IK2--r AM x 1 /- = AN x 1 t-vm vm
+AM /R1-, AN =\Kl
+36. Frequency ofspring - mass system
+.1^E'-zn \m
+f/2 - 1
+zl=6+l-;m=3kg
+37.x = 9.8cm
+= 9.8 x 10-2 m
+Ik=mg
+* = #i+& = 1oo N/m
+Time period ofspring mass system
+Tz_
+Tr-
+M+mor, T M
+r=zn\F=zn,{r#=("J*.
+38.For spring mass system,
+r*G
+^lwV.'rsnl-=l
+&_fz-
+f
+mz
+m1
+m+1
+25 /M+m\
+"' ;=[ r,,r /25mor, l-= 1+fr
+mZS16" M-9 -'-9
+39. mg sin30" = I(x
+K=
+ti GooAngular frequency: w=\;=\Zf = !200
+= 1o1E = 10 x 1.414
+= 14.74 =14
+40.Keff.=K+K=2K
+t;Time period: T=2lr\K"ff
+R. r=z,r\Il
+41. Kl = Mg
+MsK=T
+When small mass 'm' is attached and released then
+time period of oscillation is given by,
+M+m (M + m)l
+Mg
+42.When spring of spring constant 'K' is cut into 1:3 ratio
+them spring constant for longer part is given by
+.. Kxsumofratio K).4Kbnsei=-l;E;;; o =T
+2.5x10x1
+2.5 , 10-2 = 500N/m
+T= 2r
+1
+f.t G
+ll P f00 llA Qutck Revien' ofE-PCM For Etrgineering Entnnce- Physlcs
+Simple Hormonic lJlotion
+v,U
+t)
+
+===== PAGE 19 =====
+"rt=ft=r/E
+..r,=f t
+I3
+=\4
+43.Springs of spring constant 2K and 2K are series hence,
+their effective spring constant is given by:
+,**=ffi=*
+Again all the springs are in parallel hence their spring
+constant
+Keff=K+K+2K=4K
+r /kirFrequency of oscilt"tion f =;; \?
+r I-+x
+=2*'\/'n
+44. Effective spring constant, Keff= K + ZK = 3K
+Angular frequency ofoscillation (o) = 
+g
+/-:x,=\ M
+At equilibrium position velocity is maximum. The
+maximum velocity is given by.
+Vmax = A<o
+When block of mass 'm' is placed on equilibrium
+position. Hence, linear moment is conserved.
+MxV=(M+m)V'
+MAxo=(M+m)xA'rrr'
+3K
+I- =[M+m) xA'x
+l1)r= 2nlfotsec
+4T.Amplitude ofoscillation A = 3x0
+Time period ofoscillation is given by
+6
+\K
+K
+/4K\
+t,
+T=2rx [5+7]
+300
+T=2n
+45.Time periods for each block is given by,
+Time taken from extreme position to mean position
+given by. tl = |
+Time taken from mean position to x = x0 is given by.
+x = A sinot
+xo = 3x, sin* t,
+'"?u=1 r.. sin-1+=gl
+tr=*
+Total time taken to strike the wall after the release
+t=t1 +t2
+TT=; * 18
+fi
+\K
++a.x = o.o1 cos (1oo nt * 4)
+o =100n
+2r.7T =-=Ed=0.02sec
++s.x = o.o1 cos (roo ,*.I)
+= o.or sin (roo ,lt. f;., |)
+Comparing with the displacement of particle executing
+in SHM.
+x =Asin(rot+6)
+-r'tt2n
+50.Given equation = x = - + sin$t
+/+ot \x=asinE-t+tr,/
+Comparing with standard equation,
+x = Asin (rot + 6l
+6=n
+51.1f 6 = 0; the equation for the displacement of the
+particle executing in SHM is given by
+x = Asin@t
+A 2tt
+''.2=AsinTt
+2n
+l/2 = sinit
+77n
+18
+MA 3K
+M+m
+M
+M+m "
+fi
+\KT=2n
+o At mean position both blocks collide. At mean position
+both blocks moves with equal speed and opposite
+dir€ction. Hence , after collision their velocities
+becomes zero Hence time period of oscillation
+becomes half.
+,,=|,=,,={#
+46. Amplitude of oscillation:
+Weisht of removed mass
+spring constant
+6x10 1
+A= 3oo =sm
+Time period of oscillation.
+Present massT=2rc spring constant
+A Quick Review ofE-PCM For Engiueering Entrance - Physics ll P I0l fl
+Ailechonics
+
+===== PAGE 20 =====
+Simple Hormonic Motion
+T 24_.. t=i =i =zsec
+52.a = - bx
+Comparingwith;a=-ozx
+, =r/u
+- _2r _2n,- ru -{u
+53. Given equation, x = 0.25 sin 200 t cm, t -+ sec
+A = 0.25 cm
+<o = 200
+Maximum speed = Aco = 0.25 x 200 cm/sec
+= 50 cm/sec
+54.Time taken by particle from x = 0 to A/2
+A2n
+7 =AsinTtr
+7 2tr
+, = sin Ttr
+T
+' ''1 -12
+Time taken from x = Ato A/2 is given by (A - A/2) = A
+2tt
+cosl- t2
+A Zrc
+7 =AcosT tz
+.'.tz = T /6
+tt -T/tz _
+t2- T/6 -
+amax = ozA; Vmax = Aro
+time period ofoscillation T = 2rr #
+2x3-l4xlr = --l=r- =+sec'
+56. x=-A x=O x=A
+fr)th oscittauon = ffith o..ill"tion
+=(l'
+1
+ln fth oscillation particle reaches from mean position
+to extreme position,
+i.e. time taken mean position to extreme position is
+T
+Eiven bY: T1 = 1
+1
+In frth oscillation particle reaches from extreme
+position to half of maximum displacemenl i.e,
+time taken from extreme position to half of
+maximum displacement is given by.
+57.A = 10 cm
+Vmax = V0 = 12 m/sec
+Displacement from mean position, x = 10 - 4 = 6cm
+Velocity of the particle at displacement x from mean
+position at displacement x from mean position is given
+by.
+T T5T'.t-tt+t2=O+6:i
+'-(*J
+v = 12 x 0.8 = 9.6 m/sec
+58.v = V0
+Xz
+Az
+Arx= A/2;Y =Y0
+f
+2 Vo
+59.x = 4cos2 2t.sin4t
+= zsin4ly 2cos22t
+= 2sin4t[1 + cos2 x 2t]
+= 2sin4t[1 + cos 4t]
+= 2sin4t + 2sin4t.cos4t
+x=2sin4t+sin8t
+x=xl +x2
+No. ofSHM = 2
+Angular frequency of (1) cor = 4 rad/sec
+Angular frequency of (2): oz = Srod/sec
+60.Maximum force acting on the body is Siven by:
+Fmax = m amax
+= morzA
+/ ') -\2
+=1,6, x0.1 =24.67N
+61.The object will lose the contact at extreme position
+when
+ofA>8
+(2nfl2 x 6' *
+tlZ*,ft2'T\i i
+62.The ratio of PE to KE is given by
+Ux2
+K A2-x2
+7
+=v'{-1-i=
+* =,,,
+55.amax=a0=1.57m/sz
+vmax=v0=lm/sec
+* $tr) or oscittation
+Ttz: 6,
+',,i= *--!* t.'. K=zul
+- "=#=ft="F'-
+63.Total enerry ofthe particle executing in
+SHM is giYen by: Tn = ] mt*ez
+KE = 75% ofTE
+=f,')^ce'
+ll P 102 ll A Quick Reyiew ofE-PCM For Engineering Entrance - Physics
+(tt
+TJ
+v)
+*
+,=,.\f,-ii= ,rrf-=i;
+
+===== PAGE 21 =====
+2nor, E
+mean position) is given by
+*, =+, mro2Azcoszcot
+.orort =f
+T2... t=3. =rsec
+1
+64.1f Pe (U) =; TE then,
+*r=(r-]) rE=f rr
+U_ x' .!_ x,
+K-Az_y2-3-Az_x2
+;.x=A/2
+65. TE of SHM =1ru* =t , zx 10e x 0.012
+= 100J
+Total mechanical energy = 760l
+Maximum potential energy = Total mechanical energy
+(PE)ri* = 1601
+(PE)** = TME - TE of SHM = 601
+Maximum KE = TME - (pE).1"= 169;
+66. T = 16sec.
+Velocity after '2' second the passing of mean position
+(v) = 1m/sec
+V = AroCosatt
+or,1= A-f,corffxtlt=21
+or,1= A,#r.orf;
+A=X".[ .n
+A=3.6m
+67. Atx = 0.04m, PE = 0.41; KE = 6.5;
+Uxz
+K:A,-x2
+KE of particle executing in SHM from origin (i.e., from 69. PE at mean position is given by,
+U =20 + (2 -2)2 =Z0l
+Umin = 201
+Kmo = Total mechanical energy: U*1n
+=- 36 - 20= t6l
+". K.* =Lf 2mVz*u
+1
+or,L6=i *2*vz^u
+.'.V.* = 4mf sec
+70.F=Fr+Fz
+ol mofA = rrl0r2A + mcoz2e
+t T.
+6
+1.L=* *G
+7L=6*@'
+25 25
+=16 *l-=
+16x9 t2
+25r25=Rsec
+71. n=1*# =L44
+%r= [G- 1)' roo = (\@- 1) x 1oo
+= 20o/o
+72. g*gz
+2L... f=Tsec
+73. Loss in time 13.5 x h(in trm) = ll.g ; 1
+= 13.5 sec
+74. v= -2BlG - cos0)
+32-2r10xQ.5G ,
+,,=\E ,or,B =W
+33.'. A=r. x=rr 0.04 = 0.06m
+68.U=[2O+(x-z)21
+At mean position, U is minimum,
+duHence, ;; = 0
+or,Z(x- 2) = Q
+.'. =2m
+L
+O',F
+L
+Or, E
+t
+Or, F
+25(L 9+16)
+16x9
+0.4
+Of, OS
+4
+yz
+=R;
+x2
+2n-2n
+=f, *ttir=f,t+t6z
+2n3n2nn
+=Tt*T =Tt*'
+=2t(+ -;) =,
+V
+77. O=rot+6=ft*O
+m/sec2
+T'
+T
+Tf
+2
+T'
+T
+T
+g
+g+ao
+g
+c*f
+ti\a
+A Quick Review of E-PCM For Engineering Entrance - physics ll p 103 ll
+i_t-E
+\G flJ \/G +,)
+76.
+Mechonics
+
+===== PAGE 22 =====
+2n 2n
+A$={z-0r=T 't-H'
+2n 5T 2n /5r1
+=T'7 -trfl'\41
+\4/
+=+ -zn=+ =5 =ro'
+78. Loss of time in day = e - t) ' tu+oo
+ffi-r'864oo=4oo
+=\ff =t*fi= 1.0046
+10
+gz=ffi =9.9Lm/sz
+79. no. of oscllladon of smallar pendulum
+,{t'- -../lr-.tt -
+A
+7 = A sin0'
+1l
+0r=Z
+And xz = Asin0z
+A
+=, = AsinQz
+5n-..'. 0z= f [since '2' is moving in opposite direction)
+2n
+Ag=Qz-0r=T
+81. The block may slip along the surface at extreme
+position where force acting on the block is
+maximum.
+Not for sliPPing of block
+fri. > mrozA
+=pmg>mrozA
+Eg
+a2
+Maximum amplitude is given b YA = 4
+A=0.025m=2.5cm
+*ffi= o.o25m = 2.5cm
+[o.s/
+82. In this case time period remains unchanged
+because force acting between changes acting along
+radial direction' As no. component of radial force is
+along tangendal direction due to which pendulum
+oscillates.
+Here 61 = $,
+[s=
+x=-A x=0
+x=-A x=0
+144
+L44 - 100
+t2 t2
+=ffi=j
+5T
+L- 4
+=A<
+80.
+x =A
+x=A
+x=A
+2
+x_ A
+2
+xr = A sin0r
+***
+ll P 104 ll A Quick Review of E-PCM For Engineering Entrance - Physics
+Simple Hormonic Motion

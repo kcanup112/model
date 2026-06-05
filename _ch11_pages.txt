@@ -1,0 +1,736 @@
+
+===== PAGE 43 =====
+Chopter-lt
+Newton's law of gravitation:
+mI
+I
+a !
+l?rrl = l?zr1= 115"9
+r*ff =t=ry
+where k is constant known as universal gravitational
+constant 'G', which only depends on the system of
+units.
+a=+* G = 6.67 x 10-11 Nm2/kg = 6.67 x 10-e
+dyne cm?/gz
+. Gravitation force is always attractive
+. Gravitational force is central force,
+conservative force acting along the line joining
+of two bodies.
+. If mr = m2= lkgr= lmthen, F = G
+[G] = ]vt-t la Pz
+. If two identical solid spheres are in contact with
+each other then force ofattraction between them
+is F cc ra where r = radius of sPhere
+r g=$*nereM=massofearth
+R = Radius of earth
+1
+g * R, if M is constant
+o/oE=-2xo/o R
+. If 'p' be the mean density of earth the
+acceleration due to gravitY,
+L
+g=5npGR
+gcR+i.e,o/o9=o/oR
+Also for inside earth g oc r where 'r' is the
+distance from earth centre
+riation ofAccln due to gravitY [g)
+with altitude:
+gh = acceleration due to gravity at height'h'
+g = acceleration due to gfavity at surface
+4o
+fq of E-PCM For EngineeringEntrance - Physics llP 7s \\
+GRAVITATION
+?=(#J'i'e"sh<s
+. Ifh<<<Rthensr=s(r-f)
+i.e., wt of body decrease with attitude
+. Ifa body is taken from earth surface to height'h'
+so that weight of the body becom", |* of g
+original wt. then,
+5=ffi-r1n
+(i) Forhalf wt [rJ,, =2,h= 0.414R =41.4o/oof R
+for $, n = 3, h = 0.732R =73.2o/o of R
+. If wo is weight of a body at earth surface then
+weight of the bodY at height'h'.
+Wo
+/ h\2
+[1.a/
+wh=
+(ii) with depth:
+ga = Accln due to
+I = Accln- due to
+ss_R-d-r,C-R
+gravity at depth 'd' from $urface
+gravity at surface
+d\-R/
+i.e.,ga<s ='sd=*(t-*)
+, At cenfie of earth, d = & g."nt u = 0
+r wt. of any body at centre is zero' 
+t,
+r wt of any body at depth 'd' wd = wo (1 - *)
+. If a body is taken from earth surface to depth 'd'
+so that weight of the body becomes |s of original
+wL then,
+a=tr#R
+rorf ; n = 2, d= | n = 5oo/o of R
+rorf ;n=3,d=f n= 66.670/oofR
+(iii) witlt Rotation:
+?" = latitude
+r = R cosl"
+App.wt.- mg - mo:Fr coslu
+Mechonics
+FU
+HiL
+tAFI
+ntt7
+
+===== PAGE 44 =====
+a
+GM
+outside point (r > RJ; E = --;,
+,,- GM
+r
+on surface (r = RJ; E = H;
+,, GM
+v-- R
+for inside, (r < R); t = H. "v=-ffJsn,-.,1
+Atcentre, r= 0, E = 0, 
+" = - #
+For Ring of radius R, mass M, on its axis
+or, mg' = mg - m<rfR cos2l"
+r g'= g - oFR cos2l,
+. At equal L = 0, &quator, = g - or2R = &in
+loss in wt = rnrrfR;
+loss in g = orR = 0.034 m/sz
+I At pole l" = 90., Ep"r" = g = g.*, Due to rotation of earth acceleration due to
+gravity at all place decreases except pole,
+. If earth stops it rotation then ,g' at all places
+increases except pole. At equator by 0.034 m/sz.
+. a body at equator becomes fly off (i.e.,
+weightlessness or apparent rvt. zeroJ if the
+rotation of earth will be
+E.'= Vft = 17ro [g'= s1
+= 17 times ofpresent value
+r'= zt \E = a+.0 min = 1.41 hr
+(iv) Due to shape: Earth is not perfectly spherical.
+\*tor = Rpor + 21 km
+Ic"ci,
+Eequator < &or
+Gradtauonat Field and potenual:
+. lore experienced by unit mass is the gravitation
+field
+e =_l =r=-ff
+potentialV=J.-E.dr
+(i) For a point mass at a distance ,r,
+u=#r=-*
+(ii) For Hollow sphere ofmass 'M,having radius ,R,
+out side point [r > n), r = $; V= -$
+on surface (r = R), t = #,, = - #
+for internal point (r < R) E = 0,
+v=constant=-9nU
+pole
+m
+I
+uator
+C
+-GME = ------- x r
+(Rz + rz)'
+Atcentre,r=0,E=0
+v=- cM i
+I
+a
+(Rz + rz)2
+If two point masses 'm1' and 'm2' are placed at a
+distance 'r' then gravitation field intensity
+becomes zero at distance of
+from mr;
+m
+11 =
+V** m2
+b. from m2, 12 =
+r
+r * r /II!z
+Ymt
+r
+'.r[#
+Motlon of satellites:
+If a satellite is revolving around the earth in circularpath-of radius 'r'then centripetal force required by
+satellite is provided by gravitation force between
+earth and satellite.
+. Orbitat velocity ofsatettite 1vo1 = f
+where m =massofearthv 
+7
+o*G
+Ithvo=-1xo1o1
+I orbital velocity does not depends on tJre mass of
+satellite.
+-3Timeoeriod.T=-4'"f
+VGM. If 'h' is the height of satellite from earth surf;
+then,
+r=R+h
+For Nearer satellite: The satellite which is very clc
+to earth surface,
+h<<fur=R
+a.
+b.
+c.
+For solid here ofmass M havi radius'R"
+ll P 76 ll A Quick Review of E-PCM For Engineering Entratrce _ physics
+ta(,
+vt
+6ravitotion
+a.
+b.
+
+===== PAGE 45 =====
+1Yo1*-*={-gn=8km/sec
+T=2nB=84.6min
+_ n+l
+' lf F<f 'or'r nthen,T< r 2
+Enerry ofsatellite
+CMm
+PE,U=-t= wherem = mass ofsatellite
+GMm
+KE,K= 2r
+GMm
+rE=K+u=--7;-
+Here, (-) sign indicates that satellite is bounded to
+earth. i.e., energy is required to escape the satellite'
+. PE=2TE=_zKE
+Binding Enerry: Minm energy required to escape the
+satellite from the gravitational field.
+GMm
+BE=-;-=KE
+Geo-stationary satelllte: Such satellite appears
+stationary w.r.to earth
+(i) orbit is known as Parking orbit
+(ii) Time Period, T = 24 hr
+(iiil Radius ofparking orbi! r = 4 24 x 10h
+(iv) Height from earth surface, h = r - R = 3 6 ' 107m
+= 36,000 km
+. If is used to transmitting and receiving signals'
+communication whether forecasting etc'
+. If a body is projected from earth surface with
+velocity V then maximum height attained by
+body.
+R
+" - lzen .1
+\v'-"i
+, If h -a @, then velocity of proiection is know as
+escaDe velocitY, (v = v")
+t2ct
+"" =.8-t* = !ff =.8 (u.)***
+for earth, v" = 11.2 km/sec
+for moon, v" = 2.4 km/sec < RMS velocity ofgas
+[this is the cause of no atmosphere on the moonJ
+SnoGRz
+3
+lf orbital velocity of satellite is increased
+R
+'=H-
+lf a bodv is proiected with velocity v = n
+then velocity of the body at infinity
+space)
+Vrree 
+"pac" 
+or Vinnnitv = [fim) *
+Max'height in terms ofescape velocity
+41.4o/o (or KE by 100%) then satellite escap
+from its orbit.
+[i) If v < v0 then body falls to earth surface in spi
+path and total enerry is (-) ve.
+(iil If v = v0 then body revolves in circular path an
+TE = -ve.
+(iiiJ If vo < v < v" body revolves in elliptical path and
+TE = -ve
+(iv) If v = v" body escape from gravitation field in
+parabolic Path. TE = 0.
+(v) Ifv > v" then body will escape in hyperbolic path
+and TE > 0'
+r A body of mass 'm' is at height 'h' from earth
+surface then increase in potential energy 'or'
+change in Potential enerry.
+GMmxh - h
+^u 
+= Ii[lTt = mcK ['+ h
+n
+(i) If h = nR then AU =mgR x i;;
+(ii) Ifh<< &thenR+h= &AU =mgh
+Keplar's law for Planetary motlon
+(i) All the planets are revolving around the sun as
+focus in elliPtical Path'
+(ii) Equal area sweeps out in equal time period'
+/dA\
+i.e. A real velocity $;,/ is constant'
+(conservation of angular momentum)
+Vxr=constant
+(iii) &uare of time period is directly proportional to
+cube of average distance betw€en plane and sun
+(i.e., semi maior axis)
+. Space vehicles are launched from west to east in
+equatorial Plane.
+. Potential enerry required to take the body from
+r1to r2
+/r 1\au=cMm[n--J
+Multiple Choice Questions
+1, When escape velocity is given to a particle on surface
+of eardr, its total energr ls:
+zero
+greater than zero
+less than zero
+GMm
+2R
+v"(n>1)
+(or free
+a.
+b.
+c.
+d
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 77 ll
+r,
+a,
+V)
+Mechonics
+
+===== PAGE 46 =====
+where M = mass of earth, m = mass of particle and R =
+radius of earth
+2. The ratio of distance of two satellites from the
+centre of eartb is 1: 4. The ratio of their timeperiods of rotadon will be:
+a, l:4 b, 4:7
+c. 1:8 d. 8: 1
+3, for a satelllte in elliptical orbit which of the
+following quantities does not remain constant:
+a. angular momentum
+b. momentum
+c. areal velocity
+d. total energy
+d. none ofthese
+4. An earth satellite is moved from one stable
+circular orbit to another higher stable circularorbit Which one of the fouowing quantlties
+increase for the satellite as a result ofthiJchange.
+a. angular momentum
+b. kinetic energr
+c. angular velocity
+d. linear orbital speed
+5. Two particles of mass m and M are initially at restand infinitely separated from each other. Due tomutual interactions they approach each other.Their relafive velocity of approach at a
+separauons d between them is:
+^ f zCd ltp f2C(M + mllrn
+" [tu+m] oL- d-l
+2GM+m
+L lnside a uniform spherical shell:
+a. potential energ), is zero
+b. field is not defined
+c. potential is constant
+d. all ofthe above
+9, Earth orbiting satellite will escape ift
+a. Its speed is increased by 41%
+b. Its speed in the orbit is made r/i3 times of its
+value
+c. Its KE is doubled
+d. It slopes moving in the orbit
+10.An artificial satellite moving in circular orbit
+around the earth has a total (kinetic + potential)
+energr Ee. Its PE is:
+a. -E b. 1.5 Eo
+c. ZEo d. Eo
+11.A satellite in an equatorlal orbit has a time period
+of 6 h. At a certain instant, it is directly ovarhead
+an observer on the equator of the earth. It is
+directly overhead the observer again after a time
+T, The posslble value ofT is:
+a. 72h b. 8h
+c. 1'8h d. 36h
+12-A simple pendulum has a time period Tr when on
+the earth's surface, and Tz when taken to a height
+R above the earth's surface, where R is the radius
+ofthe earth. The valrre otft is,
+a. 1 b.r1D
+c.4d.2
+13.at -what height the gravitational field reduces by
+750lo the gravitational field at the surface of earthi
+a.Rb.2Rc. 3R d. 4R
+(where, R is the radius of earth)
+14.two bodies of masses m and M are placed a
+distance d apart. The gravitational potential at theposltion where the gravitationat fietd due to them
+is zero is V.
+a. v=-f(m+M)
+h u=-+
+.. cMc. v=-T
+c-d. v=-i(Vm+Vr',r),
+6. the orbital veloclty ofan artificial satellite in a circllarorbit iust above Ure earth,s surface is v. For a satellit€
+orbiting at an altitude of half the eartl,s radius the
+orbital velocity is:
+3Lu'z' oV,,
+t?c.\I"diu
+7. The escape velocity of a body proiected verticallyupward ftom the earth,s surf,ace is 11,2 km/s. ifthe body is proiected in a direction makinj SOi
+angle to the vertical, its escape velocity in this case
+will be:
+a. ll2km/s u. ffU^1,
+f
+2 km/s _ 77.2d. -f- km/s
+c d
+c. 71.2 x
+ll P 78 ll A Quick Review of E-pCM For Engineering Entrance _ physics
+6rovitation
+aU
+ra
+&
+
+===== PAGE 47 =====
+15,The gravitational potential energr of a body at a
+distance r form the centre of earth is u. Its weight
+as a distance 2r from the centre of earth is:
+21.A body has a weight 72 N. When it is taken to
+height h = R = radius of earth, it would weigh
+a. 72N b. 36N
+c. 1.8 N d. zero
+22.A body of mass m is placed on earth s-urlhce. lt is
+taken from earth's surf,ace to a helght h = 3&
+the change in gravitational potential enerE/
+b.
+d.
+a,
+u
+4r
+4r
+u
+16.Two satellites of same mass are launched in the
+same orbit around the earth so as to rotate
+opposite to each other. IF they collide in elastically
+and stick together as wreckage, the total energy of
+the system iust after collision is;
+2GMm
+c
+a
+b
+r
+mgR
+2d.
+2
+5m
+b
+L
+b
+GMm
+r
+a
+a. 6m
+3 *r*4cb
+R
+i,r*
+2
+tm
+c. 2r
+17,The weights of an obiect in a coal mitre, at sea
+level, and at the top of mountains iFa wr, wz :lrld
+w3 respectively, Then:
+a. W1 <W2>W3 b. W1 =gr2=1r3
+c. w1<w2<w3 d. wr>wz>w:
+18,A thin rod of length L is bent to form a semlcircle.
+The mass of rod is M. What will b the gravitational
+potential at the centre of the circle?
+GM GM
+b.
+c,
+Z3.The acc€letation due to gravity on planet A is 9 times
+the acceleration due to gravity on planet B' A man
+iumps to a heigbt of 2m on the surface of A. What is the
+height of iump by the same pensons on the planet B?
+GMm
+4r
+!v
+b.
+a. 2nL
+,rGM-LrGM
+2L
+19,tf Vis tte gravitational potendel on te surface of
+the earth then what is its value at thc centre of the
+earth?
+a. 2Y b. 3V
+(d) 18 m
+24.An artificial satellite is revolving around tJre earth
+in a circular orbit. If its speed is half of the escape
+velocity, Then its height above the surface of earth
+ofradius & is:
+c.2Rd.R
+25-A planet of mass m moves around the sun of mass
+M in an elliptical orbit The maximum and
+minimum distances of the planet from the sun are
+11 and rz respectively. The time period of the
+planet is proporHonal to:
+a. rlls b. (rr + r2):/z
+c. (rr- 12)312 d. r3l2
+25.A satetlite is launched into a circular orbit of
+radius R around the earth. While a second satellite
+launched into an orbit of radius 1.01R. The period
+of the second satelllte is longer than the first one
+by approximately:
+a. 3.0 ok b. 1.5 o/o
+c. O.7 o/o d. 1.O Vo
+c.
+d
+c,
+3
+,v d.
+'o,The rotation of the earth having radius R about its
+axis speeds its axis speeds up to a value such that a
+at tatitude angle 60' feels weigh0essness. The
+duration ofthe day in such a case isr
+/-n
+,. n\g
+c. Ztc
+{n
+A Quick Review of E-PCM For Engineering Entrsnce - Physics ll P 79 ll
+\echonics
+GMm d.
+u
+r
+u
+2r
+C,
+B
+2
+R
+a.4
+b.
+d.
+/-n
+ntVE
+E+'!fi
+
+===== PAGE 48 =====
+27,If the radius of earth's orbit is made one fourth, the
+duration ofa year will become:
+a. 1/4 times b. 1/8 times
+c. 4 times d. I times
+28.An earth satellite S has an orbit radius which is 4
+dmes that of communication satellite C, The
+period revolution of S will be.
+a. 32 days b. 18 days
+c. I days d. 9 days
+29.1f the pot€ntial energy of a body on a planet is
+numericany U and the escape velocity for the same
+body be v. for the same planet then ug -itt be ,
+U /Efr
+v"- !2R
+UEM
+*=nl\2R
+u lffii
+"='\ 
+R
+UGM
+%=t R
+30.If tte change tn the value of g at a height h above
+tle surface of the earth is the same as at a depth x
+below its surface, then:
+a. x=hz b. x=0.4h
+c. x=2h d. x=h
+31. Suppose a urnnel is dug along the diameter of tfie
+earlh. A parucle is dropped from a point direcdy
+above the Urnnel. If the ear{t's denslty is assumed to
+be uniform and the frlcfion is n.€tected, then choose
+the wrong answcr:
+a. Particle will have maximum speed when passing
+through the centre ofthe earth
+b. Acceleration ofparticle will be the maximum just
+at the point of release
+c. Particle will have simple harmonic oscillation.
+d. Particle will drop to the centre ofthe earth
+3z.Four equal masses (each of mass M) are placed at
+tlre corners of a square of slde a. The escape
+velocity of a body ls from the centre of the squaie
+is:
+a
+4{rcM
+ac a
+33.The escape velocity from earth is v0. Ifthe mass of
+a certain planet is 3 times and radius 3 times that
+of earth, then the escape velocity from the planet
+will be :
+a. 3vo b. 6 vo
+..fuod.vo
+34.4 satelllte of mass m, moving around the earth in a
+circular orbit or radius R, has angular momentum
+L. The areal veloclty of satellite is: (Mu = mass of
+earth)
+a. L/Zm b. L/ m
+c. ZL/m d. ZLl M"
+35,1f the earth loses its gravtty theD for a body:
+a. weight becomes zero but not the mass
+b. mass becomes zero but not the weight
+c. bot}t mass and weight becomes zero
+d. neither mass no wEight becomEs Zero.
+35,fhe escape vcloclty of a body from the earth is
+11.2 km/sec. If tJre radlus of planet be half the
+radius of earth and its mass be one four r that of
+the earth. flle escape veloelty o{ the planet will be:
+a. 2 hn/sec b. l6lom/sec
+c. 4 kmlsec d. 8 km/sec
+2.c 3. b
+7.a 8.c
+72. d 13. a
+L7.a 18. d
+27. c 22. c 23. d
+27. b 30. c
+32. b 33.d 35.a
+35. d
+tzcrl
+\;
+8 2GMa,4 b
+a
+b.
+c
+d
+Solution for Selected Problems
+2. T cx rs/z
+t=('J"'=(i)"'=,,'
+5. By using concept ofreduced mass,
+1. a
+6.b
+11. b
+26. b
+31. d
+29. b
+34.a
+lP80 A Quick Review of E-PCM For Englneerlng Entrance _ physics
+(
+U
+vt
+6rovitotion
+4CM
+d.
+l+ . ls u
+lg. . lro. c
+Ira.o lrs. u
+16. a 19. c lzo. a
+izq. c izs. u
+28. c
+
+===== PAGE 49 =====
+.'. Tz=8days
+2, -+ + jmv"z=o
+l2ctr
+'"=\ R
+u=ff
+u /Efr
+*='''\ zR
+30.At heisht sh = s(l - +)
+At depta, gi = g(1 - fi )
+gh=gn
+.. x=2h
+32.From conservation of energy,
+GMm 1
+--------F- x4+: mv"z=0(a/,,12) z -
+t cr,t
+33.%=\ R
+2GM'
+R'
+,u."={-#
+M'=3M;R'=3R
+M
+2GM'
+R
+-CM8!2;
+M
+4
+R'=l
+8p
+tzcrt
+V2R -
+71.2
+{2 /skm
+***
+ll P 82 ll A Quick Review of E-PCM For Engineering Entrance - Physics
+vtU
+ra
+6rovitation
+
+===== PAGE 50 =====
+MM
+rr=M;;
+GmM I--- +rtrv.z=0
+2GmM
+dr
+(R + R/2) -
+GM 2GM
+5R=t,
+g
+@/q)
+wt. at a distance '2r' from centr GMm GMm'u,* = r*=-$
+...,_ u _ un -- 4r- 4r
+15.Since they are moving in opposite direction,
+11y-111y=(m+m)v'+v'=0
+KE=0
+PE U=
+6.V
+2cIM+m)
+d
+1/2
+mP
+x
+t-d
+t
+-GM [m + m] 2GMrt,
+/EM
+. *t,ere,u=\T
+ll.lfsatellite and earth rotes in same directions
+1 1 I 4-7 7
+i=e-24= 24 =B
+.. T=thr
+/R\zp12.sh=s[-R+R, =a
+2GMm
+TE=KE+PE=_-r
+18.nR=L>R=!It
+Potential at centre, u=-+=t#
+1e.v=-# (3R,-12)
+At centre r = 0, v" = - H = iu ru""*""= - Tr
+20.g'=g-<o'zRcosz
+a Q=g-6'zRcos260'
+, =.f*=,rlt
+"=#=,{}
+zl.weightat height'h': Wr =, *& = /fo = rt"
+U.R/ (1.[/
+r r
+1
+!c
+T
+. &_"'' Tr- "
+13.E=H
+.. s'=o.zsH =aR,@
+e'=$=r=2R;R+h=2R
+..h=R
+Gm GM
+14.7=G;F
+ffi
+\;
+Tz-
+Tr-
+d-x
+msh ms x 3R
+h- 3R1*[ 1*T =i"*
+d-,=Gx_m
+fia
+VM +{m
+PotentialatpointP,rr= + ffi
+v,=-f 1r/fr*{il1,
+GMm
+15.U=- r
+22.Change in PE; AU =
+23.gBxhB=g{xhA
+h"=Iffg=ra,,
+26.T q rzlz
+f =ft-')',oo
+-[(1:o'91i'r'- r],,00
+,8 G&)=eJv'z
+Tz (4r\ttz
+ld"y = \rl
+M
+x
+=|'o.or x70=L.soh
+GMm
+wt. at a distance 'r' from centre, w = -E
+A Quick Review of E-PCM tr'or Engineering Entnnce - Physics ll P 8l ll
+!
+a,
+n(h
+tlAechanics

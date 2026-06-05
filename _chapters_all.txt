@@ -1,0 +1,4660 @@
+
+===== PAGE 1 =====
+Chopter-5
+PROJEGTILE MOTIOI{
+In projectile motion acceleration is due to gravity.
+The path ofthe proiectile is called traiectory.
+Nature oftraiectory is parabolic.
+Horizontal component of velocity is constant through
+out t}Ie motion.
+?
+lf0 = 30., KH =; K = 7So/o of KE
+(ii) Max. potential energy or PE at highest point
+U'n", or Un = K sin20
+,l
+1gg = 39., u, = f x = Z5o/o of KE
+. If a proiectile is projected with linear momentum
+P at an angle 'e' with horizontal then change in
+linear momentum at any time.
+aP = mgt
+u sin0
+i) Ifhighestpointt=t,=::Ap=psino
+2u sine
+ii) Ifstriking point t = tr = :: Ap = 2p sino
+e.g. i) if 0 = 30', Ap when proiectile sffike
+AP = P, AP = 10090 ofP
+. If a projectile is thrown with speed u at angle 0 with
+horizontal the projectile makes an angle 'a' wittl
+horizontal then its speed, v = ucoso ' seco.
+. Angle made by velocity after time 't' with
+horizontal and its value,
+v=\ffi;E
+/u sinO - et\ v"Eno=[-i-.o.e /=r_. A proiectile is projected with velocity'u'at angle
+'0'with horlzontal then at time't' its velocity v is
+at perpendicular to initial velocity then,
+u
+v=ucot0, t=-coseco
+Eqn of ffaiectory,
+@z
+y=xranO-ilfrsrg
+.1 Y=ax-bx2
+In terms ofrange and max'height
+tan0(i) y=tane'x-- -x',
+tan20
+(ii) y=6n9't--*'
+YA
+I
+I
+01
+u2 sin2eRanse,R=- -
+u2sin2e
+Max^. Height, H = -'-ii--tt
+2u sin0
+Time of flight, tr = 
+_-l--
++ Time ofAscent and time ofdescent are same
+1 u sino
+Lr-Ld-rLt-.6
+H tan0
+R 4
+u2
+For maximum range,0 = a5", R.* = ?, 
+H =
+D
+. lf a projectile is proiected so that its range
+obtained is max.. then max' height attained by it
+1rh
+is J of maximum range.
+. tf a person can throw maximum horizontal
+distance Ro, then he can throw maximum height
+Ro
+2'
+. Height is maximum if 0 = 9o', H.,, = zgE = 1R*-
+. At highest point angle between velocity and
+acceleration is 90o.
+. Velocity is minm at highest point hence kinetic
+energy is minimum.
+If a projectile is projected with kinetic energy 'K' at an
+angle 0 with horizontal then,
+(i) KE at highest point or Min' KE.
+Kr or Kmin = K cos20
+Average velocity during time of ascent (i.e., avg
+velocity when proiectile is at highest point)
+4
+a
+R: b
+2
+a
+H *4b
+uv*c= 1 1 + 3 cos20
+Av& velocity when proiectile strikes to ground
+Vavc = u cosO
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P33 |
+o
+It
+Mechanics
+
+===== PAGE 2 =====
+Projectile tV\otion
+. Change in speed when projectile is at highest
+point,
+A l7l = u(1 - cose) = 2u sin2e/2
+. Iftwo projectile are projected with same speed at
+different angles then for same range,
+(il Sum of angles of projection must be 90'
+0+cr=90",
+H.(ii) E; = tan'?O or cotzq
+(iii) ,@ = 12ng o..o1o
+1l(iv) R=rc (n)0(tr). = R= jgtrtz: trtz o< R
+tvl n= a{Hg"
+= R = ar/tlrHz H1H2ccR2
+tt2
+(vi) Hr+Hz=i:
+Horizontal proiection from a height
+(i) t,=\E=ti,,eofflight
+t = 
+! l'lr-u?
+(ii) velocities of 1s body and 2"d body when their
+velocity are perpendicular, v1 = u12 + u1u2 and &
+v2- uz2 + urtlz
+(iii) their position vectors are perpendicular of after
+time,
+zrfuruzt=
+Ifa ball is dropped from height 'h'
+from the top of an inclined plane
+of inclination 'a', ball elastically
+collides the it again, strike the
+inclined plane ata distance.
+S = 8h sincr
+MultipleChoice Questions
+1. A prolectile has the maximum range 50O m. lf the
+proiectile is thrown up a smooth inclined plane of
+30'with the same (magnitude) velocity, the distance
+covered by it along the inclined plane till it stops witl
+be:
+s
+o
+H
+b.
+d.
+a
+c
+250 m
+750 m
+500 m
+1000 m
+(ii) Velocity after time 't', v = {ffi!7p
+(iii) Angle made by velocity after time 't', tano =
+horizontal
+2. From the top of a tower of height 40 m, a ball is
+proiected upwards with a speed of 20 m/s at an
+angle of elevation of 30'. The ratio ofthe total time
+taken by tle ball to hit the ground to its time of
+flight (time taken to come back to the same
+elevation) is (take g = 10 m/s?):
+a. 2:L b. 3:1
+c. 3:2 d. 1.5: 1
+3. The maximum height attained by a proiectile is
+increased by ll%o by increasing its speed of
+prciectiorl without changing the angle of proiedioL
+The percentage increase in the horizontal range will
+be:
+a. 2oo/o b. 15o/o
+c. 70o/o d. 5o/o
+4. A body is pmiected horizontally from a point above
+the ground. I'he motion ofthe body is described by the
+equations x = 2t and y = 5t2 where x and y are the
+horizontal and vertical dlsplacemenS (in m)
+respectively at time t The haiectory of tte body is:
+a. a straight line b. a circle
+c. an ellipse d. a parabola
+ffr.o,n
+1iv1 nange,n=u*f4
+. When a ball rolled off from top of staircase with
+horizontal velocity 'u' having width 'b' and height
+'h'the ball hits ns step the&
+2h t2
+go'
+. Ifa man hits the targel he should point his gun in
+a direction higher than the target
+. If a man fires his gun directly aimed towards
+monkey at height, at same instant monkey starts
+falling then bullet hits the monkey.
+. If two bodies are proiected horizontally from
+certain height with different velocities ur and uz
+in opposite directions then.
+(i) their velocities are perpendicular afurtime,
+ll P 34 ll A Quick R€view ofE-PCM For Engineering Entrance - physics
+v,u
+t,
+
+===== PAGE 3 =====
+5. A ball is proiected with a velocity 20 {5 m/s at
+angle 60'to the horizontal, The time interval after
+which the vertlcal vector wlll make an angle 30" to
+the horizontal is (Take g = 19 6752;,
+a. 4 sec b. 2 sec
+c. l sec d. 3 sec
+6. A prorectile is thmwn upwatd with a velocity vo at an
+angle a to the horizontal the change in velocity of
+the proiectile when it sfikes the same horizontal
+plane is:
+a. vo sin o vertically downward
+b. 2vo sin o vertically downward
+c. 2vo sin overtically upward
+d. vo cos o vertically downward
+7. the velocity of a proiectile at any instant is u
+making an angle o to the horizon. The time after
+which it will be moving at right angle to this
+direction is:
+u cosec at
+b.
+2u sin a
+3y=lzx-Axz
+Given that g = 10 ms'2, what is the range of the
+proiectile?
+a. 12m b. 16m
+c. 20 m. d. 24m
+12-A bdt ls thrown at different angles with the same
+speed u and from the same point It has the samc
+range in botft the cases. If yr and y be the heights
+attalned in the two cases, then y1 + y2 = ..... :
+b
+13,A ball ts proiected ftom the ground at ande e with
+the horizontal.. After 1 second lt is moving at angle
+45o with the horlzontal and after 2 seconds it is
+moving horizontauy. What is the velocity of
+proiection ofthe ball?
+a. 10 r,6 ms-r b. 20 1[ ms'r
+c. 10 r[ ms'r d. 201p ms'r
+14,A boy throws a ball wl$ a velocity u at an ange 0
+with the horizontal. At the same instant he starts
+running with uniform velocity to catch the ball
+before it hits the ground. To achieved this he
+should run with a velocity of:
+a. ucos0 b. usin0
+c. u tan 0 d. {u, tan e
+15.One second after the proiection, a stone moves at an
+angle of45" with the horizon. T\ryo seconds from the
+start' ft is ravelllng horizontally. Its angle of
+proiec{on wlth tte horlmn is (given g = 10 ms2) :
+a. 60' b. tan'1[4)
+b. tanr(3) d. tan-l (2)
+16-A proiectile is throvm wltlr an initial velocity of
+(al + bi )ms'r, If the range ofthe prolectsle is hrlce
+the maximum height reached by lt, then:
+a. a=2b b. b=a
+c. b=Za d. b=4a
+212
+u2
+d
+u2
+a.;
+u2
+c' zg
+a
+c
+utanoucoso
+d.
+c
+8. The velocity at the maximum helght of a proiectile
+is half of its initlal velocity of prolection (u). Its
+range on horlzontal plane is:
+3u2 3 u2
+a'T 'fi
+u2 f
+zd.c.
+u
+3g
+proiectilc B is thrown with
+velocity Vz upw:rrds from the
+polnt Q vertlcally below the
+higbcat point A would reach.
+. For B to collide with A the rado
+v"
+Ii sbould be;
+a. lb.2
+c. L/2 d. 4
+P
+11,The equation of motion ofa proiec6le ls:
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 35 ll
+Mechonics
+o
+IA
+c,
+9. A stone is proicctcd in air. Its time of flight is 3
+seconds and range ls 150 m. Maximum height
+reached by the stone is G = 10 ms'z):
+a. 37.5 m b. 22.5 m
+c. 90 m d. 11.25 m
+10.A proiectile A is thrown at an atrgle 30' to the
+horizontal ftom point P. At the same time another
+
+===== PAGE 4 =====
+Projectile f,Aotion
+17.The equation ofa prolectile is Y = r/5 X -t Zx".
+The velocity of proiection ls:
+a. 1 m/s b. 2 m/s
+c. 3 m/s d. 4 m/s
+18.An obiect of mass m is proiected with a momentum
+P at such an angle that its maxlmum height (It) ts
+1
+t th of its horizontal range (R). lts minimum
+kinetic energr in its Path will be;
+P2
+c. both spheres simultaneously
+d. we can not say because masses of
+spheres are not given
+23.A stone is proiected at an angle 0 with the
+horizontal with velocity u. It executes a nearly
+circular motion near its maximum beight for a
+short time. The radlus ofcircular pat]l is:
+u2 cosz 0 u2 sin20
+[a) b.2g
+u2 cos2 0 d
+uz
+4
+5m
+4m
+4m
+19.Two proiectiles A and B are proiected wlth same
+speed at angles 30" and 60'to the horizontal then,
+whlch ore is wrong:
+a. RA = RB b. H6 = 311o
+c. ts = f Ta d. none oftlese
+(Here, R stands for range, H for maximum height and T
+for time offlight).
+20,A ball of mass m is proiected from the ground with
+an initial velocity u maldng an angle of e wlth the
+horlzontal, What is the change ln velocity between
+the poinr of proiection and the highest point:
+a. u cos2 0 downward
+b. ucos0upward
+c. u sin2 0 upward
+d. u sin 0 downward
+21-A bdl, wtose kinetic enerBr is E, is thrown at an
+angle of 45" with the horlzontal, its ldnetic enerry
+at the highest point of its flight will be:
+a. zero b. E/2
+c. E/{1 d. E
+22.A solid sphere and a hollow sphere are thrown
+horizontally froE a cliff with equ"l velocities
+respectively. Then which sphere reaches first on
+earth?
+a. solid sphere
+b. hollow sphere
+24.A particle is proiected at an angle of 45" from a
+point lying 2m from the foot of a wall. lt iust
+touches the top of the wall and falls on the ground
+4 m from it The height ofthe wall is:
+25.Two proiectiles are proiccted with the same
+veloclty. If on€ is proiected at an ange of 30o and
+the other at 60'to the horizontal. The ratio of
+maximum helghts reached ls:
+a. 7i3 b. 2:1
+c. 3:1 d. 1-:4
+26.A ball is thrown upwards at an angle of 60o to the
+horizontal. It falls on thc ground at a distance of 90
+m, If the ball ls throwD wlth same inldal velocity at
+an angle of 30", IT wtll fall on the ground at a
+distance of:
+a. 720m b. 90m
+c. 60m d. 30m
+27.A bullet fired at an angle of 30'with the hortzontal
+hit the ground 3 km away. By adlusting lts angle of
+proiection, can one hope to hits target 5 km away.
+Assume the Duzzlc speed of be seme and tle air
+resistance is negligiblel
+a. possible to hit a target 5 hn away
+b. not possible to hit a target 5 km away
+c. prediction is not possible
+d. none ofthe above
+P2
+c
+8m
+3Pz
+4mb
+d
+P2
+m
+a
+c.
+1
+3m
+2
+3m
+b.
+d
+ll P 36 ll A Quick Review ofE-PCM For Engineering Entrance - Physics
+IA
+lJ
+o
+a.
+c,
+
+===== PAGE 5 =====
+5. b
+15_ d
+2.a 3.c
+!2. c 13. c
+L7. b 18. b
+22. c 23. c
+28.For a given velocity, a proiectile has the same
+range R for two angles ofproiection. Iftl and t2 are
+the time offlight in the two cases, then:
+a. tltz ( R b. trtz oc Rz
+Angle made by velocity after time 't' with horizontal
+u sino - sttan0 = 
+-:-
+u cosu
+= ureo'=d+!l.€.9l:-1.Ql]
+201,f 3 x cos60'
+1 - r - r/I> -Ex 20V3,;= 20r/3 xf - 10t
+vr
+=+ 10t=30-10=20
+.'. t=2sec
+6.,.o"9=|=.ore=],'.' e=oo'
+n=f ,i,ze=f ,"rzo.=f,f
+9. tr=3sec;R=150m
+2u sine
+t =3=usino=15
+uzsinz0 7s2H= U =z,to=1125m
+10.For collision
+Vz sin30" = Vr
+Yz_ I _"Vr-sin30'-'
+tz.v,,y,=-ff,W=* [:::il';]
+13.Angle made by veloclty with horizontal after time 't'
+u sin0 - sttana=---u cosu
+Att = 2 sec, o=0, + u sino = 29 = 20
+Att= 1 s€c, €r= 45o,u coso= (2g- g) = fO
+C.
+Itrtz € 
+R-2
+1
+tltz c. Id.
+29.A bomber plane is moving horizontally wtth a
+speed of 500 m/s and a bomb released from it,
+strikes the ground in 10 sec, Angle from horizontal
+at which the bomb strikes the ground ls:
+(g = 10 m/s'z)
+a. tan-1 (1) b. tan.1(5)
+/1\ /1\c. tan't [-5,/ d. sin't.[,
+4.d
+7.a 8.d 9.d 10. c
+11. b 74.a
+16. c 19. d 20. d
+21. b 24. b 25. a
+26. b 27.d 28. a 29. c
+Solution for Selected Problems
+u2
+1. R*r=- =u'z= 500x 10=5000
+Distance covered by body along inclined plane before
+coming to rest
+s2 5000s =r;line =rx1o;;;5F= soom
+2. Time taken to come back to same elevation
+2usin0 2 x20 xsin3Oo
+202 + 102 = 10rF m/sec
+15.Same as (13)
+tang = 2; 0 = tan-1(2)
+17.y=1[x-
+eq, of traiectory; y = tanO x - Zu? cosre---g1-
+on compairing we get,
+tane=1fi =0=60.
+and u2 cos20 = 1
+1
+> t2 xi =l
+.'- u=2m/sec
+=2sec
+10
+Total time take to hit the ground
+u sinO /u sinO\z 2h
+\9./ c
+20xsin30
+= 10 * /20xsin30\2 2x40| 
+- 
+| 1-
+\ 10 ) t0
+=1+rh+8=1+3=4sec
+Ratio of total ume taken to hit the ground to time
+taken to comeback to same evaluation
+_!_".,-2-..,
+1-,s"
+5. u=2 3, 0=60'
+A Quick Review of E-PCM For Engineering Entrrnce - Physics ll P37 ll
+'tr
+-o
+v,
+Mechonics
+
+===== PAGE 6 =====
+1
+18.H =aR
+H tan03[= 4
++ tan0 = 1; 0=45'
+L.'=Laor'6=f=ffi
+24. f,=(2+4)m=6m
++
+... y=3m
+u2 uz 90" 9Ox2
+26.R = - sin20 i? =.*1rtr = 
+E
+D2 u2
+A8ain, R' = ;sin2x30" = ;,
+29. Angle with horizontal
+st 10x10 1
+tano=*=-66-=5
+"="r"eJ
+t-=^'] f
+2 = 90m
+x=2m
+height oftower (y) = ?
+town is at x = 2m
+r=",e(,.-f) = r(z - 4\
+a)
+***
+ll P 38 ll A Quick Review ofE-PCM For Engineering Entrrnce - Physics
+Projectile tllotion
+(^
+ut
+x
+L
+
+===== PAGE 7 =====
+rlilechonics
+Chopter-6
+LAWS OF ilIOTION AND FRIGTIOI{
+If an object is placed in one pan its wt, is ,wr' if placed
+on another pan its wL is 'wz'then true wt ofobject
+. [f balance has unequal arms, true wt (w) =
+V*r*,
+. If balance has equal arms, true wt t*l = 
+gig
+. Ifliquid is flowing though a pipe of cross-section
+area. A with velocity 'v' then force needed to hold
+the pipe:
+dm
+1.'= v;;= pAv2 away from himself.
+If Q is discharge, Q = *Y* 
+= ro
+r=S=parr, Favzore2
+Power through pipe, p = pAv3 = PE
+A2
+pavr or, e3
+Ifv2 = n v1; p2 = 1: pt
+. Ifa force is acting on system and each element of
+system moves with same acceleration then force
+on the part ofsystem;
+i) Ifthere is no force on remaining part after cutting
+the portion,
+- Remainq mass or lenpth
+'Pan = -EEm;;;;;l;;dt- x Force
+ii) If force present on remalning part is in the
+direction of motion then,
+Fp* = Force - Bcffis x (Force)na
+iii) tf force present on rcmaining part is opposite in the
+direction of motion then
+F0",. = For.e * &$ry x (Force),e
+*l;h;r
+-#rt, Contact force between both blocks
+(D If M1 is cut then contact force = M#fr;, F
+(ii) If M2 is cut the contact force = F - Ah , t
+T.
+F
+A Quick Review ofE-PCM For Engineering Entrance - physics ll p 39 ll
+For T1 (lf m3 is cut out \
+mr + m2 + Remaining mass, m1 + m2 + m3 = total m
+And force is not present on remaining part, Tr =
+mr+m,
+-xF.
+ml +m2+m3 '
+lf m1 + rn2 is 5111 sut from system then
+t,=p------43-,o_ ml +mZ+m3 _
+a, Accln ofmasses,
+sum of masses (mz sinOz - mr sinOr)
+r If mz sinOz > mr sin0l then mz moves down the
+inclined plane.
+b. Tension in the strings,
+roduct of masses xT= sum ofmasses x (sin0r + sinOz)
+c. Total force on pull"y r, = zr.in (@z )
+e.c. (i)
+Here, 0r and 0z both are 90.
+(mz , mr)
+s
+'= (,,;;; " (mz - m,)
+T=.]!]@, zmr+m2 -
+Fp=27
+(ii) 0r'= 0, e, = 90'
+a=;1+lExm,
+T= m'm'P ,'lmr+m2 -
+Fe=1ET
+. Motion of lift
+(iJ lflift is accelerating up with acceleration ao then
+App. wt= Real wt+ mao = m g + mao
+App. wt > Real wt
+I
+(t)
+!')(A
+
+===== PAGE 8 =====
+I't
+[iiJ If the lift is accelerating down with acceleration
+'ao'then,
+App. wt = mg - mao = Real wt - mao
+App. wt < Real wt.
+lfcable wire breaks then, a0 = & App. wt = 0
+(iii) lf lift is moving with constant velocity then
+App. wt = Real wt (mg)
+. If a balloon of mass 'm' is descending with
+acceleration a0, then for ascending with same
+acceleration fraction of mass detached from it
+without changing its volume,
+y- Zao
+m g+ao
+. If a balloon is ascending with acceleration 'a0'
+then for descending with same acceleration,
+fracuon of mass added on it, is fi = ;$ 
+.
+. lf a balloon of mass 'm' is rising up with
+acceleration ao, then to double the acceleration,
+the fraction ofmass detached from it is without it
+changing it volume.
+xa0
+m- g+Zao
+. If a man standing on platforrn of weighing
+machine takes quick step, then his weight first
+decreases and t}ten increases.
+. lf a stone of mass 'm' dropped from height h
+penetrates distance's' into sand then'
+(i) Average retardation offered by sand
+h
+. Limiting friction
+Condn: Rest into limiting condition or iust ready to
+slide or iust ready to move
+. Limiting friction force is maximum friction force
+. Fx,n c. Normal Reaction (N)
+Fx,n = t&N, where P6 is constant lclown coemcient of
+static fiction, which depends upon naurre of contact
+surface does not depend upon normal reaction.
+. Kinetic friction or Dynamic friction
+Condn: when motion occurs.
+flcc Normal reaction (NJ
+f1 = pt N; Pk = coemcient of kinetic friction which
+depends upon nature of contact surface. It does not
+depends upon normal reaction and degree of relative
+motion.
+. As, film > fk; Irs > pk
+. For analysis of friction force on the body we calculate
+limiting friction as, fiim = psN and compare with applied
+force.
+(i) If Applied force < fri., then static friction acts on the
+body f,t ti" = f.ppma
+(ii) tf Applied force = fn then body iust move i.e', limiting
+fuiction acts on the body, 6r," = p"N.
+(iii) If Applied force > fu,n, then motion occurs i.e', kinetic
+friction acts on the body fr. = Pr.N
+e.g (i) !6 = 0.6 & Fk = 0'5
+F=55N
+L>Rough
+Friction force on the block = ?
+Sol":
+N=mg=100N
+fiim=0.6x100=50
+f < frr-, f.ou" = 55 N
+eg.(ii)
+20N
+po = 0.4 and pk = 0.35
+Solr: N = 20N
+Fu. = 0.4 x 20 = 8N tfiFl$l
+In tJris case 'mg' appear as applied force,
+Applied force = 10N, App. force > fu.
+f1=paN=0.35x20=7N
+Angle of friction (o): lt is the angle between r
+reaction and resultant of normal reaction and i
+force.
+s
+(iD
+(iii)
+time of penetratio., = {#
+Average resistance
+/h\
+= mcu +;J
+offered by sand
+I
+. If a monkey holds a fixed vertical wire, having
+tolerable tension (or "breaking strength") is 'To'
+then
+(i) max. acceleration ofwhich money climb up
+- _To-mR
+m
+Here, To > mg;
+if To = x mg (x > 1)
+s,"*=g(x-1)
+(i0 Min acceleration at which it can sUde down, anr =
+mg-To
+m [Here To < mg]
+if To = x mg (x < 1): a-i, = g(1 - x)
+. Friction force is Electromagnetic force.
+. Statlc fiction is also known as self adjust opposing
+force.
+Value ofstatic friction, f"uti" = f"ppriea
+well
+ll P 40 ] A Quick Review of E-PCM For Engineering Entrrnc€ - Physics
+Lows of Motion ond Friction
+v)IJ
+tt
+
+===== PAGE 9 =====
+. fqs!(i) Ifbody is at Rest then, tana = - 
+N
+(ii)lf body is at Rest into llmiting condition or iust
+f..
+ready to slide then, tanc = t = fr.
+(iii) If body is in modon,n"n on., = ft = uo
+. Maximum friction angle, o.m",= tan{(F6)
+. Angle of Repose (0n) is the minimum angle of
+inclination of inclined plane witl horizontal such that
+a body placed on i! just begins to slide.
+tan 0R = ps
+.. 0n = omax
+. Acceleradon of a body in a rough inclined plane
+of inclination '0'.
+(i) for downwar6 rno6stt,2 = g(sinO - prcos0)
+(ii) for upward ms116n, I = -g(sin0 + pkcos0)
+. If a body is allowed to slide down from top
+smooth inclined plane of inclination '0' then body
+takes 't' time to reach the bottom, now the
+inclined plane is roughed then body takes 'nt' (n
+> 1) to reach the bottom then the coefficient of
+friction.
+pk = tane (,#)
+If t, = time for smooti inclined plane
+tr = time for rough inclined plane
+r-=t""e(r-$)
+. When a uniform chain (or uniform rope) of
+length 'L" is overhung from the edge of rough
+horizontal table, having friction coefficient 'p'
+then (i) maximum of its hanging length;
+uL
+Ir +l
+(i) Max. o/o of its length =
+100 u
+p +1
+should hanged then the(iD rf n
+1
+of its length
+coemcient of friction,
+1
+tr=;-
+tf a block of mass 'm' is placed on rough inclined
+pane of inclination '0', its downward motion can
+be prevented slide by applying an upward pull 'F
+and it can be mode to slide upwards by a force
+'nF' then the coemdent of friction:
+/n-1\
+rr = G-+' tano
+tf a block is moving with velocity 'u' placed on
+rough horizontal surface having coemcient of
+friction'pk'then distance moved by block befo
+coming to rest,
+u2
+s -2p.kg
+Pulling is easier than pushing because pull
+decrease the normal reaction,
+To avoid slipping while walking on ice, on
+should take smaller steps because of small a
+friction.
+Direction of friction force on bicycle wheel
+(i) when bicycle is peddaled friction force on rear
+wheel is forward direction and on front wheel in
+backward.
+(ii) When bicycle is not peddaled then friction force
+on both wheel is in backward direction.
+. If a block of mass 'm' is placed on rough
+horizontal surface, the coefficient of friction
+between block and surface is 'p' then least force
+required to slide the block is:
+umsc - ---+
+V1+ p'
+. If friction angle is 'o'then least force required is
+Fmin = mg sino
+. Minm horizontal force or min'force along the plane
+required to move the block
+Fmin = lr mg = mg tanct
+. If the coefficient of friction between an insect and
+hemispherical bowl having radius 'r' is 'p' then
+insect can crawl upto max' height:
+. t. 1ln=rl I- -- |
+L r/1+ u?l
+MultipleChoice Questions
+1. A balloon of gross weight w newton is falllng
+vertically downward with a constant acceleration
+a(<g). The magnitude of the air resistance is:
+/a\a. w b. w(1+-/
+/a\ac. wU-, o. *c
+2, A btock of mass m is placed on a smooth plane
+incllned at an angle 0 with the horizontal. The
+force exerted by the plane on the block has a
+magnitude:
+a.
+C
+mg
+mg cos 0
+b. mg sec 0
+d. mg tan 0
+flcchonics
+'d
+qt
+ntt)
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P4l i]
+
+===== PAGE 10 =====
+3, A block of weight 5 N is pushed against a vertical
+wall by a force 12 N, The coefficient, of friction
+between the wall and block is 0.6. The magnitude
+ofthe force exerted by the wall on the block is:
+a. 12N b. 5N
+c. 7.2N d. 13N
+4. A block is gently placed on a conveyor belt moving
+horlzontally witi constant speed. After t = 4s, the
+velocity of the block becomes equal to the velocity
+ofthe belt. If tlle coefficient of friction between the
+block and the belt is p = 0.2 then the velocity ofthe
+conveyor belt is:
+a. 2 ms-1 b. 4 ms-1
+c. 54 ms-l d. Smsr
+5. An elevator and its load have a total mass of 800
+kg. lf the elevatot originally moving downward at
+10 m/s, is brought to rest with constant
+deceleration in a distance of 25 m, the tension in
+the supporting cable will be: (g = 10 m/sr)
+a. 94 N b. 1880 N
+c. 940 N d. 9600 N
+5. Two blocks are in contact on a frictionless table,
+One has mass m and the other 2m. A force F is
+applied on 2m as shovm in the figure. Now the
+same force F is applied from
+the right on m. ln the two
+cases respectively, the force
+F+
+9. A body of mass 10 kg is placed on rough surface,
+pulled by a force F making an angle of 30" to the
+horizontal. If the angle of friction is also 30" then
+t]le minimum magnitude of force F required to
+move the body is equal to: (take g = 10 m/sr)
+a. 100N b. 50\E N
+c. 100r[ N d. soN
+10,The coefficient of friction between the tyres and road
+is 0.4. The minimum distance covered before
+attaining a speed of I ms-l starting from rest is
+nearly: G= 10 m/s2)
+a. 8.0 m b. 4.1 m
+c. 16.4 m d. 18.3 m
+U.The breaking strength of the cable used to pull a
+body is 40 N. A body of mass 8 kg is resting on a table
+of p = 0.20.'lhe maximum acceleration which can be
+produced by the cable is ffake g = 10 ms'z):
+a. 6 ms-2 b. 3 ms'2
+c. 8 ms'2 d. 5 ms-2
+12.A mass of 3 kg descending vertically downward
+support a mass of 2 kg by means of a light sfing
+passing over a pulley. At the end of 5 second the
+string breaks How much higher the 2 kg mass wilt
+Eo?
+a. 4.9 m b. 9.8m
+c. 19.6 m (d) 2.45m
+13.4 dynamometer D is attached to two bodies of
+masses M = 6 lrg and m = 4 kg: Forces F = 20N and f =
+10N are applied to tle masses as shown. The
+dynamometer reads:
+3
++
+a.
+C
+6
+2
+F
+ofcontact between the two blocks will be
+a. same b. I :2
+c. 2:1 d. 1:3
+7, A body is proiected up a 4So rough incline. IF the
+coefficient of frlcdon is 0.5, then the retardation of
+the block ls:
+b.a. _c_
+,E2{i
+?o
+.;fr d.i
+8, A fir€man wants to slide down a rcpe. The breaking
+?
+load for the rope is ith of the weight of the man.
+With what minimum acceleration should the firernan
+slide dovm:
+b. 20N
+d. 14N
+14.A block of mass M rests on a rough horizontal
+surface as shown. Coefticient of friction between
+the block and the surface is p A force F = Mg acting
+F=
+a.
+c.
+OND
+10N
+6N
+ll P 42 ll A Quick Review ofE-PCM For Engineering Entrance - physics
+Lows of Motion ond Friction
+(a(,
+v,
+b.
+d.
+
+===== PAGE 11 =====
+Alechonics
+at an8le 0 with the vertical
+side of the block pulls it. In
+which of the following
+cases the block can be
+pulled along the surface:
+F=Ms
+again come to rest at the bottom if the coefficien
+of friction between the block and the lower half o
+the plane is given byr
+a. P = 2tan0
+2
+c. p = tan0-
+t1
+tano > p
+coto > [
+p1 tan$>r,
+a. .,tf)>u
+b
+d
+P = tane
+L
+lj = tano-
+15.A 13m ladder is placed against a smooth vertical
+wall with its lower end 5 m from the wall. What
+should be the coefficient of frictlon between
+ladder and floor so that it remains in equilibrlum.
+a. 0.1 b. 0.15
+c. 0.21 d. 0.22
+16,A body is released from the top of a smooth
+inclined plane of inclinatlon 0. It reaches the
+bottoD wlth veloclty v. If the angle ofincllnatlon ls
+doubled, what wlll be the velocity of the body on
+reaching the ground:
+a.vb.Zv
+c. [2cos0]1/2v d. [2sin01trzY
+17,A box of mass 8 I(g is placed on a rough inclined
+plane of inclination 0. Its dovmward motion can be
+prrvented by applying an upward pull F. And it can
+be made to slide upwands by applying a force 2F, The
+coefficient of fricffon betwe€n the box and the
+inclined plane is:
+1
+a. f tan0 b. 3 tang
+friction various with distance x as F, (x) = lq, where k
+is a constant Here x is the distance moved by the
+body down the plane, The net force on the body will
+be zero at a distance x0 given by:
+tan0 b, k tane
+a
+c,
+c.
+k
+cot 0
+d. k cot0
+21.An obiect is resting at the bottom of two strings
+which are inclined at an angle of 120' with each
+other. Each string can withstand a tension of 20N.
+The maximum weight of the obiect that can be
+sustained without breaking the string is:
+a. 10N b. 20N
+c. zor,D n d. 40 N
+22,A rough vertical board has an acceleration a along
+the horizontal so that a block of mass M pressing
+agalnst it does not fall, The coefficient of ffiction
+between block and the board is:
+c
+a
+c
+a
+a
+c
+ad
+k
+a
+a
+(bl
+18.A block is place on the top of a smootl inclined
+plane of inclination 0 kept on the floor of a lift.
+When the lift is descending with a retardation a,
+the block is released. The acceleration ofthe block
+relative to the incllne is:
+g sin0
+.- a)sinO
+b. a sin0
+d. (g + a) sino
+' half of an inclined plane of inclination 0
+is p... smooth while the lower half rough. A
+block startlng from rest at the top of the plane will
+23.A smooth inclined plane of length L having
+inclination 0 with the horizontal is inside a lift
+which is moving dovm with a retardation a. The
+time taken by a body to slide down the inclined
+plane from rest will be:
+b.
+2L
+(g - a) sin0
+24.The velocity of a bullet is reduced hom 2o0 m/s to
+100 m/s whlle travelling throu8h a wooden block
+j,,ne d. 2 tan0
+A Quick Review of E-PCM For Engine€ring Entrance - Physics ll P 43 ll
+20.A body is sliding down a rough inclined plane
+angle of inclination 0 for which the coemcient
+f2L
+\r*'o
+a.
+c.
+l2L
+\ (s . -,).*o
+d.
+f2L
+\t.*-
+ta
+nt,
+
+===== PAGE 12 =====
+of thickness 10 cm. Assuming it to be uniform, the
+retardatlon will be:
+a. 15 x 10s m/sz b. 10 x 104 m/s,
+c. 12 x 70a rn/s2 d. 14.5 m/s2
+25.A bird is sitting in a large closed cage which is
+placed on a spring balance, it records a weight of
+35 N. The bird (mass = 0.5 lg) Ilies upward in the
+cage with an acceleration of 2 m/sz. The spring
+bala[ce will now r€cord a weight of:
+a. 27N b. 35N
+c. 26N d. 24N
+26.An open knlfe edge of mass m is dropped from a
+height t' on a wooded lloor. lf the blade
+penetrates upto the depth d lnto the wood, the
+average reslstance ofrered by the wood to the
+lmife edge is:
+a. mg('.:) u *c(r.!)'
+G-}) d' mgc. mg
+27,A car is moving along stralght hbrizontal road with
+a speed vo. If the coefficient of friction between the
+tyres and the road is ll- The shortest distance in
+which the car can be stopped is: [IOE]
+/vq\'
+\pg]
+40 N is applied on block B, the acceleration ofA is:
+c
+a. 3 m/sz
+4 m/s2
+b. 2 m/sz
+d. tm/s'
+8N
+zefo
+3o,A block of mass 4 kg is placed on a rough
+horizontal plane. A time dependent horizontal
+force F = kt acts on the block,
+k = 2 N/s'z. The frictional force between the block
+and plane at time t = 2 sec is:
+(F = 0.2)
+a. 4N
+c. 12N
+2.c 3. d
+vo
+d 2ttg
+2S.Pushing forc€ making an angle 0 to tJre horizontal
+is applied on a block of weight W placed on a
+horizontal table. If the angle of friction be 0, the
+magnitude of fDrce requlred to move the body is
+equal to:
+i6. b 7.a is.. r9. d
+72. a 13. d
+L7.a 18. d
+2t. b 22. d 3. a i24. a 25. b
+27.d 8.b 29. b 30. a
+Solution for Selected Problems
+1. mg- R,=ma
+wR.=mg-ma=w--a=
+3. fri' = 0.6 x72=7.2N
+weight = 5N
+fri* > weight
+Hence friction force = 5N
+force exerted by wr11 orl 61s6k = {17';E
+= 13N
+4. acceleration ofblock = mg = 0.2 x l0 = 2
+velocityafter 4 sec, v = u + at = 0 + 2 x 4
+v = 8 m/sec
+102 100
+5. Retardation of elevator, ,;rE = 
+=6- 
+= 2mls2
+Tension in cable, T = 69 + 6x(-a)
+= 800x10 + 800x2
+= 9600N
+6. When force F is applied on mass 2m then contact
+force,
+-(,-.J
+c
+2
+vo
+tr
+2
+vo
+Fg
+b.
+2
+b.
+d.
+a
+c.
+W cosd
+cos(e + 0)
+W tand
+sin{o + O)
+W sin0
+cos(o + 0l
+W sind
+tan(0 + O)
+29.A block B of mass 5 kg is placed on another block A
+of mass 10 kg; which rests on a smooth horizontal
+surface, If Ir = O.4 between A and B and a force F =
+1. c 4.d 5. d
+11. b
+16. c
+L4.d 15. c
+19. a 20. a
+26. a
+ll P 44 ll A Quick Review ofE-PCM For Engineering Entrance - Physics
+Lows of AAotion and Friction
+rn
+I
+t)
+0.
+b.
+d.
+a,
+i10. a
+
+===== PAGE 13 =====
+f,iechonics
+mFPr=--'-:-xF=3
+when force F is applied on mass 'm' then contact force
+- 2m -ZfP, = -------:- x t==- m+zm J a
+Ratio ofPr and Pz = 1 : 2
+coq> $
+aore=fi
+f=pRandR=W
+lto=0
+=Rx5-Wx2.5-lrRx12=0
+12xpR=wx25 =+p=
+ff=0.r,
+0
+= mg sin0 > 2p mg sin2z
+0
+11. a =
+t4.
+Fcos30' l3
+B
+wallIadder
+7
+F=tan30"=G
+R=mg-Fsin30'
+Fcos30'2 pR
+ums
+-cos30+gsin30
+Afr_ 5rn+r
+l9.Acceleration of smooth inclined plane
+3 = gsin0
+Accln on rough inclined plan,
+a = g(sin0 - p1 cosO)
+velocity after halflength, V'z = 2 gsin0 , {
+Again, at bottom, block comes into rest then,
+0 = tF + 2 g(sin$ - lrcosel ,f
+ta
+= 0 = Zgsine , 7 + zg(sinO - pr,cosO) , i
+.'. pk=2tang
+20.Net force on the blockwhich is sliding down;
+Fnet = mg sino - lr mg coso
+Fna=0
+P = tan0
++ kx = tano tan0x=T-
+27.
+T sin60?F T sin60'
+7
+r/s
+,10,10
+=4{4=to'f
+z
+1
+{3
++
+1
+2
+(T-frl- 40-0.2x8x10
+= 3 m/s2m -8
+x 9.8 = 1.96 m/s2/3-2\tz.a=\i;i)
+velocity after 5 sec; V = 1.95 r< 5 = 9'8 m/sec
+w 9.82
+heighth=2-=rm=4.em
+13. Reading on dynamometer
+R =zo-(#),10=20-6=14N
+Fcos0
+I F =ng
+R
+- +F sin0
+mg
+R = mg - mg cos0 = mg(1 - cosO)
+0
+= 2sin2
+f11. = pR = zpmg sint$ 2T cos50' = w
+.. w=20N
+2002 - 1002
+24.Retardation, (-a1 =ffi;ffi= 15x10s m/sz
+I
+M
+60. ! 60"
+M
+F sinO ) Frm
+1',me
+A Quick Review of E-PCM For Engineering Entranc€ - Physics ll P4s ll
+15.
+9. R Fsin3o'
+(a
+(.)
+t
+
+===== PAGE 14 =====
+w sind, E _-''' -cos(e+0)
+29.me = 51q
+ma = 10kg
+fr= 0.4 x 5,1 rO = ZOtl
+accn ofblock A,
+20
+"A -mr-10
+F = 40MR
+F sino
+-uw-- cos0 - psin0 -
+fL
+F = tane
+R=W+Fsin0
+Fcoso=fih=ttR
+30.Applied force after t = 2 sec
+F=2x2=4
+(fri.) max. opposing force = 0.2x4x 10 = 8N
+fri. > F
+.'. friction force = 4N
+F
+sin0
+coso- ' w
+sin0coso - -- sinecosu
+T
+***
+ll P 46 ll A Quick Review of E-PCM For Engineering Entrsnce - physics
+I
+Lows of lli\otion ond Friction
+V)(J
+ta
+Or
+
+===== PAGE 15 =====
+Chapter-7
+WORK, EITIERGY AND POWER
+Eg.: spring force, gravity, central forces etc.
++ Iftotal work done is round trip is not zero tien force is
+said to be non-conservative. Work done by non-
+conservative force is path function.
+Enerry:-
+Kinetic EnerS/(K)r-
+r=1-u'= Fzzm
+; where P = mv = linear momentum
+Kz (Pz\z
+K = (-PJKcc P2
+For small change (< 10olo)
+o/oKE=2*o/oP
+For any change
+(i) If P is increased by xolo then 0/o increase in KE
+%oK=fnr-1)x100
+Pccfi:i.e.,
+lfthe linear-momentum of two bodies are equal then,
+Wt".",n=1*ffi
+(ii) If P is decreased by t'/o then o/o decrease in KE
+o/q K= (! - nz) " rOO, n = (r -ffi
+If linear momentum ofbody is increased by 5090 then
+7o increase in KE will be
+50n=1+ii6=1.s,
+% k = (1.5' -1) xl00=t25Vo
+(iiD o/oP=hfi-1),,too
+If two bodies are released with equal KE then
+-, 1
+Kcc-:1.e..m'
+Example:
+If bullet is fired from gun then the kinetic energy of gun
+will be
+(a) less then I(E of (bJ Greater then KE ofbullet
+bullet
+6;
+\*
+Pr
+Pz
+Kr
+Kz
+m2
+m 1
+ffitu-
+W= F.d
+i) IfO<90',w=+ve
+iD IfO=90',w=0
+ii, If0>90',w=-ve
+It is scalar, unit:- joule, [w] = [MLrTr]
+= Work done by constant force w = Fdcos0
+* Work done by variable force
+i) One dimensional variation offorce,
+iD Two-dimensionalvariation,
+x2 yz
+ff
+w=1F_d_+Jfidr
+xl Yr
+iii) 3-dimensional variation,
+,a yz zz
+eg.[i) Find work done by force ?= (3x, ? + Zy i) n
+from point (1m, 2m) to (2m, 4mJ
+24
+w= J 3xzdx+ J 2ydy= 19 Joule
+. *o.rl ,on" by spring force either in compression or
+elongation from natural position.
+1
+w= _irc(,
+where,x = elongation
+K = spring constant
+or force constant
++ Work done by spring force when spring is released
+either from elongated or compressed position,
++ If total work done is round trip is zero then force is
+said to be conservative. Work done by conservative
+force does not depends on path. i.e., (point function)
+,n
+*= JF
+x1
+,d,
+*= Jr-a"* J r+- J r,a,1
+xl y1 21
+1
+2 la<2+
+A Quick Review ofE-PCM For Engin€ering Entrance - Physics ll P 47 ll
+tlAechonics
+
+===== PAGE 16 =====
+(c) equalto KE ofbullet (dJ none ofthese
+Soln:- these momentum is constant
+Kc IIIb -
+Kb mc
+Power(P):- Rate of doing work.
+,"o.k done l.iD_--- time t
+AwP-=<P>=-
+dwD --I Dsranr - dt
+. If P is the instantaneous power then average power is
+given by
+Eg. power of a body varying according to equation P = (3t2 r
+2t + 1) watt then power of tle body at 2 sec and during
+2 sec.
+Sol'. P, l, =3 x22+2x2+l=lTwatt
+dU
+F dr
+1 calorie = 4.2
+1eV=1.6x10-1e
+. KE is always +ve.
+Potential Energ{U):- Energy due to position or
+configuration.
+. Gravitation potential energy of a body of mass 'm' at
+height'h' above earth's surface.
+AU = Change in PE = increase in PE
+^u=.chG-LR.J
+(iJ Ifh = nR, then
+n
+AU=mgR*1+n-
+(ii) lf h<<< R,thenAU=mgh
+A uniform rod of mass 'm' having length '0' is
+lying on horizontal surface if rod is rotated
+thorng angle '0' with horizontal then increase
+in PE.
+au=mgjsino
+Potential Enerry shrea in spring (U) = |
+(i) If two spring of spring constants K
+elongated by same force then ratio
+I (3tr+2t+1)dt
+P =t=t *^n
+Kx2
+2
+Jo,
+F2
+u= zK
+(ii) Ifelongations in two springs are same then,
+Statemene Work done by all the forces (external
+and internal both) changes the KE ofthe body.
+1
+2
+1
+Ew=AK=Kr-Ki= mvP -,-u 2
+(i) lf KE of body increases tlen, w = +ve
+(ii) If KE ofbody decrease then, w = -ve
+(iiil lfKE ofbody is constant then, w = 0
+. Work done by external force only changes the total
+energ5r ofbody.
+For conservative force system,
+. If a machine delivers constant power to a body then.
+[i) velocity ofthe body,
+(ii) distance moved by body,
+fiii) acceleration of body, a ./. tr /2
+(iv) velocity ofbody,
+. If constant force acts on the body then power of then
+body.
+p".t
+tth
+o lf a bullet loses i of its velocity after penetrating
+through a plank of thickness 't'then
+[i) No, ofsuch plank required to stop $e bullet
+n2
+N=r;_
+(ii) Total thickness of penetration
+and K2 are
+of PE in it
+Loss in KE = Gain in PE and vice-versa
+vcos0F. v = F
+t
+J eat
+.Pr=-
+Jo,
+U
+U
+Kr
+Kz
+t
+2
+theorem:Work-Ener
+I P 48 ll A Quick Review ofE-PCM For Engineering Entrance - Physics
+r=[r-n-r't
+Work-Energy ond Power
+oI
+v1
+fil =-= 10, erA
+lu; &l
+Itr=K,l
+i."., laxlla[l
+l; " t'"
+F;IE
+I u .. .'r.
+EK. ^" -* ol
+
+===== PAGE 17 =====
+1d'
+eg,Ii) IfabulletlosesT5 of its velocity after penetration of
+plank oftlickness '2'cm then,
+?i2 L00
+no. orptank (N) =7ffi1 =6 = lo,zso
+N = 11Ans
+Total thickness of penetration (T) = 10.256 x 2 =
+2 0.51cm
+o If a uniform chain/rope of length '1' and mass 'm' is
+Iying on smooth horizontal table and f of its length
+l. /o = ;J is hanging then work done required to put the
+chain on the table
+,., rng: rng]-!l,"- zfi- 2l
+. If such chain starts slipping from rest then its velocity
+when completely slip off from the table.
+02 o(,-#)
+c. 35 d. 135
+3, A body is falling under gravity. When it loses a
+gravitational potential energy by U, its speed is v,
+The mass ofthe body shall be:
+2U U
+b
+2U
+v2
+cosO + pL sinO
+umsd sin0
+2v
+U
+cos0 + p sin0
+gmgd cos0
+d 2v2
+4. Under the action of a force, a 2 kg body moves such
+that its position x as a function of time is given by x =
+t3
+I, wher€ x is in metres and t in seconds. Tlre work
+done by the force in the first two seconds is:
+a. L.6l b. 16 1
+c. 760l d. 1600 l
+5. A bock of mass m is pulled along a horlzontal
+surface by applying a force at an angle 0 with the
+horizontal, lf the block travels with a uniform
+velocity and has a dlsplacement d and the
+coefflcient of ft:iction is |, then the work done by
+the applied force is:
+pmsd pmgd cos0
+a.
+. If a bullet of mass 'm' moving horizontally with
+velocity 'v' strikes a block of mass 'm' suspended by a
+string oflength 'l' as shown in ffgure.
+(i) If hllet get embedded in
+the block then, maximum
+angle made by string
+with vertical.
+{12(
+t
+b
+dc.
+.o.e=r-#ii lj------
+ge5Q + p sinO cosO - p sinO
+6, A mass M is lowered with the help of a string by a
+distance x at a constant acceleratlon f, fte worh
+done by the string wlll be:
+a. Msx o. i,**,
+M
+Multiple Choice Questions
+1, If a body is placed on another body which is
+accelerating by an external force then work done
+by frictional force on the upper body relative to
+ground isr
+a. -ve b. z*ro
+c. + ve d. unity
+2. A position dependent force F = 7 - 2x + 3x2 newton
+acts on a small body of mass 2 kg and displaces it
+from x = 0 to x = 5m. The work done in ioule is:
+a. 70 b. 270
+h
+Heishtraised bybrocr<0r) = 4ffi
+Tension in the string T = (M + rrl g g65Q
+(ii) If bullet emerges out witi velocity vb then maximum angle
+made by stringwith vertical.
+.o,e=r-#ft#
+Mgx d. Mgrz
+7. Glven that tle dlsplacement of the body in metre is
+a fu[ction of dme as followsl
+r.= ztlt + 3
+The mass of tle body is 2 lg, What ls tte lncrease
+ln its ldnedc energy one second after the start of
+modon?
+a. 8l b. 161
+c. 321 d. 641
+8. The net work done by kinedc frktionr
+a. is always n€ative
+b. is always zero
+c. may be negative and positive
+d. is always positive
+c, L
+2
+A Quick Review ofE-PCM For Engine€rirg Entrance - Physics ll P 49 ll
+a.
+c.
+'g
+tt)
+c)t)
+tlAechanics
+
+===== PAGE 18 =====
+9. The work done by pseudo forces is:
+a. positive b. negative
+c. zero d. all ofthese
+10.The work done by a spring force:
+a. is always negative
+b. is always positive
+c. may be negative
+d. may be positive and negative
+11.A particle is moving in a conservative force field
+from polnt A to point B. Ue and Ua are the potential
+energies of the particle at point A and B and Wc is
+the work done by conservative forces in the
+process oftaking the particle from A to B:
+a. Wc=Us-Ue b. W6=go-gt
+c. Ue>Us d. Ug>UA
+12.A body of mass m thrown vertically upwards
+attains a maximum height h. At what height will its
+kinetic enerry be 7SYo of its iniual value?
+13.A running man has half the KE. that a body of half
+his mass has. The man speeds up by 1ms-l and
+then has the same KE. as that ofbody. The original
+speeds ofman and body in ms-lare:
+,. 1r[ * 1), (\E - 1)
+u. M* \,zg[1+r)
+,. ,lr,^E
+a. M. D,26[1-lt
+14.A uniform chain has a mass M and length L, lt is
+placed on a ft:ictionless table with length l0
+hanging over the edge. The chain begins to slide
+down, Then the speed v with which the end slides
+away from the edge is given by:
+ftr,*r,l b. V= fo,-r.r
+c
+a, x=0
+a. 10U
+"=("):
+,. ,.=G#
+o "=(H)*
+!
+5
+!
+3
+b.
+d.
+!
+6
+!
+4
+C
+ftr'-rfl a zg(L - lr)
+18.A car moving with a speed of 40 km/h can be
+stopped by applying brakes after at least 2 m. lf
+the same car is moving with a speed of 80 km/h.
+What is the minimum stopping distance?
+a. 8m b. 2m
+c. 4m (d) 6m
+--.l ^
+19,An engine exerts a force F= (20i - 3i + 5k) N and
+moves with velocity ?= toi * zoi - rt1 -7s. rn"
+power ofthe engine (in watt) is:
+a. 45 b. 75
+c. 20 d. 10
+20.A child is swinging a swing. Minimum and the
+maximum heights of swing from earth's surface
+are 0.75 m and 2 m respectively. The maximum
+velocity ofthis swing is G = 10m/sz)
+a. 5 m/s b. 10 m/s
+c. 15 m/s d. 20 m/s
+21.A stone is thrown at an angle of 45' to the
+horizontal with kinetlc ener$/ K The kinetic
+enerry at the highest polnt is:
+K
+2 b
+c. K d. zero
+22.When a long spring is stretched by 2cm,
+potential energy is U, If the spring is stretched
+10 cm, the potential enerry stored in it will I
+a. V= a.
+K
+\lz
+15.The energ/ requlred to accelerate a car ftom rest
+to 10 ms-1 is w' The energi required to accelerate
+the car from 10 ms-1 to 20 ms-1 is:
+a.Wb.2W
+c. 3W d. 4W
+b
+d
+25U
+C
+q
+5
+I P 50 I A Quick Review of E-PCM For Engine€ring Entrance - Physics
+5U
+Work-Energy ond Power
+16.Power applied to a particle varies with time as P =
+(3tz - 2t + 1) watt, where t is in second. Find the
+change in its kinetic enerry between time t = 2 s
+andt=4s
+a. 32I' b. 46I,
+c. 67|' d. 102 l
+17.The potential enerry between the atoms in a
+molecule is given by:
+ab
+U (x) = --.. - -=
+where a and b are positive constants and x is the
+distance between tfie atoms. The atom is in stable
+equilibrium when:
+
+===== PAGE 19 =====
+23.A car of mass m is driven with acceleration a along
+a straight level road against constant ertemal
+resistance R. When the velocity is v, the power of
+the engine is:
+a. (R - malv b. (R + ma)v
+c. mav d. Rv
+24.A bread gives a boy of mass 40 kg an enerry of 21
+kf. If the efficiency is 280lo, then the height can be
+climbed by him using this eners/, is:
+a. 22.5 m b. 15 m
+c. 10m d. 5m
+25.The mass of two substances are 25 g and 89 g
+respectively. lf their kinetic energies are same
+then their ratio of their moments is:
+a. 9:5 b' 7 t3
+c. 5:9 d. none ofthese
+26,Two springs of spring constant 1500 N/m and
+3000 N/m respectively are sEetched with the
+same force They wlll have the potential energies in
+the ratio of:
+a. l:2 b. 1 :4
+c. 4:7 d. 2:l
+27,A simple pendulum of length I has a maximum
+angular displacement 0. The maximum kinetic
+ener$/ o the bob of mass m wlll bel
+a. mgl(1 - coso) b. mgrcose
+c. 2 mgl d. mg/
+28.Work done by a simple pendulum is one comPlete
+oscillation is:
+L n .o
+" ,\/; b. vsinT
+.. {-rru d. zero
+29.A body of mass 5 kg is ralsed vertically to a heiSht
+of 10m by a force 170N. The velocity ofthe body at
+this height will be
+a. 9.8 m/s b. 15 m/s
+c. 22 m/s d. 37 m/s
+30.A chain of mass M and length Ils placed on a table
+with one sixth of it hanging freely from the table
+edge. The amount of work done to pull the chain
+on the table is:
+Msl Mgl
+^Abzz
+l"rCl
+12
+d
+32.A body of mass 5 kg has momentum of 10
+m/sec, When a force of 0.2 N is applied on it for 10
+sec, the change in its kinetic enerry is:
+a. 4.4 | (b) 3.3 l
+c. 5.5 | d. 1.1 l
+33.A pump can hoist 9000 kg of coal per hour from
+mine of 120 m deep. Then the power in watts,
+assuming that its efficiency is 75olo is:
+a. 4920 watt b. 5920 watt
+c. 3920 watt (dJ none ofthese
+34.If a man increases his speed by 2 m/s its kinetic
+eners/ is doubled, The original speed of the man
+is:
+a. 4 m/s b. (1 + 2\E) m/s
+c. (z +tfi)m/s d. (2 +2\[r) m/s
+35.A ship of mass 2 x 107 kB is at rest On applying a
+force of25 x 10sN, it is displaced through 25m. The
+speed of ship after this displacement will be:
+a. 725m/s b. 15 m/s
+c. 2.5 m/s d. 3.8 m/s
+36,A constant force acts on a mass m at rest The
+velocity acquired ln traversing a specific distance is
+dlrecdy propordonal to:
+1
+a. --- b. Vm\rm
+d.m
+a.
+c,
+V
+F b. Fv
+c
+1
+m
+31.ff the force applied is F and the velocity Sained in
+37.lfthe momentum ofa certain body be increased by
+500/0, its kinetic energr will increase by:
+a. L25Vo b. 150%o
+c. 500/o d. 62.50/o
+38.A motor drives a body along a straight line with a
+constant force, The power P delivered by the
+motor must vary with time t according to:
+a. t b. tr/2
+c. t3/2 d. t2
+39.What is the velocity of tle bob of a simple
+pendulum at its mean posltlon, if it is able to rise
+to vertical height of 10cm?
+G = 9'8 m/s'z)
+a. 2.2 m/s b. 1.8 m/s
+c. 1.4 m/s d. 0.6 m/s
+c
+Mcl
+4 d
+v, then the deve ls:
+A Quick Review ofE-PCM For Engineering Entrance - Physics ll P 5l ll
+F
+Mechonics
+
+===== PAGE 20 =====
+5. b
+32. a 33. c 35. c
+...,\4
+40.A force F= (5i + 3i) newton is applied over a
+particle which displaces it from its orlginal to the
+point ?= (2 i - | ), The work done on the particle is:
+a. + 11 ioule b. + 7 joule
+c. + 13 ioule d. - 7 joule
+41.The potential energF of a body is given by A - Bxz
+(where x Is the dlsplacement). The maSnitude of
+force acdng on the pardcle ls:
+a. inversely proportional to x
+b. proportional to xz
+c. proportion to x
+d. constant
+42.A particle is kept at rest at the top of a sphere of
+diameter 42m. When dlsturbed sllghtly, it slides
+down. At what height h from the bottom, the
+particle will leave the sphere. [OE]
+a. 35m b. 16m
+c. 12m (d) 7m
+43.Calculating the honse power used in pumping 2500
+kg of water per mlnute from a well 12 m deep to
+the surface. Supposlng 4090 of tle H.P. of the
+englne during the pumping ls wasted. The H.P. of
+engine will ber
+a. 15.6 H.P. b. 6.5 H.P.
+c. 11.2 H.P. d. 16.41
+44.The work done in pulllng up a block of wood
+weightlng zkN for a dlstance of 10 m on a smooth
+plane lnclined at an angle of 15', with the
+horizontal is:
+a. 9.82 kf b. 8.92 kl
+c. 5.18 kJ d. 5.56 kJ
+4.b
+i7. d
+Solution for Selected Problems
+2. F=(7-2x+3x2)
+5.
+W= ff.dx = [7x-xz+xr]i
+0
+=35-25+125
+w = 135,
+3. loss in PE = Gain in KE
+1^u =rmv"
+2u... m =E
+t3
+4, x=l
+dx
+'-dt-'
+At t=0,v=0
+At t=2segv=4
+work done = chang in KE
+77=1x2x4z-lxZxQz
+w = 161
+5.
+R=mg-FsinO
+f= pR- p(mg - F sinO)
+Fcos0-f=0
+R t sino
+.rFcos0
+F= u mg
+coso + p sino
+- = Fd .oro = 
+14&4!99
+cosu + u srnu
+6. T=mg-ma=mg- q_mc
+2- 2
+1
+workdone,w=T .x=rmgx
+Answerc:
+ctl,
+13. b L4.c
+L7.c 18. a
+7. x=2Y + 5
+-- dxv =;I = 8t'
+Att=0,V=O
+Att=1=8
+1
+theorem in KE = 7 x 2 t 82 - 0 = 645
+12.Gain in PE = Loss in KE
+.1mgn = rmvt
+.v2.. h=;-
+Again, Gain in PE = loss in KE
+c 8.c ie.d jlo. d
+11. b il2. c
+6.b
+lzt. a 22. b 23. b i24.b
+15. c
+19. a 20. a
+25. d
+i!
+i--
+i26.
+lii
+i36.
+d
+b
+27. a
+37.a
+30. b
+34. d
+139. c 40. b
+i41. iaa. c
+a
+c 42. a 43 c
+2.d 3. c
+I P 52 ll A Qulck Review of E-PCM For Engineering Entrance - physics
+Work-Energy ond Power
+v,(J
+t
+o.
+i28. d i29. c
+igg. a
+
+===== PAGE 21 =====
+=|mvz -75o/o ot$mvz') lS.Stopping distan.", S = H
+1
+xlmvz
+13,Let m is the mass ofman,
+Vn' = velocity of man
+Vr = velocity ofbody
+K,* = 2 kr"ay
+- l^"^, =l ,|t^/z)uo,
+.. Vm=Vb/2+Vb=2Vm
+Again
+1.o' t),=+@/z)vbz
++ (Vm + 1)2 = 2V-2
+On solving:
+y.=(l +1)
+... vr=z(r[ +1)
+lg.!y=|pxlAz-0
+.'. *=]r,162=|m,1oo
+Again,w'=|m[202-102]
+= ]mx300=3w
+16.8w = Ak
+Asaine=ff
+s, - A2)'S,-WJ
+Sz /80\,
+= 7 = [4-40,
+.. 52=8m
+--, --)
+l9.Power P = F . V
+h
+-4(.r-rc./
+1
+=4mgh
+h'=1,
+i.e., S a Vz
+--, --) --) --) --)
+=(20 { -3 j' +s k l.(6 | -20 i -3k')
+=120-60-15=45watt
+zo.)mv]*= fiis 0'* - h.t")
+2xrox(2-0.75)
+V''* = Sm/s
+21.KE at highest point K = Kcos2o = kcos245' =k/2
+1
+zz.U =;toe
+Uz_
+Ur-
+/xz\z
+\M/
+:. Uz= 25U
+outDut24.Efficienry = ;fr;
+> o.za=#10!-r
+.'. h = 15m
+P2
+25.KE, K = 6
+For same KE P cc ./;
+/10\2
+trl
+4 4
+2 2
+zo.u=fi=u-ft
+Pr-6
+Pz- mz
+29.a=
+tzs
+VB,
+w = J" 
+p.dt I J' 
+(3t'? - 2t + 1)dt
+Ur
+U = 2:1
+Kz
+kr2
+w= [t3 -t2 +t]f = 164-L6+4-8+4-z)
+d< = a6l
+17.utx)=*-fts
+ForceF=-H =-[-rrftr*']
+/2a\
+1'.t_-,
+W = u2 + zab = 0 + 2 x 24.2 x lO = 484
+Y = Z2m/sec
+32.K=*;pt=lo
+AgaioF=f;+Ap=o.2xrO=2
+P1=70+2=12
+170-5x9
+= 24.2
+/5
+Forequilibrium. F = 0,x =
+A Quick Review of E-PCMIor Engineering Entrance * Physics ll P 53 ll
+(a
+l.).A
+Mechonics
+
+===== PAGE 22 =====
+ar. = 7| tnr - n,'l = +.+l
+34. Let initial speed of man = V
+)n (v + z)z = z, (1 .")
+> (V + 2)2 = 2v2
+.'. V ,Z =rEV
+,. v=,pJ1=tz+zlE) mTsec
+zs.^=ffi=o.tzsm/sz
+V2 =u2 +zas= 0 + 2 x 0.125 x 50
+.'. V=2.5m/sec
+as.u = {-zgn = 2x9.8x0.7 = 1.4m/sec
+-) --)
+40.w= F. d =5,2-3" 1= + T loule
+41.U=A-Bxz
+r=-S=ze*
+Fccx
+42.HeiBht from bottorn, n =$=f =ss.
+. msh 2500 x 10 x 12
+43.Power=-t= =5000watt
+PowerinHP=ffi=6.7
+Efficiency of machine = 600/6 = 0.6
+outDut* =;;rt
+tnprt=ffi= 7t.t7 watt= 17.2
+Power of engine in H.P. = L1-,Z
+44.Workdone along smooth inclined planes
+W=mgsinOxs
+=2xsinl50x10=5.18KI
+***
+Work- Energy ond Power
+v,U
+v)
+lP 54 ll A Quick Review ofE-PCM For Engineering Entrance - Physics
+
+===== PAGE 23 =====
+Chopter-8
+GIRCULAR MOTIOil
+arour or a = {]7i aJ =
+/v2\2 /dv\Z(.;.J . [dr./
+. Direction of total accln from a.,tanp =rA
+(viii)The work done power both are due to tangential
+force.
+(ix) Angular momentum changes, L = m v r
+(x] Torque + 0, r = m 3. r, Torque is due to tangential
+force.
+o Work done by centripetal force is always zero in
+circular motion
++ If the length of circumference of circular path is given
+then
+Znc
+tano = =-r.g
+where,
+c = length ofcircumference
+t = time taken to complete circular path
+For banking of mads
+y2
+tano = -r8
+v2
+rg0tan
+Height raised by outer edge wr.to inner edge (super
+elevation)
+y2
+h = E * L *h".u, L = width ofroad,
+Max. speed ofwhich not for skidding on level
+Curved road (i.e. curved road ofwithout banking)
+v.* = {-prc
+where, F = coefficient of friction between tyre and
+road,
+Max. speed of vehicle on such road not for
+overturning
+.. -" l-_".le,*"_ v 2h
+where,
+d = distance between wheels
+h = height of cg ofvehicle from ground
+For motlon of cycllst, Ange made by cycllst wlth
+vertical
+o If a force is always -1. to the direction of motion (i.e.
+velocityl then path will be circular.
+. In circular motion vector quantities like velocity,
+linear momentum, acceleration, force changes.
+Unlfom circular motion
+[i) Speed [v) is constant
+(iiJ 'or' (angular velocityJ is constant
+(iii) KE is constant,
+(iv) Aco = 0, Ak = 0
+(v) Work done and power is zero
+(vi) Tangential acceleration (Rate ofchange ofspeedJ
+dlvl4t- dt -v
+(vii)at=ro=0+o=0
+(viii)Acceleration is directed along radius toward centre
+known as centripetal acceleration or radial accln or
+Normal accln.
+^,=t = o;r, = 4n"p, =ff,
+(ix) Total accln is only due to centripetal acclr
+(x) Angular momentum (L) is constant
+dL(xi]r=;I=0
+(xii)KE,k= jmvz= jrcx r
+1
+(xiii)Total ener$,, TE = i Fc x r + 
+J- 
+F6. dr
+Non-uniform circular motion:
+(i) Speed changes (ii) or changes (iii) KE changes
+(iv) at+ 0, Aor* 0, Ak* 0, 0+ 0
+(v) If speed increases then tangential acceleration [as) is
+along the direction ofvelocity.
+--.'
+i.e. Angle between ar and v is 0"
+-+ -+at' V = +Ve
+(vi)lf speed decreses then tangential acceleration is opposite
+in the direction ofvelocity.
+-+ -+at V =-Ve
+(vii) Total acceleration is due to both centripetal and
+tangential
+A Quick Review of E-PCM For Engineering Entranc€ - Physics ll P55 ll
+Altechonics
+
+===== PAGE 24 =====
+o lfbanking and roughness both are provided then min'
+and max- speed of vehicle not for skidding down and
+up.
+rg tan(o - 0l ,
+where0=bankingangle
+rg tan(o + a)
+a = angle of friction [tano, = p]
+Motion in vertical circle:
+I = length ofstring
+or Radius ofcircle (r)
+ic
+(v.)., = {-.g; T" = 0
+tr's= Vp = v*",= {-3rg ; T = 3mg
+(vA).,, = {-srs, r=6ms
+. Maxm speed of vehicle moving on Hump brldge
+(Convex bridge) ofradius'r' not for losing contact.
+u** = .l-.g
+. Time period rotation to complete vertical circle of
+radius'r'
+t:
+r = zo!t= zr/i s"'
+. Min. height from which a body slides down on
+frictionless track to complete a circular loop of radius 'r'
+at bottom (or end).
+r,-," = f = f; *r,"re D = diameter
+. tf a body is tied to string of length 'l' is given
+horizontal velocity vA at lowest point such that
+(il IfvA<\EA
+tn this case velocity becomes zero earlier than tension
+and body oscillates.
+Maxm height attained by body; h =
+ve2
+Zg
+If body of mass 'm' is tied to string of length '/' and is
+rotated in vertical circle then from lowest point to
+highest point both tension and velocity decreases
+Tension in the string at any angle '0'with vertical from
+lowest position.
+mv2
+T = mg cosO +;
+For lowestpoint, 0 = 0", fo = mg *Y = T.*
+IIlf.2
+For highest point, 0 = 1800, Tc = -; - mg = T.'"
+When string become horizontal, 0 = 90 " or 270"
+--DV2r- r
+If velocity of body at lowest point is 'v'then velocity at
+any height,
+,o={,r-2g[
+At any angle '0' height is, h = l(1 - cose]
+velocity when string becomes horizontal, 0 = 90" or, h
+=t
+v1 = 1,f v2 - 2g1
+Change in velocity when string becomes horizontal
+1a?1 = r/-v* 'vo.
+. Angle made by string with vertical
+vr2
+.o.0=1-2gl-
+(ii) If\/-z# < vA < i-ssl ,
+In this case tension becomes zero earlier than velocity.
+In tllis case, body leaves the circular path and moves
+under gravity in parabolic pat}.
+. The height hom lowest point at which body leaves the
+eath,h= 3yA34
+. Angle with vertical (from high)
+,ose=Gff
+. Velocity at that point v =
+. Max. height attained body from lowest point
+n=w{.ts.ff.zt
+. lf a body is released from top of hemispherical bowl o
+radius 'R" then body leaves the bowl
+(i) atheighth=$fromcentre
+(iil ath=$ from top
+(iii) at cos0 = f; (e = 48') with vertical
+<4
+v* - Zsl
+3
+t^-it = z(vz - gl)
+. Difference between maxm tension and min'tension.
+T.*-T.L=$69. Ratio of maxm tension to min' tension
+T-,* vez + rg vcz + 5rg
+Tnin-vA2-5rg- vcz-rg
+Critical velocity at difrerent points
+. To complete vertical circle tension in string at highest
+point T. > 0.
+ll P 56 ll A Quick Review ofE-PCM For Engineering Entrance - Physi(i
+Circulor Motion
+(r)
+th
+
+===== PAGE 25 =====
+In case of spherical bowl height from bottom =
+5R
+If a vehicle is moving on concave track and convex
+track then normal force exerted by concave track is
+always greater than convex track,
+If a vehicle is moving on convex track of different radii
+then that curvature exert more force for which radius
+is larger.
+If case of concave track smaller curvature exert more
+force.
+If a uniform rod of mass m1 having length 'L' is rotated
+about one end with angular velocity 'o' tlen force exerted
+on the another end.
+1
+F=Zm/UozL
+If a body of mass 'm' is tied to spring of natural length
+(or relaxed length) 'l' of force constant 'k' is rotated
+with angular velocity 'o' then elongation in the spring
+m<Glx=k-m.,,
+The max' distance from centre at which a coin may be
+placed on a circular table rotating with angular
+velocity'o' about an axis through cg and lr to plane'
+,,"-=H where p = coefficient friction
+If a circular table is rotating from rest with constant
+angular acceleration 'o.' and a coin is placed at a
+disiance x from centre then it starts slipping after
+t;(i) Themin'-time,t=\;;
+(iD Minn No. ofrevolution (n) = f
+Conical pendulum:
+ug
+4tt ox
+(i) Tension in the strinc, rffi [wnere sine = | I
+(ii) For linear sPeea ofUob, tane = E
+t., *"=(r-#
+Multi le Choice Questions
+1. A wheel is at resL lts angular velocity increases
+uniformly and becomes 80 radian per second after
+5 second. The total angular displacement is:
+a. 800 rad (b) 400 rad
+c. 200 rad d. 100 rad
+2. A particle of mass m begins to slide down a fixed
+smooth sphere from the top' what is its tangential
+acceleration when it breaks off the sphere?
+G
+3
+3
+a 3 b.
+d.c.g
+vhere,
+r = radius ofhorizontal circle
+? = length ofstring
+, = Time Period of simPle Pendulum
+3. Let a. and at represent radial and tangential
+acceleration. The motion of a particle may be
+circular ift
+a. ar=0,at=0 b, ar=0,at+0
+c. a, *0, at = 0 d. none ofthese
+4, A particle is movlng along a circular path of radius
+5m with a uniform speed 5 ms'l. What will be the
+average acceleration when thc particle comPletes
+halfrevolution?
+a. zero (bJ10 ms'?
+10
+c. 10n ms-2 d. .- ms2
+5. A 1 kg stone at the end of 1 m long string is whirledin
+a verti.rl circle at constant speed of 4m/sec' The
+tension in the sElng is 6 N wten the stone is at G =
+10 rn/secz):
+a. top ofthe circle b' bottom ofthe circle
+c. halfway down d. none ofthese
+6. The maximum tension that an inextensible ring of
+mass density O'1 kg m{ can bear is 40 N' The
+maximum velocity with whlch it can be rotated in
+a circular Path ls:
+a. 20 ms-1 b. 18 ms-l
+c. 16 ms-r d. 15 ms-l
+7. If the banking angle of a curved road is giveg by
+t n'fr) ana tne radius of curvature of the road is
+6 m then the safe driving speed should not exceed:
+(g = 1o m/sz)
+a. 86.4 km/h b. 43.2 km/h
+c. 2r.6bn/h d. 30 4 km/h
+8. A particle movlng along a circular path due to a
+cenfripetal force having constant magnitude ls an
+example of motion with:
+a. constant speed and velocitY
+b. variable sPeed and velocitY
+c. variable speed and constant velocity
+d. constant speed and variable velocity
+.A Quick Review of E-PCM For Engin€ering Entrance - Physics ll P 57 ll
+c
+(')ta
+Mechonics
+[V-**
+(iii) Timeperiod,T.= zt!ff =r" ' r/t"to
+
+===== PAGE 26 =====
+9. A particle of mass 2 kg is moving along a circular
+path of radius 1m. If lts angular speed is Zft rad s-1,
+the centripetal force on it is:
+a. 4nN b. 8nN
+c. 4dN d. 8nz N
+10.The speed of a particte moving in a circle is
+increasing. The dot product of its acceleration and
+velocity is:
+a. negative
+b. zero
+c. positive
+d. maybe + ve or -ve
+11*A particle P is movlng in a circle of radius a wit]t a
+uniform speed u, C is tle centre of the circle and
+AB ls a diameter. The angular velocities ofp about
+A and C are ln the rato:
+a. 1:1 b. L:2
+c. 2:L d. 4:2
+12.4 simple pendulum is vibrating with an angular
+amplitude of 90. as show in the given figure. For
+what value ofo, is the acceleration directed?
+E
+(i) vertically upwards
+(ii] horizontally
+[iii) vertically downwards
+u. 0",.o',(.ll,so"
+velocity of the particle is 80 m/s at the end of the
+second revolution after motion has begun, the
+tangential acceleration is:
+a. 1,60nm/sz b. 40rm/s2
+c. 4O m/sz d. 640 nm/sz
+16,Two particles of equal mass revolving in circular
+paths of radii 11 and rz respectively with the same
+angular velocity. The ratio of their centripetal
+force will be:
+.f2h.-
+11
+u eJ'
+a.
+c.
+11
+fZ
+^lpV.,
+17.4 cyclist moving with a speed of 4.9 m/s on a level
+road can take a sharp circular turn of radius 4 m,
+then coefficient of friction between the cycle tyres
+and road is:
+a. 0.71 b. 0.61
+c. 0.31 d. 0.81
+18.A bucket tied at the end of a 1,6 m tong strin& is
+whirled in a vertical circle. What should be the
+minimum speed so that the water from the bucket
+does not split when the bucket is at highest
+position?
+a. 76 m/s b. 4 m/s
+c. 6.25 m/s d. none of these
+19.A body is allowed to slide down a frictionless track
+freely under gravity, The track end in a
+semicircular shaped part of a diameter D. The
+height (minimum) from which the body must fall
+so that it completes the circle, is:
+4
+5 D
+ee'.6s5'r (-L-).6"
+\v3 /'
+.o,,(1nJ,0". oo.
+- /1\d. cos-1 l-F 1 .90". 0"
+w3/
+l3,When a body moves with a constant speed along a
+circle:
+a. its velocity remains constant
+b. no force acts on it
+c. no work is done on it
+d. no acceleration is produced in it
+l4.Ttyo racing cars of masses mr and m2 are moving
+in circles of radii 11 and rz respectively. Theii
+speeds are such that each makes a complete circtein the same time t The ratio of the angular speeds
+ofthe first to the second car is:
+a. 1:1 b. mr:mz
+c. 11 : 12 d. m1m2 : rlrz
+(20\I-lm\n,/
+B
+i_'
+C
+b
+!
+2
+5
+;D
+b
+d
+D3
+a
+C,
+C
+4
+15.A particle moves along a circle of radius
+with constant tangential acceleration.
+20.A stone of mass 1 kg tied to a light inextensible
+string of length L = fm, whirting in a circular
+path in a vertical plne. The ratio of maximum
+tension in the string to the minimum tension in thestring is 4, If g is taken to be LO m/sz, the speed of
+the stone at the highest point ofthe circle is:
+a. 10 m/s b. Sr[ m/s
+c. 10 r,6 m/s d. 20 m/s
+21.Toy cart tied to the end of an unstretched string oflength a, when revolved moves in a horizoi'tacircle of radius 2a with a time period T. Now thetoy cart is speeded up until it moves in a
+horizontal circe of radius 3a with a period T,. IfHook's law hold then:
+a. r'=lflr u. r,=[€)rV Z \2 ) '
+/?\c, r'= [, r d. r,= rIf the
+ll P 58 ll A euick Reyiew ofE-PCM For Engineering Entrance _ physics
+Circulor Motion
+v,
+ta
+
+===== PAGE 27 =====
+2Z,A body of mass 2 kg tied to the end of string of
+length 1 metre is whirled in a horizontal circle,
+with a uniform angular velocity of4 rad/sec. Then,
+the tension ofthe string will be:
+a. 32N b. 16N
+c. 10N d. 8N
+23.A motor car is travelling at 30 m/s on a circular
+road of radius 500 m, It is increasing its speed at
+the rate of 2 m/s2. Then acceleration ofthe car will
+be:
+a. 4 mlsz b. 3 m/s2
+c. 2.7 m/sz d. 8 m/s2
+Z4,A car of mass m moves in a horizontal circular
+path of radius metre. At an lnstant its speed is v
+m/s and is increasing at a rate a m/sz, then the
+acceleration ofthe car is:
+a. a+[, ,r*fg)'\ r,/
+4.d i5. a
+6.a 7.c 8.d 9.d 10. c
+11. b 12. a 13. c
+77.b 18. b
+22. a 23. c
+27. a 8.c 29. c 30. c
+1. w = 50 ral/s, <r>o = 0
+t=5sec
+o= o)o+ (rt +a=16ral/s2
+0 = tmt + l ot'z =t* rc ,52 =200rad
+Let at point'8" particle breaks offthe sphere
+h =R-RcosO=R(1 - cos0)
+l,=o)
+o
+Velocity ofpoint B,
+\ez =1172 + )gl1= lgR(1 - cos0) .........'.'.(i)
+Again, mg cos0 = ff + Vsz =gR cos0 .'..(ii)
+From (i) & [ii))
+coso = i
+Tangential force at the point = mg sino
+Tangent accln, ar = gsino
+JE... a,=TB
+5. Tension at any point making an angle '0' with vertical
+from lowest point
+mV2
+T = mg cosO +;
+7x426=1x10coso+-l-
+b.
+d. ac. r
+25.A small cone filled with water is revolved in a
+vertical circle of radius 4m and the water does not
+fall down. What must be the maximum period of
+revolution?
+a. 2 sec b. 4 sec
+c. l sec d. 6 sec
+26.4 cyclist goes round a circular path of
+circumference 34.3 m in {ZI second. The angle
+made by him, witl the vertical, will be :
+a. 45' b. 90'
+c. 2?.5 d. 60'
+27.A train has to negotiate a curve of radius 400m. By
+how much height should the outer rail be raised
+with respect to inner rail for a speed of 48 km/hr?
+The distance between the rails is lm:
+a. 4.5 cm b. 9 cm
+c. 2.25 cm d. none ofthese
+28.A 500 kg car takes a round turn of radius 50 m
+with a aped of 36 km/h. The centrlpetal force is:
+a. 250 N b. 500 N
+c. 1000 N d. 2500 N
+29,The angular velocity ofsecond hand, ofa clock is:
+30,The circular orbit of two satellites around each
+have radii 11 and rz respectively. (r1 < rz)' lf
+angular velocities of satetlite are same then their
+centripetal acceleration are related as:
+a. at> az b. al = az
+c. a7<a2 d. ar > az
+10
+coso=-i6=-1 .
+i.e. at top ofthe circle
+o. rmax=s?/
++ 40 = 0.1 x V*-2
+V.",,2 = 400
+. . V.* = 20 m/sec
+13\
+= tan-l1 ; I
+\)./
+0 =180"
+". fu)*ur. o. CtJ."o
+. (ror)*ur. a. (ft)*a
+/s
+/s
+7. g
+v2
+tano = rg
+14.a 15. c
+20. a19. d
+25.b24.b
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P59 ll
+Answers:
+Solution for Selected Problems
+TE
+q
+o
+ar)
+Mechonics
+
+===== PAGE 28 =====
+x6x10
+ll.Angular velocity, w = Y
+About A; wa = OI
+About C; wc = |
+wa1
+wc- 2- "
+lz.Tangential acceleration at any
+angle 'o' with vertical is given
+by:
+at = g sino and centripetal
+v2
+acceleration, ac =;
+-+ -+ --)a =ac+at
+= At lowest poin! o = 0, at = 0 and a. is vertically
+upwards hence acceleration is vertically upward
+= At extreme position, i.e. o = 90o, at = g vertically
+downward and v = 0, ac = 0 hence total acceleration
+vertically downward
+= When total acceleration is horizontal, it makes an
+angle 'a' with tangential acceleration
+v2 Zsr cosrra.=;=--;-=2gcos0
+a.tana =; + tanzo. = 2
+... tano = f
+7
+.. coso=-F\i3
+c = cos-1
+2n14.o = T
+Time period for both car is same hence, 9 =t.a2
+l9.Velocity oflowest point in terms of height
+v = \Ech
+To complete the vertical circle minimum velocity of
+lowest point
+v=V-sry=\f5!c
+./zn={*
+5D
+h.,. = --
+T-* V2 + 5rs
+'T.i, - V2-rg
+, _V2+srq
+v._rg
++ v2 =3r8=a,f*10
+.. V = 10m/sec
+v2
+V
+J
+-5
+=6 /secm
+=G,f)0.^.= 2t.6kn/hr
+o
+A a, gsuo
+7
+20
+f,1.Ix2=6x
+(2n\2
+h.t .2a...........-[i)
+c Znr
+t
+/2*\z
+and k x 2a = m, lff I, S".............(ii)\1./
+Solving (i) and (ii) we get
+-, f-,-2,
+22. Tension in string = ',:,ylzy = | x4zx 1= 32N
+23. Centripetal acceleration,
+vz 302
+ac=-=E66= 1.8m/s2
+Tangential acceleration a, =2 6752
+a =t[iji] =2.7 1n1s,
+25. Max. time period = 2rr
+t;
+\c =zfix G
+\io
+tt2 ', J_
+26.13n6 =: = !5rg rg
+4sec
+t[",
+CJ ))
+2x x 34.37
+tan0 =
+.'. 0
+^_h v2
+Lrg
+=122 x 9.8
+=45
+r5.r = 4.
+It'
+v2
+v = 80 m/sec
+=u2+la.xs=0+2atxs
+802
+= 40 m/s2
+where,h=heightraised
+L= distance between rails
+/ s\2
+l.48 ' 18J_-Yl
+400x 10 "'
+= 4.Scm
+at -2,(2n,4\,2
+\ ,I./
+h
+h
+17.v2 = prg
+".p
+18. Minim
+v
+4.92
+=+'ss=oor
+um speed at highest point,
+={-rg={fZTI6=+m/sec
+***
+ll P 60 ll A Quick Review ofE-PCM For Engineering Entrance - physics
+Circulor A{otion
+t
+U
+ta
+
+===== PAGE 29 =====
+r Centre of mass depends on the distribution of mass of
+system.
+o If a body is symmetric about point, line or axis then
+centre of mass lies on that point, Iine or axis of
+symmetry.
+Position of centre of mass
+(1) For "n" point masses:
+-J+-+
+m1 ri + mz rz + ,,... + mn fn
+IIlr+IIIZ+ '..."+mn
+Xmiri- Xrhi
+(2) For continuous bodY:
+Irdm
+T;;
+where dm = mass of elementary striP
+r = distance from axis to elementary
+mass.
+Velocity of centre of mass,.
+.7 - mrfr + mz?z + ..... + m"7,Ycm- IIlr+Irlz+.'....+mr
+Acceleration of centre of mass
++a-V.
+-+
+fcm =
+Icm =
+-) -)+ IIlz Oz + '.'..IIlr ?r
+II}t+IIIZ+."...+mn
+o Internal force donot affect the motion of centre of
+mass system as a whole. But it may affect the part of
+system.
+o During collision linear momentum is conserved
+Elastic collision:
+(i) Linear momentum is conserved
+(i0 K.E. is conserved
+(iii) Total energr is conserved
+[iv) Coefficientof restitution (e) = I
+(i) Linear momentum is conserved
+(ii) T.E. is conserved
+(iii) 0<e<1
+ioi perfectly inelastic collision e = 0
+o Coefficient of restitution (e) is the ratio of relative
+velocity of separation to approach'
+Head on elastic collision:
++
+3cm
+c collision:
+Chopter-9
+GENTRE OF MASS AND GOLLISION
+W W
+Ur
+Before collision
+m2
+U2
+Y2
+W W
+IIlr fiz
+After collision
+a. IItrUt + ftlzllz= m1V1 + m2v2
+b' Yz-Yt = u1 - tl2
+i'e' v21 = g"
+yzt = Yz- vr = Relative velocity of separation
+u1z = u1 - uz = Relative velocity of approach
+[i) If two bodies are identical (i.e', m1 = 62) then their
+velocities are interchanged.
+(ii) If two bodies are identical and second body is at rest
+then after collision first body comes into rest and Znd
+body moves with the velocity of 1st body'
+[iii) If lighter mass collides with heavier mass at rest then
+lighter mass returns with same speed but heavier mass
+remain unaffected.
+[iv) If heavier mass collides lighter mass at rest then
+heavier mass unaffected but lighter mass moves
+approx double the velocity of heavier mass'
+For head an inelastic collision
+a, m1 Ur + IIlzUz = m1v1 + mzvz
+b. vz - vl = e(ul - u2)
+. If a moving body collides with identical body at rest
+and'e'is the coefficient ofrestitution then'
+(i) Ratio of velocity of bodies after collisio' it +*
+(ii) Ratio of velocity of moving mass after and before
+1-e
+collision isa-.
+. If a ball is dropped from height 'h' and coefficient of
+restitution is'e' then,
+A Quick Review of E-PCM For Engineering Entrance - PhYsics ll P 61 ll
+ml
+Vt
+Mechanics
+x
+til
+ttl
+-na
+
+===== PAGE 30 =====
+Centre of Moss ond Collision
+(i) height rebound after'n' collision
+h, = g2n 1-,
+[ii) Sum of tota] distance before coming to rest:
+'=(#")n
+[iii) Sum of total height of descent = +I-CZ
+(iv) Sum of total height of ascent = ,*Lrn.
+. If time of descent, is 't' then time of descent after .n,
+collision.
+5. Two balls of equal mass have a head on collision
+with speed 6m/s.If the coefficient of restitution is
+1/3, the speed of each ball after impact will be:
+c. !
+4
+!
+3d.
+I
+t, = €nt
+Total time taken before coming to rest
+6. A shell is fired from a cannon with a velocity v at an
+angle 0 with the horizontal direction. At the highest
+point in its path it explodes into the pieces of equal
+mass. One of the pieces refaces its path to the
+cannon and the speed (in ms-t1 of the other piece
+immediately after the explosion is:
+a. 3v. cosO b. 2.v cos 0
+1 cm upward
+l cmdownward
+(a0 18 m/s
+c. 6m/s
+e+1
+e-1
+b. 2m/s
+d. 6.33 m/s
+e+1
+PR+QR
+3
+r=ffit
+Multiple Choice Questions
+1. A block of mass m moving at a velocityv collides with
+another block of mass 2 m at rest The lighter block
+comes to rest after collision. Find the coefficient of
+restitution;
+a. 1/2 b. 1
+c. 7/3 d. t/4
+2. Two blocks of mass 10 kg and 30 kg are placed
+along a vertical line. The first block is raised
+through a height of 7cm. By what distances should
+the second mass be moved to raised the centre of
+mass by 1cm.
+d.
+7. Two particle P and e initially at rest, move
+towards each other under a mutual force of
+attraction. At the instant when the speed of p is v
+and the speed ofQ is 2v, the speed ofthe centre of
+mass of the sysm is:
+a. 3v b. 1.5v
+c, v d. zero
+8. A body of mass m moving with speed v collides
+elastically head on with another body of mass 2 m
+which is initially at rest. The ratio of kinetic enerry
+of colliding body before and after collsion will bei
+a. '1,:7 b. 2:L
+c. 4:t d. 9:t
+9. A sphere of mass m moving with a constant
+velocity u hits anotfrer stationary sphere of the
+same mass. f e is the coefficient of restitution, then
+ratio of velocities of the two spheres after collision
+will be;
+1-ea. 
+-
+l+e
+3
+7.vcos0 f ,.o,,c.
+a.
+C.
+2 cm upward b.
+Zcmdownward d.
+a. 1.0 cm
+3. Two persons A and B having masses S0 l€ and 60
+kg respectively are sitting at the two extreme to a
+4 m long platform of mass 40 lqg kept on smooth
+ice. If they come to the middle of the boat then how
+(approximately) far does the boat move on the ice
+during the process:
+b. 11 cm
+d. 13 cm
+- 1+eb. =-l-e
+PQ.+ PR
+3
+1ec. d.
+4. A man of mass M stands at one end of a plank of
+length L which lies at rest of a frictionlessiurface.
+The man walks to the other end of the plank If the
+mass of the plank is f , tte distance that the man
+moves relative to the ground is:
+c. '/.,2 cm
+a. b. 4L
+5
+10.Three identical spheres, each of mass 1 kg areplaced touching each other with their centres on a
+straight line. Their centre are marked p, Q and p
+respectively. The distance of centre of mass of tlfsystem from P is:
+PO+ PR+QRa, 3 b.
+3L
+4 c.
+PQ+QR
+3 d.
+llP 62ll .L quic* Review of E-pCM For Engineering Entrance - physics
+,
+
+===== PAGE 31 =====
+11,Centre of mass of three particles of masses Ll<9,2
+kg and 3 kg lies at the point (1, 2, 3) and centre of
+mass of another system of particles 3 kg and 2 kg
+lies at the point (-1, 3, -2). Where should we put a
+particle of mass 5 kg so that the centre of mass of
+entire system of mass of Ist system?
+a. (0,0,0) b. L,3,2
+c. (-L,2,3) d. (3, 1, B)
+12.A uniform metal disc of radius R is take and out of
+it a disc of diameter R is cut off from the end. The
+centre of mass of the remaining part will be:
+a. I r.o. the centre
+I f.o*the centre
+$ r.orn the centre
+f r.o.thecentre
+13.If the net extemal force acting on the system of
+particles is zero, then which of the following may
+vary?
+a. Momentum of the sYstem
+b. velocity of centre of mass
+c. Position of centre of mass
+d. None ofthese
+14.For a rocket moving in free space, the fraction of
+mass to be disposed off to attain a speed equal to
+two times the exhaust speed is given by:
+a. 0.63 b' 0.37
+c. 0.50 d. 0.86
+\S,AZ kg block of wood rests on a long table top. A 5 g
+bullet moving horizontally with a speed of 150
+m/s is shot into the btock and sticks to it. The
+block then slides 2.7 m along the table top and
+comes to a stop. The force of friction between the
+block and the table is:
+a. 0.052N b. 0'52N
+c. 2.50 N d. 1.04N
+6.A man of mass M stands at one end of a plank of
+length L which lies at rest on a frictionless surface'
+The-man walks to the other end of the planlc If the
+mass of the plank is 3M, the distance that the man
+moves relative to the ground is:
+t7.lf a body of mass 'm' collides head on, elastically
+with velocity 'u' with another identical body at
+rest. After collision velocity of the second body will
+be
+a.0b.u
+c. 2u d. data insufficient
+18.A metal ball of mass 2 kg moving with a velocity
+36 km/h has a head on collision with a
+ball of mass 3 kg. If after the collision, the two balls
+move together, the loss in kinetic energy due to
+collision is:
+a. r40l b. 100 l
+c. 60 I d. 40I'
+19.1 kg body at rest explodes into three fragments.
+The ratio of their masses is 1: 1: 3. The fragments
+of same mass move perpendicular to each other
+with speeds 30 m/s. The speed of heavier part is:
+10
+a. =m/s b, 10 rB m/s
+\lz
+c. zot[1m/s d. 300 N
+20.If kinetic energy of a body is increased by 300o/o
+then percentage change in momentum will be:
+a. l01o/o b. l50o/o
+c. 2650/o d. 73.2o/o
+21.A stationary particle explodes into two particles of
+masses mr and mz which move in opposite
+directions with velocities vr and vz. The ratio of
+their kinetic energies Er /Ez is:
+b.
+c.
+d.
+a. l b.
+d.mz
+Illr
+ab
+b' ,.a
+!Lr-
+m2c.
+a,
+c.
+a+c
+ab
+a
+b+c
+a
+a+bd.
+L
+a. 4
+3L
+b.4
+L
+d. I
+2L
+3
+24.A body of mass M at rest explodes into three
+masses two of which of mass M/4 each are thrown
+off in perpendicular directions u'ith velocity of 3c.
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 63 ll
+Mechonics
+IIlrVz
+IllzVr
+22.The centre of mass of the system of the particles
+does not dePend on:
+a. relative distance between the particles
+b. position of the Particle
+c. forces on the Particle
+d. masses of the Particle
+Z3,abody of mass a moving with a velocity b strikes a
+body of mass c and gets embedded into it' The
+velocity ofthe system after collision is:
+
+===== PAGE 32 =====
+Centre of Moss and Collision
+I m/s and 4 m/s respectively. The third piece will be
+I thrown offwith a velocity of:
+I
+i a. 3 m/s b. 2.5 m/s
+I
+I c. 2.0 m/s d. 1.5 m/s
+l25.An obiect of mass 40 kg and having the velocity 4
+I -/. collides with another obiect m = 60 kg having
+velocity 2 m/s in same direction. The collision is
+perfectly inelastic. The loss in enerry is:
+a. 110 I b. 481
+c. 3921 d. 4401
+26.A gun fires a bullet of mass 50 g with a velocity of
+30 m/s. Due to this, the gas is pushed back with a
+velocity of 1 m/s, then the mass of the gun is:
+a. 1.5 kg b. 5.5 kg
+c. 0.5 kg d. 3.5 kg
+27.A neutron makes a head-on elastic collision with a
+stationary deuteron. The fractional enerry loss of
+the neutron in the collision is:
+a. 76/8t b. 8/9
+c. 8/27 d. 2/3
+28.Two stones of masses 4 kg and 8 kg are moving
+with velocities 4m/s and 10 m/s towards each
+other due to mutual gravitation attraction. The
+velocity of their centre of mass will be:
+a. 24.9 m/s b. 28.L4m/s
+c. L4.7 m/s d. 5.3 m/s
+29.The basic principle of rocket propulsion is based
+on:
+a. conservation of mass
+b. conseryation of angular momentum
+c. conseryation of energy
+d. Newton's third law
+30.An obiect of mass 3M at rest splits into the equal
+fragments. Two fragments have velocities r?.r,a -
+vi. The velocity of third fragment will be:
+   AA
+a. v [i-i] b. 'q j)
+c. , tl. it ' f(i-ilu' {,
+31.A hollow sphere is held suspended. Sand is now
+poured into it in stages. The centre of gravity of
+the spherre:
+a. first falls and then rises to the original
+position
+b. first rises and then falls to the original
+position
+c. remains unchanged in the process
+d. rises continuously
+32.A proiectile is moving at 20 ms'1 at its highest
+point, where it breaks into equal parts due to an
+internal explosion. One part moves vertically up at
+30 ms-1 with respect to the ground. Then the other
+partwill move at:
+a, 20 ms-1 b. 10 {5I ms-r
+c. 50 ms-1 d. 30 ms-1
+33.If the force on a rocket which is moving with a
+velocity of 300 m/s, is 210 N. Then the rate of
+combustion of the fuel will be:
+a. 10.7 kg/sec b. 0.07 kg/sec
+c. 7.4k9/sec d. 0.7 kg/sec
+34.A ball of mass 250 g moving with velocity 20 m/s is
+stopped by a force, which acts on it for 0.1 sec the
+impulsive force will be:
+a. 0.3 N b. 0.6 N
+c. 0.5N d. none ofthese
+35.Two identical balls A and B collide head on
+elastically. If velocity of A and B before the
+collision are + 0.5 m/s and -0,3 m/s respectively,
+tfren their velocities after the collision will be:
+a. + 0.5 m/s and + O.f, 6/5
+b. -0.5 m/s and + 0.3 m/s
+c. + 0.3 m/s and - 0.5 m/s
+d. - 0.3 m/s and + 0.5 m/s
+36.An obiect A of mass 2 trg is moving with a velocity
+of 3 m/s and collides head on with an object B of
+mass 1 t<g moving opposite direction with a
+velocity of 4m/s. After collision both obiect
+coalesce so thatthey move with a common vetocity
+equal to:
+a. 3 m/s b. 2 m/s
+c. 1 m/s d. 2/3 m/s
+20.a
+b
+35.d
+Solution for Selected Problems
+1.. Linear momentum after collision = Linear momer
+before collision
+a
+,t
+t.a 2.d 3.d 4.c 5,b
+6.a 7.b Ld 9.a 10. b
+11. d 12.d 13. c L4.d 15. a
+t6.b L7.b 18. c 19. b
+2L. c 22.c 23.b 24.b
+26.a 27.b 28. d 29. d
+31. a 32.c 33.d 34.d
+36.d
+ilP64ll A Quick Review of E-PCM For Engineering Entrance _ physics
+
+===== PAGE 33 =====
+mx0+2mxV'=mxV+2mx0
+V2-vt_V'-0_v'
+U1 -uz-v-0-V
+1
+n"tio orrs = (#)'= s, rv
+2
+e
+9
+10.
+ur=u
+(u2{)
+lke lkg lks
+e 2
+2. ml|yr + m2Ay2 = (m1 + m2)Ay
++ 10 x 7 + 50 x Ly2 = 40 x 1
+:. Lyz =-1cm
+Lyz = 1cm downward
+3. m1Axl + p2[x, + m3Ax3 = Q
+50 x (2 + xJ + 60(-2 + x) + 40 x x = 0
+60x2-50x2 20
+150 = i36 = 13'33 cm
+from the conservation of linear momentum,
+Vr + Vz = u .'........'.......0)
+Again from, coeffi cient of restitution,
+Vz-V1 v2-Vie=-=-U1- uz U
+.. v2 - v1 = eu ..................(i0
+Solving (i) & (ii) we get,
+vz = ffiu and v, = (?,
+v1 /1 -e\
+", 
+= (r../
+4. mrAxl + mzAxz = 0
+M(L+xo)+$xr=o
+ML 3L
+---t -
+2m
+Before collision
+xp
+M.* +
+distance ofman relative to ground
+3L L.. x- =L---=;++
+6. Linear momentum before explosion
+= Linear momentum after explosion
+= 2m x Vcos0 = m x (_v coso) + rlr x vz
+.. v, = 3V cos0
+8. 1v,=v)u (vd)
+centre ofmass ofsystem from 'p'
+lxQ+lxPO+1xPR PO+PRr.m =-----Ifil =--3
+12.If 'M' is the mass F disc then,
+M
+Mass ofcut off Disc = T
+and mass of remainins oi.. =(r'r - U)
+3M
+'4
+fvlass x perpendicular distance from cm = constant
+3M MR
+a-xx= 4xl
+R
+... x=O from centre
+l4.Velocity ofRockect
+u=","(!!'J
+2, =, h"(I4er{)
+MoMl-M-=", =M:o=-;=0.135
+Fraction ofdisposed mass =(1 - 0.135) = 0.86,
+15. Velocity after sticking
+. .,, 5x 10-9x150
+2.005
+Y' = 0.37
+EW=AK
+m m 2m
+KE before collision =
+KE before collision =
+mYp =|npz1)
+I
+2 mVr'2
+vr'=X
+A Quick Review ofE-PCM For Engineering Entrance - Physics ll P 65 ll
+[P)r"r.* -rri"i"" = (P)After coursroD
+= 11x [= 111 x !1'+ 2m x V2'
+Vl' + 2V2' = V ...................(i)
+Again, Relative velocity ofapproach = Relative velocity
+ofseparation
+Vr-Vz=Vz'-Vr'
++ Vz'- V1'= y .......................(iD
+on solving (i) and (iiJ we get,
+t
+nah
+Mechonics
+
+===== PAGE 34 =====
+Fr"*i". x (-2.7) = 0 - j tU t m) Vr
+0.5x2.005x0.372
+Frii.tio. = ---lJ-- + r.ro=Srlt3=r.sxe
+28.%). =
+mrVr +mrd 4x4 - 8x10
+mt+m2 - 4+8
+=ff=s.z^1,",
+32.Conservation of linear momentum,
+?=Fi*B
+B =?-A
+tBt = 
+'/F. 
+P"
+[2m x 20)'z + [mx3o)'z
+Vz = 50 m/sec
+ge.rorce = V'*
+dm
+- z1o = 3oo x -Ef
+" d#= o'7 kg/s"'
+An 0.25 * 29 
+= 5OH34,lmpulsive force = ;i = - 0.1
+36.V = m1 +mz
+26.Y c _MuxVt-Mc
+Friction force = 0.052N
+,r,,n,6r1 Ks = |' z'(ru, tJ
+,
+2
+= 1001
+, 10
+Velocity after collision V = flT = 4m/s
+1
+KE after collision = ;x 5 x 4''/ = 40|,
+Loss in KE = 601
+19. From conservation oflinear momentum
+d*BtB=o
+') --)
+P! =-(Pi + Pi)
+lPll= lPi + Pzl
+P, =r/Pr'*Pl
+p, =rEp [... p1 =p2=e=],e01
+2_1
+= {,v,=r/z'f,ro
+.. Vr = 10r[ m/sec
+I --J -.J
+24.Pt+Pz+Pt=O
+P] + Pz2
+= mxv2=
+P:= 2,3-lx4 2
+=---rn =a^t ECs
+\,r,=\P;a
+Vr = 2.5 m/sec
+***
+ll P 66 ll A Quick Review ofE-PCM For Engineering Entrance - Physics
+Centre ol Moss ond Collision
+t(J
+(n
+,-+m1v1 + mzv2
+
+===== PAGE 35 =====
+Chopter- 10
+ROTATIONAL TIOTION
+Moment of Inertia: [l] :- It is the property by virtue of
+which body opposes the change of state of motion.
+[i) For point mass,
+I=mrz
+Wherq
+r = Ir distance from axis of rotation
+(ii) For system of masses,
+I = mrrr2 + mzrzz + ......... r rrnrn2 =,{ a,aF
+(iii) For body continuous mass distributiort
+1= Jxzdm
+Where dm = mass of elementry strip
+x = distance from axis of rotation to elementry mass.
+MI of different bodies:
+B
+Ias=Mh2+l.e
+Perpendicular Axis Theorem: -
+The sum of MI of two axes mutually Ir in the plane of
+Lamina gives MI about axis passing through intersection
+of two axis and 1'to the plane of lamina.
+l.e. Iz=lx+lv
+-+ Moment of inertia is Tensor,
+-+ It's unit - kgmz
+Dimension -+ MLz
+Parallel Axis Theorem:-
+h
+1. Uniform Rod (M, L) l(i) Cg and Ir to Iength
+(ii) End and l-rto lengh
+Iiii)
+ML2
+MLzsin20
+72
+3
+1
+ML2
+2. Uniform Ring (M, R) (i) Cg 1r to plane
+[ii) Diameter
+MR2
+1
+2 MR2
+3. Uniform Disc (M, R) (i) Cg and 1r to plane
+(ii) Diameter
+Ir*,
+Ir*,4. Solid sphere (M, R) about diameter 2
+3MR'
+A Quick Review of E-PCM For Engineering Entrance _ physics ll p 67 ll
+Mechonics
+E
+{r1
+(')
+ru)
+I
+I
+I
+Bodles MI
+0
+
+===== PAGE 36 =====
+Rototionol Motion
+MR2
+2
+3
+about diameter5. Hollow sphere (M, R)
+/ L2 R2\
+MUz-41
+],*,
+(11 Its o*n geom"trical axis
+(2) Cg and Ir length
+2
+6. Solid Cylinder
+MR2
+/L2 R\Mltz..Z)
+(i) tts own geometrical axis
+(ii) Cg l-r length
+7. Hollow cylinder
+[02 + bz)M
+12
+Cg and J-r plane8. Rectangular lamina
+u,(J
+l,
+E=ri#ninu-$'
+EHt*.*toi..-g
+Solid sPhere 
+---)
+Hollow sphere ----4
+I
+7
+%."=v(srvl
+Ve=V-ro
+Vc=V+r<o
+Numinator of Coefficient
+Dinominator
+K= coefficient *'L' or 'R'
+r/vr-- t..f
+Vz + (ro)2
+(i) lf V > r(D, VA = +ve; i.e. it is the case of rolling with
+slipping and slipping takes place in forward direction'
+(ii) IfV < ro, Ve = -ve, i.e., it is also the case ofrolling with
+slipping and slipping takes place in baclward
+direction.
+(iii) If V = ro, Va = 0, i.e., it is the case of rolling without
+slipping or Parc rollinS.
+...Vg=l\ = ij1/}\s =Y, = f V = r[ rro
+KE of Rolling bodY:-
+KE ofrolling body is due to both translation and rotation'
+11*o,,=[eo1+Krran"
+11
+= ll(Il2 + lmvt
+1
+2
+N+D 1 N+D
+Knott or Krot"t = MV2 I'
+D -2 Iof N
+NK2
+N+D-K2+RzKrou or Kr
+Kr.,,. D
+=N-D=
+R2
+Krot or Krotr R2+K2
+If KE of a rolling body due to rotational motion is x 0/6
+ofKE due to translatary motion then body must be,
+L
+2
+?
+?
+3
+coefficients
+ofMR'z
+r.".,*,=(s),un,
+where N =
+D=
+1
+eg. (i)For Ring tangent Ir to plane i + coemcient
+N=1, D=land l=2MR2
+/1\ ?
+(ii) For Ring tangent only $] t.'r"', = i unz
+(iii) Radius of Snation for solid sphere about tangent'
+*={-T.*={i*
+(iv) Radius of ryration ofuniform rod about are end'
+* Plane parallel motion of Rolling body:-
+^EV3
+L
+3
+*L=K
+ll P 68 ll A Quick Review of E-PCM For Engineering Entranc€ - PhYsics
+I
+Radius of Srration(K): lt is that distance from axis of
+rotation whicf square, multiplied to the mass of body
+product gives MI about that axis ofrotation'
+fi=ml('l
+
+===== PAGE 37 =====
+5 Q Solid sphere
+2
+2
+7
+rf# 5 Q Hollow sphere
+, + Disc or solid Cylinder
+1 c) Ring or Hollow Cylinder
+e.g. (i) If a body rolls without slipping, KE due to
+rotational motion is 40% of KE due to translatory
+motion then find the body.
+40 2 -.-
+i6o-=E=tot'ospnere
+* Acceleration of Rolling body on inclined plane:
+q tH.
+asolid s >a
+. If a body rolls to up the hill with velocity v then
+maximum height attained.
+h=x. /N+D\
+\p/
+'=t-(#E)
+Acceleration of mass tied to a string wound over a
+cylinder & mounted on a horizontal axis is .........
+(1J In case of smooth inclined plane rolling body slides only.
+i.e., only translation occurs.
+a = ssine 0 = Angle of inclination with horizontal
+(2) In case of rough inclined plane:-
+. Tension in the string
+Ifball of radius 'R' is rotating witll angular velocity 'oro'
+is placed on rough horizontal surface having the
+coefficient of friction p, then ball starts pure rolling
+(i.e., rolling without slipping).
+2
+t=1 coor ZoroR
+pe- 7pe
+e r=,"c.(#J
+a*1=ffi*csino #u**'"
+p.,.=tano.(N+J=G-&*'..)-"",
+Velocity when it reaches the bottom from height h.
+Velocity when body roll down distance '0'.
+Minm coemcient offriction required for rolling
+(i) After time,
+AI-lt-l=2loAt
+If tlvo solid sphere are of same material having their
+radius R1 and R2 respectively then this ratio of MI.
+r=ftnpn'
+Moment of inertia depends upon mass distribution of
+body about axis of rotation and mass ofthe body.
+A bicycle is fitted with spokes to increase in MI of
+wheelthat's cause balance of ryclist is maintained.
+MI of raw egg > MI ofboiled egg.
+Bodies
+7
+=vat
+soria sprrere (f) gsin6*f 2
+tanO , 7
+Hollowsphere
+EJ
+gsine,f
+2
+tano " s
+zsh.(#D)
+28/sin0 , rn-A
+5
+rRi
+l.-RJ
+L
+lz
+Acceleration Min. coefEcient of
+f iction
+tane.I
+tano. +
+A Quick Review ofE-PCM For Engineering Entranc€ - Physics ll P 69 |
+(ii) The distance after which
+2 roozRz
+. = 4e_E_
+. The temperature of body of MI 'l' having coefticient of
+Iinear expansion 'cr' is increased by 'At' then change in
+moment of inertia is given by
+lv,{al
+(tt
+f.)(r,
+Mechonics
+Ri^c(il lr,'*.1
+Di,.(, l*,,*-f
+
+===== PAGE 38 =====
+Rototionol lli\otion
+If a rod oflength 'l' is hinged to lower end and allowed
+to fall then free end strikes the floor at velocity
+power by rorque
+Equation of Kinematics
+P = t.trt
+Angular momentum (lJ : -+
+lll = l?'Pl =.p',ne
+L = p x 1r distance = Moment of linear momentum.
+L=lo
+KE due to rotation.
+K
+L*T
+rorquel?)'- ?=?'?
+'. r=F*lrdistance = Moment of force
+dL
+t=ra=I[
+If angular moment linearly varying then
+If external torque acting on system is zero then
+angular momentum is conserved [i.e., constant)
+Tangential acceleration (at) = ra
+No. of revolution = H*#
+Ae d0<,"=At ' O=a
+Ao) do<6p=;; o=f,f
+Multiple Choice Questions
+1. A solid sphere, a hollow sphere and a disc, all
+having same mass and radius are placed at the top
+ofa smooth incline and released. Least tlme will be
+taken in reaching the bottom bY:
+a. the solid sphere
+b. the hollow sphere
+c. the disc
+d. all will take same time
+2. tf a spherical batl rolls oh a table without slippin&
+the fraction of its total energ/ assoclated with
+rotation is:
+a. 3/5 b. 2/7
+c. 2/5 d. 3/7
+3. The s?€ed ofa homogeneous solid sphere after rolling
+downs an indined plane of vertical heiSht b, ftom r€st
+without slidlng isr
+L = constant = Io = constant
+I = ......,. I" trx
+1
+,-T and Ta I whereT=timeperiod
+i.e. if I fses, T tses & ro Jses.
+o If polar ice mels, &en length of day increases.
+. If the radius of earth becomes R/n without changing
+its mass then time period of rotation becomes
+ForR/2:n=2,T'=5hr
+psyR73:n=3,T'=8/3hr
+. A swimmer while iumping into water from height
+easily forms a loop in air ifhe pulls his arms and leg in.
+couple;
+Two equal and opposite forces separated at a distance.
+o couple produces purely rotauon.
+work done by torque,
+./E
+4. ltloment of inertia of a rod of mass rn and leqgth I
+oboll/t lB one end is L If one fourth of its length is
+cut away then moment of inertia of the r€maining
+rod about its one end will be:
+3 9
+4 76
+27 I
+.. 64 I d. 16
+5. When a body is proiected at an ange
+horizontal in the uniform Bravitational'
+earth, the angular momentum of the
+{-e,)''
+u {@cr,
+d \[(4?)sh
+a
+a b.
+Linear form Angular form
+1. v=u+at 1. o=ob+0t
+2- vz=u2+Zas 2. xlz = 6"2 + 2o.0
+3 3.9=o:ot+|ot,
+4. s= [u+vl., ct,t 4. 0=
+(ox + ol
+) *t
+rc=lt,*=fi="u
+Lr- Lr
+t't
+24
+2T' hrn
+0z
+6;= J rdO
+01
+ll P 70 ll A Quick Review ofE-PCM For Engineering f,ntrance - Physics
+,out
+lv=.,/senl
+ll " R' "-Tl
+c.
+It-=tt
+s=ut*]at,
+
+===== PAGE 39 =====
+the point of proiection, as ii proceeds along its
+a. remains constant
+b. increases
+c. decreases
+d. initially decreases and after its highest point
+increases
+6. A force F acts tangentially at the highest point ofthe sphere of mass M kept on a rough horizontalplane. If the sphere rolls without ilipping ttreacceleration ofthe centre ofsphere is:
+7F
+b.
+13.4 particle is movlng in a clrcular orbit wi
+constant speed select u,rong alternate;
+a. Its momentum is conserved
+b. Its angular momentum is conserved
+c. It is moving with variable velocity
+d. It is moving with variable acceleration
+c. 74:75 d. Vil:1,/rs
+14.A square lamina is as shown in figure. The mom
+of inertia of the frame about the three axes sho
+in figure are Ir, Iz and 13 respectively. Select th
+correct alternative,
+e
+c.
+10M
+10
+7MF
+Il
+d
+7. A ngdLd body rotat€s about a fixed axis with yariable
+angular velodty equal to a - pt, at time t where o, p are
+constanB. rhe .ngle thmugh whictr it rctates beforE
+its stops:
+n2 ^.::E*frb=ro
+" 12-82 , (a-B)a
+". zp o. _2
+8.. A rod of lengtl 'L' whose lower end ls fixed along
+tJle horizontal plane starts to topple hom thi
+vertical position. The veloctty of the upper end oftle rod when it hits the ground is:
+". r/grr b. \64.' r/$, d. 3\Gi
+9. Three thin rods each oflength,L, and mass M are
+placed along X, Y, and Z axis such that one end of
+each rod is at origin. The moment of inertia of this
+system about z-axis is:
+2--_- 4ML2a. IML, b. t
+- 5ML2 MLz
+o.3
+1O.A constant torque acting on a uniform circutar
+wheel changes it angular momentum free from A0
+to 4Ao in 4 second. The magnitude of the this
+torque is:
+a. 3Ao/4 b. Ao
+c. 446 d. 12Ao
+/tA
+11.A force of (3i + 4k) N is acted upon a fly wheel
+tangentially. The radlus vector of the flywheel has
+(2 i - 6k) m. The torque actlng on the fly wheel ls:
+a. 25N-m b. 20.6N-m
+c. r/E w - m d. none ofthese
+12.A solid sphere and a disc of same mass and radius
+starts rolling dovrn a rough inclined plane, frorr
+the same height the ratio of the time taken in the
+two cases is:
+a. 15 : 14 U VrS ,Vt+
+Iz=l:>lr
+Iz=l:<lr L>lz>i:
+lr<lz<lr
+I
+b
+d
+a.
+c,
+ls.Three identical rods, each of length L, are ioined to
+form a rigid equilateral triangle. Its radius of
+ryration about an axis passing through a corner
+and perpendicular to the plane of the triangle is:
+L13a. 1 b. \;L
+Lc. _-F
+!2
+d
+L
+r/s
+16.A solid sphere of mass 2 kg rolls up a 30. incline
+with an initial speed of 10 ms.r. The maximum
+height reached by the sphere is (g = 10 ms-2)
+a. 3.5 m b. 7.0 m
+c. 10.5 m 9d) 14.0 m
+17-A ring and a disc having the same mass, rollwithout slipping with the same linear velocity. If
+the kinetic enerry of the ring is gf, that of the disc
+must be:
+a. 2l b. 4J
+c. 6l d. 161
+18.A flywheel having a radius of gration of Zm and
+mass 10 kg rotates at an angular speed of rad/s
+about an axls perpendicular to it through its
+centre. The kinetic enerry ofrotatlon is:
+a. 500 | b. 2000 J
+c. 1000 J d. 250 J
+19.If a disc of mass m and radius r is reshaped into a
+ring ofradius 2r, the mass remaining the same, the
+radius ofgrration goes up by a factor of:
+^. t!1 b. 2
+c. zl2 d. 4
+20.a uniform cylinder has radius R and tength L. ifthe
+moment of inertia of tlris cylinder about an axis
+passing through its centre and normal to its
+A Quick Review of E-PCM For Engineering Entrance - physics ll p 7l ]l
+path:
+a.
+10F
+7M
+10M
+7F
+A{echonics
+rg
+t7
+(')(h
+
+===== PAGE 40 =====
+Rototional Motion
+the same cylinder about an axis passing through
+its centre and normal to its length; then:
+a. L=R b. L=\Fr
+.. L=+ d. L=o
+!J
+21,A uniform solld sphere rolls on a horizontal
+surface at 20 ms'1. It then rolls uP an incline
+having an angle of inclination at 30' with the
+horizontal. If the friction losses are negligible, the
+value of height h above the ground where the ball
+stops is:
+a. 14.3 m b. 28.6 m
+c. 57.2 m d. 9.8 m
+Z2.A fing and a disc of different masses are rotating
+with the same kinetic energy. tf we apply a
+retarding torque I on the rin& it stops after
+making n revolutions. After how many revolutions
+will the disc stop if the retarding torque on it is
+also t?
+a. n/2 b. n
+c. ZrL d.' 4n
+23.A sphere of mass M rolls without slipping on an
+inclined plane of inctination 0. What should be the
+minimum coefficient of friction, so that the sphere
+rolls down without slipPing?
+a. solid sPhere b. sPherical shell
+c. cylinder d. ring
+28.A particle performs uniform circular motion with
+an angular momentum L. If the frequency of the
+particie motion is double and its kinetic energy is
+halved the angular momentum becomes:
+circular face is equal to the moment of inertia of 27.Abody rolls down an inclined plane. If its kinetic
+enerry of rotational motion is 400/o of its kinetic
+enerry oftranslation motion, then the body is a I
+ba
+C L d
+!
+2
+4L
+!
+4
+2
+d. tan e
+24.A body of mass M and radius R is rolling
+horizontally without slipping with speed v. It then
+rolts up a hill to a maxlmum heiSht h. Ifh = 5v'z/6&
+what is the moment of inertia ofthe body?
+2 5,A couple produces:
+a. no motion
+b. linear and rotational motion
+c. purely rotational motion
+d. purely linear motion
+26.P is ttre polnt of contact of a wheel and the ground'
+the radlus of wheel is 1m. The wheel rolls on the
+$ound without slippiDg. The displacement of
+point P when wheel completes halfrottion is:
+a. 2m u. rfi'* + m
+c. rm d. r/,r'* z -
+29.A circular disc is rotating with angular velocity (o'
+lf a man standlng at the edge of the disc walks
+towards its centre, then the angular velocity of the
+disc:
+a. is not changed b. be halved
+c. decreases d. increases
+3o.when a disc having velocity of its centre of mass
+v". is rollin& t]len vetocity of the highest point on
+the disc will be:
+a. 2v.* and at point of contact is v".
+b. 3v". and at point ofcontact is v"m
+c. 2v". and at point ofcontact is zero
+d. v". and at Point ofcontact is v*
+31.The moment of inertia of a body about a given axis
+is 1.2 kg-mz. To produce a rotational kinetic
+enerry of 1500 J an angular acceleration of 25
+rad/sec2 must be applied fort
+a. 8.5 sec b. 5 sec
+c. 2 sec d. l sec
+32,The angular speed ofa body changes from (Dr to @2
+without apptying a torque but due to change in its
+moment of inertia. The ratio of radii of grration in
+the two cases is:
+a. o2:o, b. ror ;oz
+.. {d,{d a. {*,J-
+33.A coin, ptaced on a rotating hrn-table stops, when it
+is place at a distance of 9 cm ftom its cenrre. lf the
+angular vetocity of ure Errtr table is dpld, it will iust
+stop at a distance r from cenhe' The value of r is:
+a. lcm b. 3 cm
+c. 9cm d. 27 cm
+34.A wheet is rotating at the rate of 33 rev/min. If it
+comes to stop in 20 sec. Then tte angular
+retardation will be:
+a. zero
+1l
+b, 1ln rad/sz
+d. ffirad/szc. m,
+b.etan?
+5
+!
+7
+a.
+c.
+b.
+d.
+a.
+c.
+|,*,
+o,3 
+r*'
+Io,,
+tan e
+2
+., MR'
+t,*,
+ll P 72 ll A Quick Review of E-PCM For Engine€ring Entrance - Physlcs
+ad/ s2
+tt(J
+tt2
+A.
+
+===== PAGE 41 =====
+36-The angular velocitY of the wheel increases from
+1200 to 4500 rev Per min in 10 seconds' Then the The time after which body stops rotation' t= E
+Again, co = cr- 9tthis time is:number of
+a. 575
+c. 875
+revolutions made during
+b. 675
+d. 475
+=cr-Ft
+0
+c/B
+J 
+tcr - 90at
+^ Knot N ^- 
+K2
+z. m=N*D '' kz+Rz
+Solution for Selected Problems
+l- gtzl"/p 02
+s=[crt-T) o =4
+E+
+=\G
+sh(#) =
++ (*, ) ' (r)' =tur"u
+B. loss in PE= Gain in KE
+... y=1fagl
+9. The rod which is on Z-axis,its MI about Z - axis is zero'
+1,=!wr* { rt,tl' =lvn'
+I
+10.?=?* t'
+?=
+? =8? -? " (- 18) + ? * (- 6) = 8? + raJ- o?
+t= 8z + \82 + (-6)2 = 20'6Nm
+tlz.tcr'=
+Va
+2
+ForDisc:a=gsin0x5
+5
+For solid sPhere: a = gsinO x 7
+tmlid sohere
+tDi..
+'gsinO x 2/3
+gsin0 x5l7
+vz
+L2
+Iw2
+' I r',tl,
+| -l) lmgL=Z
+1t:. lmgL=1
+? ? "lo 2 -6 I
+3 0 4l
+For solid spheru' 1 = fr Mn'
+2.
+Coefffcient = E
+ffi=#*=+
+3. VelocitY when rolled
+\/=
+a. 1=|ul,
+r = | Mru'z
+I'
+27
+64
+6.
+IF=ma
+F + f = ma ....,."..'....'.'(i)
+Xt=lo
+=(F-0R=SMRzxct
+r - t =?rvla ..'.'. "'... "."(ii)
+[a = Ro]
+Adding (i) and [ii) we get'
+1qEa= 7M
+ll
+1.d 2.b 3.d 4.c 5.b
+6.a 7.a Lb 9.a 10. a
+11. b t2.d 13. a L4.c 15, b
+16. b \7. c 18. a 19. c 20. b
+2r.b 22.b 23.b 24.b 25. c
+26.b 27. a 28.a 29.b 30. c
+31. a 32.d 33.a 34.d 35.d
+7. a=o-pt
+A Quick Review ofB-PCu For Engineering Entrance - PhYsics ll P
+Mechonics
+15.
+
+===== PAGE 42 =====
+Rototionol Motion
+Moment of Inertia passing through one corner and
+perpendicular to plane. Maxmheieht,h=*,.(ry)
+.orpr.ing; $= t
+ul =tunz
+]rr, *f rr, * M ($)'.
+1
+fiMtz
+3
+=1MLzuv=ffvnz
++4+ 9+L
+72
+I t= uxr=lurz
+..*=f ,
+17. kinetic enerry of ring:
+k=lmvz'ffi = -r,
+kinetic energ), of Disc; k, = j mvz ,l =;,|rA = 6 y
+P
+R:
+Displacement of point p = (nR;z * (Znlz -- lTE'z + 4
+26.
+tZ_
+f1
+***
+zR
+18.k = lwz
+k'
+k
+20.1
+(k/2)
+2f
+28.1€ f
+l'-f*L
+2
+G.6
+[,=
+L21
+al='[f .MR2
+L
+2 MK2 x w2 t'=i
+t=irt0x12yg2=5001
+19.Radius Srration for Disc: t = * n
+v2
+Again, Radius of ryration for ring of radius ZR, k,= 2R
+k'=2xrEt = z{2x
+32s=0
+Angular momentum [L) = constant
+L=fuo=MKzxor
+.1.'. ft667
+Vro
+33.r * 4
+0)z
+Esl
+r.r.r)
+(ff)'
+.'. 12 = !6p
+34.ro = 33rev/min
+=33,frrad/sec
+o=& -o-(33x2n/,,'lat 20
+LLn.'. L- o,l =ffirad/sz
+35.0 = (yr), t = {wflfl)x 1o = eson
+no. of revolution (n) =*,= n6
+&
+kz
+2
+2{2
+t =rFR
+5v2 y2 s
+2L.h=*,i=&,I=2a.0^
+1
+22txQ=*lwzz
+And no. ofrevolution, n = 94It
+.'. tx2nn=k
+k
+It-^ tlta
+nak
+Hence no. of revolutions for Disc = n
+h24.
+llP 74llA euick Review of E-pCM For Engineering Entrance - physics
+
+===== PAGE 43 =====
+Chopter-lt
+Newton's law of gravitation:
+mI
+I
+a !
+l?rrl = l?zr1= 115"9
+r*ff =t=ry
+where k is constant known as universal gravitational
+constant 'G', which only depends on the system of
+units.
+a=+* G = 6.67 x 10-11 Nm2/kg = 6.67 x 10-e
+dyne cm?/gz
+. Gravitation force is always attractive
+. Gravitational force is central force,
+conservative force acting along the line joining
+of two bodies.
+. If mr = m2= lkgr= lmthen, F = G
+[G] = ]vt-t la Pz
+. If two identical solid spheres are in contact with
+each other then force ofattraction between them
+is F cc ra where r = radius of sPhere
+r g=$*nereM=massofearth
+R = Radius of earth
+1
+g * R, if M is constant
+o/oE=-2xo/o R
+. If 'p' be the mean density of earth the
+acceleration due to gravitY,
+L
+g=5npGR
+gcR+i.e,o/o9=o/oR
+Also for inside earth g oc r where 'r' is the
+distance from earth centre
+riation ofAccln due to gravitY [g)
+with altitude:
+gh = acceleration due to gravity at height'h'
+g = acceleration due to gfavity at surface
+4o
+fq of E-PCM For EngineeringEntrance - Physics llP 7s \\
+GRAVITATION
+?=(#J'i'e"sh<s
+. Ifh<<<Rthensr=s(r-f)
+i.e., wt of body decrease with attitude
+. Ifa body is taken from earth surface to height'h'
+so that weight of the body becom", |* of g
+original wt. then,
+5=ffi-r1n
+(i) Forhalf wt [rJ,, =2,h= 0.414R =41.4o/oof R
+for $, n = 3, h = 0.732R =73.2o/o of R
+. If wo is weight of a body at earth surface then
+weight of the bodY at height'h'.
+Wo
+/ h\2
+[1.a/
+wh=
+(ii) with depth:
+ga = Accln due to
+I = Accln- due to
+ss_R-d-r,C-R
+gravity at depth 'd' from $urface
+gravity at surface
+d\-R/
+i.e.,ga<s ='sd=*(t-*)
+, At cenfie of earth, d = & g."nt u = 0
+r wt. of any body at centre is zero' 
+t,
+r wt of any body at depth 'd' wd = wo (1 - *)
+. If a body is taken from earth surface to depth 'd'
+so that weight of the body becomes |s of original
+wL then,
+a=tr#R
+rorf ; n = 2, d= | n = 5oo/o of R
+rorf ;n=3,d=f n= 66.670/oofR
+(iii) witlt Rotation:
+?" = latitude
+r = R cosl"
+App.wt.- mg - mo:Fr coslu
+Mechonics
+FU
+HiL
+tAFI
+ntt7
+
+===== PAGE 44 =====
+a
+GM
+outside point (r > RJ; E = --;,
+,,- GM
+r
+on surface (r = RJ; E = H;
+,, GM
+v-- R
+for inside, (r < R); t = H. "v=-ffJsn,-.,1
+Atcentre, r= 0, E = 0, 
+" = - #
+For Ring of radius R, mass M, on its axis
+or, mg' = mg - m<rfR cos2l"
+r g'= g - oFR cos2l,
+. At equal L = 0, &quator, = g - or2R = &in
+loss in wt = rnrrfR;
+loss in g = orR = 0.034 m/sz
+I At pole l" = 90., Ep"r" = g = g.*, Due to rotation of earth acceleration due to
+gravity at all place decreases except pole,
+. If earth stops it rotation then ,g' at all places
+increases except pole. At equator by 0.034 m/sz.
+. a body at equator becomes fly off (i.e.,
+weightlessness or apparent rvt. zeroJ if the
+rotation of earth will be
+E.'= Vft = 17ro [g'= s1
+= 17 times ofpresent value
+r'= zt \E = a+.0 min = 1.41 hr
+(iv) Due to shape: Earth is not perfectly spherical.
+\*tor = Rpor + 21 km
+Ic"ci,
+Eequator < &or
+Gradtauonat Field and potenual:
+. lore experienced by unit mass is the gravitation
+field
+e =_l =r=-ff
+potentialV=J.-E.dr
+(i) For a point mass at a distance ,r,
+u=#r=-*
+(ii) For Hollow sphere ofmass 'M,having radius ,R,
+out side point [r > n), r = $; V= -$
+on surface (r = R), t = #,, = - #
+for internal point (r < R) E = 0,
+v=constant=-9nU
+pole
+m
+I
+uator
+C
+-GME = ------- x r
+(Rz + rz)'
+Atcentre,r=0,E=0
+v=- cM i
+I
+a
+(Rz + rz)2
+If two point masses 'm1' and 'm2' are placed at a
+distance 'r' then gravitation field intensity
+becomes zero at distance of
+from mr;
+m
+11 =
+V** m2
+b. from m2, 12 =
+r
+r * r /II!z
+Ymt
+r
+'.r[#
+Motlon of satellites:
+If a satellite is revolving around the earth in circularpath-of radius 'r'then centripetal force required by
+satellite is provided by gravitation force between
+earth and satellite.
+. Orbitat velocity ofsatettite 1vo1 = f
+where m =massofearthv 
+7
+o*G
+Ithvo=-1xo1o1
+I orbital velocity does not depends on tJre mass of
+satellite.
+-3Timeoeriod.T=-4'"f
+VGM. If 'h' is the height of satellite from earth surf;
+then,
+r=R+h
+For Nearer satellite: The satellite which is very clc
+to earth surface,
+h<<fur=R
+a.
+b.
+c.
+For solid here ofmass M havi radius'R"
+ll P 76 ll A Quick Review of E-PCM For Engineering Entratrce _ physics
+ta(,
+vt
+6ravitotion
+a.
+b.
+
+===== PAGE 45 =====
+1Yo1*-*={-gn=8km/sec
+T=2nB=84.6min
+_ n+l
+' lf F<f 'or'r nthen,T< r 2
+Enerry ofsatellite
+CMm
+PE,U=-t= wherem = mass ofsatellite
+GMm
+KE,K= 2r
+GMm
+rE=K+u=--7;-
+Here, (-) sign indicates that satellite is bounded to
+earth. i.e., energy is required to escape the satellite'
+. PE=2TE=_zKE
+Binding Enerry: Minm energy required to escape the
+satellite from the gravitational field.
+GMm
+BE=-;-=KE
+Geo-stationary satelllte: Such satellite appears
+stationary w.r.to earth
+(i) orbit is known as Parking orbit
+(ii) Time Period, T = 24 hr
+(iiil Radius ofparking orbi! r = 4 24 x 10h
+(iv) Height from earth surface, h = r - R = 3 6 ' 107m
+= 36,000 km
+. If is used to transmitting and receiving signals'
+communication whether forecasting etc'
+. If a body is projected from earth surface with
+velocity V then maximum height attained by
+body.
+R
+" - lzen .1
+\v'-"i
+, If h -a @, then velocity of proiection is know as
+escaDe velocitY, (v = v")
+t2ct
+"" =.8-t* = !ff =.8 (u.)***
+for earth, v" = 11.2 km/sec
+for moon, v" = 2.4 km/sec < RMS velocity ofgas
+[this is the cause of no atmosphere on the moonJ
+SnoGRz
+3
+lf orbital velocity of satellite is increased
+R
+'=H-
+lf a bodv is proiected with velocity v = n
+then velocity of the body at infinity
+space)
+Vrree 
+"pac" 
+or Vinnnitv = [fim) *
+Max'height in terms ofescape velocity
+41.4o/o (or KE by 100%) then satellite escap
+from its orbit.
+[i) If v < v0 then body falls to earth surface in spi
+path and total enerry is (-) ve.
+(iil If v = v0 then body revolves in circular path an
+TE = -ve.
+(iiiJ If vo < v < v" body revolves in elliptical path and
+TE = -ve
+(iv) If v = v" body escape from gravitation field in
+parabolic Path. TE = 0.
+(v) Ifv > v" then body will escape in hyperbolic path
+and TE > 0'
+r A body of mass 'm' is at height 'h' from earth
+surface then increase in potential energy 'or'
+change in Potential enerry.
+GMmxh - h
+^u 
+= Ii[lTt = mcK ['+ h
+n
+(i) If h = nR then AU =mgR x i;;
+(ii) Ifh<< &thenR+h= &AU =mgh
+Keplar's law for Planetary motlon
+(i) All the planets are revolving around the sun as
+focus in elliPtical Path'
+(ii) Equal area sweeps out in equal time period'
+/dA\
+i.e. A real velocity $;,/ is constant'
+(conservation of angular momentum)
+Vxr=constant
+(iii) &uare of time period is directly proportional to
+cube of average distance betw€en plane and sun
+(i.e., semi maior axis)
+. Space vehicles are launched from west to east in
+equatorial Plane.
+. Potential enerry required to take the body from
+r1to r2
+/r 1\au=cMm[n--J
+Multiple Choice Questions
+1, When escape velocity is given to a particle on surface
+of eardr, its total energr ls:
+zero
+greater than zero
+less than zero
+GMm
+2R
+v"(n>1)
+(or free
+a.
+b.
+c.
+d
+A Quick Review of E-PCM For Engineering Entrance - Physics ll P 77 ll
+r,
+a,
+V)
+Mechonics
+
+===== PAGE 46 =====
+where M = mass of earth, m = mass of particle and R =
+radius of earth
+2. The ratio of distance of two satellites from the
+centre of eartb is 1: 4. The ratio of their timeperiods of rotadon will be:
+a, l:4 b, 4:7
+c. 1:8 d. 8: 1
+3, for a satelllte in elliptical orbit which of the
+following quantities does not remain constant:
+a. angular momentum
+b. momentum
+c. areal velocity
+d. total energy
+d. none ofthese
+4. An earth satellite is moved from one stable
+circular orbit to another higher stable circularorbit Which one of the fouowing quantlties
+increase for the satellite as a result ofthiJchange.
+a. angular momentum
+b. kinetic energr
+c. angular velocity
+d. linear orbital speed
+5. Two particles of mass m and M are initially at restand infinitely separated from each other. Due tomutual interactions they approach each other.Their relafive velocity of approach at a
+separauons d between them is:
+^ f zCd ltp f2C(M + mllrn
+" [tu+m] oL- d-l
+2GM+m
+L lnside a uniform spherical shell:
+a. potential energ), is zero
+b. field is not defined
+c. potential is constant
+d. all ofthe above
+9, Earth orbiting satellite will escape ift
+a. Its speed is increased by 41%
+b. Its speed in the orbit is made r/i3 times of its
+value
+c. Its KE is doubled
+d. It slopes moving in the orbit
+10.An artificial satellite moving in circular orbit
+around the earth has a total (kinetic + potential)
+energr Ee. Its PE is:
+a. -E b. 1.5 Eo
+c. ZEo d. Eo
+11.A satellite in an equatorlal orbit has a time period
+of 6 h. At a certain instant, it is directly ovarhead
+an observer on the equator of the earth. It is
+directly overhead the observer again after a time
+T, The posslble value ofT is:
+a. 72h b. 8h
+c. 1'8h d. 36h
+12-A simple pendulum has a time period Tr when on
+the earth's surface, and Tz when taken to a height
+R above the earth's surface, where R is the radius
+ofthe earth. The valrre otft is,
+a. 1 b.r1D
+c.4d.2
+13.at -what height the gravitational field reduces by
+750lo the gravitational field at the surface of earthi
+a.Rb.2Rc. 3R d. 4R
+(where, R is the radius of earth)
+14.two bodies of masses m and M are placed a
+distance d apart. The gravitational potential at theposltion where the gravitationat fietd due to them
+is zero is V.
+a. v=-f(m+M)
+h u=-+
+.. cMc. v=-T
+c-d. v=-i(Vm+Vr',r),
+6. the orbital veloclty ofan artificial satellite in a circllarorbit iust above Ure earth,s surface is v. For a satellit€
+orbiting at an altitude of half the eartl,s radius the
+orbital velocity is:
+3Lu'z' oV,,
+t?c.\I"diu
+7. The escape velocity of a body proiected verticallyupward ftom the earth,s surf,ace is 11,2 km/s. ifthe body is proiected in a direction makinj SOi
+angle to the vertical, its escape velocity in this case
+will be:
+a. ll2km/s u. ffU^1,
+f
+2 km/s _ 77.2d. -f- km/s
+c d
+c. 71.2 x
+ll P 78 ll A Quick Review of E-pCM For Engineering Entrance _ physics
+6rovitation
+aU
+ra
+&
+
+===== PAGE 47 =====
+15,The gravitational potential energr of a body at a
+distance r form the centre of earth is u. Its weight
+as a distance 2r from the centre of earth is:
+21.A body has a weight 72 N. When it is taken to
+height h = R = radius of earth, it would weigh
+a. 72N b. 36N
+c. 1.8 N d. zero
+22.A body of mass m is placed on earth s-urlhce. lt is
+taken from earth's surf,ace to a helght h = 3&
+the change in gravitational potential enerE/
+b.
+d.
+a,
+u
+4r
+4r
+u
+16.Two satellites of same mass are launched in the
+same orbit around the earth so as to rotate
+opposite to each other. IF they collide in elastically
+and stick together as wreckage, the total energy of
+the system iust after collision is;
+2GMm
+c
+a
+b
+r
+mgR
+2d.
+2
+5m
+b
+L
+b
+GMm
+r
+a
+a. 6m
+3 *r*4cb
+R
+i,r*
+2
+tm
+c. 2r
+17,The weights of an obiect in a coal mitre, at sea
+level, and at the top of mountains iFa wr, wz :lrld
+w3 respectively, Then:
+a. W1 <W2>W3 b. W1 =gr2=1r3
+c. w1<w2<w3 d. wr>wz>w:
+18,A thin rod of length L is bent to form a semlcircle.
+The mass of rod is M. What will b the gravitational
+potential at the centre of the circle?
+GM GM
+b.
+c,
+Z3.The acc€letation due to gravity on planet A is 9 times
+the acceleration due to gravity on planet B' A man
+iumps to a heigbt of 2m on the surface of A. What is the
+height of iump by the same pensons on the planet B?
+GMm
+4r
+!v
+b.
+a. 2nL
+,rGM-LrGM
+2L
+19,tf Vis tte gravitational potendel on te surface of
+the earth then what is its value at thc centre of the
+earth?
+a. 2Y b. 3V
+(d) 18 m
+24.An artificial satellite is revolving around tJre earth
+in a circular orbit. If its speed is half of the escape
+velocity, Then its height above the surface of earth
+ofradius & is:
+c.2Rd.R
+25-A planet of mass m moves around the sun of mass
+M in an elliptical orbit The maximum and
+minimum distances of the planet from the sun are
+11 and rz respectively. The time period of the
+planet is proporHonal to:
+a. rlls b. (rr + r2):/z
+c. (rr- 12)312 d. r3l2
+25.A satetlite is launched into a circular orbit of
+radius R around the earth. While a second satellite
+launched into an orbit of radius 1.01R. The period
+of the second satelllte is longer than the first one
+by approximately:
+a. 3.0 ok b. 1.5 o/o
+c. O.7 o/o d. 1.O Vo
+c.
+d
+c,
+3
+,v d.
+'o,The rotation of the earth having radius R about its
+axis speeds its axis speeds up to a value such that a
+at tatitude angle 60' feels weigh0essness. The
+duration ofthe day in such a case isr
+/-n
+,. n\g
+c. Ztc
+{n
+A Quick Review of E-PCM For Engineering Entrsnce - Physics ll P 79 ll
+\echonics
+GMm d.
+u
+r
+u
+2r
+C,
+B
+2
+R
+a.4
+b.
+d.
+/-n
+ntVE
+E+'!fi
+
+===== PAGE 48 =====
+27,If the radius of earth's orbit is made one fourth, the
+duration ofa year will become:
+a. 1/4 times b. 1/8 times
+c. 4 times d. I times
+28.An earth satellite S has an orbit radius which is 4
+dmes that of communication satellite C, The
+period revolution of S will be.
+a. 32 days b. 18 days
+c. I days d. 9 days
+29.1f the pot€ntial energy of a body on a planet is
+numericany U and the escape velocity for the same
+body be v. for the same planet then ug -itt be ,
+U /Efr
+v"- !2R
+UEM
+*=nl\2R
+u lffii
+"='\ 
+R
+UGM
+%=t R
+30.If tte change tn the value of g at a height h above
+tle surface of the earth is the same as at a depth x
+below its surface, then:
+a. x=hz b. x=0.4h
+c. x=2h d. x=h
+31. Suppose a urnnel is dug along the diameter of tfie
+earlh. A parucle is dropped from a point direcdy
+above the Urnnel. If the ear{t's denslty is assumed to
+be uniform and the frlcfion is n.€tected, then choose
+the wrong answcr:
+a. Particle will have maximum speed when passing
+through the centre ofthe earth
+b. Acceleration ofparticle will be the maximum just
+at the point of release
+c. Particle will have simple harmonic oscillation.
+d. Particle will drop to the centre ofthe earth
+3z.Four equal masses (each of mass M) are placed at
+tlre corners of a square of slde a. The escape
+velocity of a body ls from the centre of the squaie
+is:
+a
+4{rcM
+ac a
+33.The escape velocity from earth is v0. Ifthe mass of
+a certain planet is 3 times and radius 3 times that
+of earth, then the escape velocity from the planet
+will be :
+a. 3vo b. 6 vo
+..fuod.vo
+34.4 satelllte of mass m, moving around the earth in a
+circular orbit or radius R, has angular momentum
+L. The areal veloclty of satellite is: (Mu = mass of
+earth)
+a. L/Zm b. L/ m
+c. ZL/m d. ZLl M"
+35,1f the earth loses its gravtty theD for a body:
+a. weight becomes zero but not the mass
+b. mass becomes zero but not the weight
+c. bot}t mass and weight becomes zero
+d. neither mass no wEight becomEs Zero.
+35,fhe escape vcloclty of a body from the earth is
+11.2 km/sec. If tJre radlus of planet be half the
+radius of earth and its mass be one four r that of
+the earth. flle escape veloelty o{ the planet will be:
+a. 2 hn/sec b. l6lom/sec
+c. 4 kmlsec d. 8 km/sec
+2.c 3. b
+7.a 8.c
+72. d 13. a
+L7.a 18. d
+27. c 22. c 23. d
+27. b 30. c
+32. b 33.d 35.a
+35. d
+tzcrl
+\;
+8 2GMa,4 b
+a
+b.
+c
+d
+Solution for Selected Problems
+2. T cx rs/z
+t=('J"'=(i)"'=,,'
+5. By using concept ofreduced mass,
+1. a
+6.b
+11. b
+26. b
+31. d
+29. b
+34.a
+lP80 A Quick Review of E-PCM For Englneerlng Entrance _ physics
+(
+U
+vt
+6rovitotion
+4CM
+d.
+l+ . ls u
+lg. . lro. c
+Ira.o lrs. u
+16. a 19. c lzo. a
+izq. c izs. u
+28. c
+
+===== PAGE 49 =====
+.'. Tz=8days
+2, -+ + jmv"z=o
+l2ctr
+'"=\ R
+u=ff
+u /Efr
+*='''\ zR
+30.At heisht sh = s(l - +)
+At depta, gi = g(1 - fi )
+gh=gn
+.. x=2h
+32.From conservation of energy,
+GMm 1
+--------F- x4+: mv"z=0(a/,,12) z -
+t cr,t
+33.%=\ R
+2GM'
+R'
+,u."={-#
+M'=3M;R'=3R
+M
+2GM'
+R
+-CM8!2;
+M
+4
+R'=l
+8p
+tzcrt
+V2R -
+71.2
+{2 /skm
+***
+ll P 82 ll A Quick Review of E-PCM For Engineering Entrance - Physics
+vtU
+ra
+6rovitation
+
+===== PAGE 50 =====
+MM
+rr=M;;
+GmM I--- +rtrv.z=0
+2GmM
+dr
+(R + R/2) -
+GM 2GM
+5R=t,
+g
+@/q)
+wt. at a distance '2r' from centr GMm GMm'u,* = r*=-$
+...,_ u _ un -- 4r- 4r
+15.Since they are moving in opposite direction,
+11y-111y=(m+m)v'+v'=0
+KE=0
+PE U=
+6.V
+2cIM+m)
+d
+1/2
+mP
+x
+t-d
+t
+-GM [m + m] 2GMrt,
+/EM
+. *t,ere,u=\T
+ll.lfsatellite and earth rotes in same directions
+1 1 I 4-7 7
+i=e-24= 24 =B
+.. T=thr
+/R\zp12.sh=s[-R+R, =a
+2GMm
+TE=KE+PE=_-r
+18.nR=L>R=!It
+Potential at centre, u=-+=t#
+1e.v=-# (3R,-12)
+At centre r = 0, v" = - H = iu ru""*""= - Tr
+20.g'=g-<o'zRcosz
+a Q=g-6'zRcos260'
+, =.f*=,rlt
+"=#=,{}
+zl.weightat height'h': Wr =, *& = /fo = rt"
+U.R/ (1.[/
+r r
+1
+!c
+T
+. &_"'' Tr- "
+13.E=H
+.. s'=o.zsH =aR,@
+e'=$=r=2R;R+h=2R
+..h=R
+Gm GM
+14.7=G;F
+ffi
+\;
+Tz-
+Tr-
+d-x
+msh ms x 3R
+h- 3R1*[ 1*T =i"*
+d-,=Gx_m
+fia
+VM +{m
+PotentialatpointP,rr= + ffi
+v,=-f 1r/fr*{il1,
+GMm
+15.U=- r
+22.Change in PE; AU =
+23.gBxhB=g{xhA
+h"=Iffg=ra,,
+26.T q rzlz
+f =ft-')',oo
+-[(1:o'91i'r'- r],,00
+,8 G&)=eJv'z
+Tz (4r\ttz
+ld"y = \rl
+M
+x
+=|'o.or x70=L.soh
+GMm
+wt. at a distance 'r' from centre, w = -E
+A Quick Review of E-PCM tr'or Engineering Entnnce - Physics ll P 8l ll
+!
+a,
+n(h
+tlAechanics

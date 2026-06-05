@@ -1,0 +1,81 @@
+{
+  "title": "Surface Tension",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": "Chapter 15",
+  "sections": [
+    {
+      "heading": "Basic Concepts and Factors Affecting Surface Tension",
+      "content": "Surface tension is the property of liquid due to which surface area minimizes. Surface tension is measured as force per unit length in the plane of the liquid surface acting on an imaginary line drawn in that surface. [T] = MT⁻². Unit = N/m. Factors affecting surface tension: (i) Factors that increase cohesive force between molecules increase surface tension. (ii) With increase in temperature, surface tension decreases; at critical temperature it becomes zero. (iii) If impurity is completely soluble, surface tension increases. (iv) If impurity is partly soluble, surface tension decreases. (v) On contamination, surface tension decreases. (vi) On electrification, surface tension decreases.",
+      "formulas": [
+        "T = F/l (force per unit length)",
+        "[T] = MT⁻²"
+      ],
+      "specialCases": [
+        "At critical temperature: surface tension = 0",
+        "Completely soluble impurity: T increases",
+        "Partly soluble impurity: T decreases"
+      ]
+    },
+    {
+      "heading": "Excess Pressure in Curved Surfaces",
+      "content": "The pressure on the concave side of a curved surface is greater than the convex side. Excess pressure on curved surface: P = T(1/R₁ + 1/R₂). If R₁ = R₂ = R: P = 2T/R. For a liquid drop: excess pressure = 2T/R, total inside pressure = P₀ + 2T/R. For an air bubble in liquid: excess pressure = 2T/R, total inside pressure = P₀ + 2T/R. For a soap bubble: excess pressure = 4T/R (two surfaces), total inside pressure = P₀ + 4T/R.",
+      "formulas": [
+        "Excess pressure (general) = T(1/R₁ + 1/R₂)",
+        "Liquid drop: ΔP = 2T/R",
+        "Air bubble in liquid: ΔP = 2T/R",
+        "Soap bubble: ΔP = 4T/R"
+      ],
+      "specialCases": [
+        "Soap bubble has two free surfaces, hence 4T/R"
+      ]
+    },
+    {
+      "heading": "Coalescence and Splitting of Drops and Bubbles",
+      "content": "When two soap bubbles coalesce, the radius of curvature of common surface: r = r₁r₂/(r₂ - r₁) where r₁ < r₂. When two soap bubbles of radii r₁ and r₂ combine in vacuum under isothermal condition: r = √(r₁² + r₂²). If P is the pressure, V and A are change in volume and surface area when two bubbles coalesce in vacuum: 3PV + 4AT = 0. Work done in splitting a bigger drop of radius R into n equal smaller drops of radius r: W = T×ΔA = 4πT(nr² - R²) = 4πTR²(n^(1/3) - 1). In splitting: temperature decreases, energy is absorbed. Decrease in temperature: Δθ = 3T/(ρSr) × (1/r - 1/R). When n smaller drops combine to form bigger drop: energy is released, temperature increases. Δθ = 3T/(ρS) × (1/r - 1/R).",
+      "formulas": [
+        "r_common = r₁r₂/(r₂ - r₁)",
+        "r_combined (vacuum) = √(r₁² + r₂²)",
+        "3PV + 4AT = 0",
+        "W_splitting = 4πTR²(n^(1/3) - 1)",
+        "Δθ = 3T/(ρSr)(1/r - 1/R)"
+      ],
+      "specialCases": [
+        "Splitting: energy absorbed, temperature decreases",
+        "Combining: energy released, temperature increases"
+      ]
+    },
+    {
+      "heading": "Angle of Contact",
+      "content": "Angle of contact depends on: nature of solid and liquid in contact, the given pair of liquid and solid, impurities. With increasing temperature, angle of contact decreases. Types: (i) θ < 90°: meniscus is concave, liquid rises, liquid wets solid surface (e.g., water-glass: θ ≈ 0°). (ii) θ > 90°: meniscus is convex, liquid falls, liquid does not wet solid surface (e.g., mercury-glass: θ ≈ 135°). (iii) θ = 90°: meniscus is plane, neither rise nor fall, liquid only touches capillary tube.",
+      "formulas": [],
+      "specialCases": [
+        "Pure water and clean glass: θ ≈ 0°",
+        "Mercury and glass: θ ≈ 135°",
+        "Alcohol and glass: θ ≈ 0°"
+      ]
+    },
+    {
+      "heading": "Capillarity",
+      "content": "Height raised in capillary tube: h = 2T cosθ/(rρg), so h ∝ 1/r. hr = constant (Jurin's law). If capillary is tilted at angle α with vertical: vertical height remains same but length of liquid column increases as l = h/cosα. If insufficient length of capillary tube is dipped, liquid does not overflow but radius of meniscus increases. Inside a satellite, water rises to top level but does not come outside. Oil rises in a lamp wick due to capillary action.",
+      "formulas": [
+        "h = 2Tcosθ/(rρg)",
+        "hr = constant (Jurin's law)",
+        "l = h/cosα (tilted capillary)"
+      ],
+      "specialCases": [
+        "Insufficient capillary length: meniscus radius increases, no overflow",
+        "In satellite: water rises to top but doesn't overflow"
+      ]
+    },
+    {
+      "heading": "Miscellaneous Formulas",
+      "content": "If a thread or wire of length l floats on liquid surface, total length in contact with liquid is 2l: F = T × 2l. If a ring of negligible thickness and radius r floats on liquid surface: F = T × 2 × (2πr). Force to separate two parallel plates of area A separated by distance d: F = 2TA/d. Charging of bubbles increases surface area. When two soap bubbles of radii r₁ and r₂ coalesce: P_small × V_small/P_big × V_big ratios follow from Boyle's law.",
+      "formulas": [
+        "F (thread) = T × 2l",
+        "F (ring) = T × 2 × 2πr",
+        "F (parallel plates) = 2TA/d"
+      ],
+      "specialCases": []
+    }
+  ]
+}

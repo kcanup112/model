@@ -1,0 +1,92 @@
+{
+  "title": "Fluid Mechanics",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": "Chapter 14",
+  "sections": [
+    {
+      "heading": "Density and Relative Density",
+      "content": "Fluid statics includes hydrostatics, pressure, flotation, Pascal's law and Archimedes principle. Relative density (or specific gravity) = Density of substance / Density of water at 4°C. Density ρ = mass/volume (kg/m³). Dimension [ρ] = ML⁻³. Density of mixture: (i) If m₁ and m₂ mass of liquid having density ρ₁ and ρ₂ are mixed: ρ_mix = (m₁+m₂)/(m₁/ρ₁ + m₂/ρ₂). If m₁ = m₂, ρ_mix = 2ρ₁ρ₂/(ρ₁+ρ₂) (Harmonic Mean). (ii) If v₁ volume of density ρ₁ and v₂ volume of density ρ₂ are mixed: ρ_mix = (v₁ρ₁+v₂ρ₂)/(v₁+v₂). If v₁ = v₂, ρ_mix = (ρ₁+ρ₂)/2 (Arithmetic Mean).",
+      "formulas": [
+        "R.D. = Density of substance / Density of water at 4°C",
+        "ρ_mix (equal masses) = 2ρ₁ρ₂/(ρ₁+ρ₂)",
+        "ρ_mix (equal volumes) = (ρ₁+ρ₂)/2"
+      ],
+      "specialCases": []
+    },
+    {
+      "heading": "Pressure and Hydrostatics",
+      "content": "Pressure = Normal force per unit area, P = F/A (Pa or Pascal). 1 Pa = 10 dyne/cm². For a point at depth h below surface of liquid of density ρ: Absolute pressure P = P₀ + ρgh, where P₀ = atmospheric pressure. Gauge pressure = P - P₀ = ρgh. 1 atm = 760 mm of Hg = 1.013 × 10⁵ Pa. 1 torr = 1 mm of Hg. Pressure acts in all directions at a point. Pressure acts normal to fluid boundaries. The inability of liquid to flow from a vessel having more liquid to a vessel having less liquid when both have same level is called Hydrostatic paradox. Barometer measures atmospheric pressure; manometer measures pressure difference.",
+      "formulas": [
+        "P = F/A",
+        "P = P₀ + ρgh",
+        "Gauge pressure = ρgh",
+        "1 atm = 760 mm Hg = 1.013 × 10⁵ Pa"
+      ],
+      "specialCases": [
+        "Hydrostatic paradox: liquid level same regardless of container shape"
+      ]
+    },
+    {
+      "heading": "Buoyancy and Archimedes' Principle",
+      "content": "Force of buoyancy (upthrust) is the weight of displaced fluid. It acts vertically upward through the centre of buoyancy (CG of displaced fluid). It is independent of mass, size and density of body except the volume of body inside fluid: F_B ∝ V_in. It depends on nature of fluid: F_B ∝ ρ. It depends on acceleration due to gravity: F_B ∝ g. If lift accelerated downward (a<g): F_B ∝ V_in(g-a). If w_a is weight in air, ρ_b is density, v is volume and w_l is weight in liquid: w_a = Vρ_bg, F_B = Vρ_lg, w_l = w_a - F_B. Loss in weight = w_a - w_l = F_B = Vρ_lg. Specific gravity = w_a/(w_a - w_w). For floating body: weight of body = weight of displaced liquid, i.e., Vρ_b = V_in × ρ_l.",
+      "formulas": [
+        "F_B = Vρ_lg",
+        "w_l = w_a - F_B",
+        "R.D. = w_a/(w_a - w_w)",
+        "SP gravity of liquid = (w_a - w_l)/(w_a - w_w)",
+        "Floating: Vρ_b = V_in × ρ_l"
+      ],
+      "specialCases": [
+        "ρ_l > ρ_b: body floats partially submerged",
+        "ρ_l = ρ_b: body floats fully submerged",
+        "Apparent weight of floating body is zero",
+        "Fraction of volume outside liquid = (1 - ρ_b/ρ_l)",
+        "Ice in water: if ice contains metal and melts, water level falls; if ice contains cork and melts, level remains same"
+      ]
+    },
+    {
+      "heading": "Stability of Floating Bodies and Related Concepts",
+      "content": "Centre of gravity of floating body and centre of gravity of displaced liquid are on the same straight line (central line). When a floating body is slightly tilted, the centre of buoyancy shifts. The vertical line through new centre of buoyancy intersects the central line at metacentre. If metacentre lies above CG: stable equilibrium. If metacentre lies below CG: unstable equilibrium. A partially submerged floating body when slightly pressed and released oscillates in SHM. A fully submerged body when pressed sinks to bottom. If a ball of density ρ_b is immersed in liquid of density ρ_l to depth h and released, the height H above surface: H = (ρ_l/ρ_b - 1)h. If radius of a large bubble becomes n times from bottom to surface: depth h = (n³ - 1)H, where H is height of water column equal to atmospheric pressure.",
+      "formulas": [
+        "H = (ρ_l/ρ_b - 1)h",
+        "h = (n³ - 1)H"
+      ],
+      "specialCases": [
+        "Metacentre above CG: stable equilibrium",
+        "Metacentre below CG: unstable equilibrium"
+      ]
+    },
+    {
+      "heading": "Bernoulli's Theorem and Velocity of Efflux",
+      "content": "Principle of continuity (conservation of mass): A×V = constant, A₁V₁ = A₂V₂. Bernoulli's theorem (conservation of energy): P + ρgh + ½ρv² = constant. Pressure head = P/(ρg), Velocity head = v²/(2g), Datum head = h. For horizontal tube: P + ½ρv² = constant. Velocity of efflux: v = √(2gh), where h = depth of orifice from surface. Velocity of efflux does not depend on density of liquid. Two holes at depth h and H-h have same range. For maximum range, orifice is at half of height and max range = height of liquid. Time to empty tank: t = (A/A₀) × √(2H/g). Time to empty from H₁ to H₂: t = (A/A₀) × (2/√(2g)) × (√H₁ - √H₂).",
+      "formulas": [
+        "A₁V₁ = A₂V₂",
+        "P + ρgh + ½ρv² = constant",
+        "v_efflux = √(2gh)",
+        "t_empty = (A/A₀) × √(2H/g)"
+      ],
+      "specialCases": [
+        "Horizontal tube: P + ½ρv² = constant",
+        "Maximum range when orifice at h = H/2",
+        "Two holes at h and H-h give same range"
+      ]
+    },
+    {
+      "heading": "Viscosity and Reynolds Number",
+      "content": "Newton's law of viscosity: F = -ηA(dv/dy), where η = coefficient of viscosity, A = area, dv/dy = velocity gradient. SI unit: poiseuille (Pl), CGS unit: poise (P), 1 Pl = 10 P. In liquids, viscosity increases with density; in gases, it decreases with density increase. With rise in temperature, liquid viscosity decreases while gas viscosity increases. Volume flow rate: dV/dt = πPr⁴/(8ηL). Fluid resistance R = 8ηL/(πr⁴). Viscous force (Stokes' law): F = 6πηrv. Terminal velocity: v_t = 2r²(ρ-σ)g/(9η), where ρ = density of body, σ = density of liquid. v ∝ r², v ∝ ρ, v ∝ 1/η. Reynolds number: N_R = ρvD/η. If N_R ≤ 2000: streamline (laminar). If 2000 < N_R < 3000: transition. If N_R ≥ 3000: turbulent flow.",
+      "formulas": [
+        "F = -ηA(dv/dy)",
+        "dV/dt = πPr⁴/(8ηL)",
+        "F_viscous = 6πηrv",
+        "v_t = 2r²(ρ-σ)g/(9η)",
+        "N_R = ρvD/η"
+      ],
+      "specialCases": [
+        "N_R ≤ 2000: streamline/laminar flow",
+        "2000 < N_R < 3000: transition flow",
+        "N_R ≥ 3000: turbulent flow",
+        "1 Pl = 10 P"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── Auth & Users ───
+
+model User {
+  id                String    @id @default(uuid())
+  email             String    @unique
+  passwordHash      String?   @map("password_hash")
+  googleId          String?   @unique @map("google_id")
+  avatarUrl         String?   @map("avatar_url")
+  role              Role      @default(STUDENT)
+  isActive          Boolean   @default(true) @map("is_active")
+  isProfileComplete Boolean   @default(false) @map("is_profile_complete")
+  createdAt         DateTime  @default(now()) @map("created_at")
+
+  profile             UserProfile?
+  examAttempts        ExamAttempt[]
+  cmsArticles         CmsArticle[]
+  cmsMedia            CmsMedia[]
+  passwordResetTokens PasswordResetToken[]
+  levelProgress       UserLevelProgress[]
+  mockExamAttempts    MockExamAttempt[]
+  specialExamAttempts SpecialExamAttempt[]
+
+  @@map("users")
+}
+
+model PasswordResetToken {
+  id        String   @id @default(uuid())
+  userId    String   @map("user_id")
+  tokenHash String   @unique @map("token_hash")
+  expiresAt DateTime @map("expires_at")
+  usedAt    DateTime? @map("used_at")
+  createdAt DateTime @default(now()) @map("created_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@map("password_reset_tokens")
+}
+
+enum Role {
+  STUDENT
+  ADMIN
+}
+
+model UserProfile {
+  id                 String   @id @default(uuid())
+  userId             String   @unique @map("user_id")
+  fullName           String   @map("full_name")
+  addressStreet      String   @map("address_street")
+  addressCity        String   @map("address_city")
+  addressDistrict    String   @map("address_district")
+  addressProvince    String   @map("address_province")
+  mobilePhone        String   @map("mobile_phone")
+  parentsMobilePhone String   @map("parents_mobile_phone")
+  priority1          Program  @map("priority_1")
+  priority2          Program? @map("priority_2")
+  priority3          Program? @map("priority_3")
+  createdAt          DateTime @default(now()) @map("created_at")
+  updatedAt          DateTime @updatedAt @map("updated_at")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("user_profiles")
+}
+
+enum Program {
+  COMPUTER
+  CIVIL
+  ECIC
+}
+
+// ─── Exam Engine ───
+
+model Subject {
+  id           String  @id @default(uuid())
+  name         String  @unique
+  displayOrder Int     @default(0) @map("display_order")
+
+  topics                Topic[]
+  questions             Question[]
+  passages              Passage[]
+  studyNotes            StudyNote[]
+
+  @@map("subjects")
+}
+
+model Topic {
+  id           String @id @default(uuid())
+  subjectId    String @map("subject_id")
+  name         String
+  displayOrder Int    @default(0) @map("display_order")
+
+  subject               Subject                  @relation(fields: [subjectId], references: [id])
+  questions             Question[]
+  topicDistributions    ExamTopicDistribution[]
+  studyNotes            StudyNote[]
+
+  @@unique([subjectId, name])
+  @@map("topics")
+}
+
+model Passage {
+  id        String   @id @default(uuid())
+  subjectId String   @map("subject_id")
+  text      String
+  createdAt DateTime @default(now()) @map("created_at")
+
+  subject   Subject    @relation(fields: [subjectId], references: [id])
+  questions Question[]
+
+  @@map("passages")
+}
+
+model Question {
+  id            String     @id @default(uuid())
+  subjectId     String     @map("subject_id")
+  topicId       String     @map("topic_id")
+  passageId     String?    @map("passage_id")
+  text          String
+  optionA       String     @map("option_a")
+  optionB       String     @map("option_b")
+  optionC       String     @map("option_c")
+  optionD       String     @map("option_d")
+  correctOption String     @map("correct_option")
+  hint          String?
+  weightage     Int        @default(1)
+  difficulty    Difficulty @default(MEDIUM)
+  createdAt     DateTime   @default(now()) @map("created_at")
+
+  subject Subject  @relation(fields: [subjectId], references: [id])
+  topic   Topic    @relation(fields: [topicId], references: [id])
+  passage Passage? @relation(fields: [passageId], references: [id])
+
+  @@map("questions")
+}
+
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+
+model Exam {
+  id                    String   @id @default(uuid())
+  name                  String
+  durationMinutes       Int      @default(120) @map("duration_minutes")
+  totalMarks            Int      @default(140) @map("total_marks")
+  negativeMarkingPercent Int     @default(10) @map("negative_marking_percent")
+  isActive              Boolean  @default(true) @map("is_active")
+  createdAt             DateTime @default(now()) @map("created_at")
+
+  topicDistribution ExamTopicDistribution[]
+  attempts          ExamAttempt[]
+
+  @@map("exams")
+}
+
+model ExamTopicDistribution {
+  id           String @id @default(uuid())
+  examId       String @map("exam_id")
+  topicId      String @map("topic_id")
+  oneMarkCount Int    @map("one_mark_count")
+  twoMarkCount Int    @map("two_mark_count")
+
+  exam  Exam  @relation(fields: [examId], references: [id], onDelete: Cascade)
+  topic Topic @relation(fields: [topicId], references: [id])
+
+  @@unique([examId, topicId])
+  @@map("exam_topic_distributions")
+}
+
+model ExamAttempt {
+  id               String    @id @default(uuid())
+  userId           String    @map("user_id")
+  examId           String    @map("exam_id")
+  startedAt        DateTime  @default(now()) @map("started_at")
+  finishedAt       DateTime? @map("finished_at")
+  timeTakenSeconds Int?      @map("time_taken_seconds")
+  totalScore       Float     @default(0) @map("total_score")
+  isSubmitted      Boolean   @default(false) @map("is_submitted")
+  answers          Json?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  exam Exam @relation(fields: [examId], references: [id], onDelete: Cascade)
+
+  @@map("exam_attempts")
+}
+
+// ─── CMS ───
+
+model CmsArticle {
+  id            String        @id @default(uuid())
+  title         String
+  slug          String        @unique
+  body          String
+  coverImageUrl String?       @map("cover_image_url")
+  category      ArticleCategory
+  isPublished   Boolean       @default(false) @map("is_published")
+  publishedAt   DateTime?     @map("published_at")
+  authorId      String        @map("author_id")
+  createdAt     DateTime      @default(now()) @map("created_at")
+
+  author User @relation(fields: [authorId], references: [id])
+
+  @@map("cms_articles")
+}
+
+enum ArticleCategory {
+  NEWS
+  NOTICE
+  BLOG
+}
+
+model CmsMedia {
+  id           String    @id @default(uuid())
+  title        String
+  type         MediaType
+  url          String
+  thumbnailUrl String?   @map("thumbnail_url")
+  caption      String?
+  album        String?
+  displayOrder Int       @default(0) @map("display_order")
+  isPublished  Boolean   @default(true) @map("is_published")
+  uploadedById String    @map("uploaded_by_id")
+  createdAt    DateTime  @default(now()) @map("created_at")
+
+  uploadedBy User @relation(fields: [uploadedById], references: [id])
+
+  @@map("cms_media")
+}
+
+enum MediaType {
+  PHOTO
+  VIDEO
+}
+
+model CmsHeroSlide {
+  id           String   @id @default(uuid())
+  imageUrl     String   @map("image_url")
+  title        String?
+  subtitle     String?
+  ctaText      String?  @map("cta_text")
+  ctaLink      String?  @map("cta_link")
+  displayOrder Int      @default(0) @map("display_order")
+  isActive     Boolean  @default(true) @map("is_active")
+  createdAt    DateTime @default(now()) @map("created_at")
+
+  @@map("cms_hero_slides")
+}
+
+// ─── Study Notes (extracted from scanned books) ───
+
+model StudyNote {
+  id            String   @id @default(uuid())
+  subjectId     String   @map("subject_id")
+  topicId       String   @map("topic_id")
+  chapterNumber Int      @map("chapter_number")
+  title         String
+  content       String
+  createdAt     DateTime @default(now()) @map("created_at")
+  updatedAt     DateTime @updatedAt @map("updated_at")
+
+  subject  Subject           @relation(fields: [subjectId], references: [id])
+  topic    Topic             @relation(fields: [topicId], references: [id])
+  figures  StudyNoteFigure[]
+
+  @@unique([subjectId, topicId])
+  @@map("study_notes")
+}
+
+model StudyNoteFigure {
+  id           String @id @default(uuid())
+  studyNoteId  String @map("study_note_id")
+  fileName     String @map("file_name")
+  caption      String?
+  displayOrder Int    @default(0) @map("display_order")
+
+  studyNote StudyNote @relation(fields: [studyNoteId], references: [id], onDelete: Cascade)
+
+  @@map("study_note_figures")
+}
+
+// ─── Level Exam System ───
+
+model LevelConfig {
+  id                   Int      @id @default(autoincrement())
+  levelNumber          Int      @unique @map("level_number")
+  subLevelCount        Int      @default(6) @map("sub_level_count")
+  questionsPerSublevel Int      @default(20) @map("questions_per_sublevel")
+  easyWeight           Int      @default(100) @map("easy_weight")
+  mediumWeight         Int      @default(0) @map("medium_weight")
+  hardWeight           Int      @default(0) @map("hard_weight")
+  isActive             Boolean  @default(true) @map("is_active")
+  createdAt            DateTime @default(now()) @map("created_at")
+
+  @@map("level_configs")
+}
+
+model UserLevelProgress {
+  id             String    @id @default(uuid())
+  userId         String    @map("user_id")
+  levelNumber    Int       @map("level_number")
+  subLevel       Int       @map("sub_level")
+  isCompleted    Boolean   @default(false) @map("is_completed")
+  isPassed       Boolean   @default(false) @map("is_passed")
+  stars          Int       @default(0)
+  score          Float     @default(0)
+  correctAnswers Int       @default(0) @map("correct_answers")
+  totalQuestions Int       @default(20) @map("total_questions")
+  answers        Json?
+  questions      Json?
+  startedAt      DateTime  @default(now()) @map("started_at")
+  finishedAt     DateTime? @map("finished_at")
+  isSubmitted    Boolean   @default(false) @map("is_submitted")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, levelNumber, subLevel])
+  @@map("user_level_progress")
+}
+
+// ─── Mock Exam ───
+
+model MockExamAttempt {
+  id               String    @id @default(uuid())
+  userId           String    @map("user_id")
+  questions        Json
+  answers          Json?
+  totalScore       Float     @default(0) @map("total_score")
+  totalMarks       Int       @default(140) @map("total_marks")
+  isSubmitted      Boolean   @default(false) @map("is_submitted")
+  startedAt        DateTime  @default(now()) @map("started_at")
+  finishedAt       DateTime? @map("finished_at")
+  timeTakenSeconds Int?      @map("time_taken_seconds")
+  resultBreakdown  Json?     @map("result_breakdown")
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@map("mock_exam_attempts")
+}
+
+// ─── Special Exams ───
+
+model SpecialExam {
+  id              String   @id @default(uuid())
+  title           String
+  description     String?
+  durationMinutes Int      @default(60) @map("duration_minutes")
+  totalMarks      Int      @default(0) @map("total_marks")
+  isActive        Boolean  @default(true) @map("is_active")
+  createdAt       DateTime @default(now()) @map("created_at")
+
+  questions SpecialExamQuestion[]
+  attempts  SpecialExamAttempt[]
+
+  @@map("special_exams")
+}
+
+model SpecialExamQuestion {
+  id            String     @id @default(uuid())
+  specialExamId String     @map("special_exam_id")
+  text          String
+  optionA       String     @map("option_a")
+  optionB       String     @map("option_b")
+  optionC       String     @map("option_c")
+  optionD       String     @map("option_d")
+  correctOption String     @map("correct_option")
+  hint          String?
+  subject       String?
+  topic         String?
+  difficulty    Difficulty @default(MEDIUM)
+  weightage     Int        @default(1)
+  displayOrder  Int        @default(0) @map("display_order")
+
+  specialExam SpecialExam @relation(fields: [specialExamId], references: [id], onDelete: Cascade)
+
+  @@map("special_exam_questions")
+}
+
+model SpecialExamAttempt {
+  id               String    @id @default(uuid())
+  userId           String    @map("user_id")
+  specialExamId    String    @map("special_exam_id")
+  answers          Json?
+  totalScore       Float     @default(0) @map("total_score")
+  isSubmitted      Boolean   @default(false) @map("is_submitted")
+  startedAt        DateTime  @default(now()) @map("started_at")
+  finishedAt       DateTime? @map("finished_at")
+  timeTakenSeconds Int?      @map("time_taken_seconds")
+
+  user        User        @relation(fields: [userId], references: [id], onDelete: Cascade)
+  specialExam SpecialExam @relation(fields: [specialExamId], references: [id], onDelete: Cascade)
+
+  @@map("special_exam_attempts")
+}

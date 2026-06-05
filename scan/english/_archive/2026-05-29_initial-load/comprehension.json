@@ -1,0 +1,500 @@
+{
+  "topic": "Comprehension",
+  "weightage": 2,
+  "_meta": "Chunk 1 — Passages 1-5",
+  "passages": [
+    {
+      "text": "Nepal, a small landlocked country between India and China, is renowned for its breathtaking Himalayan landscape. Home to eight of the world's fourteen highest peaks, including Mount Everest at 8,848.86 metres, Nepal attracts mountaineers and trekkers from around the globe. Beyond its mountains, the country boasts diverse ecosystems ranging from the subtropical Terai plains in the south to the alpine regions of the north. The Chitwan National Park, a UNESCO World Heritage Site, shelters endangered species such as the one-horned rhinoceros and the Bengal tiger. Tourism plays a crucial role in Nepal's economy, contributing significantly to employment and foreign exchange earnings. However, the industry faces challenges including climate change, which is causing glaciers to retreat at alarming rates, and the recurring threat of earthquakes, as demonstrated by the devastating 2015 disaster that killed nearly 9,000 people.",
+      "questions": [
+        {"text":"What is the height of Mount Everest mentioned in the passage?","optionA":"8,488 metres","optionB":"8,848.86 metres","optionC":"8,884 metres","optionD":"8,848 feet","correctOption":"B"},
+        {"text":"How many of the world's highest peaks are in Nepal?","optionA":"Six","optionB":"Eight","optionC":"Ten","optionD":"Fourteen","correctOption":"B"},
+        {"text":"Chitwan National Park is recognized as a:","optionA":"National monument","optionB":"UNESCO World Heritage Site","optionC":"Private reserve","optionD":"Military zone","correctOption":"B"},
+        {"text":"Which endangered animal is mentioned as living in Chitwan?","optionA":"Snow leopard","optionB":"One-horned rhinoceros","optionC":"Red panda","optionD":"Asian elephant","correctOption":"B"},
+        {"text":"What impact of climate change is highlighted?","optionA":"Rising sea levels","optionB":"Retreating glaciers","optionC":"Forest fires","optionD":"Droughts","correctOption":"B"},
+        {"text":"The 2015 earthquake killed approximately how many people?","optionA":"900","optionB":"9,000","optionC":"90,000","optionD":"19,000","correctOption":"B"},
+        {"text":"The word 'breathtaking' in the passage most nearly means:","optionA":"suffocating","optionB":"awe-inspiring","optionC":"frightening","optionD":"common","correctOption":"B"},
+        {"text":"Tourism in Nepal primarily contributes to:","optionA":"agriculture only","optionB":"employment and foreign exchange","optionC":"military strength","optionD":"space exploration","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Artificial Intelligence (AI) has rapidly evolved from a theoretical concept into a transformative technology shaping nearly every aspect of modern life. Machine learning, a subset of AI, enables computers to learn from data without being explicitly programmed. Deep learning, which uses neural networks with multiple layers, has driven breakthroughs in image recognition, natural language processing, and autonomous vehicles. In healthcare, AI assists in diagnosing diseases from medical images, sometimes outperforming human radiologists. In finance, it detects fraudulent transactions in real time. However, the rise of AI also raises ethical concerns: bias in algorithms can perpetuate discrimination, automation threatens millions of jobs, and the lack of transparency in 'black-box' models makes accountability difficult. Governments worldwide are now drafting regulations to ensure AI is developed responsibly, balancing innovation with the protection of human rights.",
+      "questions": [
+        {"text":"Machine learning is described as:","optionA":"A type of robot","optionB":"A subset of AI","optionC":"A programming language","optionD":"A database","correctOption":"B"},
+        {"text":"Deep learning relies on:","optionA":"Simple rules","optionB":"Neural networks with multiple layers","optionC":"Single algorithms","optionD":"Manual coding","correctOption":"B"},
+        {"text":"AI in healthcare can outperform humans in:","optionA":"Surgery","optionB":"Diagnosing from medical images","optionC":"Prescribing medicine","optionD":"Nursing","correctOption":"B"},
+        {"text":"In finance, AI is used to:","optionA":"Print money","optionB":"Detect fraudulent transactions","optionC":"Replace bankers","optionD":"Set interest rates","correctOption":"B"},
+        {"text":"'Black-box' models are problematic because they lack:","optionA":"speed","optionB":"transparency","optionC":"accuracy","optionD":"size","correctOption":"B"},
+        {"text":"Which is NOT mentioned as an AI concern?","optionA":"Bias","optionB":"Job loss","optionC":"Lack of transparency","optionD":"Power consumption","correctOption":"D"},
+        {"text":"Governments are responding to AI by:","optionA":"Banning it","optionB":"Drafting regulations","optionC":"Ignoring it","optionD":"Funding it secretly","correctOption":"B"},
+        {"text":"The word 'perpetuate' most nearly means:","optionA":"end","optionB":"continue","optionC":"reduce","optionD":"hide","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Climate change is no longer a distant threat; it is a present reality reshaping ecosystems, economies and human lives. Burning fossil fuels releases carbon dioxide and other greenhouse gases that trap heat in the atmosphere, leading to a steady rise in global temperatures. Since the late 19th century, the planet's average surface temperature has risen by about 1.1 degrees Celsius. The consequences are visible: melting polar ice caps, rising sea levels, more frequent and intense heatwaves, droughts, and storms. Coastal cities like Jakarta and Miami face existential risks from inundation. Agriculture suffers as growing seasons shift unpredictably. The 2015 Paris Agreement set a goal of limiting warming to well below 2 degrees Celsius, ideally 1.5 degrees, above pre-industrial levels. Achieving this requires a rapid transition to renewable energy, reforestation, and changes in consumption patterns.",
+      "questions": [
+        {"text":"By how much has the planet's surface temperature risen since the late 19th century?","optionA":"0.1°C","optionB":"1.1°C","optionC":"2.5°C","optionD":"5°C","correctOption":"B"},
+        {"text":"Which gas is mentioned as the main greenhouse gas from fossil fuels?","optionA":"Oxygen","optionB":"Carbon dioxide","optionC":"Nitrogen","optionD":"Hydrogen","correctOption":"B"},
+        {"text":"Which cities are at risk from rising seas?","optionA":"Delhi and Beijing","optionB":"Jakarta and Miami","optionC":"London and Paris","optionD":"Tokyo and Sydney","correctOption":"B"},
+        {"text":"The Paris Agreement was signed in:","optionA":"2010","optionB":"2015","optionC":"2018","optionD":"2020","correctOption":"B"},
+        {"text":"The ideal warming limit under the Paris Agreement is:","optionA":"1.0°C","optionB":"1.5°C","optionC":"2.0°C","optionD":"3.0°C","correctOption":"B"},
+        {"text":"Which is NOT listed as a consequence of climate change?","optionA":"Melting ice caps","optionB":"Rising sea levels","optionC":"Volcanic eruptions","optionD":"Heatwaves","correctOption":"C"},
+        {"text":"To meet climate goals, the passage recommends all EXCEPT:","optionA":"Renewable energy","optionB":"Reforestation","optionC":"Nuclear war","optionD":"Changes in consumption","correctOption":"C"},
+        {"text":"The word 'inundation' most nearly means:","optionA":"flooding","optionB":"drought","optionC":"earthquake","optionD":"fire","correctOption":"A"}
+      ]
+    },
+    {
+      "text": "The Industrial Revolution, which began in Britain in the late 18th century, fundamentally transformed human society. Before this period, most goods were produced by hand in small workshops or at home. The invention of the steam engine by James Watt in 1769 allowed factories to mechanize production on an unprecedented scale. Textile manufacturing was among the first industries to be revolutionized, with machines like the spinning jenny and the power loom dramatically increasing output. Railways and steamships shrunk distances, enabling raw materials and finished goods to be moved cheaply across continents and oceans. Cities grew rapidly as rural populations migrated in search of factory work. However, the revolution also brought severe social problems: child labour, dangerous working conditions, environmental pollution, and the exploitation of workers. The labour movements and reforms of the 19th and 20th centuries arose as direct responses to these injustices.",
+      "questions": [
+        {"text":"Where did the Industrial Revolution begin?","optionA":"France","optionB":"Britain","optionC":"Germany","optionD":"USA","correctOption":"B"},
+        {"text":"Who invented the steam engine mentioned in the passage?","optionA":"Thomas Edison","optionB":"James Watt","optionC":"Henry Ford","optionD":"Nikola Tesla","correctOption":"B"},
+        {"text":"In which year was the steam engine invented (as per passage)?","optionA":"1669","optionB":"1769","optionC":"1869","optionD":"1969","correctOption":"B"},
+        {"text":"Which industry was among the first to be revolutionized?","optionA":"Steel","optionB":"Textile","optionC":"Mining","optionD":"Shipping","correctOption":"B"},
+        {"text":"Which machines are mentioned for textiles?","optionA":"Steam plough and tractor","optionB":"Spinning jenny and power loom","optionC":"Cotton gin and printing press","optionD":"Lathe and drill","correctOption":"B"},
+        {"text":"Cities grew rapidly because:","optionA":"of disease","optionB":"rural people migrated for factory work","optionC":"of war","optionD":"of tourism","correctOption":"B"},
+        {"text":"Which is NOT a problem caused by the revolution?","optionA":"Child labour","optionB":"Pollution","optionC":"Worker exploitation","optionD":"Free healthcare","correctOption":"D"},
+        {"text":"The word 'unprecedented' most nearly means:","optionA":"never done before","optionB":"common","optionC":"old","optionD":"slow","correctOption":"A"}
+      ]
+    },
+    {
+      "text": "Renewable energy sources such as solar, wind, hydroelectric and geothermal power are increasingly seen as essential to a sustainable future. Unlike fossil fuels, which are finite and emit greenhouse gases, renewables draw on natural processes that are continuously replenished. Solar photovoltaic panels convert sunlight directly into electricity and have become dramatically cheaper over the past decade. Wind turbines capture kinetic energy from the air, with modern offshore farms generating megawatts of clean power. Nepal, blessed with steep river gradients, has enormous untapped hydroelectric potential estimated at over 80,000 megawatts, though only a small fraction is currently developed. Despite their advantages, renewables face challenges including intermittency (the sun does not always shine and the wind does not always blow), the need for large-scale energy storage solutions, and significant upfront investment. Continued research into battery technology and smart grids is essential to overcome these obstacles.",
+      "questions": [
+        {"text":"Which is NOT mentioned as a renewable energy source?","optionA":"Solar","optionB":"Wind","optionC":"Hydroelectric","optionD":"Nuclear","correctOption":"D"},
+        {"text":"Solar PV panels convert sunlight into:","optionA":"heat only","optionB":"electricity","optionC":"gas","optionD":"motion","correctOption":"B"},
+        {"text":"Nepal's hydroelectric potential is estimated at:","optionA":"8,000 MW","optionB":"over 80,000 MW","optionC":"800 MW","optionD":"800,000 MW","correctOption":"B"},
+        {"text":"What does 'intermittency' refer to here?","optionA":"Cost of energy","optionB":"Inconsistent availability of sun and wind","optionC":"Pollution","optionD":"Storage","correctOption":"B"},
+        {"text":"Wind turbines capture energy from:","optionA":"the sun","optionB":"moving air","optionC":"water","optionD":"earth's heat","correctOption":"B"},
+        {"text":"A major challenge for renewables mentioned is:","optionA":"low efficiency","optionB":"energy storage","optionC":"high pollution","optionD":"radioactive waste","correctOption":"B"},
+        {"text":"What is essential to overcome renewable energy obstacles?","optionA":"More coal","optionB":"Battery and smart grid research","optionC":"More dams only","optionD":"Less electricity","correctOption":"B"},
+        {"text":"The word 'replenished' most nearly means:","optionA":"depleted","optionB":"restored","optionC":"polluted","optionD":"burned","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The Internet, originally developed in the 1960s as a military communication network called ARPANET, has grown into the most influential technology of the modern era. By the 1990s, the invention of the World Wide Web by Tim Berners-Lee transformed the Internet from a tool used mainly by academics and the military into a global platform accessible to ordinary people. Today, more than five billion people use the Internet for communication, education, commerce and entertainment. Social media platforms have reshaped how individuals interact and how information spreads. Online learning has made education available to remote communities, while e-commerce has revolutionized retail. However, the Internet also brings serious challenges: cybercrime, misinformation, privacy violations, and digital addiction. Bridging the digital divide between developed and developing nations remains a major global priority.",
+      "questions": [
+        {"text":"ARPANET was originally developed in the:","optionA":"1950s","optionB":"1960s","optionC":"1970s","optionD":"1980s","correctOption":"B"},
+        {"text":"Who invented the World Wide Web?","optionA":"Bill Gates","optionB":"Tim Berners-Lee","optionC":"Steve Jobs","optionD":"Mark Zuckerberg","correctOption":"B"},
+        {"text":"How many people use the Internet today (per passage)?","optionA":"1 billion","optionB":"More than 5 billion","optionC":"500 million","optionD":"10 billion","correctOption":"B"},
+        {"text":"Which is NOT mentioned as an Internet challenge?","optionA":"Cybercrime","optionB":"Misinformation","optionC":"Privacy violations","optionD":"Global warming","correctOption":"D"},
+        {"text":"Online learning has primarily helped:","optionA":"only the rich","optionB":"remote communities","optionC":"governments","optionD":"corporations only","correctOption":"B"},
+        {"text":"E-commerce has revolutionized:","optionA":"agriculture","optionB":"retail","optionC":"shipping","optionD":"banking only","correctOption":"B"},
+        {"text":"The 'digital divide' refers to the gap between:","optionA":"phones and computers","optionB":"developed and developing nations","optionC":"old and new software","optionD":"urban and rural areas only","correctOption":"B"},
+        {"text":"The word 'reshaped' most nearly means:","optionA":"destroyed","optionB":"transformed","optionC":"ignored","optionD":"hardened","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Yoga, an ancient practice originating in India over 5,000 years ago, has become a global phenomenon embraced by people of all ages and backgrounds. Combining physical postures (asanas), breathing techniques (pranayama), and meditation, yoga aims to harmonize body, mind and spirit. Scientific studies have documented numerous health benefits: improved flexibility and strength, reduced stress and anxiety, better sleep, and enhanced cardiovascular function. Regular practice can also alleviate chronic pain, particularly lower back pain. The United Nations recognized this growing popularity by declaring 21 June as International Day of Yoga in 2014, with the first observance held in 2015. While yoga is rooted in Hindu philosophy, modern practitioners adopt it for diverse reasons, from physical fitness to spiritual exploration. Critics caution that improperly performed postures can cause injury, and they emphasize the importance of qualified instruction.",
+      "questions": [
+        {"text":"Yoga originated in:","optionA":"China","optionB":"India","optionC":"Tibet","optionD":"Japan","correctOption":"B"},
+        {"text":"How old is the practice of yoga (per passage)?","optionA":"500 years","optionB":"Over 5,000 years","optionC":"50,000 years","optionD":"100 years","correctOption":"B"},
+        {"text":"'Asanas' refers to:","optionA":"meditation","optionB":"physical postures","optionC":"breathing","optionD":"chanting","correctOption":"B"},
+        {"text":"'Pranayama' refers to:","optionA":"postures","optionB":"breathing techniques","optionC":"diet","optionD":"prayer","correctOption":"B"},
+        {"text":"International Day of Yoga is observed on:","optionA":"21 May","optionB":"21 June","optionC":"21 July","optionD":"21 August","correctOption":"B"},
+        {"text":"The first International Day of Yoga was held in:","optionA":"2014","optionB":"2015","optionC":"2016","optionD":"2020","correctOption":"B"},
+        {"text":"Which health benefit is NOT mentioned?","optionA":"Reduced stress","optionB":"Better sleep","optionC":"Improved eyesight","optionD":"Lower back pain relief","correctOption":"C"},
+        {"text":"The word 'alleviate' most nearly means:","optionA":"worsen","optionB":"ease","optionC":"cause","optionD":"hide","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The human brain, weighing only about 1.4 kilograms, is arguably the most complex object in the known universe. It contains approximately 86 billion neurons, each connected to thousands of others through synapses, forming a vast network capable of thought, emotion, memory and consciousness. Despite making up only 2 percent of body weight, the brain consumes about 20 percent of the body's energy. Neuroscientists have long studied how the brain processes information, stores memories and generates behaviour. Recent advances in brain imaging, such as functional MRI, allow researchers to observe brain activity in real time. Diseases like Alzheimer's, Parkinson's and depression affect millions worldwide and remain incompletely understood. Encouragingly, the brain exhibits neuroplasticity, the ability to reorganize itself by forming new neural connections throughout life, which underlies learning, recovery from injury, and adaptation to new environments.",
+      "questions": [
+        {"text":"The human brain weighs approximately:","optionA":"0.4 kg","optionB":"1.4 kg","optionC":"4 kg","optionD":"14 kg","correctOption":"B"},
+        {"text":"How many neurons does the brain contain?","optionA":"86 million","optionB":"86 billion","optionC":"8.6 billion","optionD":"8.6 trillion","correctOption":"B"},
+        {"text":"The brain uses what percentage of body energy?","optionA":"2%","optionB":"20%","optionC":"50%","optionD":"75%","correctOption":"B"},
+        {"text":"Connections between neurons are called:","optionA":"axons","optionB":"synapses","optionC":"dendrites","optionD":"vessels","correctOption":"B"},
+        {"text":"Which technique allows real-time observation of brain activity?","optionA":"X-ray","optionB":"Functional MRI","optionC":"Ultrasound","optionD":"ECG","correctOption":"B"},
+        {"text":"Which disease is NOT mentioned?","optionA":"Alzheimer's","optionB":"Parkinson's","optionC":"Depression","optionD":"Diabetes","correctOption":"D"},
+        {"text":"Neuroplasticity is the ability of the brain to:","optionA":"shrink","optionB":"reorganize itself","optionC":"stay fixed","optionD":"divide","correctOption":"B"},
+        {"text":"The word 'complex' most nearly means:","optionA":"simple","optionB":"intricate","optionC":"weak","optionD":"empty","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Plastic pollution has emerged as one of the most pressing environmental crises of the 21st century. Every year, an estimated 8 million tonnes of plastic waste flow into the world's oceans, where they break down into tiny fragments known as microplastics. These particles have been found in marine life, drinking water, and even human blood. Single-use plastics such as bags, bottles and straws make up a significant portion of the waste. Marine animals frequently mistake plastic debris for food, leading to injury, starvation and death. Several countries have responded with bans or taxes on single-use plastics; for example, Nepal banned the production and use of thin plastic bags in Kathmandu Valley in 2015, though enforcement remains a challenge. Solutions involve a combination of better waste management, biodegradable alternatives, recycling, and most importantly, reducing consumption at the source.",
+      "questions": [
+        {"text":"How much plastic enters the oceans each year?","optionA":"800 tonnes","optionB":"8 million tonnes","optionC":"80 thousand tonnes","optionD":"80 billion tonnes","correctOption":"B"},
+        {"text":"Tiny plastic fragments are called:","optionA":"nanofibers","optionB":"microplastics","optionC":"polymers","optionD":"micrograms","correctOption":"B"},
+        {"text":"Microplastics have been found in all EXCEPT:","optionA":"marine life","optionB":"drinking water","optionC":"human blood","optionD":"sunlight","correctOption":"D"},
+        {"text":"Nepal banned thin plastic bags in Kathmandu Valley in:","optionA":"2010","optionB":"2015","optionC":"2018","optionD":"2020","correctOption":"B"},
+        {"text":"Marine animals are harmed because they:","optionA":"eat each other","optionB":"mistake plastic for food","optionC":"avoid water","optionD":"migrate","correctOption":"B"},
+        {"text":"Which is NOT mentioned as a single-use plastic?","optionA":"Bag","optionB":"Bottle","optionC":"Straw","optionD":"Tyre","correctOption":"D"},
+        {"text":"The most important solution suggested is:","optionA":"more landfills","optionB":"reducing consumption at the source","optionC":"burning plastic","optionD":"exporting waste","correctOption":"B"},
+        {"text":"The word 'enforcement' most nearly means:","optionA":"creation","optionB":"implementation","optionC":"violation","optionD":"removal","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Renowned for its rich cultural heritage, the Kathmandu Valley contains seven UNESCO World Heritage monument zones, including the Durbar Squares of Kathmandu, Patan and Bhaktapur, the Buddhist stupas of Swayambhunath and Boudhanath, and the Hindu temples of Pashupatinath and Changu Narayan. These sites reflect a remarkable fusion of Hindu and Buddhist traditions that have coexisted in the valley for over two millennia. The intricate woodcarvings, brick architecture and bronze metalwork showcase the unique skills of the Newar artisans. The devastating earthquake of April 2015 caused severe damage to many of these heritage structures; the iconic Dharahara tower collapsed entirely, and parts of the Durbar Squares were reduced to rubble. Restoration work has been ongoing, supported by both the Nepalese government and international agencies. While progress has been steady, debates continue over whether to rebuild monuments exactly as they were or to incorporate modern earthquake-resistant designs.",
+      "questions": [
+        {"text":"How many UNESCO World Heritage monument zones are in Kathmandu Valley?","optionA":"Five","optionB":"Seven","optionC":"Ten","optionD":"Three","correctOption":"B"},
+        {"text":"Which is a Buddhist stupa mentioned?","optionA":"Pashupatinath","optionB":"Boudhanath","optionC":"Changu Narayan","optionD":"Patan Durbar","correctOption":"B"},
+        {"text":"The valley's heritage reflects fusion of which traditions?","optionA":"Hindu and Christian","optionB":"Hindu and Buddhist","optionC":"Islamic and Buddhist","optionD":"Sikh and Jain","correctOption":"B"},
+        {"text":"Skilled artisans of the valley are known as:","optionA":"Sherpa","optionB":"Newar","optionC":"Tharu","optionD":"Magar","correctOption":"B"},
+        {"text":"When did the devastating earthquake occur?","optionA":"April 2015","optionB":"April 2010","optionC":"April 2020","optionD":"May 2015","correctOption":"A"},
+        {"text":"Which iconic structure collapsed entirely in the quake?","optionA":"Boudhanath stupa","optionB":"Dharahara tower","optionC":"Pashupatinath","optionD":"Patan palace","correctOption":"B"},
+        {"text":"What is debated about restoration?","optionA":"Whether to demolish","optionB":"Whether to use earthquake-resistant designs","optionC":"Whether to sell","optionD":"Whether to relocate","correctOption":"B"},
+        {"text":"The word 'intricate' most nearly means:","optionA":"plain","optionB":"detailed","optionC":"weak","optionD":"large","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Space exploration entered a new era with the launch of Sputnik 1 by the Soviet Union in 1957, the first artificial satellite to orbit Earth. The space race that followed culminated in 1969 when Neil Armstrong became the first human to walk on the Moon during NASA's Apollo 11 mission. Since then, robotic probes have visited every planet in our solar system, and rovers such as Curiosity and Perseverance continue to explore the surface of Mars. The International Space Station, a collaborative project among multiple nations, has hosted continuous human presence in low Earth orbit since 2000. Recent years have seen the rise of private companies like SpaceX and Blue Origin, which are developing reusable rockets to dramatically reduce launch costs. Looking forward, ambitious projects include crewed missions to Mars, mining of asteroid resources, and the search for extraterrestrial life on icy moons such as Europa and Enceladus.",
+      "questions": [
+        {"text":"Sputnik 1 was launched in:","optionA":"1947","optionB":"1957","optionC":"1967","optionD":"1977","correctOption":"B"},
+        {"text":"Who launched Sputnik 1?","optionA":"USA","optionB":"Soviet Union","optionC":"China","optionD":"UK","correctOption":"B"},
+        {"text":"Neil Armstrong walked on the Moon in:","optionA":"1959","optionB":"1969","optionC":"1979","optionD":"1989","correctOption":"B"},
+        {"text":"Which rover is mentioned exploring Mars?","optionA":"Sojourner","optionB":"Perseverance","optionC":"Voyager","optionD":"Galileo","correctOption":"B"},
+        {"text":"The ISS has been continuously inhabited since:","optionA":"1990","optionB":"2000","optionC":"2010","optionD":"2015","correctOption":"B"},
+        {"text":"Which private company is mentioned?","optionA":"Boeing","optionB":"SpaceX","optionC":"Lockheed","optionD":"Airbus","correctOption":"B"},
+        {"text":"Search for extraterrestrial life targets which moons?","optionA":"Titan and Io","optionB":"Europa and Enceladus","optionC":"Phobos and Deimos","optionD":"Ganymede and Callisto","correctOption":"B"},
+        {"text":"The word 'culminated' most nearly means:","optionA":"began","optionB":"reached a peak","optionC":"failed","optionD":"continued","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Vaccination is one of the greatest achievements in public health history. Since Edward Jenner developed the first smallpox vaccine in 1796, immunization has saved millions of lives by training the immune system to recognize and fight specific pathogens. Childhood vaccines now protect against once-deadly diseases such as polio, measles, diphtheria and tetanus. Smallpox itself was declared eradicated by the World Health Organization in 1980, the only human disease eliminated through deliberate effort. The rapid development of COVID-19 vaccines, achieved within a year of the virus's identification, demonstrated unprecedented scientific cooperation. Despite overwhelming evidence of safety and effectiveness, vaccine hesitancy persists, fuelled by misinformation on social media and historical mistrust in some communities. Public health authorities continue to emphasize that high vaccination rates protect not only individuals but also vulnerable people who cannot be vaccinated through what is known as herd immunity.",
+      "questions": [
+        {"text":"Who developed the first smallpox vaccine?","optionA":"Louis Pasteur","optionB":"Edward Jenner","optionC":"Alexander Fleming","optionD":"Jonas Salk","correctOption":"B"},
+        {"text":"In which year was the first smallpox vaccine developed?","optionA":"1696","optionB":"1796","optionC":"1896","optionD":"1996","correctOption":"B"},
+        {"text":"Smallpox was declared eradicated in:","optionA":"1970","optionB":"1980","optionC":"1990","optionD":"2000","correctOption":"B"},
+        {"text":"Which body declared smallpox eradicated?","optionA":"UN","optionB":"WHO","optionC":"UNICEF","optionD":"CDC","correctOption":"B"},
+        {"text":"Which disease is NOT mentioned as preventable?","optionA":"Polio","optionB":"Measles","optionC":"Diabetes","optionD":"Tetanus","correctOption":"C"},
+        {"text":"COVID-19 vaccines were developed within:","optionA":"a month","optionB":"a year","optionC":"five years","optionD":"a decade","correctOption":"B"},
+        {"text":"Vaccine hesitancy is fuelled by:","optionA":"high prices","optionB":"misinformation on social media","optionC":"low supply","optionD":"government bans","correctOption":"B"},
+        {"text":"'Herd immunity' protects:","optionA":"only animals","optionB":"vulnerable people who cannot be vaccinated","optionC":"only the rich","optionD":"only adults","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The festival of Dashain, celebrated for fifteen days during the Nepali month of Ashwin (September-October), is the most important festival in Nepal. It commemorates the victory of the goddess Durga over the buffalo demon Mahishasura, symbolising the triumph of good over evil. Families across the country reunite to honour elders, who place red tika and yellow jamara on the foreheads of younger relatives while offering blessings. The festival is marked by feasts, swings made of bamboo, kite flying, and the exchange of gifts. Schools and offices close, and a holiday migration occurs as people travel from cities back to their ancestral villages. Animal sacrifices, particularly of goats, traditionally form part of the rituals, although in recent years some have called for ethical alternatives. Dashain represents not only religious devotion but also social bonds, marking a time of forgiveness, renewal and family solidarity.",
+      "questions": [
+        {"text":"Dashain is celebrated for how many days?","optionA":"Five","optionB":"Fifteen","optionC":"Twenty","optionD":"Thirty","correctOption":"B"},
+        {"text":"Which Nepali month does Dashain fall in?","optionA":"Baisakh","optionB":"Ashwin","optionC":"Magh","optionD":"Falgun","correctOption":"B"},
+        {"text":"Dashain commemorates the victory of:","optionA":"Vishnu over Ravana","optionB":"Durga over Mahishasura","optionC":"Shiva over Tripura","optionD":"Krishna over Kansa","correctOption":"B"},
+        {"text":"Elders place tika that is what colour?","optionA":"White","optionB":"Red","optionC":"Yellow","optionD":"Green","correctOption":"B"},
+        {"text":"'Jamara' offered during Dashain is:","optionA":"Red powder","optionB":"Yellow sprouts","optionC":"A coin","optionD":"A flower","correctOption":"B"},
+        {"text":"Which activity is NOT mentioned?","optionA":"Kite flying","optionB":"Swings","optionC":"Boat racing","optionD":"Feasts","correctOption":"C"},
+        {"text":"Which animal is traditionally sacrificed?","optionA":"Cow","optionB":"Goat","optionC":"Horse","optionD":"Elephant","correctOption":"B"},
+        {"text":"Dashain represents triumph of:","optionA":"war over peace","optionB":"good over evil","optionC":"old over young","optionD":"rich over poor","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The discovery of antibiotics revolutionized medicine and saved countless lives in the 20th century. In 1928, Scottish scientist Alexander Fleming accidentally noticed that a mould called Penicillium notatum killed bacteria on a contaminated petri dish. This observation eventually led to the mass production of penicillin during World War II, which dramatically reduced deaths from bacterial infections among wounded soldiers. Antibiotics have since become essential tools for treating illnesses ranging from strep throat to bacterial pneumonia. However, decades of overuse and misuse, including prescribing antibiotics for viral infections and adding them to livestock feed, have driven the alarming rise of antibiotic-resistant bacteria, often called 'superbugs.' The World Health Organization warns that antimicrobial resistance could cause 10 million deaths annually by 2050 if action is not taken. Solutions include responsible prescribing, public education, and investment in research for new antibiotics and alternative therapies.",
+      "questions": [
+        {"text":"Who discovered penicillin?","optionA":"Edward Jenner","optionB":"Alexander Fleming","optionC":"Louis Pasteur","optionD":"Robert Koch","correctOption":"B"},
+        {"text":"In what year was penicillin discovered?","optionA":"1918","optionB":"1928","optionC":"1938","optionD":"1948","correctOption":"B"},
+        {"text":"The mould that produced penicillin was:","optionA":"Aspergillus","optionB":"Penicillium notatum","optionC":"Saccharomyces","optionD":"Rhizopus","correctOption":"B"},
+        {"text":"Penicillin was mass-produced during:","optionA":"World War I","optionB":"World War II","optionC":"Cold War","optionD":"Gulf War","correctOption":"B"},
+        {"text":"Antibiotic-resistant bacteria are often called:","optionA":"superbugs","optionB":"superviruses","optionC":"mutants","optionD":"superantibodies","correctOption":"A"},
+        {"text":"WHO estimates AMR could cause how many deaths by 2050?","optionA":"1 million","optionB":"10 million","optionC":"100 million","optionD":"1 billion","correctOption":"B"},
+        {"text":"Which is NOT mentioned as a cause of resistance?","optionA":"Prescribing antibiotics for viruses","optionB":"Adding antibiotics to livestock feed","optionC":"Climate change","optionD":"Overuse","correctOption":"C"},
+        {"text":"The word 'accidentally' most nearly means:","optionA":"on purpose","optionB":"by chance","optionC":"slowly","optionD":"violently","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Electric vehicles (EVs) are transforming the global automotive industry and offering a promising path toward reducing transport emissions. Unlike traditional internal combustion engine cars that burn petrol or diesel, EVs are powered by rechargeable lithium-ion batteries that drive electric motors. Major manufacturers including Tesla, BYD, Nissan and Volkswagen have committed billions to EV development, and several countries have announced plans to phase out the sale of new petrol and diesel cars within the next decade. The advantages of EVs are significant: zero tailpipe emissions, lower running costs, and quieter operation. Nevertheless, several barriers remain. The upfront price of EVs is still higher than equivalent petrol cars, although this gap is narrowing. Charging infrastructure is uneven, particularly in rural and developing regions. The environmental impact of mining lithium, cobalt and other battery materials is also a concern. As technology improves and economies of scale develop, EVs are expected to become the dominant form of personal transportation by the 2040s.",
+      "questions": [
+        {"text":"EVs are powered by what type of battery?","optionA":"Lead-acid","optionB":"Lithium-ion","optionC":"Nickel-cadmium","optionD":"Alkaline","correctOption":"B"},
+        {"text":"Which is NOT a manufacturer mentioned?","optionA":"Tesla","optionB":"BYD","optionC":"Toyota","optionD":"Volkswagen","correctOption":"C"},
+        {"text":"A major advantage of EVs is:","optionA":"loud engines","optionB":"zero tailpipe emissions","optionC":"cheap petrol use","optionD":"more weight","correctOption":"B"},
+        {"text":"Which is NOT mentioned as a barrier?","optionA":"Higher upfront price","optionB":"Charging infrastructure","optionC":"Mining impacts","optionD":"Driver licenses","correctOption":"D"},
+        {"text":"By when are EVs expected to dominate transportation?","optionA":"2020s","optionB":"2040s","optionC":"2060s","optionD":"2100s","correctOption":"B"},
+        {"text":"Battery materials of concern include all EXCEPT:","optionA":"lithium","optionB":"cobalt","optionC":"gold","optionD":"none","correctOption":"C"},
+        {"text":"EVs are quieter because they:","optionA":"have small engines","optionB":"use electric motors","optionC":"are smaller","optionD":"have no wheels","correctOption":"B"},
+        {"text":"The word 'phase out' most nearly means:","optionA":"introduce","optionB":"gradually discontinue","optionC":"upgrade","optionD":"export","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Mahatma Gandhi, born Mohandas Karamchand Gandhi in 1869 in Porbandar, Gujarat, led India's struggle for independence from British colonial rule through his philosophy of non-violent resistance, known as satyagraha. Trained as a lawyer in London, Gandhi first developed his methods in South Africa, where he fought against racial discrimination. Returning to India in 1915, he became the leading figure of the Indian National Congress. His campaigns, including the famous Salt March of 1930, mobilized millions and exposed the moral bankruptcy of colonial oppression. Gandhi insisted on simple living, hand-spun cloth (khadi), and Hindu-Muslim unity. India achieved independence on 15 August 1947, but the joy was overshadowed by the bloody partition that created Pakistan. Gandhi was assassinated by Nathuram Godse on 30 January 1948. His teachings continue to inspire civil rights movements worldwide, including those led by Martin Luther King Jr. and Nelson Mandela.",
+      "questions": [
+        {"text":"Mahatma Gandhi was born in:","optionA":"1859","optionB":"1869","optionC":"1879","optionD":"1889","correctOption":"B"},
+        {"text":"He was born in:","optionA":"Mumbai","optionB":"Porbandar","optionC":"Delhi","optionD":"Calcutta","correctOption":"B"},
+        {"text":"Gandhi's philosophy is called:","optionA":"ahimsa only","optionB":"satyagraha","optionC":"swaraj only","optionD":"khadi","correctOption":"B"},
+        {"text":"Gandhi first developed his methods in:","optionA":"England","optionB":"South Africa","optionC":"India","optionD":"USA","correctOption":"B"},
+        {"text":"The famous Salt March occurred in:","optionA":"1920","optionB":"1930","optionC":"1940","optionD":"1947","correctOption":"B"},
+        {"text":"India achieved independence on:","optionA":"15 August 1947","optionB":"26 January 1950","optionC":"15 August 1948","optionD":"30 January 1948","correctOption":"A"},
+        {"text":"Gandhi was assassinated by:","optionA":"Bhagat Singh","optionB":"Nathuram Godse","optionC":"Jinnah","optionD":"a British soldier","correctOption":"B"},
+        {"text":"Who was NOT inspired by Gandhi (per passage)?","optionA":"Martin Luther King Jr.","optionB":"Nelson Mandela","optionC":"Subhas Chandra Bose","optionD":"none","correctOption":"C"}
+      ]
+    },
+    {
+      "text": "The rainforest of the Amazon basin, covering more than 5.5 million square kilometres across nine South American countries, is often called the 'lungs of the Earth.' It produces about 6 percent of the world's oxygen and absorbs vast amounts of carbon dioxide. The Amazon is home to an estimated 10 percent of all known species on the planet, including jaguars, anacondas, harpy eagles, and countless undiscovered plants and insects. Indigenous communities, numbering several hundred distinct groups, have lived in harmony with this ecosystem for millennia. Yet the rainforest faces an accelerating crisis: deforestation driven by cattle ranching, soybean farming, illegal logging and gold mining destroys thousands of square kilometres each year. Studies warn that if deforestation passes a tipping point of 20 to 25 percent, much of the Amazon could collapse into dry savanna, with catastrophic consequences for global climate and biodiversity. International efforts to protect the forest face complex political and economic obstacles.",
+      "questions": [
+        {"text":"The Amazon covers more than how many square kilometres?","optionA":"5.5 million","optionB":"55 million","optionC":"550,000","optionD":"5,500","correctOption":"A"},
+        {"text":"Across how many countries does it spread?","optionA":"Three","optionB":"Nine","optionC":"Twelve","optionD":"Fifteen","correctOption":"B"},
+        {"text":"The Amazon produces about what % of world's oxygen?","optionA":"6%","optionB":"20%","optionC":"50%","optionD":"75%","correctOption":"A"},
+        {"text":"What % of known species live in the Amazon?","optionA":"1%","optionB":"10%","optionC":"25%","optionD":"50%","correctOption":"B"},
+        {"text":"Which animal is NOT mentioned?","optionA":"Jaguar","optionB":"Anaconda","optionC":"Harpy eagle","optionD":"Polar bear","correctOption":"D"},
+        {"text":"Which is NOT mentioned as a driver of deforestation?","optionA":"Cattle ranching","optionB":"Soybean farming","optionC":"Wind farms","optionD":"Illegal logging","correctOption":"C"},
+        {"text":"Tipping point for Amazon collapse is at:","optionA":"5-10%","optionB":"20-25%","optionC":"50-60%","optionD":"75-80%","correctOption":"B"},
+        {"text":"The Amazon is called the 'lungs of':","optionA":"South America","optionB":"the Earth","optionC":"Brazil","optionD":"the rainforest","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Engineering, as a profession, applies scientific knowledge to design and build structures, machines and systems that improve human life. Civil engineers plan roads, bridges, dams and buildings; mechanical engineers create engines and manufacturing systems; electrical engineers develop power generation and electronics; and software engineers write the code that runs modern computers and smartphones. The Institute of Engineering (IOE) at Tribhuvan University is Nepal's premier engineering institution, producing graduates who contribute to the country's infrastructure development and join the global engineering workforce. Admission to IOE is highly competitive: thousands of students sit for the entrance examination every year for a limited number of seats. The curriculum balances theoretical foundations such as mathematics and physics with practical project work and industry internships. Beyond technical skills, modern engineering education increasingly emphasizes ethics, sustainability and the social impact of technology, recognizing that engineers shape the world in profound ways.",
+      "questions": [
+        {"text":"Which branch designs roads and dams?","optionA":"Civil","optionB":"Mechanical","optionC":"Electrical","optionD":"Software","correctOption":"A"},
+        {"text":"Mechanical engineers create:","optionA":"power generation","optionB":"engines and manufacturing systems","optionC":"software","optionD":"bridges","correctOption":"B"},
+        {"text":"IOE is part of:","optionA":"Kathmandu University","optionB":"Tribhuvan University","optionC":"Pokhara University","optionD":"Purbanchal University","correctOption":"B"},
+        {"text":"IOE admission is described as:","optionA":"open to all","optionB":"highly competitive","optionC":"free","optionD":"automatic","correctOption":"B"},
+        {"text":"The curriculum balances theory with:","optionA":"sports","optionB":"practical projects and internships","optionC":"art","optionD":"music","correctOption":"B"},
+        {"text":"Modern engineering education emphasizes all EXCEPT:","optionA":"ethics","optionB":"sustainability","optionC":"social impact","optionD":"warfare","correctOption":"D"},
+        {"text":"Software engineers primarily write:","optionA":"books","optionB":"code","optionC":"laws","optionD":"songs","correctOption":"B"},
+        {"text":"The word 'profound' most nearly means:","optionA":"shallow","optionB":"deep","optionC":"weak","optionD":"funny","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Quantum computing, an emerging field at the intersection of physics and computer science, promises to solve problems that are impossible for even the most powerful classical computers. Whereas classical computers store information in bits that are either 0 or 1, quantum computers use quantum bits or qubits that can exist in multiple states simultaneously through a property called superposition. Another key feature, entanglement, allows qubits to be correlated in ways that have no classical equivalent. These properties enable quantum computers to perform certain calculations exponentially faster, with potential applications in cryptography, drug discovery, climate modelling and artificial intelligence. Major tech companies such as IBM, Google and Intel are investing heavily, and in 2019 Google claimed to have achieved 'quantum supremacy' by performing a computation in minutes that would take a classical supercomputer thousands of years. However, current quantum computers are fragile, prone to errors and require extreme cooling. Practical, widely useful quantum machines may still be years away.",
+      "questions": [
+        {"text":"Quantum computers use units called:","optionA":"bits","optionB":"qubits","optionC":"bytes","optionD":"watts","correctOption":"B"},
+        {"text":"The ability to exist in multiple states is called:","optionA":"entanglement","optionB":"superposition","optionC":"interference","optionD":"tunnelling","correctOption":"B"},
+        {"text":"Which property has no classical equivalent?","optionA":"binary logic","optionB":"entanglement","optionC":"voltage","optionD":"memory","correctOption":"B"},
+        {"text":"Which company claimed 'quantum supremacy' in 2019?","optionA":"IBM","optionB":"Google","optionC":"Intel","optionD":"Microsoft","correctOption":"B"},
+        {"text":"Which is NOT a potential application?","optionA":"Cryptography","optionB":"Drug discovery","optionC":"Climate modelling","optionD":"Cooking food","correctOption":"D"},
+        {"text":"Current quantum computers require:","optionA":"high heat","optionB":"extreme cooling","optionC":"sunlight","optionD":"radiation","correctOption":"B"},
+        {"text":"Classical bits store values:","optionA":"0 or 1","optionB":"any number","optionC":"only 1","optionD":"only 0","correctOption":"A"},
+        {"text":"The word 'fragile' most nearly means:","optionA":"strong","optionB":"easily broken","optionC":"heavy","optionD":"expensive","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Earthquakes are sudden ground shakings caused by the rapid release of energy along faults in the Earth's crust. Most earthquakes occur at the boundaries of tectonic plates, where the slow movement of these massive slabs builds up stress that is eventually released as seismic waves. The magnitude of an earthquake is commonly measured on the moment magnitude scale, with each whole number increase representing about 32 times more energy released. Nepal lies in one of the most seismically active regions in the world, situated where the Indian Plate collides with the Eurasian Plate to form the Himalayas. The devastating Gorkha earthquake of 25 April 2015, measuring 7.8 in magnitude, killed nearly 9,000 people, injured over 20,000 and destroyed countless homes and historic monuments. Earthquake preparedness, including stronger building codes, public education, and early warning systems, is therefore critical. While earthquakes cannot be prevented, the loss of life and property can be greatly reduced through prudent planning.",
+      "questions": [
+        {"text":"Most earthquakes occur at:","optionA":"river beds","optionB":"tectonic plate boundaries","optionC":"mountain peaks","optionD":"deserts","correctOption":"B"},
+        {"text":"Earthquake magnitude is commonly measured on:","optionA":"Richter only","optionB":"moment magnitude scale","optionC":"Celsius scale","optionD":"Mercalli scale","correctOption":"B"},
+        {"text":"Each whole-number increase represents how much more energy?","optionA":"about 2 times","optionB":"about 32 times","optionC":"about 100 times","optionD":"about 1000 times","correctOption":"B"},
+        {"text":"Which plates collide to form the Himalayas?","optionA":"Pacific and African","optionB":"Indian and Eurasian","optionC":"American and Antarctic","optionD":"Arabian and Australian","correctOption":"B"},
+        {"text":"When did the Gorkha earthquake occur?","optionA":"25 April 2015","optionB":"15 August 2015","optionC":"25 April 2010","optionD":"12 May 2015","correctOption":"A"},
+        {"text":"Its magnitude was:","optionA":"6.8","optionB":"7.8","optionC":"8.8","optionD":"5.5","correctOption":"B"},
+        {"text":"It killed approximately how many people?","optionA":"900","optionB":"9,000","optionC":"90,000","optionD":"20,000","correctOption":"B"},
+        {"text":"The word 'prudent' most nearly means:","optionA":"reckless","optionB":"careful","optionC":"slow","optionD":"loud","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Cybersecurity has become a critical concern in an age when virtually every aspect of human life depends on digital systems. Cyberattacks range from small-scale phishing scams aimed at stealing passwords, to large ransomware operations that paralyze hospitals, banks, and even entire government networks. Notable incidents such as the 2017 WannaCry attack affected hundreds of thousands of computers across more than 150 countries within a single day. State-sponsored hacking groups are increasingly active, conducting espionage and disinformation campaigns. To defend against these threats, organizations invest in firewalls, intrusion detection systems, encryption, and regular security audits. Equally important is human awareness: many breaches succeed not because of technical weaknesses but because employees click on malicious links or use weak passwords. Cybersecurity is therefore both a technological and a behavioural discipline, requiring continuous vigilance and adaptation as attackers refine their methods.",
+      "questions": [
+        {"text":"WannaCry attack occurred in:","optionA":"2015","optionB":"2017","optionC":"2019","optionD":"2021","correctOption":"B"},
+        {"text":"WannaCry affected computers in over how many countries?","optionA":"15","optionB":"150","optionC":"1500","optionD":"50","correctOption":"B"},
+        {"text":"Ransomware aims to:","optionA":"steal Wi-Fi","optionB":"paralyze systems for ransom","optionC":"sell antivirus","optionD":"upgrade software","correctOption":"B"},
+        {"text":"Which is NOT a defense mentioned?","optionA":"Firewalls","optionB":"Encryption","optionC":"Security audits","optionD":"Television","correctOption":"D"},
+        {"text":"Many breaches succeed because of:","optionA":"only technology","optionB":"human error","optionC":"weather","optionD":"hardware failure","correctOption":"B"},
+        {"text":"Phishing aims to steal:","optionA":"hardware","optionB":"passwords","optionC":"electricity","optionD":"identities of objects","correctOption":"B"},
+        {"text":"Cybersecurity requires:","optionA":"a single tool","optionB":"continuous vigilance","optionC":"government only","optionD":"static defenses","correctOption":"B"},
+        {"text":"The word 'vigilance' most nearly means:","optionA":"laziness","optionB":"watchfulness","optionC":"fatigue","optionD":"sleep","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Tea is the second most consumed beverage in the world after water, with billions of cups enjoyed every day across cultures and continents. Originating in ancient China more than 4,000 years ago, tea spread along trade routes to Japan, India, Sri Lanka and eventually Europe. Different varieties such as green, black, white, oolong and pu-erh are all produced from the leaves of the same plant, Camellia sinensis, but differ in how the leaves are processed, oxidized and dried. Nepal's hills, particularly around Ilam, produce high-quality orthodox tea that has gained international recognition for its flavour and aroma. Tea contains beneficial compounds known as polyphenols, which act as antioxidants, and a moderate amount of caffeine that provides gentle stimulation. Beyond its health properties, tea also plays an important social and ceremonial role, from the Japanese tea ceremony to the British afternoon tea, reflecting deep cultural traditions.",
+      "questions": [
+        {"text":"Tea originated in:","optionA":"India","optionB":"China","optionC":"Sri Lanka","optionD":"Japan","correctOption":"B"},
+        {"text":"How long ago did tea originate?","optionA":"400 years","optionB":"4,000 years","optionC":"40,000 years","optionD":"40 years","correctOption":"B"},
+        {"text":"All teas come from which plant?","optionA":"Coffea arabica","optionB":"Camellia sinensis","optionC":"Mentha piperita","optionD":"Hibiscus","correctOption":"B"},
+        {"text":"Tea is the second most consumed beverage after:","optionA":"coffee","optionB":"water","optionC":"juice","optionD":"milk","correctOption":"B"},
+        {"text":"Nepal's high-quality tea comes from:","optionA":"Mustang","optionB":"Ilam","optionC":"Pokhara","optionD":"Janakpur","correctOption":"B"},
+        {"text":"Beneficial compounds in tea are called:","optionA":"proteins","optionB":"polyphenols","optionC":"polymers","optionD":"polyesters","correctOption":"B"},
+        {"text":"Which is NOT a type of tea mentioned?","optionA":"Green","optionB":"Oolong","optionC":"Pu-erh","optionD":"Yellow","correctOption":"D"},
+        {"text":"Tea ceremony is associated with:","optionA":"Japan","optionB":"India only","optionC":"USA","optionD":"Africa","correctOption":"A"}
+      ]
+    },
+    {
+      "text": "The human heart is a remarkable muscular organ that pumps about 7,500 litres of blood through the body each day. Roughly the size of a clenched fist, it beats approximately 100,000 times per day, supplying oxygen and nutrients to tissues while removing carbon dioxide and waste products. The heart has four chambers: the right and left atria collect blood, while the right and left ventricles pump it out. Heart disease remains the leading cause of death globally, accounting for roughly 18 million deaths each year. Major risk factors include high blood pressure, smoking, an unhealthy diet, physical inactivity, diabetes and excessive alcohol use. Encouragingly, most heart disease can be prevented through lifestyle changes: regular exercise, a balanced diet rich in fruits and vegetables, quitting smoking, and stress management. Medical advances such as bypass surgery, stents and implantable devices have also dramatically improved survival rates for those who do develop heart problems.",
+      "questions": [
+        {"text":"The heart pumps about how much blood per day?","optionA":"750 litres","optionB":"7,500 litres","optionC":"75,000 litres","optionD":"75 litres","correctOption":"B"},
+        {"text":"The heart beats about how many times per day?","optionA":"10,000","optionB":"100,000","optionC":"1,000,000","optionD":"1,000","correctOption":"B"},
+        {"text":"How many chambers does the heart have?","optionA":"Two","optionB":"Three","optionC":"Four","optionD":"Six","correctOption":"C"},
+        {"text":"Heart disease causes how many deaths annually?","optionA":"1.8 million","optionB":"18 million","optionC":"180 million","optionD":"180,000","correctOption":"B"},
+        {"text":"Which is NOT a risk factor mentioned?","optionA":"Smoking","optionB":"High blood pressure","optionC":"Reading books","optionD":"Inactivity","correctOption":"C"},
+        {"text":"Which is NOT a preventive measure?","optionA":"Exercise","optionB":"Balanced diet","optionC":"Smoking","optionD":"Stress management","correctOption":"C"},
+        {"text":"Atria are responsible for:","optionA":"pumping blood out","optionB":"collecting blood","optionC":"digesting food","optionD":"filtering urine","correctOption":"B"},
+        {"text":"The word 'remarkable' most nearly means:","optionA":"ordinary","optionB":"extraordinary","optionC":"weak","optionD":"tiny","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Money has evolved dramatically through human history. The earliest economies relied on barter, where goods were directly exchanged for other goods, but this system was inefficient because both parties needed something the other wanted. To overcome this, ancient civilizations began using commodity money such as cowrie shells, salt, and precious metals. Around 600 BCE, the Lydians in modern-day Turkey are credited with minting the first true coins from electrum, a natural alloy of gold and silver. Paper money first appeared in China during the Tang dynasty and spread widely under the Song dynasty. The 20th century saw the rise of credit cards and electronic banking, while the 21st century introduced digital currencies including Bitcoin, launched in 2009 by the pseudonymous Satoshi Nakamoto. Cryptocurrencies use blockchain technology to enable secure peer-to-peer transactions without central banks, though they remain volatile and controversial. Central banks worldwide are now exploring their own digital currencies.",
+      "questions": [
+        {"text":"The earliest economies relied on:","optionA":"coins","optionB":"barter","optionC":"paper money","optionD":"digital tokens","correctOption":"B"},
+        {"text":"The first true coins were minted around:","optionA":"6000 BCE","optionB":"600 BCE","optionC":"60 BCE","optionD":"600 CE","correctOption":"B"},
+        {"text":"The Lydians were located in modern-day:","optionA":"Greece","optionB":"Turkey","optionC":"Egypt","optionD":"Italy","correctOption":"B"},
+        {"text":"Electrum is an alloy of:","optionA":"copper and tin","optionB":"gold and silver","optionC":"iron and nickel","optionD":"silver and zinc","correctOption":"B"},
+        {"text":"Paper money first appeared in:","optionA":"India","optionB":"China","optionC":"Persia","optionD":"Europe","correctOption":"B"},
+        {"text":"Bitcoin was launched in:","optionA":"1999","optionB":"2009","optionC":"2019","optionD":"1989","correctOption":"B"},
+        {"text":"The creator of Bitcoin is known as:","optionA":"Elon Musk","optionB":"Satoshi Nakamoto","optionC":"Vitalik Buterin","optionD":"Bill Gates","correctOption":"B"},
+        {"text":"Cryptocurrencies use what technology?","optionA":"telegraph","optionB":"blockchain","optionC":"radio","optionD":"satellite","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Languages are vehicles of culture, identity and human thought, yet linguistic diversity is shrinking at an alarming rate. Of the approximately 7,000 languages spoken worldwide today, linguists estimate that nearly half may disappear by the end of this century. A language dies when its last fluent speakers pass away without transmitting it to the next generation, often as economic pressures push communities to adopt dominant tongues such as English, Mandarin or Spanish. Nepal alone is home to more than 120 languages belonging to several major language families, including Indo-Aryan, Tibeto-Burman and Austroasiatic. Many of these are spoken by small ethnic communities and face the risk of extinction. The loss of a language is not merely a loss of words; it represents the disappearance of unique worldviews, oral literature, traditional knowledge of medicine and ecology, and irreplaceable cultural heritage. Language revitalization efforts include documentation, school programmes, media in indigenous languages, and community-led initiatives.",
+      "questions": [
+        {"text":"How many languages are spoken worldwide today?","optionA":"700","optionB":"7,000","optionC":"70,000","optionD":"70","correctOption":"B"},
+        {"text":"What fraction may disappear by century's end?","optionA":"one-tenth","optionB":"nearly half","optionC":"three-quarters","optionD":"all of them","correctOption":"B"},
+        {"text":"How many languages does Nepal have?","optionA":"12","optionB":"More than 120","optionC":"1,200","optionD":"Just 4","correctOption":"B"},
+        {"text":"Which is NOT mentioned as a language family in Nepal?","optionA":"Indo-Aryan","optionB":"Tibeto-Burman","optionC":"Austroasiatic","optionD":"Niger-Congo","correctOption":"D"},
+        {"text":"A language dies when:","optionA":"a dictionary is lost","optionB":"its last speakers pass without transmission","optionC":"books are burned","optionD":"the government bans it","correctOption":"B"},
+        {"text":"Which dominant language is NOT mentioned?","optionA":"English","optionB":"Mandarin","optionC":"Spanish","optionD":"Arabic","correctOption":"D"},
+        {"text":"Loss of a language means loss of all EXCEPT:","optionA":"unique worldviews","optionB":"oral literature","optionC":"traditional knowledge","optionD":"foreign currency","correctOption":"D"},
+        {"text":"The word 'revitalization' most nearly means:","optionA":"destruction","optionB":"bringing back to life","optionC":"hiding","optionD":"selling","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The printing press, invented by Johannes Gutenberg in Germany around 1440, was one of the most transformative inventions in human history. Before the press, books were laboriously copied by hand, making them rare and expensive. Gutenberg's movable-type technology dramatically lowered the cost and time of book production, allowing knowledge to spread far beyond elite circles. The first major work produced was the Gutenberg Bible, printed around 1455. The press fuelled the Renaissance, the Protestant Reformation, the Scientific Revolution and the Enlightenment, each of which depended on the rapid dissemination of new ideas. By the year 1500, more than 20 million books had been printed in Europe, an astonishing achievement for the era. The cultural and intellectual consequences were profound, paving the way for universal literacy, democratic governance, and modern science. Some historians argue that no later invention, perhaps not even the Internet, has had a comparable impact on human civilization.",
+      "questions": [
+        {"text":"The printing press was invented by:","optionA":"Isaac Newton","optionB":"Johannes Gutenberg","optionC":"Leonardo da Vinci","optionD":"Galileo","correctOption":"B"},
+        {"text":"It was invented around the year:","optionA":"1340","optionB":"1440","optionC":"1540","optionD":"1640","correctOption":"B"},
+        {"text":"The first major work printed was:","optionA":"the Quran","optionB":"the Gutenberg Bible","optionC":"Shakespeare's plays","optionD":"Newton's Principia","correctOption":"B"},
+        {"text":"By 1500, how many books had been printed in Europe?","optionA":"2 million","optionB":"More than 20 million","optionC":"200,000","optionD":"200 million","correctOption":"B"},
+        {"text":"Which movement is NOT mentioned as fuelled by the press?","optionA":"Renaissance","optionB":"Reformation","optionC":"Scientific Revolution","optionD":"Industrial Revolution","correctOption":"D"},
+        {"text":"Before the press, books were:","optionA":"printed","optionB":"copied by hand","optionC":"electronic","optionD":"common","correctOption":"B"},
+        {"text":"The press paved the way for all EXCEPT:","optionA":"universal literacy","optionB":"democratic governance","optionC":"modern science","optionD":"feudalism","correctOption":"D"},
+        {"text":"The word 'laboriously' most nearly means:","optionA":"easily","optionB":"with great effort","optionC":"quickly","optionD":"silently","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The ocean covers about 71 percent of the Earth's surface and contains 97 percent of all the planet's water, yet it remains one of the least explored frontiers. Less than 25 percent of the ocean floor has been mapped in detail, and scientists estimate that the majority of marine species are still undiscovered. The deep sea, beyond depths of 200 metres where sunlight cannot reach, hosts bizarre creatures adapted to crushing pressure, near-freezing temperatures and complete darkness. Hydrothermal vents on the ocean floor support entire ecosystems that thrive without sunlight, instead deriving energy from chemicals released by volcanic activity. Beyond its biological wonders, the ocean regulates the global climate by absorbing heat and carbon dioxide. Unfortunately, pollution, overfishing, acidification and warming pose unprecedented threats. Marine protected areas, international fishing quotas and reductions in plastic waste are urgent steps toward preserving this vital realm for future generations.",
+      "questions": [
+        {"text":"The ocean covers what % of Earth's surface?","optionA":"50%","optionB":"71%","optionC":"90%","optionD":"33%","correctOption":"B"},
+        {"text":"It contains what % of Earth's water?","optionA":"50%","optionB":"97%","optionC":"75%","optionD":"30%","correctOption":"B"},
+        {"text":"What % of ocean floor is mapped in detail?","optionA":"less than 25%","optionB":"about 50%","optionC":"about 75%","optionD":"100%","correctOption":"A"},
+        {"text":"The deep sea begins beyond what depth?","optionA":"20 m","optionB":"200 m","optionC":"2,000 m","optionD":"20,000 m","correctOption":"B"},
+        {"text":"Hydrothermal vent ecosystems get energy from:","optionA":"sunlight","optionB":"chemicals from volcanic activity","optionC":"wind","optionD":"moonlight","correctOption":"B"},
+        {"text":"Which is NOT listed as a threat?","optionA":"pollution","optionB":"overfishing","optionC":"acidification","optionD":"tourism","correctOption":"D"},
+        {"text":"The ocean regulates climate by absorbing:","optionA":"sunlight only","optionB":"heat and carbon dioxide","optionC":"only oxygen","optionD":"nitrogen","correctOption":"B"},
+        {"text":"The word 'bizarre' most nearly means:","optionA":"ordinary","optionB":"strange","optionC":"small","optionD":"common","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The smartphone has transformed everyday life in less than two decades. The launch of the Apple iPhone in 2007 ushered in the era of touchscreen smartphones, and today more than six billion people worldwide use these devices. A modern smartphone is a powerful pocket computer, combining the functions of a telephone, camera, music player, GPS navigator, calculator, library and gaming console. App stores host millions of applications covering banking, education, fitness, social networking, and countless other activities. In developing countries, smartphones have leapfrogged earlier technologies, providing many people with their first access to the Internet and digital services. However, concerns about excessive screen time, addiction to social media, sleep disruption from blue light, and the rise of cyberbullying have grown. Researchers also worry about the environmental cost of e-waste and the labour conditions in mineral mining for batteries. Healthy and ethical use of smartphones is now an active area of public discussion.",
+      "questions": [
+        {"text":"The Apple iPhone was launched in:","optionA":"2005","optionB":"2007","optionC":"2010","optionD":"2012","correctOption":"B"},
+        {"text":"How many people use smartphones today?","optionA":"600 million","optionB":"more than 6 billion","optionC":"60 million","optionD":"60 billion","correctOption":"B"},
+        {"text":"Smartphones in developing countries often provide:","optionA":"first Internet access","optionB":"free electricity","optionC":"clean water","optionD":"medicine","correctOption":"A"},
+        {"text":"Which is NOT a concern mentioned?","optionA":"Screen time","optionB":"Social media addiction","optionC":"Blue light sleep disruption","optionD":"Loss of typewriters","correctOption":"D"},
+        {"text":"Environmental issues include all EXCEPT:","optionA":"e-waste","optionB":"mining labour conditions","optionC":"battery materials","optionD":"forest fires","correctOption":"D"},
+        {"text":"Smartphones combine the functions of all EXCEPT:","optionA":"telephone","optionB":"camera","optionC":"refrigerator","optionD":"GPS","correctOption":"C"},
+        {"text":"App stores host:","optionA":"hundreds","optionB":"millions","optionC":"dozens","optionD":"thousands","correctOption":"B"},
+        {"text":"The word 'leapfrogged' most nearly means:","optionA":"skipped past","optionB":"copied","optionC":"destroyed","optionD":"slowed","correctOption":"A"}
+      ]
+    },
+    {
+      "text": "Renewable agriculture, often called regenerative farming, seeks to produce food while restoring rather than depleting natural resources. Conventional industrial agriculture often relies on heavy machinery, synthetic fertilizers, pesticides and monoculture cropping, which can erode soil, contaminate water and reduce biodiversity. Regenerative practices include cover cropping, crop rotation, reduced tillage, integrating livestock, and agroforestry, where trees are grown alongside crops. Together, these methods build soil organic matter, capture carbon, improve water retention, and support beneficial insects and pollinators. Studies have shown that regenerated soils can yield comparable or even greater harvests over the long term, while making farms more resilient to drought and extreme weather. In Nepal, traditional terrace farming and agroforestry on hillsides reflect many regenerative principles. Scaling these practices globally is increasingly seen as essential, both for food security and for combatting climate change, since soil is one of the largest potential carbon sinks on the planet.",
+      "questions": [
+        {"text":"Regenerative farming aims to:","optionA":"deplete resources","optionB":"restore natural resources","optionC":"use only chemicals","optionD":"reduce harvest","correctOption":"B"},
+        {"text":"Which is NOT a practice mentioned?","optionA":"Cover cropping","optionB":"Crop rotation","optionC":"Hydroponics","optionD":"Agroforestry","correctOption":"C"},
+        {"text":"Agroforestry combines crops with:","optionA":"trees","optionB":"fish","optionC":"machines","optionD":"chemicals","correctOption":"A"},
+        {"text":"Conventional agriculture problems include all EXCEPT:","optionA":"soil erosion","optionB":"water contamination","optionC":"biodiversity loss","optionD":"air conditioning","correctOption":"D"},
+        {"text":"Regenerated soils make farms more resilient to:","optionA":"only earthquakes","optionB":"drought and extreme weather","optionC":"war","optionD":"taxes","correctOption":"B"},
+        {"text":"Nepal's traditional method on hillsides is:","optionA":"terrace farming","optionB":"factory farming","optionC":"sea farming","optionD":"hydroponics","correctOption":"A"},
+        {"text":"Soil is described as one of the largest:","optionA":"water sources","optionB":"carbon sinks","optionC":"oxygen producers","optionD":"oil reserves","correctOption":"B"},
+        {"text":"The word 'resilient' most nearly means:","optionA":"weak","optionB":"able to recover","optionC":"slow","optionD":"loud","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "The history of cinema began in the late 19th century, when inventors such as the Lumière brothers in France and Thomas Edison in the United States developed devices that could capture and project moving images. The first public film screening by the Lumières took place in Paris in December 1895, marking the birth of cinema as a popular art form. Early silent films relied entirely on visual storytelling, often accompanied by live music in theatres. The arrival of synchronized sound in 1927 with 'The Jazz Singer' revolutionized the industry. Hollywood emerged as a dominant centre, producing global stars and influential genres ranging from westerns and musicals to film noir and science fiction. Other countries developed thriving film industries as well, including India's Bollywood, Japan's classical cinema, and the Korean wave of recent decades. Today, streaming platforms have transformed how films are produced, distributed and watched, challenging traditional cinema while opening up new opportunities for diverse storytellers.",
+      "questions": [
+        {"text":"The first public film screening occurred in:","optionA":"London 1890","optionB":"Paris December 1895","optionC":"New York 1900","optionD":"Berlin 1905","correctOption":"B"},
+        {"text":"Who held the first public screening?","optionA":"Edison","optionB":"Lumière brothers","optionC":"Walt Disney","optionD":"Charlie Chaplin","correctOption":"B"},
+        {"text":"The first synchronized-sound film was:","optionA":"Gone with the Wind","optionB":"The Jazz Singer","optionC":"Casablanca","optionD":"Citizen Kane","correctOption":"B"},
+        {"text":"Sound arrived in films in:","optionA":"1907","optionB":"1927","optionC":"1947","optionD":"1967","correctOption":"B"},
+        {"text":"Which is NOT a genre mentioned?","optionA":"westerns","optionB":"musicals","optionC":"film noir","optionD":"medical dramas","correctOption":"D"},
+        {"text":"India's film industry is known as:","optionA":"Hollywood","optionB":"Bollywood","optionC":"Nollywood","optionD":"Tollywood","correctOption":"B"},
+        {"text":"What is transforming film today?","optionA":"radio","optionB":"streaming platforms","optionC":"telegraph","optionD":"newspapers","correctOption":"B"},
+        {"text":"The word 'thriving' most nearly means:","optionA":"failing","optionB":"flourishing","optionC":"sleeping","optionD":"shrinking","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Sleep is a fundamental biological need, as essential to human health as food and water. During sleep, the body and brain undergo critical processes: memories are consolidated, tissues repaired, hormones regulated, and the immune system strengthened. Adults are generally recommended to sleep seven to nine hours per night, although individual needs vary. Chronic sleep deprivation is linked to a higher risk of obesity, diabetes, cardiovascular disease, depression and weakened immunity. It also impairs cognition, mood and reaction time, contributing to accidents on roads and in workplaces. Modern lifestyles often disrupt healthy sleep, with screens, caffeine, irregular schedules and stress all playing roles. Sleep specialists recommend a consistent bedtime, a cool and dark sleeping environment, avoidance of caffeine in the afternoon, and reduced screen exposure in the hour before bed. Despite its importance, sleep is often the first thing sacrificed by busy students and professionals, an unwise trade-off given its impact on long-term health and performance.",
+      "questions": [
+        {"text":"Adults are recommended to sleep how many hours?","optionA":"3-5","optionB":"7-9","optionC":"10-12","optionD":"2-3","correctOption":"B"},
+        {"text":"During sleep, all EXCEPT this happen:","optionA":"memory consolidation","optionB":"tissue repair","optionC":"hormone regulation","optionD":"weight gain","correctOption":"D"},
+        {"text":"Sleep deprivation is linked to all EXCEPT:","optionA":"obesity","optionB":"diabetes","optionC":"depression","optionD":"perfect eyesight","correctOption":"D"},
+        {"text":"Which is NOT a recommendation?","optionA":"consistent bedtime","optionB":"cool dark room","optionC":"afternoon caffeine","optionD":"reduced screen before bed","correctOption":"C"},
+        {"text":"Sleep deprivation impairs all EXCEPT:","optionA":"cognition","optionB":"mood","optionC":"reaction time","optionD":"hair growth","correctOption":"D"},
+        {"text":"Sleep strengthens which system?","optionA":"digestive only","optionB":"immune","optionC":"muscular only","optionD":"none","correctOption":"B"},
+        {"text":"Modern disruptors of sleep include all EXCEPT:","optionA":"screens","optionB":"caffeine","optionC":"stress","optionD":"darkness","correctOption":"D"},
+        {"text":"The word 'sacrificed' most nearly means:","optionA":"given up","optionB":"preserved","optionC":"chosen","optionD":"ignored","correctOption":"A"}
+      ]
+    },
+    {
+      "text": "Water scarcity is becoming one of the defining challenges of the 21st century. Although water covers most of our planet, only about 2.5 percent is fresh water, and most of that is locked away in glaciers and underground aquifers. The United Nations estimates that roughly two billion people currently lack reliable access to safely managed drinking water, and four billion experience severe water scarcity at least one month each year. Causes include population growth, urbanization, intensive agriculture, industrial pollution, and increasingly, climate change, which is altering rainfall patterns and accelerating glacier melt. The Himalayan region, often called the 'Third Pole,' feeds major rivers that sustain nearly two billion people across Asia; changes there have far-reaching consequences. Solutions involve smarter irrigation, water-efficient appliances, recycling and desalination where economically feasible, and strong policies that price water to reflect its true value and protect ecosystems.",
+      "questions": [
+        {"text":"What % of Earth's water is fresh water?","optionA":"25%","optionB":"2.5%","optionC":"0.25%","optionD":"50%","correctOption":"B"},
+        {"text":"How many people lack safely managed drinking water?","optionA":"200 million","optionB":"2 billion","optionC":"20 billion","optionD":"20 million","correctOption":"B"},
+        {"text":"How many face severe scarcity at least one month a year?","optionA":"400 million","optionB":"4 billion","optionC":"40 million","optionD":"40 billion","correctOption":"B"},
+        {"text":"The Himalayan region is called the:","optionA":"Top of the World","optionB":"Third Pole","optionC":"Roof of Asia","optionD":"Eighth Sea","correctOption":"B"},
+        {"text":"Himalayan rivers sustain nearly how many people?","optionA":"2 billion","optionB":"200 million","optionC":"20 million","optionD":"2 million","correctOption":"A"},
+        {"text":"Which is NOT a cause mentioned?","optionA":"population growth","optionB":"urbanization","optionC":"climate change","optionD":"meteor strikes","correctOption":"D"},
+        {"text":"Which is NOT a solution mentioned?","optionA":"smarter irrigation","optionB":"water-efficient appliances","optionC":"desalination","optionD":"bottled water bans only","correctOption":"D"},
+        {"text":"The word 'feasible' most nearly means:","optionA":"impossible","optionB":"practicable","optionC":"expensive","optionD":"hidden","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Genetic engineering, which allows scientists to alter DNA directly, has opened both extraordinary opportunities and serious ethical questions. Modern tools such as CRISPR-Cas9, introduced in 2012, make gene editing precise, inexpensive and accessible. Crops can be engineered to resist pests, tolerate drought or carry higher nutritional value. Medical applications include treatments for inherited diseases such as sickle-cell anaemia and certain cancers. Genetically engineered bacteria can produce insulin and other vital drugs at industrial scale. However, the same technologies raise difficult questions. Should we edit the genes of human embryos to prevent diseases, when such changes would be inherited by future generations? Could engineered organisms accidentally escape and disrupt ecosystems? Who controls and benefits from these powerful technologies? International scientific bodies and governments are working to establish regulatory frameworks that allow beneficial research to proceed while limiting risks and respecting widely held ethical principles.",
+      "questions": [
+        {"text":"CRISPR-Cas9 was introduced in:","optionA":"2002","optionB":"2012","optionC":"2022","optionD":"1992","correctOption":"B"},
+        {"text":"Which is NOT a crop application mentioned?","optionA":"pest resistance","optionB":"drought tolerance","optionC":"higher nutrition","optionD":"changing crop colour","correctOption":"D"},
+        {"text":"Engineered bacteria can produce:","optionA":"oxygen","optionB":"insulin","optionC":"electricity","optionD":"silicon","correctOption":"B"},
+        {"text":"Which disease is mentioned as treatable?","optionA":"sickle-cell anaemia","optionB":"flu","optionC":"chickenpox","optionD":"mumps","correctOption":"A"},
+        {"text":"Editing human embryos raises concerns because:","optionA":"it is cheap","optionB":"changes would be inherited","optionC":"it is fast","optionD":"it is colorful","correctOption":"B"},
+        {"text":"A risk to ecosystems is engineered organisms:","optionA":"becoming friendly","optionB":"escaping accidentally","optionC":"dying immediately","optionD":"helping all species","correctOption":"B"},
+        {"text":"Who is establishing frameworks?","optionA":"individuals only","optionB":"international scientific bodies and governments","optionC":"only farmers","optionD":"no one","correctOption":"B"},
+        {"text":"The word 'frameworks' most nearly means:","optionA":"buildings","optionB":"structured guidelines","optionC":"weapons","optionD":"chemicals","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Public libraries have served as cornerstones of education and democracy for centuries. They provide free access to books, periodicals, computers and Internet connections, ensuring that knowledge is not the privilege of the wealthy alone. The Library of Alexandria in ancient Egypt, founded in the third century BCE, was perhaps the most famous early library, said to contain hundreds of thousands of scrolls before its eventual destruction. Modern public libraries also host events, story-time sessions for children, language classes, after-school programmes and meeting spaces for community groups. In the digital age, libraries have adapted by lending e-books and audiobooks, offering streaming media, and providing training in digital literacy. They are often the first place where children encounter the joys of reading, and where adults pursue lifelong learning. In a society increasingly dominated by commercial digital platforms, libraries remain unique non-commercial spaces dedicated to learning, reflection and the public good.",
+      "questions": [
+        {"text":"The Library of Alexandria was in:","optionA":"Greece","optionB":"Egypt","optionC":"Rome","optionD":"Persia","correctOption":"B"},
+        {"text":"It was founded in which century BCE?","optionA":"First","optionB":"Third","optionC":"Fifth","optionD":"Tenth","correctOption":"B"},
+        {"text":"Libraries provide free access to all EXCEPT:","optionA":"books","optionB":"Internet","optionC":"computers","optionD":"medicine","correctOption":"D"},
+        {"text":"Modern libraries also host:","optionA":"car races","optionB":"story-time and classes","optionC":"weddings only","optionD":"funerals","correctOption":"B"},
+        {"text":"In the digital age, libraries lend all EXCEPT:","optionA":"e-books","optionB":"audiobooks","optionC":"streaming media","optionD":"cars","correctOption":"D"},
+        {"text":"Libraries are described as:","optionA":"commercial","optionB":"non-commercial","optionC":"private","optionD":"secret","correctOption":"B"},
+        {"text":"Libraries support:","optionA":"only the wealthy","optionB":"lifelong learning","optionC":"only children","optionD":"only adults","correctOption":"B"},
+        {"text":"The word 'cornerstones' most nearly means:","optionA":"obstacles","optionB":"essential foundations","optionC":"decorations","optionD":"shadows","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Mental health has emerged as one of the most pressing public health challenges of our time. The World Health Organization estimates that one in four people will experience a mental health condition at some point in their lives, with depression and anxiety disorders being the most common. Stigma, lack of awareness and limited access to care often prevent people from seeking help. In many countries, mental health services receive less than 2 percent of total health budgets, despite the heavy social and economic costs of untreated illness. The COVID-19 pandemic worsened the situation, increasing rates of loneliness, grief and stress. Encouragingly, awareness is growing, and effective treatments including psychotherapy, medication, peer support and lifestyle changes can help most people recover. Schools, workplaces and governments increasingly recognize the importance of promoting mental well-being, training first-responders, and integrating mental health into general healthcare and community programmes.",
+      "questions": [
+        {"text":"WHO estimates that what fraction will experience mental illness?","optionA":"one in two","optionB":"one in four","optionC":"one in ten","optionD":"one in hundred","correctOption":"B"},
+        {"text":"Most common mental conditions are:","optionA":"depression and anxiety","optionB":"schizophrenia","optionC":"bipolar","optionD":"dementia","correctOption":"A"},
+        {"text":"Mental health services often receive less than what % of health budgets?","optionA":"2%","optionB":"20%","optionC":"50%","optionD":"75%","correctOption":"A"},
+        {"text":"COVID-19 increased all EXCEPT:","optionA":"loneliness","optionB":"grief","optionC":"stress","optionD":"travel","correctOption":"D"},
+        {"text":"Which is NOT mentioned as a treatment?","optionA":"psychotherapy","optionB":"medication","optionC":"peer support","optionD":"exorcism","correctOption":"D"},
+        {"text":"Barriers to seeking help include all EXCEPT:","optionA":"stigma","optionB":"lack of awareness","optionC":"limited access","optionD":"too much money","correctOption":"D"},
+        {"text":"Mental health is being integrated into:","optionA":"general healthcare","optionB":"sports only","optionC":"military only","optionD":"agriculture","correctOption":"A"},
+        {"text":"The word 'stigma' most nearly means:","optionA":"praise","optionB":"social disapproval","optionC":"discount","optionD":"medicine","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Urbanization is reshaping the planet at unprecedented speed. In 1950, only about 30 percent of the world's population lived in cities; today that figure exceeds 55 percent and is projected to reach nearly 70 percent by 2050. Cities offer economic opportunities, education, healthcare and cultural diversity, attracting waves of migrants from rural areas. However, rapid urban growth also strains housing, transport, water, sanitation and air quality. Megacities, defined as urban areas with more than 10 million inhabitants, have multiplied: from just two in 1950 to more than 30 today, including Tokyo, Delhi, Shanghai and São Paulo. Urban planners and policymakers increasingly emphasize sustainability through investments in public transport, green building standards, parks, mixed-use neighborhoods and renewable energy. The concept of the '15-minute city,' where daily needs are reachable within a quarter-hour walk or cycle, has gained traction. The future quality of human life will be largely determined by how well cities are designed and managed.",
+      "questions": [
+        {"text":"In 1950 what % of people lived in cities?","optionA":"about 30%","optionB":"about 50%","optionC":"about 70%","optionD":"about 10%","correctOption":"A"},
+        {"text":"Today that figure exceeds:","optionA":"35%","optionB":"55%","optionC":"75%","optionD":"95%","correctOption":"B"},
+        {"text":"By 2050 it is projected to reach nearly:","optionA":"50%","optionB":"70%","optionC":"90%","optionD":"40%","correctOption":"B"},
+        {"text":"A megacity has more than how many inhabitants?","optionA":"1 million","optionB":"10 million","optionC":"100 million","optionD":"100,000","correctOption":"B"},
+        {"text":"In 1950 there were how many megacities?","optionA":"Two","optionB":"Ten","optionC":"Twenty","optionD":"Thirty","correctOption":"A"},
+        {"text":"Which is NOT a megacity mentioned?","optionA":"Tokyo","optionB":"Delhi","optionC":"Shanghai","optionD":"Kathmandu","correctOption":"D"},
+        {"text":"The '15-minute city' refers to:","optionA":"a small town","optionB":"daily needs within 15 min walk/cycle","optionC":"a fast train","optionD":"a bus stop","correctOption":"B"},
+        {"text":"The word 'traction' most nearly means:","optionA":"failure","optionB":"momentum","optionC":"silence","optionD":"injury","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Robotics, once confined to industrial assembly lines, is now spreading rapidly into many aspects of daily life. Surgical robots assist doctors with delicate operations, achieving precision beyond unaided human hands. Autonomous vacuum cleaners and lawnmowers handle household chores. In agriculture, robots help with planting, pruning, weeding and harvesting. Warehouses operated by companies such as Amazon use thousands of robots to sort packages and fulfil orders. The COVID-19 pandemic accelerated the adoption of service robots for disinfection, delivery and patient interaction. Looking forward, humanoid robots equipped with artificial intelligence are being developed for caregiving, especially in countries with rapidly ageing populations. Yet the rise of robots also raises concerns about job displacement, especially for manual and repetitive work, as well as questions about safety, privacy and the social impact of increasingly capable machines. Balancing the benefits and risks will require thoughtful policy, education and continued public debate.",
+      "questions": [
+        {"text":"Surgical robots help with operations by providing:","optionA":"loud sounds","optionB":"precision beyond human hands","optionC":"colored lights","optionD":"warmth","correctOption":"B"},
+        {"text":"Which company is mentioned as using warehouse robots?","optionA":"Apple","optionB":"Amazon","optionC":"Google","optionD":"Tesla","correctOption":"B"},
+        {"text":"COVID-19 accelerated use of robots for all EXCEPT:","optionA":"disinfection","optionB":"delivery","optionC":"patient interaction","optionD":"car racing","correctOption":"D"},
+        {"text":"Humanoid robots are being developed for:","optionA":"caregiving","optionB":"flying planes","optionC":"writing novels","optionD":"composing music","correctOption":"A"},
+        {"text":"In agriculture robots help with all EXCEPT:","optionA":"planting","optionB":"pruning","optionC":"harvesting","optionD":"singing","correctOption":"D"},
+        {"text":"A major concern is:","optionA":"job displacement","optionB":"more jobs","optionC":"longer holidays","optionD":"cheaper food only","correctOption":"A"},
+        {"text":"Robots in homes include all EXCEPT:","optionA":"vacuum cleaners","optionB":"lawnmowers","optionC":"refrigerators with arms","optionD":"none","correctOption":"C"},
+        {"text":"The word 'displacement' most nearly means:","optionA":"creation","optionB":"removal or replacement","optionC":"increase","optionD":"praise","correctOption":"B"}
+      ]
+    },
+    {
+      "text": "Coffee, originating in the highlands of Ethiopia, has grown into a global commodity second only to oil in international trade value among legal goods. Legend tells of a goatherd named Kaldi, who noticed his goats becoming unusually energetic after eating berries from a certain shrub. From these humble origins, coffee cultivation spread to Yemen, the Arab world, Europe and eventually the Americas. Today, Brazil is the world's largest producer, followed by Vietnam and Colombia. Coffee contains caffeine, which stimulates the central nervous system, improves alertness, and in moderate amounts may offer health benefits. However, excessive consumption can cause anxiety, insomnia and dependence. Coffee farming faces serious challenges: climate change threatens traditional growing regions, while many small farmers struggle with low prices in volatile markets. Initiatives such as Fair Trade and direct-trade partnerships aim to ensure that growers receive a more equitable share of the profits from this beloved beverage.",
+      "questions": [
+        {"text":"Coffee originated in:","optionA":"Brazil","optionB":"Ethiopia","optionC":"Vietnam","optionD":"India","correctOption":"B"},
+        {"text":"The legendary discoverer of coffee was named:","optionA":"Ali","optionB":"Kaldi","optionC":"Marco","optionD":"Tomas","correctOption":"B"},
+        {"text":"The world's largest coffee producer today is:","optionA":"Vietnam","optionB":"Brazil","optionC":"Colombia","optionD":"Ethiopia","correctOption":"B"},
+        {"text":"Coffee stimulates the:","optionA":"digestive system","optionB":"central nervous system","optionC":"immune system","optionD":"endocrine only","correctOption":"B"},
+        {"text":"Excessive coffee can cause all EXCEPT:","optionA":"anxiety","optionB":"insomnia","optionC":"dependence","optionD":"better sleep","correctOption":"D"},
+        {"text":"Which initiative helps growers get fairer prices?","optionA":"Fair Trade","optionB":"Free Tax","optionC":"Open Sea","optionD":"Cold Brew","correctOption":"A"},
+        {"text":"The word 'equitable' most nearly means:","optionA":"unfair","optionB":"fair","optionC":"large","optionD":"small","correctOption":"B"}
+      ]
+    }
+  ]
+}

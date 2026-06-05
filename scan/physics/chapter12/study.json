@@ -1,0 +1,94 @@
+{
+  "title": "Chapter 12: Simple Harmonic Motion - Study Notes",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": 12,
+  "sections": [
+    {
+      "heading": "Conditions and Equation of SHM",
+      "content": "In SHM the restoring force is proportional to displacement and directed toward mean position. Acceleration is proportional to -x.",
+      "formulas": [
+        "F = -kx",
+        "a = -omega^2 x",
+        "d2x/dt2 + omega^2 x = 0",
+        "x = A sin(omega t + phi)",
+        "omega = 2*pi/T"
+      ],
+      "specialCases": [
+        "At x = 0: v is maximum, a = 0.",
+        "At x = A: v = 0, |a| is maximum."
+      ]
+    },
+    {
+      "heading": "Velocity and Acceleration in SHM",
+      "content": "Velocity and acceleration vary with displacement; their graphs have standard shapes.",
+      "formulas": [
+        "v = dx/dt = A omega cos(omega t + phi)",
+        "v^2 = omega^2 (A^2 - x^2)",
+        "a = dv/dt = -omega^2 x",
+        "a_max = omega^2 A",
+        "v_max = omega A"
+      ],
+      "specialCases": [
+        "v-x graph is elliptical.",
+        "a-x graph is a straight line with slope -omega^2."
+      ]
+    },
+    {
+      "heading": "Energy in SHM",
+      "content": "Total energy is constant and split between kinetic and potential energies.",
+      "formulas": [
+        "K = (1/2) m omega^2 (A^2 - x^2)",
+        "U = (1/2) m omega^2 x^2",
+        "Total energy E = (1/2) m omega^2 A^2",
+        "K = E cos^2(omega t + phi)",
+        "U = E sin^2(omega t + phi)"
+      ],
+      "specialCases": [
+        "K and U exchange; frequency of K and U is 2f.",
+        "K = U when x = A/sqrt(2)."
+      ]
+    },
+    {
+      "heading": "Spring-Mass System",
+      "content": "For a spring-mass system, time period depends on mass and spring constant. For combinations, use equivalent k.",
+      "formulas": [
+        "T = 2*pi*sqrt(m/k)",
+        "For two masses on spring: use reduced mass m1 m2/(m1+m2)",
+        "Series springs: 1/k_eq = 1/k1 + 1/k2 + ...",
+        "Parallel springs: k_eq = k1 + k2 + ...",
+        "If spring cut into n equal parts: k_new = n k"
+      ],
+      "specialCases": [
+        "In series: period increases; in parallel: period decreases.",
+        "If mass of spring is considered: T = 2*pi*sqrt((m + ms/3)/k)."
+      ]
+    },
+    {
+      "heading": "Simple Pendulum and Conical/Torsional Pendulum",
+      "content": "Pendulum motion is SHM for small angles; effective g changes in non-inertial frames.",
+      "formulas": [
+        "T = 2*pi*sqrt(l/g)",
+        "For small theta: sin theta approx theta",
+        "In accelerating frame: g_eff modifies period",
+        "Torsional pendulum: T = 2*pi*sqrt(I/C)"
+      ],
+      "specialCases": [
+        "Period independent of amplitude (small angles).",
+        "If g decreases, period increases."
+      ]
+    },
+    {
+      "heading": "Damped and Forced Oscillations (Overview)",
+      "content": "Damping causes exponential decay of amplitude. External periodic force leads to resonance.",
+      "formulas": [
+        "A = A0 e^{-bt}",
+        "Damping force: F_d = -b v",
+        "Resonance occurs when driving frequency equals natural frequency."
+      ],
+      "specialCases": [
+        "Quality factor decreases with damping.",
+        "At resonance, amplitude is maximum (limited by damping)."
+      ]
+    }
+  ]
+}

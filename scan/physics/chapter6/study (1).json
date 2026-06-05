@@ -1,0 +1,42 @@
+{
+  "title": "Laws of Motion and Friction - Study Notes",
+  "sections": [
+    {
+      "heading": "Basic Principles of Laws of Motion",
+      "content": "Newton's laws of motion govern the relationship between a body and the forces acting upon it, and its motion in response to those forces.",
+      "formulas": [
+        "Newton's Second Law: F_net = ma",
+        "True weight w = \u221a(w1 w2) for a balance with unequal arms",
+        "Apparent weight in ascending lift = m(g + a_0)",
+        "Apparent weight in descending lift = m(g - a_0)",
+        "Force due to fluid flow: F = \u03c1Av\u00b2"
+      ],
+      "specialCases": [
+        "If a balance has equal arms, true weight w = (w1 + w2) / 2",
+        "If power P \u221d v\u00b3, then if v becomes n times, P becomes n\u00b3 times."
+      ]
+    },
+    {
+      "heading": "Friction",
+      "content": "Friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.",
+      "formulas": [
+        "Limiting static friction, F_lim = \u03bc_s N",
+        "Kinetic friction, F_k = \u03bc_k N",
+        "Angle of friction \u03b8: tan \u03b8 = \u03bc_s",
+        "Angle of Repose \u03b1: tan \u03b1 = \u03bc_s",
+        "Acceleration down a rough inclined plane: a = g(sin \u03b8 - \u03bc_k cos \u03b8)"
+      ],
+      "specialCases": [
+        "Pulling is easier than pushing because pushing increases the normal reaction (N = mg + F sin \u03b8) whereas pulling decreases it (N = mg - F sin \u03b8)."
+      ]
+    },
+    {
+      "heading": "Connected Bodies and Pulleys",
+      "content": "Analysis of masses connected by strings passing over pulleys.",
+      "formulas": [
+        "Acceleration of Atwood machine (two masses m1 > m2): a = ((m1 - m2) / (m1 + m2)) g",
+        "Tension in Atwood machine: T = (2 m1 m2 / (m1 + m2)) g"
+      ]
+    }
+  ]
+}

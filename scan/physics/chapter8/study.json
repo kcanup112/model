@@ -1,0 +1,122 @@
+{
+  "title": "Chapter 8: Circular Motion - Study Notes",
+  "source": "A Quick Review of E-PCM for Engineering Entrance - Physics",
+  "chapter": 8,
+  "sections": [
+    {
+      "heading": "Uniform Circular Motion",
+      "content": "If a force is always perpendicular to the direction of motion (velocity), the path will be circular. In circular motion, vector quantities like velocity, linear momentum, acceleration, and force change continuously.",
+      "formulas": [
+        "a_c = v²/r = ω²r = 4π²f²r = (4π²/T²)r (centripetal acceleration)",
+        "KE = ½mv² = ½F_c × r (kinetic energy)",
+        "Total energy TE = ½F_c × r + ∫-F_c · dr",
+        "L = mvr = constant (angular momentum)",
+        "τ = dL/dt = 0 (torque = 0)"
+      ],
+      "specialCases": [
+        "Speed (v) is constant; angular velocity ω is constant.",
+        "KE is constant; ΔK = 0; Δω = 0.",
+        "Work done and power are zero in uniform circular motion.",
+        "Tangential acceleration a_t = 0 (rate of change of speed = 0).",
+        "Acceleration is directed radially toward centre (centripetal/normal acceleration).",
+        "Work done by centripetal force is always zero in circular motion."
+      ]
+    },
+    {
+      "heading": "Non-Uniform Circular Motion",
+      "content": "In non-uniform circular motion, speed, angular velocity, and KE all change. Tangential acceleration a_t ≠ 0 and torque ≠ 0.",
+      "formulas": [
+        "a_t = d|v|/dt (tangential acceleration)",
+        "a_total = √(a_c² + a_t²) = √((v²/r)² + (dv/dt)²)",
+        "tanβ = a_t/a_c (direction of total acceleration from centripetal)",
+        "L = mvr (angular momentum changes)",
+        "τ = ma_t × r (torque due to tangential force)"
+      ],
+      "specialCases": [
+        "If speed increases: a_t is along direction of velocity (angle = 0°).",
+        "If speed decreases: a_t is opposite to velocity (angle = 180°).",
+        "Work done and power are both due to tangential force only."
+      ]
+    },
+    {
+      "heading": "Circular Motion on Roads (Banking)",
+      "content": "For safe turning on roads, vehicles require centripetal force. Banking of roads provides this without relying solely on friction.",
+      "formulas": [
+        "tanθ = v²/(rg) (banking angle for cyclist/vehicle)",
+        "tanθ = 2πc/(t²g) where c = circumference, t = time (cyclist on circular path)",
+        "h = (v²/rg) × L (super-elevation; h = height of outer edge, L = road width)",
+        "v_max = √(μrg) (max speed on level curved road without banking; μ = friction coefficient)",
+        "v_max = √(rdg/2h) (max speed for no overturning; d = wheel distance, h = height of CG)",
+        "v_min = √(rg tan(θ - α)) (banked road with friction; α = friction angle)",
+        "v_max = √(rg tan(θ + α)) (banked road with friction)"
+      ],
+      "specialCases": [
+        "For banked road: tanθ = v²/rg.",
+        "α = angle of friction where tanα = μ.",
+        "On convex bridge: v_max = √(rg) (for not losing contact)."
+      ]
+    },
+    {
+      "heading": "Motion in Vertical Circle",
+      "content": "A body tied to a string of length ℓ rotated in a vertical circle. Both tension and velocity decrease from lowest to highest point.",
+      "formulas": [
+        "T = mg cosθ + mv²/r (tension at angle θ from vertical, measured from lowest point)",
+        "T_A = mg + mv_A²/ℓ = T_max (lowest point, θ = 0°)",
+        "T_C = mv_C²/r - mg = T_min (highest point, θ = 180°)",
+        "T (horizontal) = mv²/r (when string is horizontal, θ = 90°)",
+        "v_h = √(v² - 2gh) (velocity at any height h)",
+        "h = ℓ(1 - cosθ) (height at angle θ from lowest)",
+        "T_max - T_min = 6mg",
+        "T_max/T_min = (v_A² + rg)/(v_A² - 5rg) = (v_C² + 5rg)/(v_C² - rg)",
+        "|Δv| = √(v_h² + v_A²) = √(2(v² - gℓ)) (change in velocity when string becomes horizontal)"
+      ],
+      "specialCases": [
+        "Critical velocities: (V_C)_min = √(rg), T_C = 0 (minimum at top)",
+        "V_B = V_D = v_max = √(3rg), T = 3mg (at horizontal level)",
+        "(V_A)_max = √(5rg), T = 6mg (at bottom, for just completing circle)",
+        "h_min = 5r/2 = 5D/4 (minimum height to complete loop from bottom; D = diameter)",
+        "Time period T = 2π√(r/g) = 2√r seconds.",
+        "T_max - T_min = 6mg always."
+      ]
+    },
+    {
+      "heading": "Conditions for Different Trajectories (String)",
+      "content": "Depending on the initial velocity at the lowest point, the body either oscillates, follows a parabolic path, or completes the full circle.",
+      "formulas": [
+        "If v_A < √(2gℓ): velocity becomes zero first → body oscillates. Max height h = v_A²/2g",
+        "cosθ = 1 - v_A²/(2gℓ) (angle with vertical when string is slack)",
+        "If √(2gℓ) < v_A < √(5gℓ): tension becomes zero first → body leaves circular path, moves as projectile",
+        "Height where body leaves: h = (v_A² + gℓ)/(3g)",
+        "cosθ = (v_A² - 2gℓ)/(3gℓ) (angle from highest point when tension = 0)",
+        "Velocity at departure: v = √((v_A² - 2gℓ)/3)",
+        "Max height from lowest: H = (v_A² + gℓ)/(3g) + v²sin²θ/(2g)",
+        "If v_A ≥ √(5gℓ): completes full circle"
+      ],
+      "specialCases": [
+        "Hemispherical bowl: body leaves at h = 2R/3 from centre, h = R/3 from top, cosθ = 2/3 (θ ≈ 48°).",
+        "Height from bottom of bowl = 5R/3.",
+        "Concave track exerts more normal force than convex track for same vehicle."
+      ]
+    },
+    {
+      "heading": "Conical Pendulum and Special Cases",
+      "content": "A conical pendulum has the bob rotating in a horizontal circle while the string makes an angle with the vertical. Also covers coins on rotating tables and spring-mass rotation.",
+      "formulas": [
+        "T = mg/cosθ (tension in conical pendulum string; sinθ = r/ℓ)",
+        "tanθ = v²/(rg) (for linear speed of bob)",
+        "T_c = 2π√(ℓcosθ/g) = T_s × √cosθ (time period; T_s = simple pendulum period)",
+        "T_c/T_s < 1; T_c/T_s = (1 - r²/ℓ²)^(1/4)",
+        "F = ½m₁ω²L (force on end of rotating rod of mass m₁, length L, angular velocity ω)",
+        "x = mω²ℓ/(k - mω²) (elongation of spring when body rotated; k = spring constant, ℓ = natural length)",
+        "x_max = μg/ω² (max distance from centre for coin on rotating table; μ = friction coefficient)",
+        "t = √(μg/(α²x)) (time after which coin starts slipping; α = angular acceleration)",
+        "n = θ/(2π) = μg/(4παx) (minimum revolutions before slipping)"
+      ],
+      "specialCases": [
+        "Conical pendulum time period is always less than simple pendulum of same length.",
+        "For rotating spring-mass: x = mω²ℓ/(k - mω²); resonance when k = mω².",
+        "Satellite centripetal acceleration: a = ω²r ∝ r (for same angular velocity)."
+      ]
+    }
+  ]
+}
