@@ -75,7 +75,7 @@ router.get('/users', async (req: Request, res: Response) => {
     const [users, total] = await Promise.all([
       prisma.user.findMany({
         where,
-        include: { profile: { select: { fullName: true, mobilePhone: true, priority1: true } } },
+        include: { profile: { select: { fullName: true, mobilePhone: true, parentsMobilePhone: true, priority1: true, priority2: true, addressStreet: true, addressCity: true, addressDistrict: true, addressProvince: true } } },
         orderBy: { createdAt: 'desc' },
         skip,
         take: parseInt(limit as string),
@@ -96,6 +96,39 @@ router.get('/users', async (req: Request, res: Response) => {
     res.json({ users: sanitized, total, page: parseInt(page as string), totalPages: Math.ceil(total / parseInt(limit as string)) });
   } catch (err) {
     console.error('Admin list users error:', err);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
+// GET /api/admin/users/export — download all users as CSV
+router.get('/users/export', async (_req: Request, res: Response) => {
+  try {
+    const users = await prisma.user.findMany({
+      include: { profile: true },
+      orderBy: { createdAt: 'desc' },
+    });
+    const esc = (v: string | null | undefined) => {
+      if (v == null) return '';
+      const s = String(v);
+      return (s.includes(',') || s.includes('"') || s.includes('\n')) ? `"${s.replace(/"/g, '""')}"` : s;
+    };
+    const headers = ['Name','Email','Phone','Parents Phone','Street','City','District','Province','Priority 1','Priority 2','Role','Status','Profile Complete','Joined'];
+    const rows = users.map(u => [
+      esc(u.profile?.fullName), esc(u.email),
+      esc(u.profile?.mobilePhone), esc(u.profile?.parentsMobilePhone),
+      esc(u.profile?.addressStreet), esc(u.profile?.addressCity),
+      esc(u.profile?.addressDistrict), esc(u.profile?.addressProvince),
+      esc(u.profile?.priority1), esc(u.profile?.priority2 ?? ''),
+      esc(u.role), u.isActive ? 'Active' : 'Inactive',
+      u.isProfileComplete ? 'Yes' : 'No',
+      new Date(u.createdAt).toISOString().split('T')[0],
+    ].join(','));
+    const csv = [headers.join(','), ...rows].join('\n');
+    res.setHeader('Content-Type', 'text/csv');
+    res.setHeader('Content-Disposition', `attachment; filename="users-${new Date().toISOString().split('T')[0]}.csv"`);
+    res.send(csv);
+  } catch (err) {
+    console.error('User export error:', err);
     res.status(500).json({ error: 'Internal server error' });
   }
 });
