@@ -7,6 +7,7 @@ import type { Attempt as GAttempt, Exam as GExam } from '../lib/gamification';
 import {
   Play, Clock, Trophy, BarChart3, ChevronRight, Target,
   TrendingUp, BookOpen, Award, ChevronDown, Lock, Flame, Zap,
+  Layers, FileText, Star,
 } from 'lucide-react';
 import {
   Table, TableBody, TableCell, TableHead, TableHeader, TableRow,
@@ -241,6 +242,60 @@ export default function DashboardPage() {
                   <span className="text-xl font-extrabold">{gData.streak}</span>
                   <span className="text-xs">day{gData.streak !== 1 ? 's' : ''}</span>
                 </div>
+              </div>
+            </div>
+
+            {/* Practice Modes */}
+            <div className="mb-6 gamify-enter gamify-enter-d2">
+              <h2 className="text-sm font-bold mb-3" style={{ color: 'var(--warm-text)' }}>Practice Modes</h2>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                <button
+                  onClick={() => navigate('/levels')}
+                  className="warm-card p-4 flex flex-col items-start gap-2 text-left hover:shadow-md transition-shadow"
+                >
+                  <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'rgba(99,102,241,0.12)' }}>
+                    <Layers className="h-5 w-5" style={{ color: '#6366f1' }} />
+                  </div>
+                  <div>
+                    <div className="text-sm font-bold" style={{ color: 'var(--warm-text)' }}>Level Practice</div>
+                    <div className="text-xs mt-0.5" style={{ color: 'var(--warm-muted)' }}>Topic-by-topic questions</div>
+                  </div>
+                  <span className="text-xs font-semibold mt-auto flex items-center gap-1" style={{ color: '#6366f1' }}>
+                    Start <ChevronRight className="h-3.5 w-3.5" />
+                  </span>
+                </button>
+
+                <button
+                  onClick={() => navigate('/mock-exam')}
+                  className="warm-card p-4 flex flex-col items-start gap-2 text-left hover:shadow-md transition-shadow"
+                >
+                  <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'rgba(14,165,233,0.12)' }}>
+                    <FileText className="h-5 w-5" style={{ color: '#0ea5e9' }} />
+                  </div>
+                  <div>
+                    <div className="text-sm font-bold" style={{ color: 'var(--warm-text)' }}>Full Mock Exam</div>
+                    <div className="text-xs mt-0.5" style={{ color: 'var(--warm-muted)' }}>140 marks · IOE pattern</div>
+                  </div>
+                  <span className="text-xs font-semibold mt-auto flex items-center gap-1" style={{ color: '#0ea5e9' }}>
+                    Start <ChevronRight className="h-3.5 w-3.5" />
+                  </span>
+                </button>
+
+                <button
+                  onClick={() => navigate('/special-exams')}
+                  className="warm-card p-4 flex flex-col items-start gap-2 text-left hover:shadow-md transition-shadow"
+                >
+                  <div className="w-9 h-9 rounded-xl flex items-center justify-center" style={{ background: 'rgba(245,158,11,0.12)' }}>
+                    <Star className="h-5 w-5" style={{ color: '#f59e0b' }} />
+                  </div>
+                  <div>
+                    <div className="text-sm font-bold" style={{ color: 'var(--warm-text)' }}>Special Exams</div>
+                    <div className="text-xs mt-0.5" style={{ color: 'var(--warm-muted)' }}>Curated practice sets</div>
+                  </div>
+                  <span className="text-xs font-semibold mt-auto flex items-center gap-1" style={{ color: '#f59e0b' }}>
+                    Start <ChevronRight className="h-3.5 w-3.5" />
+                  </span>
+                </button>
               </div>
             </div>
 

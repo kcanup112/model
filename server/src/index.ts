@@ -19,6 +19,8 @@ import { setupSocket } from './services/socket';
 dotenv.config();
 
 const app = express();
+// Trust the immediate proxy (Nginx) so express-rate-limit reads the real client IP
+// from X-Forwarded-For without throwing ERR_ERL_UNEXPECTED_X_FORWARDED_FOR.
 app.set('trust proxy', 1);
 const httpServer = createServer(app);
 const io = new SocketServer(httpServer, {

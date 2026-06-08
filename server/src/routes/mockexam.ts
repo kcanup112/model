@@ -5,14 +5,15 @@ import { requireAuth, requireProfile } from '../middleware/auth';
 const router = Router();
 const prisma = new PrismaClient();
 
-// IOE Entrance Exam pattern
-// Math: 40×1 + 5×2 = 50  | Physics: 20×1 + 5×2 = 30  | Chemistry: 20×1 + 5×2 = 30  | English: 30×1 = 30
-// Total: 110 one-mark + 15 two-mark = 110+30 = 140 marks
-const IOE_DISTRIBUTION: Record<string, { oneMarkCount: number; twoMarkCount: number }> = {
-  Mathematics: { oneMarkCount: 40, twoMarkCount: 5 },
-  Physics:     { oneMarkCount: 20, twoMarkCount: 5 },
-  Chemistry:   { oneMarkCount: 20, twoMarkCount: 5 },
-  English:     { oneMarkCount: 30, twoMarkCount: 0 },
+// IOE Entrance Exam pattern (official)
+// Math: 20×1 + 15×2 = 50  | Physics: 14×1 + 13×2 = 40  | Chemistry: 14×1 + 8×2 = 30
+// English: 12×1 + 4×2 (1 comprehension passage) = 20
+// Total: 60×1 + 40×2 = 140 marks
+const IOE_DISTRIBUTION: Record<string, { oneMarkCount: number; twoMarkCount: number; singlePassage?: boolean }> = {
+  Mathematics: { oneMarkCount: 20, twoMarkCount: 15 },
+  Physics:     { oneMarkCount: 14, twoMarkCount: 13 },
+  Chemistry:   { oneMarkCount: 14, twoMarkCount: 8 },
+  English:     { oneMarkCount: 12, twoMarkCount: 4, singlePassage: true },
 };
 const MOCK_DURATION_MINUTES = 120;
 
@@ -50,60 +51,125 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
       const dist = IOE_DISTRIBUTION[subject.name];
       if (!dist) continue;
 
-      // 1-mark questions (no passage)
-      if (dist.oneMarkCount > 0) {
-        const qs = await prisma.question.findMany({
-          where: { subjectId: subject.id, weightage: 1, passageId: null },
-          include: { topic: true },
-        });
-        const picked = shuffleArray(qs).slice(0, dist.oneMarkCount);
-        for (const q of picked) {
-          selectedQuestions.push({
-            id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-            optionC: q.optionC, optionD: q.optionD, weightage: 1,
-            subjectName: subject.name, topicName: q.topic.name,
-            passageText: null,
-          });
-        }
-      }
+      if (dist.singlePassage) {
+        // ── English: 1 comprehension passage (4×2M) + 12 standalone 1M ──
 
-      // 2-mark questions (passage-based first, then standalone)
-      if (dist.twoMarkCount > 0) {
+        // Pick one passage with the most questions available
         const passages = await prisma.passage.findMany({
           where: { subjectId: subject.id },
-          include: { questions: { where: { weightage: 2 } } },
+          include: { questions: true },
         });
+        const validPassages = shuffleArray(passages.filter(p => p.questions.length > 0));
 
-        let used = 0;
-        for (const p of shuffleArray(passages)) {
-          if (used >= dist.twoMarkCount || p.questions.length === 0) continue;
-          const remaining = dist.twoMarkCount - used;
-          const picked = shuffleArray(p.questions).slice(0, remaining);
-          for (const q of picked) {
+        if (validPassages.length > 0) {
+          // Prefer a passage that has at least twoMarkCount questions
+          const preferred = validPassages.find(p => p.questions.length >= dist.twoMarkCount) || validPassages[0];
+          const passageQs = shuffleArray(preferred.questions).slice(0, dist.twoMarkCount);
+          for (const q of passageQs) {
             selectedQuestions.push({
               id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-              optionC: q.optionC, optionD: q.optionD, weightage: 2,
+              optionC: q.optionC, optionD: q.optionD,
+              weightage: 2, // comprehension questions are always 2M
               subjectName: subject.name, topicName: '',
-              passageText: p.text,
+              passageText: preferred.text,
             });
-            used++;
           }
         }
 
-        // Fallback: standalone 2-mark
-        if (used < dist.twoMarkCount) {
-          const standAlone = await prisma.question.findMany({
-            where: { subjectId: subject.id, weightage: 2, passageId: null },
+        // Standalone 1-mark questions (not passage-based)
+        if (dist.oneMarkCount > 0) {
+          const standaloneQs = await prisma.question.findMany({
+            where: { subjectId: subject.id, passageId: null },
             include: { topic: true },
           });
-          const picked = shuffleArray(standAlone).slice(0, dist.twoMarkCount - used);
+          const picked = shuffleArray(standaloneQs).slice(0, dist.oneMarkCount);
           for (const q of picked) {
             selectedQuestions.push({
               id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-              optionC: q.optionC, optionD: q.optionD, weightage: 2,
+              optionC: q.optionC, optionD: q.optionD,
+              weightage: 1, // all standalone questions are 1M
               subjectName: subject.name, topicName: q.topic.name,
               passageText: null,
             });
+          }
+        }
+      } else {
+        // ── Other subjects: passage-based 1M groups first, then standalone 1M, then 2M ──
+
+        if (dist.oneMarkCount > 0) {
+          // Passage-based 1M groups (keep whole passage together)
+          const passages1m = await prisma.passage.findMany({
+            where: { subjectId: subject.id },
+            include: { questions: { where: { weightage: 1 } } },
+          });
+          let passageUsed = 0;
+          for (const p of shuffleArray(passages1m).filter(p => p.questions.length > 0)) {
+            if (passageUsed + p.questions.length <= dist.oneMarkCount) {
+              for (const q of p.questions) {
+                selectedQuestions.push({
+                  id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
+                  optionC: q.optionC, optionD: q.optionD, weightage: 1,
+                  subjectName: subject.name, topicName: '',
+                  passageText: p.text,
+                });
+                passageUsed++;
+              }
+            }
+          }
+          // Fill remaining with standalone 1M
+          const remaining1m = dist.oneMarkCount - passageUsed;
+          if (remaining1m > 0) {
+            const standaloneQs = await prisma.question.findMany({
+              where: { subjectId: subject.id, weightage: 1, passageId: null },
+              include: { topic: true },
+            });
+            const picked = shuffleArray(standaloneQs).slice(0, remaining1m);
+            for (const q of picked) {
+              selectedQuestions.push({
+                id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
+                optionC: q.optionC, optionD: q.optionD, weightage: 1,
+                subjectName: subject.name, topicName: q.topic.name,
+                passageText: null,
+              });
+            }
+          }
+        }
+
+        if (dist.twoMarkCount > 0) {
+          const passages2m = await prisma.passage.findMany({
+            where: { subjectId: subject.id },
+            include: { questions: { where: { weightage: 2 } } },
+          });
+          let used = 0;
+          for (const p of shuffleArray(passages2m)) {
+            if (used >= dist.twoMarkCount || p.questions.length === 0) continue;
+            const remaining = dist.twoMarkCount - used;
+            const picked = shuffleArray(p.questions).slice(0, remaining);
+            for (const q of picked) {
+              selectedQuestions.push({
+                id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
+                optionC: q.optionC, optionD: q.optionD, weightage: 2,
+                subjectName: subject.name, topicName: '',
+                passageText: p.text,
+              });
+              used++;
+            }
+          }
+          // Fallback: standalone 2M
+          if (used < dist.twoMarkCount) {
+            const standAlone = await prisma.question.findMany({
+              where: { subjectId: subject.id, weightage: 2, passageId: null },
+              include: { topic: true },
+            });
+            const picked = shuffleArray(standAlone).slice(0, dist.twoMarkCount - used);
+            for (const q of picked) {
+              selectedQuestions.push({
+                id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
+                optionC: q.optionC, optionD: q.optionD, weightage: 2,
+                subjectName: subject.name, topicName: q.topic.name,
+                passageText: null,
+              });
+            }
           }
         }
       }
@@ -167,19 +233,28 @@ router.post('/attempts/:id/submit', requireAuth, async (req: Request, res: Respo
     });
     if (!attempt) return res.status(404).json({ error: 'Attempt not found or already submitted' });
 
-    const questions = attempt.questions as Array<{ id: string; correctOption: string; weightage: number; subjectName: string }>;
+    const storedQuestions = attempt.questions as Array<{ id: string; weightage: number; subjectName: string }>;
     const answers = { ...((attempt.answers as Record<string, string>) || {}), ...((req.body.answers as Record<string, string>) || {}) };
     const timeTakenSeconds = req.body.timeTakenSeconds ?? null;
+
+    // Fetch correct answers from DB (not stored in attempt to avoid exposing them)
+    const questionIds = storedQuestions.map((q) => q.id);
+    const dbQuestions = await prisma.question.findMany({
+      where: { id: { in: questionIds } },
+      select: { id: true, correctOption: true },
+    });
+    const correctOptionMap = new Map(dbQuestions.map((q) => [q.id, q.correctOption]));
 
     let totalScore = 0;
     const breakdown: Record<string, { correct: number; wrong: number; skipped: number; marks: number }> = {};
 
-    for (const q of questions) {
+    for (const q of storedQuestions) {
       if (!breakdown[q.subjectName]) breakdown[q.subjectName] = { correct: 0, wrong: 0, skipped: 0, marks: 0 };
       const chosen = answers[q.id];
+      const correctOption = correctOptionMap.get(q.id);
       if (!chosen) {
         breakdown[q.subjectName].skipped++;
-      } else if (chosen === q.correctOption) {
+      } else if (chosen === correctOption) {
         totalScore += q.weightage;
         breakdown[q.subjectName].correct++;
         breakdown[q.subjectName].marks += q.weightage;

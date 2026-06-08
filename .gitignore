@@ -16,3 +16,4 @@ pipeline/
 *.env
 server/.env
 server/dev.env
+docker-compose.yml

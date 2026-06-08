@@ -70,7 +70,7 @@ export default function MockExamPage() {
   const [questions, setQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [marked, setMarked] = useState<Set<string>>(new Set());
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentPage, setCurrentPage] = useState(0);
   const [timeLeft, setTimeLeft] = useState(DURATION_MINUTES * 60);
   const [submitting, setSubmitting] = useState(false);
   const [showSubmitConfirm, setShowSubmitConfirm] = useState(false);
@@ -123,7 +123,7 @@ export default function MockExamPage() {
       setQuestions(data.questions);
       setAnswers({});
       setMarked(new Set());
-      setCurrentIndex(0);
+      setCurrentPage(0);
       setTimeLeft(DURATION_MINUTES * 60);
       setPhase('exam');
     } catch (err: any) {
@@ -148,10 +148,13 @@ export default function MockExamPage() {
   }
 
   const timerColor = timeLeft < 300 ? '#ef4444' : timeLeft < 600 ? '#f59e0b' : 'var(--warm-muted)';
-  const q = questions[currentIndex];
   const answered = Object.keys(answers).length;
+  const QUESTIONS_PER_PAGE = 10;
+  const totalPages = Math.ceil(questions.length / QUESTIONS_PER_PAGE);
+  const pageStart = currentPage * QUESTIONS_PER_PAGE;
+  const pageQuestions = questions.slice(pageStart, pageStart + QUESTIONS_PER_PAGE);
 
-  // Group questions by subject for sidebar
+  // Group questions by subject for navigator
   const subjectGroups = questions.reduce<Record<string, number[]>>((acc, q2, i) => {
     if (!acc[q2.subjectName]) acc[q2.subjectName] = [];
     acc[q2.subjectName].push(i);
@@ -172,7 +175,7 @@ export default function MockExamPage() {
             <div className="flex items-center gap-4 mb-6 pb-6" style={{ borderBottom: '1px solid var(--warm-border)' }}>
               <div className="flex items-center gap-1.5 text-sm">
                 <BookOpen className="h-3.5 w-3.5" style={{ color: 'var(--warm-muted)' }} />
-                <span className="font-bold" style={{ color: 'var(--warm-text)' }}>125+</span>
+                <span className="font-bold" style={{ color: 'var(--warm-text)' }}>100</span>
                 <span className="text-xs" style={{ color: 'var(--warm-muted)' }}>Qs</span>
               </div>
               <div className="w-px h-4" style={{ background: 'var(--warm-border)' }} />
@@ -193,10 +196,10 @@ export default function MockExamPage() {
             <div className="space-y-2.5 mb-6">
               <p className="text-xs font-semibold" style={{ color: 'var(--warm-muted)' }}>Distribution</p>
               {[
-                { name: 'Mathematics', marks: 50, qs: '40×1 + 5×2', color: SUBJECT_COLORS['Mathematics'] },
-                { name: 'Physics',     marks: 30, qs: '20×1 + 5×2', color: SUBJECT_COLORS['Physics'] },
-                { name: 'Chemistry',   marks: 30, qs: '20×1 + 5×2', color: SUBJECT_COLORS['Chemistry'] },
-                { name: 'English',     marks: 30, qs: '30×1',        color: SUBJECT_COLORS['English'] },
+                { name: 'Mathematics', marks: 50, qs: '20×1 + 15×2', color: SUBJECT_COLORS['Mathematics'] },
+                { name: 'Physics',     marks: 40, qs: '14×1 + 13×2', color: SUBJECT_COLORS['Physics'] },
+                { name: 'Chemistry',   marks: 30, qs: '14×1 + 8×2',  color: SUBJECT_COLORS['Chemistry'] },
+                { name: 'English',     marks: 20, qs: '12×1 + 4×2 (passage)', color: SUBJECT_COLORS['English'] },
               ].map(s => (
                 <div key={s.name} className="flex items-center gap-2 text-xs">
                   <div className="w-2 h-2 rounded-full shrink-0" style={{ background: s.color }} />
@@ -333,14 +336,16 @@ export default function MockExamPage() {
   }
 
   // ── Exam ──────────────────────────────────────────────────────
-  if (phase === 'exam' && q) {
+  if (phase === 'exam' && questions.length > 0) {
     return (
       <div className="min-h-screen flex flex-col" style={{ background: 'var(--warm-bg)' }}>
         {/* Top bar */}
-        <div className="sticky top-0 z-10 px-4 py-3 flex items-center gap-3"
+        <div className="sticky top-0 z-10 px-3 sm:px-4 py-3 flex items-center gap-2 sm:gap-3"
           style={{ background: 'var(--warm-cream)', borderBottom: '1px solid var(--warm-border)' }}>
-          <div className="flex-1">
-            <div className="text-xs font-medium" style={{ color: 'var(--warm-muted)' }}>IOE Mock Exam</div>
+          <div className="flex-1 min-w-0">
+            <div className="text-xs font-medium truncate" style={{ color: 'var(--warm-muted)' }}>
+              IOE Mock Exam · Page {currentPage + 1}/{totalPages}
+            </div>
             <div className="mt-1 h-1.5 rounded-full overflow-hidden" style={{ background: 'var(--warm-border)' }}>
               <div className="h-full rounded-full" style={{
                 width: `${(answered / questions.length) * 100}%`,
@@ -348,98 +353,118 @@ export default function MockExamPage() {
               }} />
             </div>
           </div>
-          <div className="text-xs" style={{ color: 'var(--warm-muted)' }}>{answered}/{questions.length}</div>
-          <div className="flex items-center gap-1 font-bold text-sm" style={{ color: timerColor }}>
+          <div className="text-xs shrink-0" style={{ color: 'var(--warm-muted)' }}>{answered}/{questions.length}</div>
+          <div className="flex items-center gap-1 font-bold text-sm shrink-0" style={{ color: timerColor }}>
             <Clock className="h-4 w-4" /> {formatTime(timeLeft)}
           </div>
           <button
             onClick={() => setShowSubmitConfirm(true)}
-            className="flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-bold"
+            className="flex items-center gap-1 px-3 py-1.5 rounded-xl text-xs font-bold shrink-0"
             style={{ background: '#22c55e', color: 'white' }}
           >
-            <Send className="h-3.5 w-3.5" /> Submit
+            <Send className="h-3.5 w-3.5" /> <span className="hidden sm:inline">Submit</span>
           </button>
         </div>
 
-        <div className="flex-1 overflow-y-auto px-4 py-6 max-w-3xl mx-auto w-full">
-          {/* Passage */}
-          {q.passageText && (
-            <div className="warm-card p-4 mb-4 border-l-4" style={{ borderLeftColor: 'var(--kec-blue, #1e40af)' }}>
-              <div className="text-xs font-bold mb-2" style={{ color: 'var(--warm-muted)' }}>PASSAGE</div>
-              <div className="text-sm leading-relaxed" style={{ color: 'var(--warm-text)' }}>
-                <MathText text={q.passageText} />
-              </div>
-            </div>
-          )}
-
-          {/* Question */}
-          <div className="warm-card p-5 mb-4">
-            <div className="flex items-start gap-3">
-              <span className="shrink-0 w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold"
-                style={{ background: 'var(--kec-blue, #1e40af)', color: 'white' }}>
-                {currentIndex + 1}
-              </span>
-              <div className="flex-1">
-                <div className="flex items-center gap-2 mb-2">
-                  <span className="text-xs px-2 py-0.5 rounded-full font-medium"
-                    style={{ background: (SUBJECT_COLORS[q.subjectName] || '#6b7280') + '20', color: SUBJECT_COLORS[q.subjectName] || '#6b7280' }}>
-                    {q.subjectName}
-                  </span>
-                  <span className="text-xs" style={{ color: 'var(--warm-muted)' }}>{q.weightage} mark{q.weightage > 1 ? 's' : ''}</span>
-                  <button
-                    onClick={() => setMarked(s => { const n = new Set(s); n.has(q.id) ? n.delete(q.id) : n.add(q.id); return n; })}
-                    className="ml-auto"
-                  >
-                    <Flag className={`h-4 w-4 ${marked.has(q.id) ? 'fill-orange-400 stroke-orange-400' : ''}`}
-                      style={{ color: marked.has(q.id) ? '#f97316' : 'var(--warm-muted)' }} />
-                  </button>
-                </div>
-                <div className="text-sm leading-relaxed font-medium" style={{ color: 'var(--warm-text)' }}>
-                  <MathText text={q.text} />
-                </div>
-              </div>
-            </div>
+        <div className="flex-1 overflow-y-auto px-3 sm:px-4 py-4 max-w-3xl mx-auto w-full">
+          {/* Page info */}
+          <div className="flex items-center justify-between mb-4 text-xs" style={{ color: 'var(--warm-muted)' }}>
+            <span>Questions {pageStart + 1}–{pageStart + pageQuestions.length} of {questions.length}</span>
+            <span>{answered} answered</span>
           </div>
 
-          {/* Options */}
-          <div className="space-y-2 mb-4">
-            {OPTION_KEYS.map(opt => {
-              const text = q[`option${opt}` as keyof Question] as string;
-              const sel = answers[q.id] === opt;
-              return (
-                <button
-                  key={opt}
-                  onClick={() => selectAnswer(q.id, opt)}
-                  className="w-full flex items-start gap-3 p-4 rounded-xl text-left transition-all border-2"
-                  style={{
-                    background: sel ? 'rgba(30,64,175,0.08)' : 'var(--warm-card, white)',
-                    borderColor: sel ? 'var(--kec-blue, #1e40af)' : 'var(--warm-border)',
-                  }}
-                >
-                  <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold"
-                    style={{ background: sel ? 'var(--kec-blue, #1e40af)' : 'var(--warm-border)', color: sel ? 'white' : 'var(--warm-muted)' }}>
-                    {opt}
-                  </span>
-                  <span className="text-sm" style={{ color: 'var(--warm-text)' }}><MathText text={text} /></span>
-                </button>
-              );
-            })}
-          </div>
+          {/* Question list */}
+          {pageQuestions.map((pq, pi) => {
+            const globalIdx = pageStart + pi;
+            const isMark = marked.has(pq.id);
+            return (
+              <div key={pq.id} className="mb-6">
+                {/* Passage — show once per unique passage block */}
+                {pq.passageText && (pi === 0 || pageQuestions[pi - 1].passageText !== pq.passageText) && (
+                  <div className="warm-card p-4 mb-3 border-l-4" style={{ borderLeftColor: 'var(--kec-blue, #1e40af)' }}>
+                    <div className="text-xs font-bold mb-2" style={{ color: 'var(--warm-muted)' }}>PASSAGE</div>
+                    <div className="text-sm leading-relaxed" style={{ color: 'var(--warm-text)' }}>
+                      <MathText text={pq.passageText} />
+                    </div>
+                  </div>
+                )}
 
-          <div className="flex items-center gap-3">
+                {/* Question card */}
+                <div className="warm-card p-4 mb-2">
+                  <div className="flex items-start gap-3">
+                    <span className="shrink-0 w-7 h-7 sm:w-8 sm:h-8 rounded-lg flex items-center justify-center text-xs font-bold"
+                      style={{ background: 'var(--kec-blue, #1e40af)', color: 'white' }}>
+                      {globalIdx + 1}
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      <div className="flex items-center gap-2 mb-2 flex-wrap">
+                        <span className="text-[10px] sm:text-xs px-2 py-0.5 rounded-full font-medium"
+                          style={{ background: (SUBJECT_COLORS[pq.subjectName] || '#6b7280') + '20', color: SUBJECT_COLORS[pq.subjectName] || '#6b7280' }}>
+                          {pq.subjectName}
+                        </span>
+                        <span className="text-[10px] sm:text-xs" style={{ color: 'var(--warm-muted)' }}>
+                          {pq.weightage} mark{pq.weightage > 1 ? 's' : ''}
+                        </span>
+                        <button
+                          onClick={() => setMarked(s => { const n = new Set(s); n.has(pq.id) ? n.delete(pq.id) : n.add(pq.id); return n; })}
+                          className="ml-auto"
+                        >
+                          <Flag className={`h-4 w-4 ${isMark ? 'fill-orange-400 stroke-orange-400' : ''}`}
+                            style={{ color: isMark ? '#f97316' : 'var(--warm-muted)' }} />
+                        </button>
+                      </div>
+                      <div className="text-sm leading-relaxed font-medium" style={{ color: 'var(--warm-text)' }}>
+                        <MathText text={pq.text} />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                {/* Options */}
+                <div className="space-y-1.5">
+                  {OPTION_KEYS.map(opt => {
+                    const text = pq[`option${opt}` as keyof Question] as string;
+                    const sel = answers[pq.id] === opt;
+                    return (
+                      <button
+                        key={opt}
+                        onClick={() => selectAnswer(pq.id, opt)}
+                        className="w-full flex items-start gap-3 px-3 py-3 rounded-xl text-left transition-all border-2"
+                        style={{
+                          background: sel ? 'rgba(30,64,175,0.08)' : 'var(--warm-card, white)',
+                          borderColor: sel ? 'var(--kec-blue, #1e40af)' : 'var(--warm-border)',
+                        }}
+                      >
+                        <span className="shrink-0 w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold"
+                          style={{ background: sel ? 'var(--kec-blue, #1e40af)' : 'var(--warm-border)', color: sel ? 'white' : 'var(--warm-muted)' }}>
+                          {opt}
+                        </span>
+                        <span className="text-sm" style={{ color: 'var(--warm-text)' }}><MathText text={text} /></span>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })}
+
+          {/* Page navigation */}
+          <div className="flex items-center justify-between pt-2 pb-4">
             <button
-              onClick={() => setCurrentIndex(i => Math.max(0, i - 1))}
-              disabled={currentIndex === 0}
-              className="flex items-center gap-1 px-4 py-2 rounded-xl text-sm font-medium border disabled:opacity-40"
+              onClick={() => { setCurrentPage(p => Math.max(0, p - 1)); window.scrollTo(0, 0); }}
+              disabled={currentPage === 0}
+              className="flex items-center gap-1 px-4 py-2.5 rounded-xl text-sm font-medium border disabled:opacity-40"
               style={{ borderColor: 'var(--warm-border)', color: 'var(--warm-text)' }}
             >
               <ChevronLeft className="h-4 w-4" /> Prev
             </button>
-            <div className="flex-1" />
+            <span className="text-xs font-medium" style={{ color: 'var(--warm-muted)' }}>
+              {currentPage + 1} / {totalPages}
+            </span>
             <button
-              onClick={() => setCurrentIndex(i => Math.min(questions.length - 1, i + 1))}
-              disabled={currentIndex === questions.length - 1}
-              className="flex items-center gap-1 px-4 py-2 rounded-xl text-sm font-medium border disabled:opacity-40"
+              onClick={() => { setCurrentPage(p => Math.min(totalPages - 1, p + 1)); window.scrollTo(0, 0); }}
+              disabled={currentPage === totalPages - 1}
+              className="flex items-center gap-1 px-4 py-2.5 rounded-xl text-sm font-medium border disabled:opacity-40"
               style={{ borderColor: 'var(--warm-border)', color: 'var(--warm-text)' }}
             >
               Next <ChevronRight className="h-4 w-4" />
@@ -447,7 +472,7 @@ export default function MockExamPage() {
           </div>
         </div>
 
-        {/* Question grid */}
+        {/* Question Navigator */}
         <div className="sticky bottom-0" style={{ background: 'var(--warm-cream)', borderTop: '1px solid var(--warm-border)' }}>
           <button className="w-full py-2 flex items-center justify-center gap-2 text-xs font-medium"
             style={{ color: 'var(--warm-muted)' }} onClick={() => setShowNav(v => !v)}>
@@ -462,20 +487,27 @@ export default function MockExamPage() {
                     {subj}
                   </div>
                   <div className="flex flex-wrap gap-1.5">
-                    {indices.map(i => (
-                      <button
-                        key={i}
-                        onClick={() => { setCurrentIndex(i); setShowNav(false); }}
-                        className="w-7 h-7 rounded-md text-[10px] font-bold border"
-                        style={{
-                          background: answers[questions[i].id] ? 'var(--kec-blue, #1e40af)' : marked.has(questions[i].id) ? '#fff7ed' : 'transparent',
-                          borderColor: currentIndex === i ? 'var(--kec-blue, #1e40af)' : marked.has(questions[i].id) ? '#f97316' : 'var(--warm-border)',
-                          color: answers[questions[i].id] ? 'white' : marked.has(questions[i].id) ? '#f97316' : 'var(--warm-muted)',
-                        }}
-                      >
-                        {i + 1}
-                      </button>
-                    ))}
+                    {indices.map(i => {
+                      const onThisPage = Math.floor(i / QUESTIONS_PER_PAGE) === currentPage;
+                      return (
+                        <button
+                          key={i}
+                          onClick={() => {
+                            setCurrentPage(Math.floor(i / QUESTIONS_PER_PAGE));
+                            setShowNav(false);
+                            window.scrollTo(0, 0);
+                          }}
+                          className="w-7 h-7 rounded-md text-[10px] font-bold border"
+                          style={{
+                            background: answers[questions[i].id] ? 'var(--kec-blue, #1e40af)' : marked.has(questions[i].id) ? '#fff7ed' : 'transparent',
+                            borderColor: onThisPage ? 'var(--kec-blue, #1e40af)' : marked.has(questions[i].id) ? '#f97316' : 'var(--warm-border)',
+                            color: answers[questions[i].id] ? 'white' : marked.has(questions[i].id) ? '#f97316' : 'var(--warm-muted)',
+                          }}
+                        >
+                          {i + 1}
+                        </button>
+                      );
+                    })}
                   </div>
                 </div>
               ))}
