@@ -19,6 +19,7 @@ import { setupSocket } from './services/socket';
 dotenv.config();
 
 const app = express();
+app.set('trust proxy', 1);
 const httpServer = createServer(app);
 const io = new SocketServer(httpServer, {
   cors: { origin: process.env.CLIENT_URL || 'http://localhost:5173', credentials: true },
