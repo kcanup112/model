@@ -55,7 +55,7 @@ export default function ExamPage() {
               <div className="w-px h-4" style={{ background: 'var(--warm-border)' }} />
               <div className="flex items-center gap-1.5 text-sm">
                 <Target className="h-3.5 w-3.5" style={{ color: 'var(--warm-muted)' }} />
-                <span className="font-bold" style={{ color: 'var(--warm-text)' }}>140</span>
+                <span className="font-bold" style={{ color: 'var(--warm-text)' }}>100</span>
                 <span className="text-xs" style={{ color: 'var(--warm-muted)' }}>marks</span>
               </div>
               <div className="w-px h-4" style={{ background: 'var(--warm-border)' }} />
@@ -68,8 +68,10 @@ export default function ExamPage() {
 
             {/* Rules — minimal list */}
             <div className="space-y-2.5 mb-6 text-xs" style={{ color: 'var(--warm-muted)' }}>
-              <p><span className="font-semibold" style={{ color: 'var(--warm-text)' }}>Section A</span> — 60 × 1 mark</p>
-              <p><span className="font-semibold" style={{ color: 'var(--warm-text)' }}>Section B</span> — 40 × 2 marks</p>
+              <p><span className="font-semibold" style={{ color: 'var(--warm-text)' }}>Mathematics</span> — 35 × 1 mark</p>
+              <p><span className="font-semibold" style={{ color: 'var(--warm-text)' }}>Physics</span> — 27 × 1 mark</p>
+              <p><span className="font-semibold" style={{ color: 'var(--warm-text)' }}>Chemistry</span> — 22 × 1 mark</p>
+              <p><span className="font-semibold" style={{ color: 'var(--warm-text)' }}>English</span> — 16 × 1 mark (passage reading)</p>
               <p>Timer starts immediately. Exam auto-submits at 0:00.</p>
               <p style={{ color: 'var(--kec-red)' }}>Wrong answers lose 10% of the question's marks.</p>
             </div>
@@ -103,104 +105,63 @@ export default function ExamPage() {
   if (!currentQ) return null;
 
   // Split questions into Section A (1M) and Section B (2M)
-  const sectionA = exam.questions.filter(q => q.weightage === 1);
-  const sectionB = exam.questions.filter(q => q.weightage === 2);
-
-  // Determine current section and position
-  const currentSection = currentQ.weightage === 1 ? 'A' : 'B';
-  const sectionStartIndex = currentSection === 'A' ? 0 : sectionA.length;
-
-  // Pagination: 5 questions per page
+  // All questions are 1 mark — flat pagination with passage-aware grouping
   const QUESTIONS_PER_PAGE = 5;
-  const currentSectionQuestions = currentSection === 'A' ? sectionA : sectionB;
-  const indexInSection = exam.currentIndex - sectionStartIndex;
-
-  // For Section B, group passage questions so they aren't split across pages
   type PageItem = { type: 'standalone'; question: typeof currentQ } | { type: 'passage'; passageText: string; questions: typeof exam.questions };
 
-  // Build page groups for Section B to keep passage questions together and respect subject boundaries
-  const sectionBPages: Array<typeof exam.questions> = [];
-  if (currentSection === 'B') {
-    let currentPageGroup: typeof exam.questions = [];
-    let currentSubject = '';
-    const seen = new Set<string>();
-    for (const q of sectionB) {
-      // Break page at subject boundary (don't mix subjects on same page)
-      if (currentSubject && q.subjectName !== currentSubject && currentPageGroup.length > 0) {
-        sectionBPages.push(currentPageGroup);
-        currentPageGroup = [];
-      }
-      currentSubject = q.subjectName;
-
-      if (q.passageId && !seen.has(q.passageId)) {
-        // Collect all questions for this passage
-        const passageGroup = sectionB.filter(pq => pq.passageId === q.passageId);
-        seen.add(q.passageId);
-        // If adding the group to current page would exceed limit and page isn't empty, start new page
-        if (currentPageGroup.length > 0 && currentPageGroup.length + passageGroup.length > QUESTIONS_PER_PAGE) {
-          sectionBPages.push(currentPageGroup);
-          currentPageGroup = [];
+  // Build pages keeping passage questions together on the same page
+  const pages: Array<typeof exam.questions> = [];
+  {
+    let group: typeof exam.questions = [];
+    const seenP = new Set<string>();
+    for (const q of exam.questions) {
+      if (q.passageId && !seenP.has(q.passageId)) {
+        const passageGroup = exam.questions.filter(pq => pq.passageId === q.passageId);
+        seenP.add(q.passageId);
+        if (group.length > 0 && group.length + passageGroup.length > QUESTIONS_PER_PAGE) {
+          pages.push(group);
+          group = [];
         }
-        currentPageGroup.push(...passageGroup);
+        group.push(...passageGroup);
+        if (group.length >= QUESTIONS_PER_PAGE) { pages.push(group); group = []; }
       } else if (!q.passageId) {
-        if (currentPageGroup.length >= QUESTIONS_PER_PAGE) {
-          sectionBPages.push(currentPageGroup);
-          currentPageGroup = [];
-        }
-        currentPageGroup.push(q);
+        if (group.length >= QUESTIONS_PER_PAGE) { pages.push(group); group = []; }
+        group.push(q);
       }
-      // skip duplicate passage questions (already added via group)
+      // duplicate passage question already added via group — skip
     }
-    if (currentPageGroup.length > 0) sectionBPages.push(currentPageGroup);
+    if (group.length > 0) pages.push(group);
   }
 
-  // Section A uses simple pagination
-  const sectionAPages = [];
-  for (let i = 0; i < sectionA.length; i += QUESTIONS_PER_PAGE) {
-    sectionAPages.push(sectionA.slice(i, i + QUESTIONS_PER_PAGE));
-  }
-
-  const pages = currentSection === 'A' ? sectionAPages : sectionBPages;
-  // Find which page the current question is on
   let currentPage = 0;
   for (let p = 0; p < pages.length; p++) {
-    if (pages[p].some(q => exam.questions.indexOf(q) === exam.currentIndex)) {
-      currentPage = p;
-      break;
-    }
+    if (pages[p].some(q => exam.questions.indexOf(q) === exam.currentIndex)) { currentPage = p; break; }
   }
   const totalPages = pages.length;
   const pageQuestions = pages[currentPage] || [];
 
-  // Build display items from current page
+  // Build display items — passage questions grouped under their passage text
   const pageItems: PageItem[] = [];
-  if (currentSection === 'B') {
+  {
     const seen = new Set<string>();
     for (const q of pageQuestions) {
       if (q.passageId && q.passageText) {
         if (!seen.has(q.passageId)) {
           seen.add(q.passageId);
-          const passageQs = pageQuestions.filter(pq => pq.passageId === q.passageId);
-          pageItems.push({ type: 'passage', passageText: q.passageText, questions: passageQs });
+          pageItems.push({ type: 'passage', passageText: q.passageText, questions: pageQuestions.filter(pq => pq.passageId === q.passageId) });
         }
       } else {
         pageItems.push({ type: 'standalone', question: q });
       }
     }
-  } else {
-    for (const q of pageQuestions) {
-      pageItems.push({ type: 'standalone', question: q });
-    }
   }
 
-  // Helper to get global index of first question on a given page
   const getPageFirstGlobalIndex = (pageIdx: number) => {
     const pg = pages[pageIdx];
     if (!pg || pg.length === 0) return exam.currentIndex;
     return exam.questions.indexOf(pg[0]);
   };
 
-  // Get subjects within each section (ordered as they appear)
   const getSubjectsInSection = (qs: typeof exam.questions) => {
     const seen = new Set<string>();
     return qs.reduce<string[]>((acc, q) => {
@@ -208,8 +169,7 @@ export default function ExamPage() {
       return acc;
     }, []);
   };
-  const sectionASubjects = getSubjectsInSection(sectionA);
-  const sectionBSubjects = getSubjectsInSection(sectionB);
+  const allSubjects = getSubjectsInSection(exam.questions);
 
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col">
@@ -238,38 +198,14 @@ export default function ExamPage() {
         </div>
       </div>
 
-      {/* Section tabs */}
-      <div className="bg-[#1e3a5f]/90 border-b border-[#1e3a5f] px-2 sm:px-4 flex">
-        <button
-          onClick={() => exam.goToQuestion(0)}
-          className={`px-3 sm:px-6 py-2.5 text-xs sm:text-sm font-bold transition ${
-            currentSection === 'A'
-              ? 'bg-white text-[#1e3a5f] rounded-t-lg'
-              : 'text-white/70 hover:text-white'
-          }`}
-        >
-          Section A <span className="text-xs font-normal ml-1">({sectionA.length}Qs × 1M)</span>
-        </button>
-        <button
-          onClick={() => exam.goToQuestion(sectionA.length)}
-          className={`px-3 sm:px-6 py-2.5 text-xs sm:text-sm font-bold transition ${
-            currentSection === 'B'
-              ? 'bg-white text-[#1e3a5f] rounded-t-lg'
-              : 'text-white/70 hover:text-white'
-          }`}
-        >
-          Section B <span className="text-xs font-normal ml-1">({sectionB.length}Qs × 2M)</span>
-        </button>
-      </div>
 
       {/* Subject tabs within current section */}
       <div className="bg-white border-b border-gray-200 px-2 sm:px-4 overflow-x-auto flex gap-1 items-center justify-between no-scrollbar">
         <div className="flex gap-1">
-        {(currentSection === 'A' ? sectionASubjects : sectionBSubjects).map(s => {
-          const sectionQs = currentSection === 'A' ? sectionA : sectionB;
-          const firstInSection = sectionQs.findIndex(q => q.subjectName === s);
-          const globalIdx = sectionStartIndex + firstInSection;
-          const subjectCount = sectionQs.filter(q => q.subjectName === s).length;
+        {allSubjects.map(s => {
+          const firstInSection = exam.questions.findIndex(q => q.subjectName === s);
+          const globalIdx = firstInSection;
+          const subjectCount = exam.questions.filter(q => q.subjectName === s).length;
           return (
             <button
               key={s}
@@ -306,7 +242,7 @@ export default function ExamPage() {
                         question={q}
                         globalIndex={globalIdx}
                         totalQuestions={exam.questions.length}
-                        currentSection={currentSection}
+                        currentSection="A"
                         selectedAnswer={exam.answers[q.id]}
                         isReviewed={exam.markedForReview.has(q.id)}
                         isCurrent={globalIdx === exam.currentIndex}
@@ -329,7 +265,7 @@ export default function ExamPage() {
                   question={q}
                   globalIndex={globalIdx}
                   totalQuestions={exam.questions.length}
-                  currentSection={currentSection}
+                  currentSection="A"
                   selectedAnswer={exam.answers[q.id]}
                   isReviewed={exam.markedForReview.has(q.id)}
                   isCurrent={globalIdx === exam.currentIndex}
@@ -375,13 +311,13 @@ export default function ExamPage() {
             <span className="flex items-center gap-1"><span className="w-3 h-3 rounded bg-gray-200" /> Not Visited</span>
           </div>
 
-          {/* Section A navigator */}
+          {/* Question navigator */}
           <div className="mb-4">
             <div className="text-xs font-bold text-[#1e3a5f] uppercase tracking-wider mb-2 bg-blue-50 px-2 py-1 rounded">
-              Section A — 1 Mark ({sectionA.length} Qs)
+              All Questions ({exam.questions.length} Qs · 1 mark each)
             </div>
-            {sectionASubjects.map(subj => {
-              const subjectQs = sectionA.filter(q => q.subjectName === subj);
+            {allSubjects.map(subj => {
+              const subjectQs = exam.questions.filter(q => q.subjectName === subj);
               return (
                 <div key={`A-${subj}`} className="mb-2">
                   <div className="text-[10px] font-semibold text-gray-400 uppercase mb-1 pl-1">{subj}</div>
@@ -406,36 +342,6 @@ export default function ExamPage() {
             })}
           </div>
 
-          {/* Section B navigator */}
-          <div className="mb-4">
-            <div className="text-xs font-bold text-[#1e3a5f] uppercase tracking-wider mb-2 bg-yellow-50 px-2 py-1 rounded">
-              Section B — 2 Marks ({sectionB.length} Qs)
-            </div>
-            {sectionBSubjects.map(subj => {
-              const subjectQs = sectionB.filter(q => q.subjectName === subj);
-              return (
-                <div key={`B-${subj}`} className="mb-2">
-                  <div className="text-[10px] font-semibold text-gray-400 uppercase mb-1 pl-1">{subj}</div>
-                  <div className="grid grid-cols-8 lg:grid-cols-6 gap-1">
-                    {subjectQs.map(q => {
-                      const globalIdx = exam.questions.indexOf(q);
-                      let bg = 'bg-gray-200 text-gray-600';
-                      if (exam.visitedQuestions.has(q.id) && !exam.answers[q.id]) bg = 'bg-red-100 text-red-700 border border-red-300';
-                      if (exam.answers[q.id]) bg = 'bg-green-100 text-green-700 border border-green-300';
-                      if (exam.markedForReview.has(q.id)) bg = 'bg-orange-100 text-orange-700 border border-orange-300';
-                      if (globalIdx === exam.currentIndex) bg += ' ring-2 ring-[#1e3a5f]';
-                      return (
-                        <button key={q.id} onClick={() => exam.goToQuestion(globalIdx)}
-                          className={`w-8 h-8 rounded-lg text-[10px] font-bold transition ${bg}`}>
-                          {globalIdx + 1}
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })}
-          </div>
 
           {/* Summary */}
           <div className="mt-4 pt-4 border-t border-gray-100 text-xs text-gray-500 space-y-1">
@@ -504,7 +410,7 @@ function QuestionCard({ question, globalIndex, totalQuestions, currentSection, s
     >
       <div className="flex items-center justify-between mb-4">
         <span className="text-xs font-medium text-gray-400">
-          Section {currentSection} • Q{globalIndex + 1} of {totalQuestions} • {question.subjectName}
+          Q{globalIndex + 1} of {totalQuestions} • {question.subjectName}
         </span>
         <span className={`text-xs font-bold px-2 py-1 rounded ${question.weightage === 2 ? 'bg-yellow-100 text-yellow-700' : 'bg-gray-100 text-gray-600'}`}>
           {question.weightage} Mark{question.weightage > 1 ? 's' : ''}

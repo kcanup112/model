@@ -274,7 +274,7 @@ export default function DashboardPage() {
                   </div>
                   <div>
                     <div className="text-sm font-bold" style={{ color: 'var(--warm-text)' }}>Full Mock Exam</div>
-                    <div className="text-xs mt-0.5" style={{ color: 'var(--warm-muted)' }}>140 marks · IOE pattern</div>
+                    <div className="text-xs mt-0.5" style={{ color: 'var(--warm-muted)' }}>100 marks · IOE pattern</div>
                   </div>
                   <span className="text-xs font-semibold mt-auto flex items-center gap-1" style={{ color: '#0ea5e9' }}>
                     Start <ChevronRight className="h-3.5 w-3.5" />

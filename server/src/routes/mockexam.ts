@@ -5,10 +5,10 @@ import { requireAuth, requireProfile } from '../middleware/auth';
 const router = Router();
 const prisma = new PrismaClient();
 
-// IOE Entrance Exam pattern (official)
-// Math: 20×1 + 15×2 = 50  | Physics: 14×1 + 13×2 = 40  | Chemistry: 14×1 + 8×2 = 30
-// English: 12×1 + 4×2 (1 comprehension passage) = 20
-// Total: 60×1 + 40×2 = 140 marks
+// IOE Entrance Exam pattern (updated mock exam)
+// Math: 20×1 + 15×1 = 35  | Physics: 14×1 + 13×1 = 27  | Chemistry: 14×1 + 8×1 = 22
+// English: 12×1 + 4×1 (1 comprehension passage) = 16
+// Total: 100×1 = 100 marks
 const IOE_DISTRIBUTION: Record<string, { oneMarkCount: number; twoMarkCount: number; singlePassage?: boolean }> = {
   Mathematics: { oneMarkCount: 20, twoMarkCount: 15 },
   Physics:     { oneMarkCount: 14, twoMarkCount: 13 },
@@ -52,7 +52,7 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
       if (!dist) continue;
 
       if (dist.singlePassage) {
-        // ── English: 1 comprehension passage (4×2M) + 12 standalone 1M ──
+        // ── English: 1 comprehension passage (4×1M) + 12 standalone 1M ──
 
         // Pick one passage with the most questions available
         const passages = await prisma.passage.findMany({
@@ -69,7 +69,7 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
             selectedQuestions.push({
               id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
               optionC: q.optionC, optionD: q.optionD,
-              weightage: 2, // comprehension questions are always 2M
+              weightage: 1, // comprehension questions are now 1M
               subjectName: subject.name, topicName: '',
               passageText: preferred.text,
             });
@@ -94,7 +94,7 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
           }
         }
       } else {
-        // ── Other subjects: passage-based 1M groups first, then standalone 1M, then 2M ──
+        // ── Other subjects: passage-based 1M groups first, then standalone 1M, then former 2M questions as 1M ──
 
         if (dist.oneMarkCount > 0) {
           // Passage-based 1M groups (keep whole passage together)
@@ -148,7 +148,7 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
             for (const q of picked) {
               selectedQuestions.push({
                 id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-                optionC: q.optionC, optionD: q.optionD, weightage: 2,
+                optionC: q.optionC, optionD: q.optionD, weightage: 1,
                 subjectName: subject.name, topicName: '',
                 passageText: p.text,
               });
@@ -165,7 +165,7 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
             for (const q of picked) {
               selectedQuestions.push({
                 id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-                optionC: q.optionC, optionD: q.optionD, weightage: 2,
+                optionC: q.optionC, optionD: q.optionD, weightage: 1,
                 subjectName: subject.name, topicName: q.topic.name,
                 passageText: null,
               });

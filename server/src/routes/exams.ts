@@ -84,19 +84,46 @@ router.post('/:examId/start', requireAuth, requireProfile, async (req: Request, 
     for (const dist of exam.topicDistribution) {
       const subjectName = dist.topic.subject.name;
 
-      // Get 1-mark questions for this topic
+      // Get questions for this topic (all 1-mark now). Use standalone questions
+      // first; if the topic is passage-based (e.g. Comprehension), pull a single
+      // passage and keep its questions grouped together.
       if (dist.oneMarkCount > 0) {
-        const oneMarkQs = await prisma.question.findMany({
-          where: { topicId: dist.topicId, weightage: 1, passageId: null },
+        let used = 0;
+
+        // 1) Standalone questions for this topic
+        const standaloneQs = await prisma.question.findMany({
+          where: { topicId: dist.topicId, passageId: null },
         });
-        const shuffled = shuffleArray(oneMarkQs);
-        const picked = shuffled.slice(0, dist.oneMarkCount);
-        for (const q of picked) {
+        const pickedStandalone = shuffleArray(standaloneQs).slice(0, dist.oneMarkCount);
+        for (const q of pickedStandalone) {
           selectedQuestions.push({
             id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-            optionC: q.optionC, optionD: q.optionD, weightage: q.weightage,
+            optionC: q.optionC, optionD: q.optionD, weightage: 1, // all questions are 1M
             subjectName, passageText: null, passageId: null,
           });
+          used++;
+        }
+
+        // 2) Fill remaining from passages (keep one passage's questions together)
+        if (used < dist.oneMarkCount) {
+          const passages = await prisma.passage.findMany({
+            where: { subjectId: dist.topic.subjectId },
+            include: { questions: { where: { topicId: dist.topicId } } },
+          });
+          const validPassages = shuffleArray(passages.filter(p => p.questions.length > 0));
+          for (const passage of validPassages) {
+            if (used >= dist.oneMarkCount) break;
+            const remaining = dist.oneMarkCount - used;
+            const picked = shuffleArray(passage.questions).slice(0, remaining);
+            for (const q of picked) {
+              selectedQuestions.push({
+                id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
+                optionC: q.optionC, optionD: q.optionD, weightage: 1, // all questions are 1M
+                subjectName, passageText: passage.text, passageId: passage.id,
+              });
+              used++;
+            }
+          }
         }
       }
 

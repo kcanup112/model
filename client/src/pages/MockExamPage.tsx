@@ -181,7 +181,7 @@ export default function MockExamPage() {
               <div className="w-px h-4" style={{ background: 'var(--warm-border)' }} />
               <div className="flex items-center gap-1.5 text-sm">
                 <Target className="h-3.5 w-3.5" style={{ color: 'var(--warm-muted)' }} />
-                <span className="font-bold" style={{ color: 'var(--warm-text)' }}>140</span>
+                <span className="font-bold" style={{ color: 'var(--warm-text)' }}>100</span>
                 <span className="text-xs" style={{ color: 'var(--warm-muted)' }}>marks</span>
               </div>
               <div className="w-px h-4" style={{ background: 'var(--warm-border)' }} />
@@ -196,10 +196,10 @@ export default function MockExamPage() {
             <div className="space-y-2.5 mb-6">
               <p className="text-xs font-semibold" style={{ color: 'var(--warm-muted)' }}>Distribution</p>
               {[
-                { name: 'Mathematics', marks: 50, qs: '20×1 + 15×2', color: SUBJECT_COLORS['Mathematics'] },
-                { name: 'Physics',     marks: 40, qs: '14×1 + 13×2', color: SUBJECT_COLORS['Physics'] },
-                { name: 'Chemistry',   marks: 30, qs: '14×1 + 8×2',  color: SUBJECT_COLORS['Chemistry'] },
-                { name: 'English',     marks: 20, qs: '12×1 + 4×2 (passage)', color: SUBJECT_COLORS['English'] },
+                { name: 'Mathematics', marks: 35, qs: '20×1 + 15×1', color: SUBJECT_COLORS['Mathematics'] },
+                { name: 'Physics',     marks: 27, qs: '14×1 + 13×1', color: SUBJECT_COLORS['Physics'] },
+                { name: 'Chemistry',   marks: 22, qs: '14×1 + 8×1',  color: SUBJECT_COLORS['Chemistry'] },
+                { name: 'English',     marks: 16, qs: '12×1 + 4×1 (passage)', color: SUBJECT_COLORS['English'] },
               ].map(s => (
                 <div key={s.name} className="flex items-center gap-2 text-xs">
                   <div className="w-2 h-2 rounded-full shrink-0" style={{ background: s.color }} />

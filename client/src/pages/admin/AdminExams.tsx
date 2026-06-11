@@ -21,7 +21,7 @@ interface Exam {
   _count: { attempts: number };
 }
 
-const emptyExam = { name: '', durationMinutes: 120, totalMarks: 140, negativeMarkingPercent: 10, isActive: true };
+const emptyExam = { name: '', durationMinutes: 120, totalMarks: 100, negativeMarkingPercent: 10, isActive: true };
 
 export default function AdminExams() {
   const [exams, setExams] = useState<Exam[]>([]);

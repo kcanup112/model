@@ -184,7 +184,7 @@ function AboutSection() {
               Established in <strong>1998</strong>, Kantipur Engineering College (KEC) is one of Nepal's premier engineering institutions, affiliated to <strong>Tribhuvan University, Institute of Engineering (IOE)</strong>.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Located in <strong>Dhapakhel, Lalitpur</strong>, KEC offers three undergraduate engineering programs and has been nurturing engineers who contribute to Nepal's development for over 25 years.
+              Located in <strong>Dhapakhel, Lalitpur</strong>, KEC offers three undergraduate engineering programs and has been nurturing engineers who contribute to Nepal's development for over 28 years.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
               KEC admits students based on the merit list of the <strong>IOE Entrance Examination</strong> — a computer-based test covering Mathematics, Physics, Chemistry, and English.
@@ -409,7 +409,7 @@ function PhotoShowcase() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-left mb-10 relative z-30">
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#1e3a5f]">Campus Highlights<br/>Life at KEC</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#1e3a5f]">Campus Highlight Life at KEC</h2>
         </div>
 
         <div
@@ -586,7 +586,7 @@ function MockExamCTA() {
 
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 mb-10 max-w-2xl mx-auto">
           <FeatureBadge icon={<FileText />} text="100 Questions" />
-          <FeatureBadge icon={<Award />} text="140 Marks" />
+          <FeatureBadge icon={<Award />} text="100 Marks" />
           <FeatureBadge icon={<Clock />} text="2 Hours" />
           <FeatureBadge icon={<CheckCircle />} text="Instant Results" />
         </div>
@@ -596,17 +596,17 @@ function MockExamCTA() {
           <h3 className="text-white font-semibold mb-4 text-sm uppercase tracking-wider">Exam Distribution</h3>
           <div className="space-y-2 text-sm">
             {[
-              { subject: 'English', qs: 16, marks: 20, color: 'bg-blue-500' },
-              { subject: 'Chemistry', qs: 22, marks: 30, color: 'bg-green-500' },
-              { subject: 'Physics', qs: 27, marks: 40, color: 'bg-yellow-500' },
-              { subject: 'Mathematics', qs: 35, marks: 50, color: 'bg-red-500' },
+              { subject: 'English', qs: '12×1 + 4×1', marks: 16, color: 'bg-blue-500' },
+              { subject: 'Chemistry', qs: '14×1 + 8×1', marks: 22, color: 'bg-green-500' },
+              { subject: 'Physics', qs: '14×1 + 13×1', marks: 27, color: 'bg-yellow-500' },
+              { subject: 'Mathematics', qs: '20×1 + 15×1', marks: 35, color: 'bg-red-500' },
             ].map((s) => (
               <div key={s.subject} className="flex items-center gap-3">
                 <div className={`w-2 h-2 rounded-full ${s.color}`} />
                 <span className="text-gray-300 w-28 text-left">{s.subject}</span>
                 <span className="text-gray-400">{s.qs} Qs</span>
                 <div className="flex-1 bg-white/5 rounded-full h-1.5 mx-2">
-                  <div className={`${s.color} h-1.5 rounded-full`} style={{ width: `${(s.marks / 140) * 100}%` }} />
+                  <div className={`${s.color} h-1.5 rounded-full`} style={{ width: `${(s.marks / 100) * 100}%` }} />
                 </div>
                 <span className="text-white font-medium">{s.marks}</span>
               </div>
