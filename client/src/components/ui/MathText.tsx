@@ -34,12 +34,24 @@ function preprocessMathTokens(text: string): string {
   return parts
     .map((part, i) => {
       if (i % 2 !== 0) return part; // already a math block — leave it alone
-      // Match: letter(s) [optionally including unicode superscripts] followed by _word/number suffix(es)
+
+      let p = part;
+
+      // Convert Unicode combining right arrow above (U+20D7) to \vec{}
+      // e.g. i⃗ → $\vec{i}$, aj⃗ → a$\vec{j}$
+      p = p.replace(
+        /([A-Za-z\u0391-\u03A9\u03B1-\u03C9])\u20D7/g,
+        (_, letter) => `$\\vec{${letter}}$`,
+      );
+
+      // Match: letter(s) followed by _word/number suffix(es) — subscript auto-wrap
       // e.g. I_cm, v_top, k_eff, W_net, m_H, ρ_block, s_n, δ_m
-      return part.replace(
+      p = p.replace(
         /(?<![A-Za-z0-9_])([A-Za-z\u0391-\u03A9\u03B1-\u03C9][A-Za-z0-9\u00B2\u00B3\u00B9\u2070-\u2079]*)(_[A-Za-z][A-Za-z0-9]*)(?![A-Za-z0-9_])/g,
         (match) => `$${match}$`,
       );
+
+      return p;
     })
     .join('');
 }
