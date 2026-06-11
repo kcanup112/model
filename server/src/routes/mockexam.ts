@@ -47,36 +47,45 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
       passageText: string | null;
     }> = [];
 
-    for (const subject of subjects) {
+    // ── Process English FIRST so passage questions always lead the English block ──
+    const englishSubject = subjects.find(s => s.name === 'English');
+    const nonEnglishSubjects = subjects.filter(s => s.name !== 'English');
+    const orderedSubjects = englishSubject ? [englishSubject, ...nonEnglishSubjects] : nonEnglishSubjects;
+
+    for (const subject of orderedSubjects) {
       const dist = IOE_DISTRIBUTION[subject.name];
       if (!dist) continue;
 
       if (dist.singlePassage) {
-        // ── English: 1 comprehension passage (4×1M) + 12 standalone 1M ──
+        // ── English: 1 comprehension passage (4×1M) FIRST, then 12 standalone 1M ──
 
-        // Pick one passage with the most questions available
+        // Pick one passage that has enough questions, ordered to prefer fuller passages
         const passages = await prisma.passage.findMany({
           where: { subjectId: subject.id },
-          include: { questions: true },
+          include: { questions: { include: { topic: true } } },
+          orderBy: { id: 'asc' }, // stable ordering for reproducibility
         });
-        const validPassages = shuffleArray(passages.filter(p => p.questions.length > 0));
+        const eligiblePassages = passages.filter(p => p.questions.length >= dist.twoMarkCount);
+        const passagePool = eligiblePassages.length > 0 ? eligiblePassages : passages.filter(p => p.questions.length > 0);
 
-        if (validPassages.length > 0) {
-          // Prefer a passage that has at least twoMarkCount questions
-          const preferred = validPassages.find(p => p.questions.length >= dist.twoMarkCount) || validPassages[0];
-          const passageQs = shuffleArray(preferred.questions).slice(0, dist.twoMarkCount);
-          for (const q of passageQs) {
-            selectedQuestions.push({
-              id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-              optionC: q.optionC, optionD: q.optionD,
-              weightage: 1, // comprehension questions are now 1M
-              subjectName: subject.name, topicName: '',
-              passageText: preferred.text,
-            });
-          }
+        if (passagePool.length === 0) {
+          throw new Error('No English passages found in the database');
         }
 
-        // Standalone 1-mark questions (not passage-based)
+        // Pick a random passage from the eligible pool
+        const preferred = passagePool[Math.floor(Math.random() * passagePool.length)];
+        const passageQs = shuffleArray(preferred.questions).slice(0, dist.twoMarkCount);
+        for (const q of passageQs) {
+          selectedQuestions.push({
+            id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
+            optionC: q.optionC, optionD: q.optionD,
+            weightage: 1,
+            subjectName: subject.name, topicName: q.topic?.name ?? 'Comprehension',
+            passageText: preferred.text,
+          });
+        }
+
+        // Standalone questions (Grammar I, Grammar II, Phonetics — passageId is null)
         if (dist.oneMarkCount > 0) {
           const standaloneQs = await prisma.question.findMany({
             where: { subjectId: subject.id, passageId: null },
@@ -87,7 +96,7 @@ router.post('/generate', requireAuth, requireProfile, async (req: Request, res: 
             selectedQuestions.push({
               id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
               optionC: q.optionC, optionD: q.optionD,
-              weightage: 1, // all standalone questions are 1M
+              weightage: 1,
               subjectName: subject.name, topicName: q.topic.name,
               passageText: null,
             });
