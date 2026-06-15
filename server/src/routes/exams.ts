@@ -146,7 +146,7 @@ router.post('/:examId/start', requireAuth, requireProfile, async (req: Request, 
           for (const q of picked) {
             selectedQuestions.push({
               id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-              optionC: q.optionC, optionD: q.optionD, weightage: q.weightage,
+              optionC: q.optionC, optionD: q.optionD, weightage: 1,
               subjectName, passageText: passage.text, passageId: passage.id,
             });
             passageQsUsed++;
@@ -164,7 +164,7 @@ router.post('/:examId/start', requireAuth, requireProfile, async (req: Request, 
           for (const q of picked) {
             selectedQuestions.push({
               id: q.id, text: q.text, optionA: q.optionA, optionB: q.optionB,
-              optionC: q.optionC, optionD: q.optionD, weightage: q.weightage,
+              optionC: q.optionC, optionD: q.optionD, weightage: 1,
               subjectName, passageText: null, passageId: null,
             });
           }
@@ -288,13 +288,13 @@ router.post('/attempts/:attemptId/submit', requireAuth, async (req: Request, res
       subjectMap[q.id] = q.subjectName;
     }
 
-    // Calculate score
+    // Calculate score — all questions are 1 mark regardless of DB weightage
     const result = calculateScore(
       {
         questions: dbQuestions.map((q) => ({
           id: q.id,
           correct_option: q.correctOption,
-          weightage: q.weightage,
+          weightage: 1,
         })),
         answers,
         negativeMarkingPercent: attempt.exam.negativeMarkingPercent,
