@@ -30,12 +30,12 @@ const io = new SocketServer(httpServer, {
 // Middleware
 app.use(helmet());
 app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173', credentials: true }));
-app.use(express.json({ limit: '10mb' }));
-app.use(express.urlencoded({ extended: true }));
-app.use('/uploads', express.static('uploads'));
+app.use(express.json({ limit: '50kb' }));       // 50 KB is more than enough for any API call
+app.use(express.urlencoded({ extended: true, limit: '50kb' }));
+app.use('/uploads', express.static('uploads', { dotfiles: 'deny' }));
 
-// Rate limiting
-app.use('/api/auth', rateLimiter);
+// Rate limiting — applied globally to ALL /api routes
+app.use('/api', rateLimiter);
 
 // Routes
 app.use('/api/auth', authRoutes);

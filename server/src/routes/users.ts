@@ -8,14 +8,63 @@ const prisma = new PrismaClient();
 
 const ProgramEnum = z.enum(['COMPUTER', 'CIVIL', 'ECIC']);
 
+// Nepal's 7 provinces — only these are accepted.
+const NepalProvinceEnum = z.enum([
+  'Koshi',
+  'Madhesh',
+  'Bagmati',
+  'Gandaki',
+  'Lumbini',
+  'Karnali',
+  'Sudurpashchim',
+]);
+
+// Allows Unicode letters, spaces, hyphens, apostrophes, periods, commas, and digits.
+// Blocks control characters, HTML/script tags, and excessively long payloads.
+const safeTextRegex = /^[\p{L}\p{N}\s\-',./]+$/u;
+
 const profileSchema = z.object({
-  fullName: z.string().min(2, 'Full name is required'),
-  addressStreet: z.string().min(1, 'Street address is required'),
-  addressCity: z.string().min(1, 'City is required'),
-  addressDistrict: z.string().min(1, 'District is required'),
-  addressProvince: z.string().min(1, 'Province is required'),
-  mobilePhone: z.string().regex(/^(98|97|96)\d{8}$/, 'Invalid Nepal mobile number'),
-  parentsMobilePhone: z.string().regex(/^(98|97|96)\d{8}$/, 'Invalid Nepal mobile number'),
+  fullName: z
+    .string()
+    .trim()
+    .min(2, 'Full name must be at least 2 characters')
+    .max(100, 'Full name must not exceed 100 characters')
+    .regex(safeTextRegex, 'Full name contains invalid characters'),
+
+  addressStreet: z
+    .string()
+    .trim()
+    .min(1, 'Street address is required')
+    .max(200, 'Street address must not exceed 200 characters')
+    .regex(safeTextRegex, 'Street address contains invalid characters'),
+
+  addressCity: z
+    .string()
+    .trim()
+    .min(1, 'City is required')
+    .max(100, 'City must not exceed 100 characters')
+    .regex(safeTextRegex, 'City contains invalid characters'),
+
+  addressDistrict: z
+    .string()
+    .trim()
+    .min(1, 'District is required')
+    .max(100, 'District must not exceed 100 characters')
+    .regex(safeTextRegex, 'District contains invalid characters'),
+
+  // Strictly enforced: only Nepal's 7 official provinces accepted.
+  addressProvince: NepalProvinceEnum,
+
+  mobilePhone: z
+    .string()
+    .trim()
+    .regex(/^(98|97|96)\d{8}$/, 'Invalid Nepal mobile number (must be 10 digits starting with 98/97/96)'),
+
+  parentsMobilePhone: z
+    .string()
+    .trim()
+    .regex(/^(98|97|96)\d{8}$/, 'Invalid Nepal mobile number (must be 10 digits starting with 98/97/96)'),
+
   priority1: ProgramEnum,
   priority2: ProgramEnum.nullable().optional(),
   priority3: ProgramEnum.nullable().optional(),

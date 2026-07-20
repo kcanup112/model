@@ -11,8 +11,8 @@ const PROGRAMS = [
 ];
 
 const PROVINCES = [
-  'Koshi Province', 'Madhesh Province', 'Bagmati Province',
-  'Gandaki Province', 'Lumbini Province', 'Karnali Province', 'Sudurpashchim Province',
+  'Koshi', 'Madhesh', 'Bagmati',
+  'Gandaki', 'Lumbini', 'Karnali', 'Sudurpashchim',
 ];
 
 const DISTRICTS = [
@@ -64,23 +64,46 @@ export default function ProfileCompletionPage() {
     e.preventDefault();
     setError('');
 
+    // Trim all text fields first
+    const trimmed = {
+      fullName: form.fullName.trim(),
+      addressStreet: form.addressStreet.trim(),
+      addressCity: form.addressCity.trim(),
+      addressDistrict: form.addressDistrict,
+      addressProvince: form.addressProvince,
+      mobilePhone: form.mobilePhone.trim(),
+      parentsMobilePhone: form.parentsMobilePhone.trim(),
+      priority1: form.priority1,
+      priority2: form.priority2,
+      priority3: form.priority3,
+    };
+
+    // Client-side validation (mirrors backend rules)
+    if (trimmed.fullName.length < 2 || trimmed.fullName.length > 100) {
+      setError('Full name must be between 2 and 100 characters'); return;
+    }
+    if (trimmed.addressCity.length < 1 || trimmed.addressCity.length > 100) {
+      setError('City must be between 1 and 100 characters'); return;
+    }
+    if (trimmed.addressStreet.length < 1 || trimmed.addressStreet.length > 200) {
+      setError('Street must be between 1 and 200 characters'); return;
+    }
+
     // Validate Nepal phone format
     const phoneRegex = /^(98|97|96)\d{8}$/;
-    if (!phoneRegex.test(form.mobilePhone)) {
-      setError('Invalid mobile number. Use Nepal format: 98XXXXXXXX');
-      return;
+    if (!phoneRegex.test(trimmed.mobilePhone)) {
+      setError('Invalid mobile number. Use Nepal format: 98XXXXXXXX'); return;
     }
-    if (!phoneRegex.test(form.parentsMobilePhone)) {
-      setError("Invalid parent's mobile number. Use Nepal format: 98XXXXXXXX");
-      return;
+    if (!phoneRegex.test(trimmed.parentsMobilePhone)) {
+      setError("Invalid parent's mobile number. Use Nepal format: 98XXXXXXXX"); return;
     }
 
     setLoading(true);
     try {
       await api.post('/users/profile', {
-        ...form,
-        priority2: form.priority2 || null,
-        priority3: form.priority3 || null,
+        ...trimmed,
+        priority2: trimmed.priority2 || null,
+        priority3: trimmed.priority3 || null,
       });
       await refreshUser();
       navigate('/dashboard');
@@ -116,6 +139,7 @@ export default function ProfileCompletionPage() {
                 type="text" required value={form.fullName} onChange={e => updateField('fullName', e.target.value)}
                 className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
                 placeholder="Enter your full name"
+                maxLength={100}
               />
             </div>
           </div>
@@ -133,6 +157,7 @@ export default function ProfileCompletionPage() {
                   type="text" required value={form.addressStreet} onChange={e => updateField('addressStreet', e.target.value)}
                   className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
                   placeholder="Street or Tole name"
+                  maxLength={200}
                 />
               </div>
               <div>
@@ -141,6 +166,7 @@ export default function ProfileCompletionPage() {
                   type="text" required value={form.addressCity} onChange={e => updateField('addressCity', e.target.value)}
                   className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
                   placeholder="City or Municipality"
+                  maxLength={100}
                 />
               </div>
               <div>

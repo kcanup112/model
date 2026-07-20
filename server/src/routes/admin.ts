@@ -71,14 +71,16 @@ router.get('/users', async (req: Request, res: Response) => {
     if (status === 'active') where.isActive = true;
     if (status === 'inactive') where.isActive = false;
 
-    const skip = (parseInt(page as string) - 1) * parseInt(limit as string);
+    const pageNum = Math.max(1, parseInt(page as string) || 1);
+    const limitNum = Math.min(100, Math.max(1, parseInt(limit as string) || 20)); // cap at 100
+    const skip = (pageNum - 1) * limitNum;
     const [users, total] = await Promise.all([
       prisma.user.findMany({
         where,
         include: { profile: { select: { fullName: true, mobilePhone: true, parentsMobilePhone: true, priority1: true, priority2: true, addressStreet: true, addressCity: true, addressDistrict: true, addressProvince: true } } },
         orderBy: { createdAt: 'desc' },
         skip,
-        take: parseInt(limit as string),
+        take: limitNum,
       }),
       prisma.user.count({ where }),
     ]);
@@ -911,14 +913,20 @@ router.get('/me', async (req: Request, res: Response) => {
   }
 });
 
+const adminMeUpdateSchema = z.object({
+  email: z.string().email('Invalid email format').optional(),
+  currentPassword: z.string().min(1).optional(),
+  newPassword: z.string().min(8, 'New password must be at least 8 characters').max(128).optional(),
+});
+
 // PATCH /api/admin/me — update email and/or password
 router.patch('/me', async (req: Request, res: Response) => {
   try {
-    const { email, currentPassword, newPassword } = req.body as {
-      email?: string;
-      currentPassword?: string;
-      newPassword?: string;
-    };
+    const parsed = adminMeUpdateSchema.safeParse(req.body);
+    if (!parsed.success) {
+      return res.status(400).json({ error: parsed.error.issues[0].message });
+    }
+    const { email, currentPassword, newPassword } = parsed.data;
 
     const userId = (req as any).user!.id;
     const user = await prisma.user.findUnique({ where: { id: userId } });
@@ -933,7 +941,6 @@ router.patch('/me', async (req: Request, res: Response) => {
       if (!user.passwordHash) return res.status(400).json({ error: 'Password login not available for this account' });
       const valid = await bcrypt.compare(currentPassword, user.passwordHash);
       if (!valid) return res.status(400).json({ error: 'Current password is incorrect' });
-      if (newPassword.length < 8) return res.status(400).json({ error: 'New password must be at least 8 characters' });
       updateData.passwordHash = await bcrypt.hash(newPassword, 12);
     }
 
