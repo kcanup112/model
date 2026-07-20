@@ -51,6 +51,12 @@ enum Role {
   ADMIN
 }
 
+enum Gender {
+  MALE
+  FEMALE
+  OTHER
+}
+
 model UserProfile {
   id                 String   @id @default(uuid())
   userId             String   @unique @map("user_id")
@@ -64,6 +70,7 @@ model UserProfile {
   priority1          Program  @map("priority_1")
   priority2          Program? @map("priority_2")
   priority3          Program? @map("priority_3")
+  gender             Gender?  @map("gender")
   createdAt          DateTime @default(now()) @map("created_at")
   updatedAt          DateTime @updatedAt @map("updated_at")
 

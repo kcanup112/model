@@ -7,6 +7,7 @@ const router = Router();
 const prisma = new PrismaClient();
 
 const ProgramEnum = z.enum(['COMPUTER', 'CIVIL', 'ECIC']);
+const GenderEnum = z.enum(['MALE', 'FEMALE', 'OTHER']).optional();
 
 // Nepal's 7 provinces — only these are accepted.
 const NepalProvinceEnum = z.enum([
@@ -68,6 +69,7 @@ const profileSchema = z.object({
   priority1: ProgramEnum,
   priority2: ProgramEnum.nullable().optional(),
   priority3: ProgramEnum.nullable().optional(),
+  gender: GenderEnum,
 }).refine(
   (data) => {
     const priorities = [data.priority1, data.priority2, data.priority3].filter(Boolean);
@@ -100,6 +102,7 @@ router.post('/profile', requireAuth, async (req: Request, res: Response) => {
         priority1: data.priority1,
         priority2: data.priority2 || null,
         priority3: data.priority3 || null,
+        gender: data.gender || null,
       },
     });
 
@@ -137,6 +140,7 @@ router.put('/profile', requireAuth, async (req: Request, res: Response) => {
         priority1: data.priority1,
         priority2: data.priority2 || null,
         priority3: data.priority3 || null,
+        gender: data.gender || null,
       },
     });
 

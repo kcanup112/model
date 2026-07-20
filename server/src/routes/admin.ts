@@ -963,4 +963,59 @@ router.patch('/me', async (req: Request, res: Response) => {
   }
 });
 
+// ══════════════════════════════════
+//  TOP SCORERS LEADERBOARD
+// ══════════════════════════════════
+
+// GET /api/admin/stats/top-scorers — top 10 male & top 10 female by best exam score
+router.get('/stats/top-scorers', async (_req: Request, res: Response) => {
+  try {
+    // Fetch top submitted attempts with user profile (including gender)
+    const attempts = await prisma.examAttempt.findMany({
+      where: { isSubmitted: true },
+      include: {
+        user: {
+          select: {
+            email: true,
+            profile: {
+              select: { fullName: true, gender: true, addressDistrict: true, priority1: true },
+            },
+          },
+        },
+        exam: { select: { name: true, totalMarks: true } },
+      },
+      orderBy: { totalScore: 'desc' },
+    });
+
+    // Keep only the best attempt per user
+    const bestByUser = new Map<string, typeof attempts[number]>();
+    for (const a of attempts) {
+      if (!bestByUser.has(a.userId) || a.totalScore > bestByUser.get(a.userId)!.totalScore) {
+        bestByUser.set(a.userId, a);
+      }
+    }
+
+    const all = [...bestByUser.values()].sort((a, b) => b.totalScore - a.totalScore);
+
+    const toRow = (a: typeof all[number], rank: number) => ({
+      rank,
+      name: a.user.profile?.fullName || a.user.email,
+      district: a.user.profile?.addressDistrict || '—',
+      program: a.user.profile?.priority1 || '—',
+      examName: a.exam.name,
+      score: a.totalScore,
+      totalMarks: a.exam.totalMarks,
+      gender: a.user.profile?.gender || null,
+    });
+
+    const male   = all.filter(a => a.user.profile?.gender === 'MALE').slice(0, 10).map(toRow);
+    const female = all.filter(a => a.user.profile?.gender === 'FEMALE').slice(0, 10).map(toRow);
+
+    res.json({ male, female });
+  } catch (err) {
+    console.error('Top scorers error:', err);
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
+
 export default router;

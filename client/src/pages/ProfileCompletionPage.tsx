@@ -39,6 +39,7 @@ export default function ProfileCompletionPage() {
     fullName: '', addressStreet: '', addressCity: '', addressDistrict: '', addressProvince: '',
     mobilePhone: '', parentsMobilePhone: '',
     priority1: '', priority2: '', priority3: '',
+    gender: '',
   });
 
   if (user?.isProfileComplete) {
@@ -76,6 +77,7 @@ export default function ProfileCompletionPage() {
       priority1: form.priority1,
       priority2: form.priority2,
       priority3: form.priority3,
+      gender: form.gender || null,
     };
 
     // Client-side validation (mirrors backend rules)
@@ -87,6 +89,9 @@ export default function ProfileCompletionPage() {
     }
     if (trimmed.addressStreet.length < 1 || trimmed.addressStreet.length > 200) {
       setError('Street must be between 1 and 200 characters'); return;
+    }
+    if (!trimmed.gender) {
+      setError('Gender is required'); return;
     }
 
     // Validate Nepal phone format
@@ -133,14 +138,28 @@ export default function ProfileCompletionPage() {
               <UserCircle className="h-5 w-5 text-[#1e3a5f]" />
               <h2 className="font-semibold text-gray-900">Personal Information</h2>
             </div>
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
-              <input
-                type="text" required value={form.fullName} onChange={e => updateField('fullName', e.target.value)}
-                className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
-                placeholder="Enter your full name"
-                maxLength={100}
-              />
+            <div className="grid sm:grid-cols-2 gap-4 mt-4">
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Full Name *</label>
+                <input
+                  type="text" required value={form.fullName} onChange={e => updateField('fullName', e.target.value)}
+                  className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition"
+                  placeholder="Enter your full name"
+                  maxLength={100}
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-gray-700 mb-1">Gender *</label>
+                <select
+                  required value={form.gender} onChange={e => updateField('gender', e.target.value)}
+                  className="w-full px-4 py-3 border border-gray-200 rounded-xl focus:ring-2 focus:ring-[#1e3a5f] focus:border-transparent outline-none transition bg-white"
+                >
+                  <option value="">Select Gender</option>
+                  <option value="MALE">Male</option>
+                  <option value="FEMALE">Female</option>
+                  <option value="OTHER">Other</option>
+                </select>
+              </div>
             </div>
           </div>
 

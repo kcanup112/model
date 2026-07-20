@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../../context/AuthContext';
 import api from '../../lib/api';
-import { Users, BookOpen, FileQuestion, BarChart3, TrendingUp, Activity, ArrowUpRight } from 'lucide-react';
+import { Users, BookOpen, FileQuestion, BarChart3, TrendingUp, Activity, ArrowUpRight, Award } from 'lucide-react';
 
 interface Stats {
   totalUsers: number;
@@ -19,13 +19,38 @@ interface Stats {
   }>;
 }
 
+interface Scorer {
+  rank: number;
+  name: string;
+  district: string;
+  program: string;
+  examName: string;
+  score: number;
+  totalMarks: number;
+}
+
+interface TopScorers {
+  male: Scorer[];
+  female: Scorer[];
+}
+
 export default function AdminDashboard() {
   const { user } = useAuth();
   const [stats, setStats] = useState<Stats | null>(null);
+  const [topScorers, setTopScorers] = useState<TopScorers | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    api.get('/admin/stats').then(r => setStats(r.data)).finally(() => setLoading(false));
+    Promise.all([
+      api.get('/admin/stats').then(r => r.data),
+      api.get('/admin/stats/top-scorers').then(r => r.data)
+    ])
+      .then(([statsData, topScorersData]) => {
+        setStats(statsData);
+        setTopScorers(topScorersData);
+      })
+      .catch(err => console.error('Dashboard load error:', err))
+      .finally(() => setLoading(false));
   }, []);
 
   if (loading) return (
@@ -43,6 +68,58 @@ export default function AdminDashboard() {
     { label: 'Exam Attempts', value: stats.totalAttempts, icon: BarChart3, accent: '#d4795c' },
     { label: 'Subjects', value: stats.totalSubjects, icon: Activity, accent: '#5ba3c6' },
   ];
+
+  const renderScorerTable = (title: string, list: Scorer[] | undefined, accentColor: string) => {
+    return (
+      <div className="warm-card flex-1 min-w-[300px]">
+        <div className="px-6 py-4 flex items-center justify-between" style={{ borderBottom: '1px solid var(--warm-border)' }}>
+          <div className="flex items-center gap-2">
+            <Award className="h-5 w-5" style={{ color: accentColor }} />
+            <h2 className="font-bold" style={{ color: 'var(--warm-text)' }}>{title}</h2>
+          </div>
+          <span className="text-xs font-semibold px-2 py-0.5 rounded-full" style={{ backgroundColor: `${accentColor}15`, color: accentColor }}>
+            Top 10
+          </span>
+        </div>
+        {!list || list.length === 0 ? (
+          <div className="px-6 py-8 text-center text-sm" style={{ color: 'var(--warm-muted)' }}>
+            No records found
+          </div>
+        ) : (
+          <table className="w-full text-xs sm:text-sm">
+            <thead>
+              <tr style={{ background: 'var(--warm-cream)' }}>
+                <th className="px-4 py-2 text-center text-xs font-semibold uppercase tracking-wider w-12" style={{ color: 'var(--warm-muted)' }}>Rank</th>
+                <th className="px-4 py-2 text-left text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--warm-muted)' }}>Student</th>
+                <th className="px-4 py-2 text-center text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--warm-muted)' }}>Score</th>
+                <th className="px-4 py-2 text-left text-xs font-semibold uppercase tracking-wider" style={{ color: 'var(--warm-muted)' }}>District / Prog</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y" style={{ borderColor: 'var(--warm-border)' }}>
+              {list.map((item, index) => (
+                <tr key={index} className="hover:bg-amber-50/40 transition-colors">
+                  <td className="px-4 py-2 text-center font-bold" style={{ color: index === 0 ? accentColor : 'var(--warm-text)' }}>
+                    #{index + 1}
+                  </td>
+                  <td className="px-4 py-2">
+                    <div className="font-semibold" style={{ color: 'var(--warm-text)' }}>{item.name}</div>
+                    <div className="text-[10px]" style={{ color: 'var(--warm-muted)' }}>{item.examName}</div>
+                  </td>
+                  <td className="px-4 py-2 text-center font-bold" style={{ color: 'var(--kec-blue)' }}>
+                    {item.score}<span className="font-normal text-[10px]" style={{ color: 'var(--warm-muted)' }}>/{item.totalMarks}</span>
+                  </td>
+                  <td className="px-4 py-2">
+                    <div style={{ color: 'var(--warm-text)' }}>{item.district}</div>
+                    <div className="text-[10px] font-medium" style={{ color: accentColor }}>{item.program}</div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
+      </div>
+    );
+  };
 
   return (
     <div>
@@ -92,6 +169,15 @@ export default function AdminDashboard() {
             </div>
           </div>
         ))}
+      </div>
+
+      {/* Side-by-side Top Scorers Tables */}
+      <div className="mb-6 sm:mb-8">
+        <h2 className="text-lg font-bold mb-4" style={{ color: 'var(--warm-text)' }}>Leaderboard — Top Scorers by Gender</h2>
+        <div className="flex flex-col md:flex-row gap-4 sm:gap-6">
+          {renderScorerTable("Top Female Scorers", topScorers?.female, "#d4795c")}
+          {renderScorerTable("Top Male Scorers", topScorers?.male, "#5ba3c6")}
+        </div>
       </div>
 
       {/* Main Grid: Recent Attempts + Quick Overview */}
