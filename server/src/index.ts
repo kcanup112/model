@@ -34,6 +34,11 @@ app.use(express.json({ limit: '50kb' }));       // 50 KB is more than enough for
 app.use(express.urlencoded({ extended: true, limit: '50kb' }));
 app.use('/uploads', express.static('uploads', { dotfiles: 'deny' }));
 
+// Health check — registered before rate limiting to prevent healthcheck failures
+app.get('/api/health', (_req, res) => {
+  res.json({ status: 'ok', timestamp: new Date().toISOString() });
+});
+
 // Rate limiting — applied globally to ALL /api routes
 app.use('/api', rateLimiter);
 
@@ -46,11 +51,6 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/levels', levelRoutes);
 app.use('/api/mock-exam', mockExamRoutes);
 app.use('/api/special-exams', specialExamRoutes);
-
-// Health check
-app.get('/api/health', (_req, res) => {
-  res.json({ status: 'ok', timestamp: new Date().toISOString() });
-});
 
 // Socket.IO
 setupSocket(io);
