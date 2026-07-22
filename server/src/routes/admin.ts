@@ -15,7 +15,11 @@ router.use(requireAuth, requireAdmin);
 
 router.get('/stats', async (_req: Request, res: Response) => {
   try {
-    const [totalUsers, activeUsers, totalExams, totalQuestions, totalAttempts, totalSubjects, totalTopics] = await Promise.all([
+    // Run all counts AND the recent-attempts fetch in a single parallel batch
+    const [
+      totalUsers, activeUsers, totalExams, totalQuestions,
+      totalAttempts, totalSubjects, totalTopics, recentAttempts,
+    ] = await Promise.all([
       prisma.user.count(),
       prisma.user.count({ where: { isActive: true, role: 'STUDENT' } }),
       prisma.exam.count(),
@@ -23,17 +27,16 @@ router.get('/stats', async (_req: Request, res: Response) => {
       prisma.examAttempt.count({ where: { isSubmitted: true } }),
       prisma.subject.count(),
       prisma.topic.count(),
+      prisma.examAttempt.findMany({
+        where: { isSubmitted: true },
+        orderBy: { finishedAt: 'desc' },
+        take: 10,
+        include: {
+          user: { select: { email: true, profile: { select: { fullName: true } } } },
+          exam: { select: { name: true, totalMarks: true } },
+        },
+      }),
     ]);
-
-    const recentAttempts = await prisma.examAttempt.findMany({
-      where: { isSubmitted: true },
-      orderBy: { finishedAt: 'desc' },
-      take: 10,
-      include: {
-        user: { select: { email: true, profile: { select: { fullName: true } } } },
-        exam: { select: { name: true, totalMarks: true } },
-      },
-    });
 
     res.json({
       totalUsers,
@@ -970,46 +973,56 @@ router.patch('/me', async (req: Request, res: Response) => {
 // GET /api/admin/stats/top-scorers — top 10 male & top 10 female by best exam score
 router.get('/stats/top-scorers', async (_req: Request, res: Response) => {
   try {
-    // Fetch top submitted attempts with user profile (including gender)
-    const attempts = await prisma.examAttempt.findMany({
-      where: { isSubmitted: true },
-      include: {
-        user: {
-          select: {
-            email: true,
-            profile: {
-              select: { fullName: true, gender: true, addressDistrict: true, priority1: true },
-            },
-          },
-        },
-        exam: { select: { name: true, totalMarks: true } },
-      },
-      orderBy: { totalScore: 'desc' },
-    });
+    // Use a single DB-level query: get the best (MAX) score per user with a
+    // sub-select, then join profile + exam — avoids pulling all rows into Node.
+    type BestRow = {
+      userId: string;
+      attemptId: string;
+      totalScore: number;
+      examName: string;
+      totalMarks: number;
+      fullName: string | null;
+      gender: string | null;
+      addressDistrict: string | null;
+      priority1: string | null;
+      email: string;
+    };
 
-    // Keep only the best attempt per user
-    const bestByUser = new Map<string, typeof attempts[number]>();
-    for (const a of attempts) {
-      if (!bestByUser.has(a.userId) || a.totalScore > bestByUser.get(a.userId)!.totalScore) {
-        bestByUser.set(a.userId, a);
-      }
-    }
+    const rows: BestRow[] = await prisma.$queryRaw`
+      SELECT DISTINCT ON (ea.user_id)
+        ea.user_id        AS "userId",
+        ea.id             AS "attemptId",
+        ea.total_score    AS "totalScore",
+        e.name            AS "examName",
+        e.total_marks     AS "totalMarks",
+        up.full_name      AS "fullName",
+        up.gender         AS "gender",
+        up.address_district AS "addressDistrict",
+        up.priority_1     AS "priority1",
+        u.email           AS "email"
+      FROM exam_attempts ea
+      JOIN exams e           ON e.id = ea.exam_id
+      JOIN users u           ON u.id = ea.user_id
+      LEFT JOIN user_profiles up ON up.user_id = ea.user_id
+      WHERE ea.is_submitted = true
+      ORDER BY ea.user_id, ea.total_score DESC
+    `;
 
-    const all = [...bestByUser.values()].sort((a, b) => b.totalScore - a.totalScore);
+    // Sort all best-per-user rows by score descending
+    rows.sort((a, b) => Number(b.totalScore) - Number(a.totalScore));
 
-    const toRow = (a: typeof all[number], rank: number) => ({
+    const toRow = (r: BestRow, rank: number) => ({
       rank,
-      name: a.user.profile?.fullName || a.user.email,
-      district: a.user.profile?.addressDistrict || '—',
-      program: a.user.profile?.priority1 || '—',
-      examName: a.exam.name,
-      score: a.totalScore,
-      totalMarks: a.exam.totalMarks,
-      gender: a.user.profile?.gender || null,
+      name: r.fullName || r.email,
+      district: r.addressDistrict || '—',
+      program: r.priority1 || '—',
+      examName: r.examName,
+      score: Number(r.totalScore),
+      totalMarks: r.totalMarks,
     });
 
-    const male   = all.filter(a => a.user.profile?.gender === 'MALE').slice(0, 10).map(toRow);
-    const female = all.filter(a => a.user.profile?.gender === 'FEMALE').slice(0, 10).map(toRow);
+    const male   = rows.filter(r => r.gender === 'MALE').slice(0, 10).map(toRow);
+    const female = rows.filter(r => r.gender === 'FEMALE').slice(0, 10).map(toRow);
 
     res.json({ male, female });
   } catch (err) {

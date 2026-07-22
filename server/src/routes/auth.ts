@@ -28,13 +28,27 @@ function generateRefreshToken(userId: string) {
 
 // Validation schemas
 const registerSchema = z.object({
-  email: z.string().email('Invalid email'),
-  password: z.string().min(8, 'Password must be at least 8 characters'),
+  email: z
+    .string()
+    .min(1, 'Email is required')
+    .max(254, 'Email must be 254 characters or less')
+    .email('Invalid email format'),
+  password: z
+    .string()
+    .min(8, 'Password must be at least 8 characters')
+    .max(128, 'Password must be 128 characters or less'),
 });
 
 const loginSchema = z.object({
-  email: z.string().email(),
-  password: z.string().min(1, 'Password required'),
+  email: z
+    .string()
+    .min(1, 'Email is required')
+    .max(254, 'Email must be 254 characters or less')
+    .email('Invalid email format'),
+  password: z
+    .string()
+    .min(1, 'Password required')
+    .max(128, 'Password must be 128 characters or less'),
 });
 
 // POST /api/auth/register
@@ -188,7 +202,11 @@ router.post('/logout', (_req: Request, res: Response) => {
 });
 
 const forgotPasswordSchema = z.object({
-  email: z.string().email('Invalid email'),
+  email: z
+    .string()
+    .min(1, 'Email is required')
+    .max(254, 'Email must be 254 characters or less')
+    .email('Invalid email format'),
 });
 
 const resetPasswordSchema = z.object({

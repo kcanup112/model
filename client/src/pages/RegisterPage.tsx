@@ -33,8 +33,10 @@ export default function RegisterPage() {
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     setError('');
+    if (email.length > 254) { setError('Email must be 254 characters or less'); return; }
     if (password !== confirm) { setError('Passwords do not match'); return; }
     if (password.length < 8) { setError('Password must be at least 8 characters'); return; }
+    if (password.length > 128) { setError('Password must be 128 characters or less'); return; }
     setLoading(true);
     try {
       await register(email, password);
@@ -123,6 +125,7 @@ export default function RegisterPage() {
                 className="w-full px-4 py-3.5 rounded-xl outline-none transition text-sm"
                 style={inputStyle}
                 placeholder="Enter your email"
+                maxLength={254}
                 onFocus={e => e.target.style.borderColor = 'var(--warm-accent)'}
                 onBlur={e => e.target.style.borderColor = 'rgba(255, 255, 255, 0.1)'}
               />
