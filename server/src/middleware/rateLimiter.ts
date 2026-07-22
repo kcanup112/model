@@ -6,6 +6,13 @@ export const rateLimiter = rateLimit({
   message: { error: 'Too many requests, please try again later' },
   standardHeaders: true,
   legacyHeaders: false,
+  keyGenerator: (req) => {
+    const xff = req.headers['x-forwarded-for'];
+    if (xff) {
+      return xff.split(',')[0].trim();
+    }
+    return req.ip;
+  },
 });
 
 export const strictRateLimiter = rateLimit({
@@ -14,4 +21,12 @@ export const strictRateLimiter = rateLimit({
   message: { error: 'Too many attempts, please try again later' },
   standardHeaders: true,
   legacyHeaders: false,
+  keyGenerator: (req) => {
+    const xff = req.headers['x-forwarded-for'];
+    if (xff) {
+      return xff.split(',')[0].trim();
+    }
+    return req.ip;
+  },
 });
+
